@@ -1,0 +1,12 @@
+D:\byrodster(nopwn)\filterscripts\blackjack.pwn(524) : ошибка 017: необъявленный символ "sscanf"
+D:\byrodster(nopwn)\filterscripts\blackjack.pwn(597) : ошибка 017: необъявленный символ "foreach"
+D:\byrodster(nopwn)\filterscripts\blackjack.pwn(597) : ошибка 029: неправильное выражение, принят ноль
+D:\byrodster(nopwn)\filterscripts\blackjack.pwn(597) : ошибка 017: необъявленный символ "i"
+D:\byrodster(nopwn)\filterscripts\blackjack.pwn(597) : фатальная ошибка 107: слишком много ошибок на одной строке
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:5.
