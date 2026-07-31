@@ -1,0 +1,37 @@
+name: Mod Build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Debug repo contents
+        shell: pwsh
+        run: |
+          Write-Host "Repository tree:"
+          Get-ChildItem -Recurse -Force | ForEach-Object { Write-Host $_.FullName }
+      - name: Compile PAWN scripts
+        shell: pwsh
+        run: |
+          # Find pawncc.exe anywhere in the repository
+          $pawn = Get-ChildItem -Recurse -Filter pawncc.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+          if (-not $pawn) {
+            Write-Host "pawncc.exe not found"
+            exit 1
+          }
+          Write-Host "Using pawncc: $($pawn.FullName)"
+          # Find all .pwn files anywhere and compile them next to their source
+          Get-ChildItem -Recurse -Filter *.pwn -ErrorAction SilentlyContinue | ForEach-Object {
+            $pwn = $_.FullName
+            $out = Join-Path (Split-Path $pwn -Parent) ($_.BaseName + ".amx")
+            & $pawn.FullName $pwn -o"$out" "-iinclude" "-ipawno\include" "-iinclude\lib" "-iinclude\system" "-;+" "-(+"
+          }
+      - name: Upload AMX artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: amx-artifacts
+          path: '**/*.amx'
