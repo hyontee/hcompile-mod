@@ -1,0 +1,16 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:39:12] filterscripts = ""  (string)
+[00:39:12] plugins = ""  (string)
+[00:39:12] 
+[00:39:12] Server Plugins
+[00:39:12] --------------
+[00:39:12]  Loaded 0 plugins.
+

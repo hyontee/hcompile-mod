@@ -1,0 +1,77 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:42:01] filterscripts = ""  (string)
+[00:42:01] 
+[00:42:01] Server Plugins
+[00:42:01] --------------
+[00:42:01]  Loading plugin: crashdetect.so
+[00:42:01]   CrashDetect v4.15.1 is OK.
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: mysql_static.so
+[00:42:01]  >> plugin.mysql: R37 successfully loaded.
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: mysql_static.so
+[00:42:01]  >> plugin.mysql: R37 successfully loaded.
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: pawncmd.so
+[00:42:01] Pawn.CMD plugin v3.1.2 by urShadow loaded
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: regex.so
+[00:42:01] 
+
+[00:42:01] ______________________________________
+
+[00:42:01]  Regular Expression Plugin v0.2.1 loaded
+[00:42:01] ______________________________________
+
+[00:42:01]  By: Fro (c) Copyright <TBG> 2009-2011
+[00:42:01] ______________________________________
+
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: SKY.so
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: streamer.so
+[00:42:01] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[00:42:01]   Loaded.
+[00:42:01]  Loading plugin: sscanf.so
+[00:42:01] 
+
+[00:42:01]  ===============================
+
+[00:42:01]       sscanf plugin loaded.     
+
+[00:42:01]    (c) 2009 Alex "Y_Less" Cole
+
+[00:42:01]    0.3d-R2 500 Players "dnee"
+
+[00:42:01]  ===============================
+
+[00:42:01]   Loaded.
+[00:42:01]  Loaded 8 plugins.
+
+[00:42:01] 
+[00:42:01] Filterscripts
+[00:42:01] ---------------
+[00:42:01]   Loaded 0 filterscripts.
+
+[00:42:01]  
+[00:42:01] --------------------------------------
+[00:42:01]  Античит Nex-AC загружен!
+[00:42:01]  Версия античита: 1.9.51
+[00:42:01]  Автор: Nexius
+[00:42:01] --------------------------------------
+
+[00:42:01] OnGameo
+[00:42:01] Создатель копии мода The Russia
+[00:42:01] Подключиться к базе не удалось!
+[00:42:01] Number of vehicle models: 99
