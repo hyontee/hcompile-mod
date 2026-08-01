@@ -1,0 +1,274 @@
+CMD:dm(playerid, params[])
+{
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /dm [id игрока]");
+	extract params -> new to_player;
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+
+
+	new ttt[300];
+	new jail_time = 60;
+
+    if(GetPlayerData(to_player, P_JAIL) > 0) return SendClientMessage(playerid, 0xCECECEFF, "Этот игрок уже сидит в тюрьме");
+	if(AntiSliv(playerid, "/dm")) return true;
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+	new fmt_msg[128];
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s посадил в тюрьму игрока %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), jail_time);
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: Death Match (DM)", fmt_msg);
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания заключения: {CCCC00}/time");
+	JailPlayer(to_player, jail_time);
+	format(fmt_msg, sizeof fmt_msg, "Посадил в тюрьму %s[acc:%d] на %d мин. Причина: DM",
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), jail_time);
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+	return 1;
+}
+CMD:db(playerid, params[])
+
+{
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /db [id игрока]");
+	extract params -> new to_player;
+
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+
+	new jail_time = 60;
+
+    if(GetPlayerData(to_player, P_JAIL) > 0) return SendClientMessage(playerid, 0xCECECEFF, "Этот игрок уже сидит в тюрьме");
+
+	if(AntiSliv(playerid, "/db")) return true;
+	new ttt[300];
+    if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+	new fmt_msg[128];
+
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s посадил в тюрьму игрока %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: DriveBy (DB)", fmt_msg);
+
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+
+
+
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания заключения: {CCCC00}/time");
+
+
+
+	JailPlayer(to_player, jail_time);
+
+
+
+	format(fmt_msg, sizeof fmt_msg, "Посадил в тюрьму %s[acc:%d] на %d мин. Причина: DriveBy",
+
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), jail_time);
+
+
+
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+
+
+	return 1;
+
+}
+
+CMD:pg(playerid, params[])
+
+{
+
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /pg [id игрока]");
+	extract params -> new to_player;
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+	new jail_time = 30;
+    if(GetPlayerData(to_player, P_JAIL) > 0) return SendClientMessage(playerid, 0xCECECEFF, "Этот игрок уже сидит в тюрьме");
+	//else if(to_player == playerid) return SendClientMessage(playerid, 0xCECECEFF, "Нельзя плсадить самого себя");
+	if(AntiSliv(playerid, "/pg")) return true;
+	new ttt[300];
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+
+	new fmt_msg[128];
+
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s посадил в тюрьму игрока %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: PowerGaming (PG)", fmt_msg);
+
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания заключения: {CCCC00}/time");
+
+	JailPlayer(to_player, jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "Посадил в тюрьму %s[acc:%d] на %d мин. Причина: PG",
+
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), jail_time);
+
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+	return 1;
+
+}
+
+CMD:mg(playerid, params[])
+
+{
+
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /mg [id игрока]");
+
+	extract params -> new to_player;
+
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+
+	new mute_time = 30;
+	//if(!(1 <= mute_time <= 360)) return SendClientMessage(playerid, 0xCECECEFF, "Время должно быть не меньше 1 и не больше 360 минут");
+	if(GetPlayerData(to_player, P_MUTE) > 0) return SendClientMessage(playerid, 0xCECECEFF, "У этого игрока уже есть мут");
+
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid)) return SendClientMessage(playerid, 0xCECECEFF, "Нельзя заблокировать чат администратору выше по рангу");
+
+	//else if(to_player == playerid) return SendClientMessage(playerid, 0xCECECEFF, "Нельзя поставить затычку самому себе");
+
+
+
+	if(AntiSliv(playerid, "/mg")) return true;
+	new ttt[300];
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+
+	new fmt_msg[128];
+
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s выдал блокировку чата игроку %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), mute_time);
+
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: MetaGaming (MG)", fmt_msg);
+
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+
+	SetPlayerData(to_player, P_MUTE, mute_time * 60);
+
+	UpdatePlayerDatabaseInt(to_player, "mute", mute_time * 60);
+
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания бана чата: {CCCC00}/time");
+
+	format(fmt_msg, sizeof fmt_msg, "Выдал %s[acc:%d] блокировку чата на %d мин. Причина: MG",
+
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), mute_time);
+
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+
+
+	return 1;
+
+}
+
+
+
+
+CMD:ndrive (playerid, params[])
+{
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /ndrive [id игрока]");
+
+	extract params -> new to_player;
+
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+
+	new jail_time = 30;
+
+    if(GetPlayerData(to_player, P_JAIL) > 0) return SendClientMessage(playerid, 0xCECECEFF, "Этот игрок уже сидит в тюрьме");
+
+	//else if(to_player == playerid) return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить  самого себя");
+
+	if(AntiSliv(playerid, "/ndrive")) return true;
+	new ttt[300];
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+
+	new fmt_msg[128];
+
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s посадил в тюрьму игрока %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: NonRpDrive (NonRp Вождениe)", fmt_msg);
+
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания заключения: {CCCC00}/time");
+
+	JailPlayer(to_player, jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "Посадил в тюрьму %s[acc:%d] на %d мин. Причина: ndrive (NonRp Вождения)",
+
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), jail_time);
+
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+	return 1;
+
+}
+
+
+CMD:fdrive (playerid, params[])
+
+{
+
+	if(GetPlayerAdminEx(playerid) < 2) return 1;
+	if(!strlen(params)) return SendClientMessage(playerid, 0xCECECEFF, "Используйте: /fdrive [id игрока]");
+
+	extract params -> new to_player;
+	if(!IsPlayerConnected(to_player) || !IsPlayerLogged(to_player))
+
+	return SendClientMessage(playerid, 0xCECECEFF, "Такого игрока нет");
+	new jail_time = 60;
+
+    if(GetPlayerData(to_player, P_JAIL) > 0) return SendClientMessage(playerid, 0xCECECEFF, "Этот игрок уже сидит в тюрьме");
+
+	//else if(to_player == playerid) return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить  самого себя");
+	if(AntiSliv(playerid, "/ndrive")) return true;
+	new ttt[300];
+	if(GetPlayerAdminEx(to_player) > GetPlayerAdminEx(playerid))
+		 return SendClientMessage(playerid, 0xCECECEFF, "Нельзя посадить админа выше по рангу"),
+				format(ttt, sizeof ttt, "[A] Администратор %s попытался посадить в деморган администратора %s", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player));
+				SendMessageToAdmins(ttt, COLOR_ADM);
+
+	new fmt_msg[128];
+
+	format(fmt_msg, sizeof fmt_msg, "Администратор %s посадил в тюрьму игрока %s на %d мин", GetPlayerNameEx(playerid), GetPlayerNameEx(to_player), jail_time);
+	format(fmt_msg, sizeof fmt_msg, "%s. Причина: NonRpFura (NonRp фура)", fmt_msg);
+	SendClientMessageToAll(0xFF5533FF, fmt_msg);
+	SendClientMessage(to_player, 0xCECECEFF, "Время до окончания заключения: {CCCC00}/time");
+	JailPlayer(to_player, jail_time);
+
+	format(fmt_msg, sizeof fmt_msg, "Посадил в тюрьму %s[acc:%d] на %d мин. Причина: fdrive (NonRp фура)",
+
+	GetPlayerNameEx(to_player), GetPlayerAccountID(to_player), jail_time);
+
+	SendLog(playerid, LOG_TYPE_ADMIN_ACTION, fmt_msg);
+
+	return 1;
+
+}
