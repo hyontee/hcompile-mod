@@ -1,0 +1,1331 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R3, (C)2005-2019 SA-MP Team
+
+[17:18:12] 
+[17:18:12] Server Plugins
+[17:18:12] --------------
+[17:18:12]  Loading plugin: crashdetect.so
+[17:18:12]   CrashDetect plugin 4.19.4
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: jit.so
+[17:18:12]   JIT plugin must be loaded before 'crashdetect.so'
+[17:18:12]   Failed.
+[17:18:12]  Loading plugin: bscrashfix.so
+[17:18:12] 	BitStream Crash Fix plugin by iAmir/IS4 has been successfully loaded
+[17:18:12] 	==== https://github.com/AmyrAhmady/samp-bscrashfix
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: mysql_static.so
+[17:18:12]  >> plugin.mysql: R39-6 successfully loaded.
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: pawnraknet.so
+[17:18:12] [Pawn.RakNet] 
+
+    | Pawn.RakNet 1.4.1 | 2016 - 2020
+    |--------------------------------
+    | Author and maintainer: urShadow
+
+
+    | Compiled: Jun 18 2020 at 11:28:17
+    |--------------------------------------------------------------
+    | Forum thread: https://forum.sa-mp.com/showthread.php?t=640306
+    |--------------------------------------------------------------
+    | Repository: https://github.com/urShadow/Pawn.RakNet
+    |--------------------------------------------------------------
+    | Wiki: https://github.com/urShadow/Pawn.RakNet/wiki
+
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: pawncmd.so
+[17:18:12] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: profiler.so
+[17:18:12]   Profiler plugin 2.15.3
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: sscanf.so
+[17:18:12] 
+
+[17:18:12]  ===============================
+
+[17:18:12]       sscanf plugin loaded.     
+
+[17:18:12]          Version:  2.8.3        
+
+[17:18:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:18:12]  ===============================
+
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: streamer.so
+[17:18:12] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: sampvoice.so
+[17:18:12] [sv:dbg:network:init] : module initializing...
+[17:18:12] [dbg:raknet:init] : module initializing...
+[17:18:12] [dbg:raknet:init] : installed hook to 'GetRakServerInterface' function (ptr:0x806ca30)
+[17:18:12] [dbg:raknet:init] : installed hook to 'OnPlayerDisconnect' function (ptr:0x80a51d0)
+[17:18:12] [dbg:raknet:init] : module initialized
+[17:18:12] [sv:dbg:network:init] : module initialized
+[17:18:12]  -------------------------------------------    
+[17:18:12]    ___                __   __    _              
+[17:18:12]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[17:18:12]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[17:18:12]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[17:18:12]                   |_|                           
+[17:18:12]  -------------------------------------------    
+[17:18:12]            SampVoice by MOR loaded              
+[17:18:12]  -------------------------------------------    
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: tutor.so
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: pawn_json.so
+[17:18:12]   Loaded.
+[17:18:12]  Loading plugin: CRP.so
+[17:18:12] 
+
+[17:18:12] ______________________________________
+
+[17:18:12]  Convert Rus To Pwn v0.1.1 loaded
+[17:18:12] ______________________________________
+
+[17:18:12]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:18:12] ______________________________________
+
+[17:18:12]   Loaded.
+[17:18:12]  Loaded 12 plugins.
+
+[17:18:12] 
+[17:18:12] Ban list
+[17:18:12] --------
+[17:18:12]  Loaded: samp.ban
+[17:18:12] 
+[17:18:12] 
+[17:18:12] Filterscripts
+[17:18:12] ---------------
+[17:18:12]   Loading filterscript 'wl.amx'...
+[17:18:12]   Unable to load filterscript 'wl.amx'.
+[17:18:12]   Loaded 0 filterscripts.
+
+[17:18:12] [sv:dbg:main:AmxLoad] : net game pointer (value:0x96476a0) received
+[17:18:12] [sv:dbg:network:bind] : voice server running on port 34206
+[17:18:12] [Pawn.CMD] PC_RegAlias: Command name 'fam' is occupied
+[17:18:12] [Pawn.CMD] PC_RegAlias: Command name 'fmenu' is occupied
+[17:18:12] [Pawn.CMD] PC_RegAlias: Command name 'fm' is occupied
+[17:18:12] [Pawn.CMD] PC_RegAlias: Command name 'ask' is occupied
+[17:18:12] 
+
+[17:18:12] =====================================
+
+[17:18:12] Fixed Pickup Processor 2025 loaded.
+
+[17:18:12]             Version:  1.1.3
+
+[17:18:12]        (create) 2025 By SANDER
+
+[17:18:12] =====================================
+
+[17:18:12] [W_SYSTEN] Гоночные дуэли загружены
+Telegram: Welsi Studio
+[17:18:12] [W_SYSTEM] Команда для обмена загружена.
+[17:18:12] [W_SYSTEM] Система работы дальнобойщика загружена.
+[17:18:12] [SANDER_SYSTEM] Система еженедельных наград загружена.
+[17:18:12] [SANDER_SYSTEM] Игра "Орёл и решка" загружена
+[17:18:12] [W_SYSTEM] Работа автомеханика загружена
+Автор: Welsi Studio
+[17:18:12] [W_SYSTEN] Работа автоугонщика загружена.
+[17:18:12] [Extrazz_system] Система админ-времени загружена.
+[17:18:12] [W_SYSTEN] Работа электрика загружена.
+[17:18:12] telegram: @welsistudio
+[17:18:12] [W_SYSTEM] Команда /shablon и система должностей загружены.
+[17:18:12] Огонь загружен
+[17:18:13] [AdminCheck] Система проверки админов загружена
+[17:18:13] [TextDraw]: Все текстдравы созданы
+[17:18:13] [Menu]: Все меню созданы
+[17:18:13] [Vehicle]: Все транспортные средства созданы
+[17:18:13] [TP]: Все входы/выходы созданы
+[17:18:13] Загружено  пикапов авто 10 штук
+[17:18:13] [Repositories]: Все склады загружнены
+[17:18:13] [Entrances]: Подъездов загружено: 0
+[17:18:13] [Houses]: Домов загружено: 369
+[17:18:13] [Houses]: Арендаторов загружено: 81
+[17:18:13] 0 odmen_price
+[17:18:13] [CONFIG]: Настройки сервера загружены!
+[17:18:13] [Business]: Бизнесов загружено: 126
+[17:18:13] [CAR_OBMEN]: Load!
+[17:18:13] [Hotels]: Отелей загружено: 0 / Номеров: 0
+[17:18:13] [FuelST]: Заправок загружено: 14
+[17:18:13] [Orders]: Заказов загружено: 5
+[17:18:13] [GangRepositories]: Склады банд загружены
+[17:18:13] [Leader List]: Лидеров загружено: 0
+[17:18:13] Number of vehicle models: 3
+[17:18:13] [connection] incoming connection: 176.15.162.172:38774 id: 0
+[17:18:13] [connection] incoming connection: 88.86.203.162:1301 id: 1
+[17:18:13] [connection] incoming connection: 5.59.230.143:39439 id: 2
+[17:18:13] [connection] incoming connection: 94.242.59.9:37177 id: 3
+[17:18:13] [connection] incoming connection: 176.59.142.131:54994 id: 4
+[17:18:13] [connection] incoming connection: 178.163.188.112:2820 id: 5
+[17:18:13] [connection] incoming connection: 5.59.230.143:54338 id: 6
+[17:18:13] [connection] incoming connection: 91.107.102.36:39258 id: 7
+[17:18:13] [connection] incoming connection: 188.170.193.164:12690 id: 8
+[17:18:13] [connection] incoming connection: 31.41.57.16:39631 id: 9
+[17:18:13] [join] Vadim_Lega has joined the server (0:176.15.162.172)
+[17:18:13] [connection] incoming connection: 95.179.124.139:2066 id: 10
+[17:18:13] [join] Cody_Xoz has joined the server (1:88.86.203.162)
+[17:18:13] [connection] incoming connection: 185.13.176.38:51770 id: 11
+[17:18:13] [join] Kani_Colhh has joined the server (2:5.59.230.143)
+[17:18:13] [connection] incoming connection: 94.233.240.16:20264 id: 12
+[17:18:13] [connection] incoming connection: 212.124.5.218:9253 id: 13
+[17:18:13] [join] Nikita_LLa has joined the server (3:94.242.59.9)
+[17:18:13] [connection] incoming connection: 188.162.7.35:53618 id: 14
+[17:18:14] [join] Marik_LosAngeles has joined the server (9:31.41.57.16)
+[17:18:14] [join] ARXX_KYRGYZ has joined the server (6:5.59.230.143)
+[17:18:14] [join] Loki_Wenston has joined the server (10:95.179.124.139)
+[17:18:14] [join] Antonio_Vespycchi has joined the server (5:178.163.188.112)
+[17:18:14] [join] Sergey_Manohinn has joined the server (8:188.170.193.164)
+[17:18:14] [join] Dmitry_Codin has joined the server (11:185.13.176.38)
+[17:18:14] [join] Ilnaz_Ahmetov has joined the server (7:91.107.102.36)
+[17:18:14] [join] Qulbu_Moon has joined the server (13:212.124.5.218)
+[17:18:14] [join] Gega_Biba has joined the server (12:94.233.240.16)
+[17:18:14] player Vadim_Lega buffer 5638413348335738345A4536524D4A524539334B
+[17:18:14] player Cody_Xoz buffer 5638413348335738345A4536524D4A524539334B
+[17:18:14] [join] Arm_Rayan has joined the server (14:188.162.7.35)
+[17:18:14] player Kani_Colhh buffer 5638413348335738345A4536524D4A524539334B
+[17:18:14] count family (300) > 300
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:14] sscanf warning: String buffer overflow.
+[17:18:26] [connection] incoming connection: 85.95.189.177:8969 id: 15
+[17:18:26] [join] Kosta_Bannikov has joined the server (15:85.95.189.177)
+[17:18:26] [connection] incoming connection: 80.67.57.128:39012 id: 16
+[17:18:26] [join] Artem_strax has joined the server (16:80.67.57.128)
+[17:18:26] [connection] incoming connection: 176.59.142.131:52382 id: 17
+[17:18:26] [connection] incoming connection: 176.59.142.131:58620 id: 4
+[17:18:26] Vadim_Lega[0] used command: fam
+[17:18:26] [chat] [Cody_Xoz]: d
+[17:18:26] [connection] incoming connection: 85.140.161.83:11708 id: 18
+[17:18:26] [connection] incoming connection: 94.25.189.63:40364 id: 19
+[17:18:26] [W_SYSTEM] Player:0 | Level_TC: 1 | Exp_TC: 0
+[17:18:26] [W_SYSTEM] Player:1 | Level_TC: 1 | Exp_TC: 0
+[17:18:26] [W_SYSTEM] Player:2 | Level_TC: 1 | Exp_TC: 0
+[17:18:26] [W_SYSTEM] Player:3 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Marik_LosAngeles buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:6 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Loki_Wenston buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:5 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Sergey_Manohinn buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:11 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Ilnaz_Ahmetov buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:13 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Gega_Biba buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:14 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] 0 - none accounts
+[17:18:26] player Kosta_Bannikov buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [W_SYSTEM] Player:16 | Level_TC: 0 | Exp_TC: 0
+[17:18:26] player Nikita_LLa buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] player ARXX_KYRGYZ buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] player Antonio_Vespycchi buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [join] Zheny_Chermen has joined the server (18:85.140.161.83)
+[17:18:26] player Dmitry_Codin buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] player Qulbu_Moon buffer 5638413348335738345A4536524D4A524539334B
+[17:18:26] [join] Sander_Akiyama has joined the server (19:94.25.189.63)
+[17:18:27] Cody_Xoz[1] used command: e
+[17:18:27] player Arm_Rayan buffer 5638413348335738345A4536524D4A524539334B
+[17:18:27] player Artem_strax buffer 5638413348335738345A4536524D4A524539334B
+[17:18:27] player Zheny_Chermen buffer 5638413348335738345A4536524D4A524539334B
+[17:18:28] {F3FF02}Семья: {7FFFD4} Muslims X {FFFF00} Dea    color {F3FF02}  name {7FFFD4} Muslims X {FFFF00} Dea 
+[17:18:28] player Sander_Akiyama buffer 5638413348335738345A4536524D4A524539334B
+[17:18:28] {F3FF02}Семья: {7FFFD4} Muslims X {FFFF00} Dea    color {F3FF02}  name {7FFFD4} Muslims X {FFFF00} Dea 
+[17:18:28] Kani_Colhh[2] used command: алее
+[17:18:28] [W_SYSTEM] Player:9 | Level_TC: 1 | Exp_TC: 0
+[17:18:28] [W_SYSTEM] Player:10 | Level_TC: 1 | Exp_TC: 0
+[17:18:28] [W_SYSTEM] Player:8 | Level_TC: 1 | Exp_TC: 0
+[17:18:28] {F81414}Семья: Frozens Famq    color {F81414}  name Frozens Famq 
+[17:18:28] [W_SYSTEM] Player:7 | Level_TC: 1 | Exp_TC: 0
+[17:18:29] [W_SYSTEM] Player:12 | Level_TC: 1 | Exp_TC: 0
+[17:18:29] {FFAF00}Семья: {B8860B}Золотой Расс    color {FFAF00}  name {B8860B}Золотой Расс 
+[17:18:29] [W_SYSTEM] Player:15 | Level_TC: 1 | Exp_TC: 0
+[17:18:29] {F81414}Семья: Frozens Famq    color {F81414}  name Frozens Famq 
+[17:18:29] [sv:dbg:network:connect] : disconnecting player (10) ...
+[17:18:29] [part] Loki_Wenston has left the server (10:0)
+[17:18:29] [W_SYSTEM] Player:18 | Level_TC: 1 | Exp_TC: 0
+[17:18:30] [W_SYSTEM] Player:19 | Level_TC: 1 | Exp_TC: 0
+[17:18:30] None fAmily - 639
+[17:18:30] [debug] Run time error 4: "Array index out of bounds"
+[17:18:30] [debug]  Attempted to read/write array element at negative index -1
+[17:18:30] [debug] AMX backtrace:
+[17:18:30] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/fixnotif.inc:623
+[17:18:30] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:30] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:30] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:30] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:30] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:30] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:30] [debug] Run time error 4: "Array index out of bounds"
+[17:18:30] [debug]  Attempted to read/write array element at negative index -1
+[17:18:30] [debug] AMX backtrace:
+[17:18:30] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/fixnotif.inc:623
+[17:18:30] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:30] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:30] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:30] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:30] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:30] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:30] [debug] Run time error 4: "Array index out of bounds"
+[17:18:30] [debug]  Attempted to read/write array element at negative index -1
+[17:18:30] [debug] AMX backtrace:
+[17:18:30] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/fixnotif.inc:623
+[17:18:30] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:30] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:30] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:30] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:30] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:30] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:31] [connection] incoming connection: 176.59.142.131:47041 id: 10
+[17:18:31] Marik_LosAngeles[9] used command: anim
+[17:18:32] [connection] incoming connection: 83.149.28.79:29774 id: 17
+[17:18:32] [chat] [Kani_Colhh]: !
+[17:18:32] Vadim_Lega[0] used command: fam
+[17:18:33] [join] Opezgal_Z has joined the server (17:83.149.28.79)
+[17:18:34] player Opezgal_Z buffer 5638413348335738345A4536524D4A524539334B
+[17:18:34] [debug] Run time error 5: "Invalid memory access"
+[17:18:34] [debug] AMX backtrace:
+[17:18:34] [debug] #0 00000028 in public OnDialogResponse () at D:\мод блезз11\pawno\include\float.inc:109
+[17:18:34] [debug] Run time error 4: "Array index out of bounds"
+[17:18:34] [debug]  Attempted to read/write array element at negative index -1
+[17:18:34] [debug] AMX backtrace:
+[17:18:34] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/fixnotif.inc:623
+[17:18:34] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:34] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:34] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:34] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:34] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:34] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=18, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:34] [debug] Run time error 4: "Array index out of bounds"
+[17:18:34] [debug]  Attempted to read/write array element at negative index -1
+[17:18:34] [debug] AMX backtrace:
+[17:18:34] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/fixnotif.inc:623
+[17:18:34] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:34] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:34] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:34] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:34] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:34] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=18, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:34] [debug] Run time error 4: "Array index out of bounds"
+[17:18:34] [debug]  Attempted to read/write array element at negative index -1
+[17:18:34] [debug] AMX backtrace:
+[17:18:34] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/fixnotif.inc:623
+[17:18:34] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:34] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:34] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:34] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:34] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:34] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=18, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:35] [debug] Run time error 4: "Array index out of bounds"
+[17:18:35] [debug]  Attempted to read/write array element at negative index -1
+[17:18:35] [debug] AMX backtrace:
+[17:18:35] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/fixnotif.inc:623
+[17:18:35] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:35] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:35] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:35] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:35] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:35] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:35] [debug] Run time error 4: "Array index out of bounds"
+[17:18:35] [debug]  Attempted to read/write array element at negative index -1
+[17:18:35] [debug] AMX backtrace:
+[17:18:35] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/fixnotif.inc:623
+[17:18:35] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:35] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:35] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:35] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:35] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:35] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:35] [debug] Run time error 4: "Array index out of bounds"
+[17:18:35] [debug]  Attempted to read/write array element at negative index -1
+[17:18:35] [debug] AMX backtrace:
+[17:18:35] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/fixnotif.inc:623
+[17:18:35] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:35] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:35] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:35] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:35] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:35] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:35] Gega_Biba[12] used command: joinrace
+[17:18:36] [connection] incoming connection: 212.124.5.218:9255 id: 4
+[17:18:36] [W_SYSTEM] Player:17 | Level_TC: 1 | Exp_TC: 0
+[17:18:36] [sv:dbg:network:connect] : disconnecting player (13) ...
+[17:18:36] [part] Qulbu_Moon has left the server (13:0)
+[17:18:36] [sv:dbg:network:connect] : disconnecting player (14) ...
+[17:18:36] [part] Arm_Rayan has left the server (14:0)
+[17:18:36] [connection] incoming connection: 176.59.142.131:43320 id: 13
+[17:18:36] [join] Qulbu_Moon has joined the server (4:212.124.5.218)
+[17:18:36] [connection] incoming connection: 188.162.7.35:47118 id: 14
+[17:18:37] [join] Ksenya_Dollars has joined the server (13:176.59.142.131)
+[17:18:37] [join] Arm_Rayan has joined the server (14:188.162.7.35)
+[17:18:37] player Qulbu_Moon buffer 5638413348335738345A4536524D4A524539334B
+[17:18:38] player Ksenya_Dollars buffer 5638413348335738345A4536524D4A524539334B
+[17:18:38] player Arm_Rayan buffer 5638413348335738345A4536524D4A524539334B
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -1
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/fixnotif.inc:623
+[17:18:39] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:39] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:39] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:39] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:39] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:39] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -1
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/fixnotif.inc:623
+[17:18:39] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:39] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:39] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:39] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:39] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:39] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -1
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/fixnotif.inc:623
+[17:18:39] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:39] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:39] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:39] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:39] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:39] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -400
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0008a8e0 in ShowRentMenu (playerid=12) at D:\мод блезз11\gamemodes\xwen.pwn:9043
+[17:18:39] [debug] #1 000a1c1c in public OnPlayerPickUpPickupEx (playerid=12, pickupid=125, action_type=64, action_id=10) at D:\мод блезз11\gamemodes\xwen.pwn:12367
+[17:18:39] [debug] #2 00010efc in public OnPlayerPickUpPickup (playerid=12, pickupid=125) at ../include/system/pickup.pwn:132
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -1
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/fixnotif.inc:623
+[17:18:39] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/electric_job.pwn:323
+[17:18:39] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/hijacker_job.pwn:297
+[17:18:39] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/system_w_mechanic.pwn:174
+[17:18:39] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/family_addition.pwn:155
+[17:18:39] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/transport_company.pwn:379
+[17:18:39] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/duel_race.pwn:283
+[17:18:39] [debug] Run time error 4: "Array index out of bounds"
+[17:18:39] [debug]  Attempted to read/write array element at negative index -1
+[17:18:39] [debug] AMX backtrace:
+[17:18:39] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/fixnotif.inc:623
+[17:18:39] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/electric_job.pwn:323
+[17:18:39] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/hijacker_job.pwn:297
+[17:18:39] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/system_w_mechanic.pwn:174
+[17:18:39] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/family_addition.pwn:155
+[17:18:39] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/transport_company.pwn:379
+[17:18:39] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/duel_race.pwn:283
+[17:18:39] [W_SYSTEM] Player:4 | Level_TC: 1 | Exp_TC: 0
+[17:18:40] [W_SYSTEM] Player:13 | Level_TC: 1 | Exp_TC: 0
+[17:18:40] {F3FF02}Семья: {7FFFD4} Muslims X {FFFF00} Dea    color {F3FF02}  name {7FFFD4} Muslims X {FFFF00} Dea 
+[17:18:40] [connection] incoming connection: 95.179.124.139:2070 id: 20
+[17:18:40] [W_SYSTEM] Player:14 | Level_TC: 1 | Exp_TC: 0
+[17:18:40] {FFAF00}Семья: {B8860B}Золотой Расс    color {FFAF00}  name {B8860B}Золотой Расс 
+[17:18:40] [debug] Run time error 4: "Array index out of bounds"
+[17:18:40] [debug]  Attempted to read/write array element at negative index -1
+[17:18:40] [debug] AMX backtrace:
+[17:18:40] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/fixnotif.inc:623
+[17:18:40] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/electric_job.pwn:323
+[17:18:40] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/hijacker_job.pwn:297
+[17:18:40] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/system_w_mechanic.pwn:174
+[17:18:40] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/family_addition.pwn:155
+[17:18:40] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/transport_company.pwn:379
+[17:18:40] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/duel_race.pwn:283
+[17:18:40] [debug] Run time error 4: "Array index out of bounds"
+[17:18:40] [debug]  Attempted to read/write array element at negative index -1
+[17:18:40] [debug] AMX backtrace:
+[17:18:40] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/fixnotif.inc:623
+[17:18:40] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/electric_job.pwn:323
+[17:18:40] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/hijacker_job.pwn:297
+[17:18:40] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/system_w_mechanic.pwn:174
+[17:18:40] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/family_addition.pwn:155
+[17:18:40] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/transport_company.pwn:379
+[17:18:40] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/duel_race.pwn:283
+[17:18:41] [join] Loki_Wenston has joined the server (20:95.179.124.139)
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/duel_race.pwn:283
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/duel_race.pwn:283
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/duel_race.pwn:283
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/duel_race.pwn:283
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=385) at ../include/system/duel_race.pwn:283
+[17:18:41] [debug] Run time error 4: "Array index out of bounds"
+[17:18:41] [debug]  Attempted to read/write array element at negative index -1
+[17:18:41] [debug] AMX backtrace:
+[17:18:41] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/fixnotif.inc:623
+[17:18:41] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/electric_job.pwn:323
+[17:18:41] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/hijacker_job.pwn:297
+[17:18:41] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/system_w_mechanic.pwn:174
+[17:18:41] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/family_addition.pwn:155
+[17:18:41] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/transport_company.pwn:379
+[17:18:41] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=12, areaid=386) at ../include/system/duel_race.pwn:283
+[17:18:42] Sander_Akiyama[19] used command: v
+[17:18:42] player Loki_Wenston buffer 5638413348335738345A4536524D4A524539334B
+[17:18:42] [debug] Run time error 4: "Array index out of bounds"
+[17:18:42] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:42] [debug] AMX backtrace:
+[17:18:42] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=29686, speed=11) at ../include/anticheat.inc:1686
+[17:18:42] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=29686) at ../include/anticheat.inc:1052
+[17:18:42] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:42] [debug] Run time error 4: "Array index out of bounds"
+[17:18:42] [debug]  Attempted to read/write array element at negative index -1
+[17:18:42] [debug] AMX backtrace:
+[17:18:42] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/fixnotif.inc:623
+[17:18:42] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:42] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:42] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:42] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:42] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:42] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:42] [debug] Run time error 4: "Array index out of bounds"
+[17:18:42] [debug]  Attempted to read/write array element at negative index -1
+[17:18:42] [debug] AMX backtrace:
+[17:18:42] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/fixnotif.inc:623
+[17:18:42] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:42] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:42] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:42] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:42] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:42] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:42] [debug] Run time error 4: "Array index out of bounds"
+[17:18:42] [debug]  Attempted to read/write array element at negative index -1
+[17:18:42] [debug] AMX backtrace:
+[17:18:42] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/fixnotif.inc:623
+[17:18:42] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:42] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:42] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:42] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:42] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:42] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=6, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:42] [debug] Run time error 4: "Array index out of bounds"
+[17:18:42] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:42] [debug] AMX backtrace:
+[17:18:42] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=30109, speed=0) at ../include/anticheat.inc:1686
+[17:18:42] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=30109) at ../include/anticheat.inc:1052
+[17:18:42] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:43] [debug] Run time error 4: "Array index out of bounds"
+[17:18:43] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:43] [debug] AMX backtrace:
+[17:18:43] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=30527, speed=0) at ../include/anticheat.inc:1686
+[17:18:43] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=30527) at ../include/anticheat.inc:1052
+[17:18:43] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:43] Marik_LosAngeles[9] used command: admins
+[17:18:43] [debug] Run time error 4: "Array index out of bounds"
+[17:18:43] [debug]  Attempted to read/write array element at negative index -1
+[17:18:43] [debug] AMX backtrace:
+[17:18:43] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/fixnotif.inc:623
+[17:18:43] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:43] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:43] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:43] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:43] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:43] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=4, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:43] [debug] Run time error 4: "Array index out of bounds"
+[17:18:43] [debug]  Attempted to read/write array element at negative index -1
+[17:18:43] [debug] AMX backtrace:
+[17:18:43] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/fixnotif.inc:623
+[17:18:43] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:43] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:43] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:43] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:43] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:43] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=4, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:43] [debug] Run time error 4: "Array index out of bounds"
+[17:18:43] [debug]  Attempted to read/write array element at negative index -1
+[17:18:43] [debug] AMX backtrace:
+[17:18:43] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/fixnotif.inc:623
+[17:18:43] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:43] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:43] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:43] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:43] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:43] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=4, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:43] [debug] Run time error 4: "Array index out of bounds"
+[17:18:43] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:43] [debug] AMX backtrace:
+[17:18:43] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=30950, speed=0) at ../include/anticheat.inc:1686
+[17:18:43] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=30950) at ../include/anticheat.inc:1052
+[17:18:43] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:43] Cody_Xoz[1] used command: e
+[17:18:43] [connection] incoming connection: 85.249.173.145:59820 id: 10
+[17:18:44] [debug] Run time error 4: "Array index out of bounds"
+[17:18:44] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:44] [debug] AMX backtrace:
+[17:18:44] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=31371, speed=6) at ../include/anticheat.inc:1686
+[17:18:44] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=31371) at ../include/anticheat.inc:1052
+[17:18:44] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:44] [W_SYSTEM] Player:20 | Level_TC: 1 | Exp_TC: 0
+[17:18:44] [debug] Run time error 4: "Array index out of bounds"
+[17:18:44] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:44] [debug] AMX backtrace:
+[17:18:44] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=31792, speed=16) at ../include/anticheat.inc:1686
+[17:18:44] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=31792) at ../include/anticheat.inc:1052
+[17:18:44] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:44] [join] Gleb_Bilinsov has joined the server (10:85.249.173.145)
+[17:18:44] [debug] Run time error 4: "Array index out of bounds"
+[17:18:44] [debug]  Attempted to read/write array element at negative index -1
+[17:18:44] [debug] AMX backtrace:
+[17:18:44] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/fixnotif.inc:623
+[17:18:44] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/electric_job.pwn:323
+[17:18:44] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/hijacker_job.pwn:297
+[17:18:44] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/system_w_mechanic.pwn:174
+[17:18:44] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/family_addition.pwn:155
+[17:18:44] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/transport_company.pwn:379
+[17:18:44] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=385) at ../include/system/duel_race.pwn:283
+[17:18:44] [debug] Run time error 4: "Array index out of bounds"
+[17:18:44] [debug]  Attempted to read/write array element at negative index -1
+[17:18:44] [debug] AMX backtrace:
+[17:18:44] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/fixnotif.inc:623
+[17:18:44] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/electric_job.pwn:323
+[17:18:44] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/hijacker_job.pwn:297
+[17:18:44] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/system_w_mechanic.pwn:174
+[17:18:44] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/family_addition.pwn:155
+[17:18:44] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/transport_company.pwn:379
+[17:18:44] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=386) at ../include/system/duel_race.pwn:283
+[17:18:44] [debug] Run time error 4: "Array index out of bounds"
+[17:18:44] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:44] [debug] AMX backtrace:
+[17:18:44] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=32212, speed=19) at ../include/anticheat.inc:1686
+[17:18:44] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=32212) at ../include/anticheat.inc:1052
+[17:18:44] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:45] Ilnaz_Ahmetov[7] used command: leave
+[17:18:45] [debug] Run time error 4: "Array index out of bounds"
+[17:18:45] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:45] [debug] AMX backtrace:
+[17:18:45] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=32633, speed=25) at ../include/anticheat.inc:1686
+[17:18:45] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=32633) at ../include/anticheat.inc:1052
+[17:18:45] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:45] player Gleb_Bilinsov buffer 5638413348335738345A4536524D4A524539334B
+[17:18:45] [debug] Run time error 4: "Array index out of bounds"
+[17:18:45] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:45] [debug] AMX backtrace:
+[17:18:45] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=33056, speed=30) at ../include/anticheat.inc:1686
+[17:18:45] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=33056) at ../include/anticheat.inc:1052
+[17:18:45] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:46] Marik_LosAngeles[9] used command: anim
+[17:18:46] [debug] Run time error 4: "Array index out of bounds"
+[17:18:46] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:46] [debug] AMX backtrace:
+[17:18:46] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=33484, speed=36) at ../include/anticheat.inc:1686
+[17:18:46] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=33484) at ../include/anticheat.inc:1052
+[17:18:46] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:46] [debug] Run time error 4: "Array index out of bounds"
+[17:18:46] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:46] [debug] AMX backtrace:
+[17:18:46] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=33901, speed=42) at ../include/anticheat.inc:1686
+[17:18:46] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=33901) at ../include/anticheat.inc:1052
+[17:18:46] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:46] Arm_Rayan[14] used command: exit
+[17:18:46] Sander_Akiyama[19] used command: joinrace
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=34323, speed=46) at ../include/anticheat.inc:1686
+[17:18:47] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=34323) at ../include/anticheat.inc:1052
+[17:18:47] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at negative index -1
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/fixnotif.inc:623
+[17:18:47] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:47] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:47] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:47] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:47] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:47] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=20, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at negative index -1
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/fixnotif.inc:623
+[17:18:47] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:47] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:47] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:47] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:47] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:47] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=20, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at negative index -1
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/fixnotif.inc:623
+[17:18:47] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:47] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:47] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:47] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:47] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:47] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=20, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at negative index -1
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/fixnotif.inc:623
+[17:18:47] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/electric_job.pwn:323
+[17:18:47] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/hijacker_job.pwn:297
+[17:18:47] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/system_w_mechanic.pwn:174
+[17:18:47] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/family_addition.pwn:155
+[17:18:47] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/transport_company.pwn:379
+[17:18:47] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=3, areaid=403) at ../include/system/duel_race.pwn:283
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at negative index -1
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/fixnotif.inc:623
+[17:18:47] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/electric_job.pwn:323
+[17:18:47] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/hijacker_job.pwn:297
+[17:18:47] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/system_w_mechanic.pwn:174
+[17:18:47] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/family_addition.pwn:155
+[17:18:47] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/transport_company.pwn:379
+[17:18:47] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=3, areaid=404) at ../include/system/duel_race.pwn:283
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=34747, speed=48) at ../include/anticheat.inc:1686
+[17:18:47] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=34747) at ../include/anticheat.inc:1052
+[17:18:47] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:47] Vadim_Lega[0] used command: fam
+[17:18:47] [W_SYSTEM] Player:10 | Level_TC: 1 | Exp_TC: 0
+[17:18:47] [debug] Run time error 4: "Array index out of bounds"
+[17:18:47] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:47] [debug] AMX backtrace:
+[17:18:47] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=35167, speed=50) at ../include/anticheat.inc:1686
+[17:18:47] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=35167) at ../include/anticheat.inc:1052
+[17:18:47] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:48] [chat] [Opezgal_Z]: d
+[17:18:48] [debug] Run time error 4: "Array index out of bounds"
+[17:18:48] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:48] [debug] AMX backtrace:
+[17:18:48] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=35588, speed=52) at ../include/anticheat.inc:1686
+[17:18:48] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=35588) at ../include/anticheat.inc:1052
+[17:18:48] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:48] Artem_strax[16] used command: everyprize
+[17:18:48] [debug] Run time error 4: "Array index out of bounds"
+[17:18:48] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:48] [debug] AMX backtrace:
+[17:18:48] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=35994, speed=5) at ../include/anticheat.inc:1686
+[17:18:48] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=35994) at ../include/anticheat.inc:1052
+[17:18:48] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:48] [debug] Run time error 4: "Array index out of bounds"
+[17:18:48] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:48] [debug] AMX backtrace:
+[17:18:48] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=36009, speed=54) at ../include/anticheat.inc:1686
+[17:18:48] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=36009) at ../include/anticheat.inc:1052
+[17:18:48] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:49] Sander_Akiyama[19] used command: exit
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=36416, speed=0) at ../include/anticheat.inc:1686
+[17:18:49] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=36416) at ../include/anticheat.inc:1052
+[17:18:49] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=36433, speed=56) at ../include/anticheat.inc:1686
+[17:18:49] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=36433) at ../include/anticheat.inc:1052
+[17:18:49] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:49] [sv:dbg:network:connect] : disconnecting player (8) ...
+[17:18:49] [part] Sergey_Manohinn has left the server (8:0)
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=36841, speed=0) at ../include/anticheat.inc:1686
+[17:18:49] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=36841) at ../include/anticheat.inc:1052
+[17:18:49] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=36857, speed=59) at ../include/anticheat.inc:1686
+[17:18:49] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=36857) at ../include/anticheat.inc:1052
+[17:18:49] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at negative index -1
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/fixnotif.inc:623
+[17:18:49] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/electric_job.pwn:323
+[17:18:49] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/hijacker_job.pwn:297
+[17:18:49] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/system_w_mechanic.pwn:174
+[17:18:49] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/family_addition.pwn:155
+[17:18:49] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/transport_company.pwn:379
+[17:18:49] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=17, areaid=447) at ../include/system/duel_race.pwn:283
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at negative index -1
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/fixnotif.inc:623
+[17:18:49] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/electric_job.pwn:323
+[17:18:49] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/hijacker_job.pwn:297
+[17:18:49] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/system_w_mechanic.pwn:174
+[17:18:49] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/family_addition.pwn:155
+[17:18:49] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/transport_company.pwn:379
+[17:18:49] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=17, areaid=448) at ../include/system/duel_race.pwn:283
+[17:18:49] [debug] Run time error 4: "Array index out of bounds"
+[17:18:49] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:49] [debug] AMX backtrace:
+[17:18:49] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=37263, speed=0) at ../include/anticheat.inc:1686
+[17:18:49] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=37263) at ../include/anticheat.inc:1052
+[17:18:49] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=37279, speed=61) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=37279) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:50] Gega_Biba[12] used command: v
+[17:18:50] Qulbu_Moon[4] used command: leave
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=37691, speed=0) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=37691) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=37707, speed=64) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=37707) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at negative index -1
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/fixnotif.inc:623
+[17:18:50] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/electric_job.pwn:323
+[17:18:50] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/hijacker_job.pwn:297
+[17:18:50] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/system_w_mechanic.pwn:174
+[17:18:50] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/family_addition.pwn:155
+[17:18:50] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/transport_company.pwn:379
+[17:18:50] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=10, areaid=20) at ../include/system/duel_race.pwn:283
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at negative index -1
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/fixnotif.inc:623
+[17:18:50] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/electric_job.pwn:323
+[17:18:50] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/hijacker_job.pwn:297
+[17:18:50] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/system_w_mechanic.pwn:174
+[17:18:50] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/family_addition.pwn:155
+[17:18:50] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/transport_company.pwn:379
+[17:18:50] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=10, areaid=139) at ../include/system/duel_race.pwn:283
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at negative index -1
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/fixnotif.inc:623
+[17:18:50] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/electric_job.pwn:323
+[17:18:50] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/hijacker_job.pwn:297
+[17:18:50] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/system_w_mechanic.pwn:174
+[17:18:50] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/family_addition.pwn:155
+[17:18:50] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/transport_company.pwn:379
+[17:18:50] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=10, areaid=219) at ../include/system/duel_race.pwn:283
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=37920, speed=2) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=37920) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=38109, speed=0) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=38109) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:50] [debug] Run time error 4: "Array index out of bounds"
+[17:18:50] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:50] [debug] AMX backtrace:
+[17:18:50] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=38125, speed=67) at ../include/anticheat.inc:1686
+[17:18:50] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=38125) at ../include/anticheat.inc:1052
+[17:18:50] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=38342, speed=0) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=38342) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=38534, speed=0) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=38534) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=38550, speed=70) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=38550) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=38768, speed=0) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=38768) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=38961, speed=0) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=38961) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=38977, speed=73) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=38977) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:51] [debug] Run time error 4: "Array index out of bounds"
+[17:18:51] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:51] [debug] AMX backtrace:
+[17:18:51] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=39187, speed=8) at ../include/anticheat.inc:1686
+[17:18:51] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=39187) at ../include/anticheat.inc:1052
+[17:18:51] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=39384, speed=0) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=39384) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=39401, speed=76) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=39401) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=39614, speed=16) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=39614) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=39810, speed=0) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=39810) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=39827, speed=78) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=39827) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=40035, speed=24) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=40035) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:52] Ksenya_Dollars[13] used command: id
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=40231, speed=0) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=40231) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:52] [debug] Run time error 4: "Array index out of bounds"
+[17:18:52] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:52] [debug] AMX backtrace:
+[17:18:52] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=40248, speed=80) at ../include/anticheat.inc:1686
+[17:18:52] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=40248) at ../include/anticheat.inc:1052
+[17:18:52] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=40461, speed=28) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=40461) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=40658, speed=0) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=40658) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=40675, speed=81) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=40675) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=40886, speed=28) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=40886) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=41082, speed=0) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=41082) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:53] [debug] Run time error 4: "Array index out of bounds"
+[17:18:53] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:53] [debug] AMX backtrace:
+[17:18:53] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=41099, speed=81) at ../include/anticheat.inc:1686
+[17:18:53] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=41099) at ../include/anticheat.inc:1052
+[17:18:53] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=41311, speed=26) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=41311) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=41506, speed=0) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=41506) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=41523, speed=81) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=41523) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=41741, speed=21) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=41741) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=41935, speed=0) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=41935) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=41957, speed=81) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=41957) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at negative index -1
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/fixnotif.inc:623
+[17:18:54] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/electric_job.pwn:323
+[17:18:54] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/hijacker_job.pwn:297
+[17:18:54] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/system_w_mechanic.pwn:174
+[17:18:54] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/family_addition.pwn:155
+[17:18:54] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/transport_company.pwn:379
+[17:18:54] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=4, areaid=447) at ../include/system/duel_race.pwn:283
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at negative index -1
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/fixnotif.inc:623
+[17:18:54] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/electric_job.pwn:323
+[17:18:54] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/hijacker_job.pwn:297
+[17:18:54] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/system_w_mechanic.pwn:174
+[17:18:54] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/family_addition.pwn:155
+[17:18:54] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/transport_company.pwn:379
+[17:18:54] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=4, areaid=448) at ../include/system/duel_race.pwn:283
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at negative index -1
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/fixnotif.inc:623
+[17:18:54] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/electric_job.pwn:323
+[17:18:54] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/hijacker_job.pwn:297
+[17:18:54] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/system_w_mechanic.pwn:174
+[17:18:54] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/family_addition.pwn:155
+[17:18:54] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/transport_company.pwn:379
+[17:18:54] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=0, areaid=447) at ../include/system/duel_race.pwn:283
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at negative index -1
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/fixnotif.inc:623
+[17:18:54] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/electric_job.pwn:323
+[17:18:54] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/hijacker_job.pwn:297
+[17:18:54] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/system_w_mechanic.pwn:174
+[17:18:54] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/family_addition.pwn:155
+[17:18:54] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/transport_company.pwn:379
+[17:18:54] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=0, areaid=448) at ../include/system/duel_race.pwn:283
+[17:18:54] [debug] Run time error 4: "Array index out of bounds"
+[17:18:54] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:54] [debug] AMX backtrace:
+[17:18:54] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=42167, speed=18) at ../include/anticheat.inc:1686
+[17:18:54] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=42167) at ../include/anticheat.inc:1052
+[17:18:54] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=42358, speed=0) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=42358) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:55] Ksenya_Dollars[13] used command: id
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=42379, speed=81) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=42379) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=42591, speed=13) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=42591) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=42783, speed=0) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=42783) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=42805, speed=81) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=42805) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=42848, speed=4) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=42848) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=43016, speed=9) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=43016) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:55] Sander_Akiyama[19] used command: v
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=43206, speed=0) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=43206) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:55] [debug] Run time error 4: "Array index out of bounds"
+[17:18:55] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:55] [debug] AMX backtrace:
+[17:18:55] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=43227, speed=81) at ../include/anticheat.inc:1686
+[17:18:55] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=43227) at ../include/anticheat.inc:1052
+[17:18:55] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=43302, speed=0) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=43302) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=43440, speed=4) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=43440) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=3, tick=43630, speed=0) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=3, tick=43630) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=3) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=43653, speed=81) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=43653) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=43727, speed=0) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=43727) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=43864, speed=0) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=43864) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=44079, speed=81) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=44079) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at negative index -1
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/fixnotif.inc:623
+[17:18:56] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/electric_job.pwn:323
+[17:18:56] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/hijacker_job.pwn:297
+[17:18:56] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/system_w_mechanic.pwn:174
+[17:18:56] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/family_addition.pwn:155
+[17:18:56] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/transport_company.pwn:379
+[17:18:56] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=1, areaid=12) at ../include/system/duel_race.pwn:283
+[17:18:56] [debug] Run time error 4: "Array index out of bounds"
+[17:18:56] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:56] [debug] AMX backtrace:
+[17:18:56] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=44153, speed=0) at ../include/anticheat.inc:1686
+[17:18:56] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=44153) at ../include/anticheat.inc:1052
+[17:18:56] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=44284, speed=0) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=44284) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at negative index -1
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/fixnotif.inc:623
+[17:18:57] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/electric_job.pwn:323
+[17:18:57] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/hijacker_job.pwn:297
+[17:18:57] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/system_w_mechanic.pwn:174
+[17:18:57] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/family_addition.pwn:155
+[17:18:57] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/transport_company.pwn:379
+[17:18:57] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=20, areaid=379) at ../include/system/duel_race.pwn:283
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at negative index -1
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0007ff20 in public e_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/fixnotif.inc:623
+[17:18:57] [debug] #1 00079544 in public hj_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/electric_job.pwn:323
+[17:18:57] [debug] #2 0006fb90 in public m_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/hijacker_job.pwn:297
+[17:18:57] [debug] #3 0006bc98 in public capt_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/system_w_mechanic.pwn:174
+[17:18:57] [debug] #4 0005db44 in public tc_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/family_addition.pwn:155
+[17:18:57] [debug] #5 00037d58 in public race_OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/transport_company.pwn:379
+[17:18:57] [debug] #6 0002ca98 in public OnPlayerEnterDynamicArea (playerid=20, areaid=380) at ../include/system/duel_race.pwn:283
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=44502, speed=81) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=44502) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=44581, speed=0) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=44581) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=44712, speed=0) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=44712) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:57] Arm_Rayan[14] used command: everyprizw
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=44928, speed=81) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=44928) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=45006, speed=0) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=45006) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:57] [debug] Run time error 4: "Array index out of bounds"
+[17:18:57] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:57] [debug] AMX backtrace:
+[17:18:57] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=45132, speed=0) at ../include/anticheat.inc:1686
+[17:18:57] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=45132) at ../include/anticheat.inc:1052
+[17:18:57] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:58] [debug] Run time error 4: "Array index out of bounds"
+[17:18:58] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:58] [debug] AMX backtrace:
+[17:18:58] [debug] #0 0001ec44 in SpeedDiff (playerid=1, tick=45347, speed=81) at ../include/anticheat.inc:1686
+[17:18:58] [debug] #1 0001a07c in FastUpdate (playerid=1, tick=45347) at ../include/anticheat.inc:1052
+[17:18:58] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=1) at ../include/anticheat.inc:1234
+[17:18:58] [debug] Run time error 4: "Array index out of bounds"
+[17:18:58] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:58] [debug] AMX backtrace:
+[17:18:58] [debug] #0 0001ec44 in SpeedDiff (playerid=4, tick=45431, speed=0) at ../include/anticheat.inc:1686
+[17:18:58] [debug] #1 0001a07c in FastUpdate (playerid=4, tick=45431) at ../include/anticheat.inc:1052
+[17:18:58] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=4) at ../include/anticheat.inc:1234
+[17:18:58] [connection] incoming connection: 176.59.137.129:52222 id: 8
+[17:18:58] [debug] Run time error 4: "Array index out of bounds"
+[17:18:58] [debug]  Attempted to read/write array element at index 62 in array of size 2
+[17:18:58] [debug] AMX backtrace:
+[17:18:58] [debug] #0 0001ec44 in SpeedDiff (playerid=17, tick=45555, speed=0) at ../include/anticheat.inc:1686
+[17:18:58] [debug] #1 0001a07c in FastUpdate (playerid=17, tick=45555) at ../include/anticheat.inc:1052
+[17:18:58] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=17) at ../include/anticheat.inc:1234
+[17:18:58] Qulbu_Moon[4] used command: e
+[17:18:58] [debug] Run time error 4: "Array index out of bounds"
+[17:18:58] [debug]  Attempted to read/write array element at index 141 in array of size 2
+[17:18:58] [debug] AMX backtrace:
+[17:18:58] [debug] #0 0001ec44 in SpeedDiff (playerid=20, tick=45746, speed=13) at ../include/anticheat.inc:1686
+[17:18:58] [debug] #1 0001a07c in FastUpdate (playerid=20, tick=45746) at ../include/anticheat.inc:1052
+[17:18:58] [debug] #2 0001c4e4 in public ac_MainUpdate200 (playerid=20) at ../include/anticheat.inc:1234
+[17:18:58] [debug] Server crashed while executing xwen.amx
+[17:18:58] [debug] AMX backtrace:
+[17:18:58] [debug] #0 00140007 in public post_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at D:\мод блезз11\gamemodes\xwen.pwn:33262
+[17:18:58] [debug] #1 00080ad8 in public e_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/post_admin.pwn:123
+[17:18:58] [debug] #2 00078e74 in public hj_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/electric_job.pwn:226
+[17:18:58] [debug] #3 0006f4f0 in public spd_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/hijacker_job.pwn:189
+[17:18:58] [debug] #4 0006cfa0 in public HAT_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/system_w_mechanic.pwn:338
+[17:18:58] [debug] #5 0006ade0 in public weekly_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/orel_reshka.pwn:337
+[17:18:58] [debug] #6 0006858c in public fam_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/weekly_prizes.pwn:281
+[17:18:58] [debug] #7 00053910 in public skin_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/family.pwn:2659
+[17:18:58] [debug] #8 0003da08 in public tc_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/inventory_skin.pwn:572
+[17:18:58] [debug] #9 00039ef0 in public ch_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/transport_company.pwn:550
+[17:18:58] [debug] #10 00032b4c in public race_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/changeprop_werton.pwn:408
+[17:18:58] [debug] #11 0002ae50 in public ac_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/system/duel_race.pwn:134
+[17:18:58] [debug] #12 00025c68 in public fg_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/anticheat.inc:2410
+[17:18:58] [debug] #13 0000ed64 in public m_dialog_OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=0, inputtext[]=@02dc966c "Maska") at ../include/fdialog.inc:49
+[17:18:58] [debug] #14 0000b028 in public OnDialogResponse (playerid=18, dialogid=376, response=1, listitem=-1, inputtext[]=@02dc966c "Maska") at ../include/lib/m_dialog.inc:178
