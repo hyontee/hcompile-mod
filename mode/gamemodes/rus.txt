@@ -1,0 +1,24 @@
+../include/system/admintools.inc(129) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(345) : предупреждение 219: переменная "json" уже объявлена в более глобальной зоне видимости
+../gamemodes/ipacket.inc(345) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(346) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(347) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(350) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(351) : предупреждение 213: несовпадение типов
+../gamemodes/ipacket.inc(1807) : идентификатор не используется: "freeze"
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(727) : неправильная табуляция
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(743) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(767) : неправильная табуляция
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(824) : неправильная табуляция
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(842) : неправильная табуляция
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(1501) : предупреждение 209: функция "ShowNotification" должна возвращать значение
+C:\Users\Кирилл\Pictures\mode\gamemodes\death.pwn(3474) : идентификатору присвоено значение, но он не используется: "idx"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	    7468 байт
+Размер кода:		  338636 байт
+Размер данных:		40704804 байт
+Размер стэка\кучи:	   16384 байт; Примерное макс. использование=3857 ячеек (15428 байт)
+Всего требуется:	41067292 байт
+
+Предупреждений:9.
