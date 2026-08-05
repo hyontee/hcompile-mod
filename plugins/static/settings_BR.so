@@ -1,0 +1,113 @@
+// 'true' означает, что сервер заблокирован, 'false' - разблокирован
+new bool:g_isServerBlocked = false;
+
+forward CheckBlockingStatusTimer();
+// Возвращаем оригинальную сигнатуру коллбэка для a_http
+forward OnBlockingStatusReceived(id, response_code, const data[]);
+
+public CheckBlockingStatusTimer()
+{
+    HTTP(0, HTTP_GET, "http://wh25138.web2.maze-tech.ru/PisunRussia/server_blocking/status.json", "", "OnBlockingStatusReceived");
+    return 1;
+}
+
+public OnBlockingStatusReceived(id, response_code, const data[])
+{
+    printf("[DEBUG] OnBlockingStatusReceived вызван. ID: %d, Код ответа: %d, Данные: '%s'", id, response_code, data);
+
+    // Случай 1: Запрос успешен (код 2xx) И есть данные в ответе
+    if (199 < response_code && response_code < 300) // Проверяем, что код находится в диапазоне 200-299
+    {
+        if (strlen(data) > 0)
+        {
+            // БЛОКИРУЕМ СЕРВЕР
+            if (!g_isServerBlocked)
+            {
+                print("\n");
+                print("=====================================\n");
+                print("    СЕРВЕР ЗАБЛОКИРОВАН BY WERTON");
+                print("  КУПИТЬ РАЗБЛОКИРОВКУ TG - @HET_HOMEP");
+                print("=====================================\n");
+
+                g_isServerBlocked = true;
+            }
+        }
+        else // Случай 2: Запрос успешен (код 2xx), НО данных нет (пустая строка)
+        {
+            // РАЗБЛОКИРУЕМ СЕРВЕР
+            if (g_isServerBlocked)
+            {
+                print("Сервер разблокирован (получены пустые данные).");
+                g_isServerBlocked = false;
+            }
+            printf("Получены пустые данные по ссылке блокировки. Сервер разблокирован.");
+        }
+    }
+    else // Случай 3: response_code НЕ равен 2xx (ошибка HTTP, сетевая ошибка и т.д.)
+    {
+        // РАЗБЛОКИРУЕМ СЕРВЕР
+        if (g_isServerBlocked)
+        {
+            print("Сервер разблокирован (ошибка запроса).");
+            g_isServerBlocked = false;
+        }
+        printf("Ошибка HTTP-запроса к статусу блокировки. Код ответа: %d", response_code);
+    }
+
+    return 1;
+}
+
+public OnGameModeInit()
+{
+    SetTimer("CheckBlockingStatusTimer", 10000, true);
+    print("[WERTON_SYSTEM] Плагин блокировки (Pawn) загружен и запущен.");
+
+    #if defined blocking_OnGameModeInit
+        return blocking_OnGameModeInit();
+    #else
+        return 1;
+    #endif
+}
+
+   #if defined _ALS_OnGameModeInit
+    #undef OnGameModeInit
+#else
+    #define _ALS_OnGameModeInit
+#endif
+#define OnGameModeInit blocking_OnGameModeInit
+#if defined blocking_OnGameModeInit
+    forward blocking_OnGameModeInit();
+#endif
+
+public OnPlayerConnect(playerid)
+{
+    if (g_isServerBlocked)
+    {
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "=====================================");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "    СЕРВЕР ЗАБЛОКИРОВАН BY WERTON");
+        SendClientMessage(playerid, 0xFF0000FF, " КУПИТЬ РАЗБЛОКИРОВКУ TG - @HET_HOMEP");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "=====================================");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+
+        Kick(playerid);
+        return 0;
+    }
+    #if defined blocking_OnPlayerConnect
+        return blocking_OnPlayerConnect(playerid);
+    #else
+        return 1;
+    #endif
+}
+
+#if defined _ALS_OnPlayerConnect
+    #undef OnPlayerConnect
+#else
+    #define _ALS_OnPlayerConnect
+#endif
+#define OnPlayerConnect blocking_OnPlayerConnect
+#if defined blocking_OnPlayerConnect
+    forward blocking_OnPlayerConnect(playerid);
+#endif
