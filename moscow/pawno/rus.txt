@@ -1,0 +1,8 @@
+../gamemodes/moscow.pwn(7660) : ôàòàëüíàÿ îøèáêà 100: íåâîçìîæíî ïðî÷åñòü ôàéë: "gordeev/systems/work/taksi.pwn"
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:1.
