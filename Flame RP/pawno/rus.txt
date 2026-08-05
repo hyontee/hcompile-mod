@@ -1,0 +1,6 @@
+C:\server\pawno\include\weapon-config.inc(3484) : предупреждение: рекурсия в InflictDamage: вызов с WC_SetPlayerHealth C:\server\pawno\include\weapon-config.inc(1188)
+Для отключения вывода рекурсий: #pragma disablerecursion или #pragma warning disable 238
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2017, ITB CompuPhase
+
+
+Предупреждений:1.
