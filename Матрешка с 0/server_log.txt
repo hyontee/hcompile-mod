@@ -1,0 +1,460 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:25:48] filterscripts = ""  (string)
+[02:25:48] 
+[02:25:48] Server Plugins
+[02:25:48] --------------
+[02:25:48]  Loaded 0 plugins.
+
+[02:25:48] 
+[02:25:48] Filterscripts
+[02:25:48] ---------------
+[02:25:48]   Loaded 0 filterscripts.
+
+[02:25:48] Script[gamemodes/matrp.amx]: Run time error 19: "File or function is not found"
+[02:25:48] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:26:55] filterscripts = ""  (string)
+[02:26:55] 
+[02:26:55] Server Plugins
+[02:26:55] --------------
+[02:26:55]  Loaded 0 plugins.
+
+[02:26:55] 
+[02:26:55] Filterscripts
+[02:26:55] ---------------
+[02:26:55]   Loaded 0 filterscripts.
+
+[02:26:55] Script[gamemodes/matrp.amx]: Run time error 19: "File or function is not found"
+[02:26:55] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:27:04] 
+[02:27:04] Server Plugins
+[02:27:04] --------------
+[02:27:04]  Loaded 0 plugins.
+
+[02:27:04] 
+[02:27:04] Filterscripts
+[02:27:04] ---------------
+[02:27:04]   Loaded 0 filterscripts.
+
+[02:27:04] Script[gamemodes/matrp.amx]: Run time error 19: "File or function is not found"
+[02:27:04] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:27:57] 
+[02:27:57] Server Plugins
+[02:27:57] --------------
+[02:27:57]  Loaded 0 plugins.
+
+[02:27:57] 
+[02:27:57] Filterscripts
+[02:27:57] ---------------
+[02:27:57]   Loaded 0 filterscripts.
+
+[02:27:57] Script[gamemodes/matrp.amx]: Run time error 19: "File or function is not found"
+[02:27:57] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:29:13] filterscripts = ""  (string)
+[02:29:13] 
+[02:29:13] Server Plugins
+[02:29:13] --------------
+[02:29:13]  Loading plugin: mysql
+[02:29:13]  >> plugin.mysql: R41-4 successfully loaded.
+[02:29:13]   Loaded.
+[02:29:13]  Loading plugin: streamer
+[02:29:13] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[02:29:13]   Loaded.
+[02:29:13]  Loading plugin: sscanf
+[02:29:13] 
+
+[02:29:13]  ===============================
+
+[02:29:13]       sscanf plugin loaded.     
+
+[02:29:13]          Version:  2.8.1        
+
+[02:29:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[02:29:13]  ===============================
+
+[02:29:13]   Loaded.
+[02:29:13]  Loading plugin: dc_cmd
+[02:29:13]   Daniel's CMD plugin v2.8
+[02:29:13]     (c) 2014 Daniel_Cortez
+[02:29:13] 	www.pro-pawn.ru
+[02:29:13]   Loaded.
+[02:29:13]  Loading plugin: pawnregex
+[02:29:13] Pawn.Regex plugin v1.1 by urShadow loaded
+[02:29:13]   Loaded.
+[02:29:13]  Loaded 5 plugins.
+
+[02:29:13] 
+[02:29:13] Filterscripts
+[02:29:13] ---------------
+[02:29:13]   Loaded 0 filterscripts.
+
+[02:29:21] [LOGS] MySQL started
+[02:29:21] 
+----------------------------------
+[02:29:21] ------   Matreshka Started   ------
+[02:29:21] ------   By @vernetto_alex   ------
+[02:29:21] ----------------------------------
+
+[02:29:21] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:53:04] filterscripts = ""  (string)
+[02:53:04] 
+[02:53:04] Server Plugins
+[02:53:04] --------------
+[02:53:04]  Loading plugin: mysql
+[02:53:04]  >> plugin.mysql: R41-4 successfully loaded.
+[02:53:04]   Loaded.
+[02:53:04]  Loading plugin: streamer
+[02:53:04] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[02:53:04]   Loaded.
+[02:53:04]  Loading plugin: sscanf
+[02:53:04] 
+
+[02:53:04]  ===============================
+
+[02:53:04]       sscanf plugin loaded.     
+
+[02:53:04]          Version:  2.8.1        
+
+[02:53:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[02:53:04]  ===============================
+
+[02:53:04]   Loaded.
+[02:53:04]  Loading plugin: dc_cmd
+[02:53:04]   Daniel's CMD plugin v2.8
+[02:53:04]     (c) 2014 Daniel_Cortez
+[02:53:04] 	www.pro-pawn.ru
+[02:53:04]   Loaded.
+[02:53:04]  Loading plugin: pawnregex
+[02:53:04] Pawn.Regex plugin v1.1 by urShadow loaded
+[02:53:04]   Loaded.
+[02:53:04]  Loaded 5 plugins.
+
+[02:53:04] 
+[02:53:04] Filterscripts
+[02:53:04] ---------------
+[02:53:04]   Loaded 0 filterscripts.
+
+[02:53:12] [LOGS] MySQL started
+[02:53:12] 
+----------------------------------
+[02:53:12] ------   Matreshka Started   ------
+[02:53:12] ------   By @vernetto_alex   ------
+[02:53:12] ----------------------------------
+
+[02:53:12] Number of vehicle models: 0
+[02:53:40] [connection] 127.0.0.1:61476 requests connection cookie.
+[02:53:41] [connection] incoming connection: 127.0.0.1:61476 id: 0
+[02:53:42] [join] Silence_Boss has joined the server (0:127.0.0.1)
+[02:53:55] [part] Silence_Boss has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:16:25] filterscripts = ""  (string)
+[00:16:25] 
+[00:16:25] Server Plugins
+[00:16:25] --------------
+[00:16:25]  Loading plugin: mysql
+[00:16:25]  >> plugin.mysql: R41-4 successfully loaded.
+[00:16:25]   Loaded.
+[00:16:25]  Loading plugin: crashdetect
+[00:16:25]   CrashDetect v4.18.1 is OK.
+[00:16:25]   Loaded.
+[00:16:25]  Loading plugin: streamer
+[00:16:25] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[00:16:25]   Loaded.
+[00:16:25]  Loading plugin: sscanf
+[00:16:25] 
+
+[00:16:25]  ===============================
+
+[00:16:25]       sscanf plugin loaded.     
+
+[00:16:25]          Version:  2.8.1        
+
+[00:16:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:16:25]  ===============================
+
+[00:16:25]   Loaded.
+[00:16:25]  Loading plugin: pawncmd
+[00:16:25] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[00:16:25]   Loaded.
+[00:16:25]  Loading plugin: pawnregex
+[00:16:25] Pawn.Regex plugin v1.1 by urShadow loaded
+[00:16:25]   Loaded.
+[00:16:25]  Loaded 6 plugins.
+
+[00:16:25] 
+[00:16:25] Filterscripts
+[00:16:25] ---------------
+[00:16:25]   Loaded 0 filterscripts.
+
+[00:16:34] [LOGS] MySQL started
+[00:16:34] 
+----------------------------------
+[00:16:34] ------   Matreshka Started   ------
+[00:16:34] ------   By @vernetto_alex   ------
+[00:16:34] ----------------------------------
+
+[00:16:34] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:39:58] filterscripts = ""  (string)
+[00:39:58] 
+[00:39:58] Server Plugins
+[00:39:58] --------------
+[00:39:58]  Loading plugin: mysql
+[00:39:58]  >> plugin.mysql: R41-4 successfully loaded.
+[00:39:58]   Loaded.
+[00:39:58]  Loading plugin: crashdetect
+[00:39:58]   CrashDetect v4.18.1 is OK.
+[00:39:58]   Loaded.
+[00:39:58]  Loading plugin: streamer
+[00:39:58] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[00:39:58]   Loaded.
+[00:39:58]  Loading plugin: sscanf
+[00:39:58] 
+
+[00:39:58]  ===============================
+
+[00:39:58]       sscanf plugin loaded.     
+
+[00:39:58]          Version:  2.8.1        
+
+[00:39:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:39:58]  ===============================
+
+[00:39:58]   Loaded.
+[00:39:58]  Loading plugin: pawncmd
+[00:39:58] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[00:39:58]   Loaded.
+[00:39:58]  Loading plugin: pawnregex
+[00:39:58] Pawn.Regex plugin v1.1 by urShadow loaded
+[00:39:58]   Loaded.
+[00:39:58]  Loaded 6 plugins.
+
+[00:39:58] 
+[00:39:58] Filterscripts
+[00:39:58] ---------------
+[00:39:58]   Loaded 0 filterscripts.
+
+[00:40:06] [LOGS] MySQL started
+[00:40:06] 
+----------------------------------
+[00:40:06] ------   Matreshka Started   ------
+[00:40:06] ------   By @vernetto_alex   ------
+[00:40:06] ----------------------------------
+
+[00:40:06] Number of vehicle models: 0
+[00:40:34] [connection] 127.0.0.1:49681 requests connection cookie.
+[00:40:35] [connection] incoming connection: 127.0.0.1:49681 id: 0
+[00:40:35] [join] Silence_Boss has joined the server (0:127.0.0.1)
+[00:41:03] [part] Silence_Boss has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:58:48] filterscripts = ""  (string)
+[00:58:48] 
+[00:58:48] Server Plugins
+[00:58:48] --------------
+[00:58:48]  Loading plugin: mysql
+[00:58:48]  >> plugin.mysql: R41-4 successfully loaded.
+[00:58:48]   Loaded.
+[00:58:48]  Loading plugin: crashdetect
+[00:58:48]   CrashDetect v4.18.1 is OK.
+[00:58:48]   Loaded.
+[00:58:48]  Loading plugin: streamer
+[00:58:48] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[00:58:48]   Loaded.
+[00:58:48]  Loading plugin: sscanf
+[00:58:48] 
+
+[00:58:48]  ===============================
+
+[00:58:48]       sscanf plugin loaded.     
+
+[00:58:48]          Version:  2.8.1        
+
+[00:58:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:58:48]  ===============================
+
+[00:58:48]   Loaded.
+[00:58:48]  Loading plugin: pawncmd
+[00:58:48] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[00:58:48]   Loaded.
+[00:58:48]  Loading plugin: pawnregex
+[00:58:48] Pawn.Regex plugin v1.1 by urShadow loaded
+[00:58:48]   Loaded.
+[00:58:48]  Loaded 6 plugins.
+
+[00:58:48] 
+[00:58:48] Filterscripts
+[00:58:48] ---------------
+[00:58:48]   Loaded 0 filterscripts.
+
+[00:58:56] [LOGS] MySQL started
+[00:58:56] 
+----------------------------------
+[00:58:56] ------   Matreshka Started   ------
+[00:58:56] ------   By @vernetto_alex   ------
+[00:58:56] ----------------------------------
+
+[00:58:56] Number of vehicle models: 0
+[00:59:18] [connection] 127.0.0.1:56031 requests connection cookie.
+[00:59:19] [connection] incoming connection: 127.0.0.1:56031 id: 0
+[00:59:20] [join] Silence_Boss has joined the server (0:127.0.0.1)
+[00:59:45] [part] Silence_Boss has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[01:00:49] filterscripts = ""  (string)
+[01:00:49] 
+[01:00:49] Server Plugins
+[01:00:49] --------------
+[01:00:49]  Loading plugin: mysql
+[01:00:49]  >> plugin.mysql: R41-4 successfully loaded.
+[01:00:49]   Loaded.
+[01:00:49]  Loading plugin: crashdetect
+[01:00:49]   CrashDetect v4.18.1 is OK.
+[01:00:49]   Loaded.
+[01:00:49]  Loading plugin: streamer
+[01:00:49] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[01:00:49]   Loaded.
+[01:00:49]  Loading plugin: sscanf
+[01:00:49] 
+
+[01:00:49]  ===============================
+
+[01:00:49]       sscanf plugin loaded.     
+
+[01:00:49]          Version:  2.8.1        
+
+[01:00:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:00:49]  ===============================
+
+[01:00:49]   Loaded.
+[01:00:49]  Loading plugin: pawncmd
+[01:00:49] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[01:00:49]   Loaded.
+[01:00:49]  Loading plugin: pawnregex
+[01:00:49] Pawn.Regex plugin v1.1 by urShadow loaded
+[01:00:49]   Loaded.
+[01:00:49]  Loaded 6 plugins.
+
+[01:00:49] 
+[01:00:49] Filterscripts
+[01:00:49] ---------------
+[01:00:49]   Loaded 0 filterscripts.
+
+[01:00:57] [LOGS] MySQL started
+[01:00:57] 
+----------------------------------
+[01:00:57] ------   Matreshka Started   ------
+[01:00:57] ------   By @vernetto_alex   ------
+[01:00:57] ----------------------------------
+
+[01:00:57] Number of vehicle models: 0
+[01:01:11] [connection] 127.0.0.1:62211 requests connection cookie.
+[01:01:12] [connection] incoming connection: 127.0.0.1:62211 id: 0
+[01:01:12] [join] Silence_Boss has joined the server (0:127.0.0.1)
+[01:01:41] [part] Silence_Boss has left the server (0:1)
