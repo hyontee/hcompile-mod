@@ -1,0 +1,8 @@
+D:\Night Russia\Night Russia es gui\gamemodes\green.pwn(69) : ôàòàëüíàÿ îøèáêà 100: íåâîçìîæíî ïðî÷åñòü ôàéë: "json"
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:1.
