@@ -1,0 +1,9 @@
+Compilation completed with Pawn compiler 3.10.10.
+Result: 0 errors, 56 warnings.
+Output: gamemodes/moscow.amx
+
+Additional compile fixes:
+- Fixed Linux filename-case compatibility for mxINI.inc and inventory.inc.
+- Fixed a split return expression in transport_company.pwn.
+- Fixed four duplicated fam_id initializers in moscow.pwn.
+- gordeev_guard plugin dependency remains removed.

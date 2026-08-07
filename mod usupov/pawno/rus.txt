@@ -1,0 +1,161 @@
+..\gamemodes\gordeev/gordeev.inc(1238) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+../gamemodes/modules/core/inventory/inventory.inc(70) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+..\gamemodes\new.pwn(64678) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+..\gamemodes\new.pwn(65983) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+..\gamemodes\new.pwn(1) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+E:\mode usupov\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+E:\mode usupov\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+..\gamemodes\new.pwn(61) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+..\gamemodes\new.pwn(62) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+..\gamemodes\gordeev/gordeev.inc(211) : предупреждение 200: символ "g_gordeev_tune_return_has_vehic" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(223) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(330) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(753) : предупреждение 200: символ "Gordeev_TuneBuildTechStatusArra" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(781) : предупреждение 200: символ "g_gordeev_tune_return_has_vehic" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(838) : предупреждение 200: символ "g_gordeev_tune_return_has_vehic" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(910) : предупреждение 200: символ "Gordeev_TuneBuildTechStatusArra" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1034) : предупреждение 200: символ "Gordeev_TuneApplyCollapseOperat" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1100) : предупреждение 200: символ "Gordeev_TuneApplyDetailOperatio" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1212) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1216) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1220) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1224) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1238) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1293) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1296) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1299) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1302) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1345) : предупреждение 200: символ "Gordeev_RadialSendSuspensionRes" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1463) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1463) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1465) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1570) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1575) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1580) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1585) : предупреждение 200: символ "Gordeev_RadialIsFullSetInstalle" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1761) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1763) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1770) : предупреждение 200: символ "Gordeev_RadialSendSuspensionRes" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1778) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1784) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1790) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1796) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1800) : предупреждение 200: символ "g_gordeev_radial_suspension_mod" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1830) : неправильная табуляция
+..\gamemodes\gordeev/gordeev.inc(1904) : предупреждение 200: символ "Gordeev_TuneApplyDetailOperatio" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(1918) : предупреждение 200: символ "Gordeev_TuneApplyCollapseOperat" обрезан до 31 символов
+..\gamemodes\gordeev/gordeev.inc(2115) : неправильная табуляция
+../gamemodes/modules/core/admin/callbacks.pwn(5) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+../gamemodes/modules/core/vehicle/auto-race/callbacks.pwn(5) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+..\gamemodes\new.pwn(8036) : идентификатору присвоено значение, но он не используется: "string"
+..\gamemodes\new.pwn(8151) : неправильная табуляция
+..\gamemodes\new.pwn(8323) : идентификатор не используется: "cache"
+..\gamemodes\new.pwn(10441) : идентификатору присвоено значение, но он не используется: "carid"
+..\gamemodes\new.pwn(11311) : неправильная табуляция
+..\gamemodes\new.pwn(11309) : идентификатору присвоено значение, но он не используется: "job_car"
+..\gamemodes\new.pwn(12233) : неправильная табуляция
+..\gamemodes\new.pwn(12300) : неправильная табуляция
+..\gamemodes\new.pwn(13258) : неправильная табуляция
+..\gamemodes\new.pwn(14232) : идентификатору присвоено значение, но он не используется: "carid"
+..\gamemodes\new.pwn(14249) : идентификатору присвоено значение, но он не используется: "s"
+..\gamemodes\new.pwn(15512) : предупреждение 216: вложенный комментарий
+..\gamemodes\new.pwn(25335) : неправильная табуляция
+..\gamemodes\new.pwn(25331) : идентификатору присвоено значение, но он не используется: "action_id"
+..\gamemodes\new.pwn(25330) : идентификатору присвоено значение, но он не используется: "action_type"
+..\gamemodes\new.pwn(25518) : неправильная табуляция
+..\gamemodes\new.pwn(25516) : идентификатору присвоено значение, но он не используется: "action_id"
+..\gamemodes\new.pwn(25515) : идентификатору присвоено значение, но он не используется: "action_type"
+..\gamemodes\new.pwn(28388) : неправильная табуляция
+..\gamemodes\new.pwn(28540) : неправильная табуляция
+..\gamemodes\new.pwn(29194) : неправильная табуляция
+..\gamemodes\new.pwn(30984) : неправильная табуляция
+..\gamemodes\new.pwn(31004) : неправильная табуляция
+..\gamemodes\new.pwn(31017) : неправильная табуляция
+..\gamemodes\new.pwn(31073) : неправильная табуляция
+..\gamemodes\new.pwn(31071) : идентификатору присвоено значение, но он не используется: "fmt_text"
+..\gamemodes\new.pwn(31099) : неправильная табуляция
+..\gamemodes\new.pwn(31097) : идентификатору присвоено значение, но он не используется: "fmt_text"
+..\gamemodes\new.pwn(37411) : предупреждение 213: несовпадение типов
+..\gamemodes\new.pwn(37487) : неправильная табуляция
+..\gamemodes\new.pwn(38330) : неправильная табуляция
+..\gamemodes\new.pwn(38335) : неправильная табуляция
+..\gamemodes\new.pwn(38331) : идентификатору присвоено значение, но он не используется: "car_type"
+..\gamemodes\new.pwn(40238) : предупреждение 213: несовпадение типов
+..\gamemodes\new.pwn(41051) : неправильная табуляция
+..\gamemodes\new.pwn(41056) : неправильная табуляция
+..\gamemodes\new.pwn(41061) : неправильная табуляция
+..\gamemodes\new.pwn(44850) : идентификатору присвоено значение, но он не используется: "spawn_time"
+..\gamemodes\new.pwn(46865) : идентификатор не используется: "markertype"
+..\gamemodes\new.pwn(47021) : идентификатор не используется: "playerid"
+..\gamemodes\new.pwn(47069) : идентификатору присвоено значение, но он не используется: "price"
+..\gamemodes\new.pwn(47106) : идентификатору присвоено значение, но он не используется: "price"
+..\gamemodes\new.pwn(47660) : неправильная табуляция
+..\gamemodes\new.pwn(47681) : неправильная табуляция
+..\gamemodes\new.pwn(64389) : предупреждение 218: старый стиль прототипов с необязательным символом ";" в конце
+..\gamemodes\new.pwn(64467) : неправильная табуляция
+..\gamemodes\new.pwn(64601) : идентификатору присвоено значение, но он не используется: "errCode"
+..\gamemodes\new.pwn(64601) -- (64608) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64601) -- (64608) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64601) -- (64608) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64601) -- (64608) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64613) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64613) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64613) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+..\gamemodes\new.pwn(64628) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+..\gamemodes\new.pwn(64876) : предупреждение 200: символ "GordeevRadial_GetOwnableSqlByVe" обрезан до 31 символов
+..\gamemodes\new.pwn(64941) : предупреждение 200: символ "GordeevRadial_GetOwnableSqlByVe" обрезан до 31 символов
+..\gamemodes\new.pwn(64962) : предупреждение 200: символ "GordeevRadial_GetOwnableSqlByVe" обрезан до 31 символов
+..\gamemodes\new.pwn(64993) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\new.pwn(64995) : предупреждение 200: символ "GordeevRadial_GetOwnableSqlByVe" обрезан до 31 символов
+..\gamemodes\new.pwn(65039) : предупреждение 200: символ "GordeevRadial_GetOwnableSqlByVe" обрезан до 31 символов
+..\gamemodes\new.pwn(65350) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+..\gamemodes\new.pwn(65365) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+..\gamemodes\new.pwn(65380) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+..\gamemodes\new.pwn(65391) : неправильная табуляция
+..\gamemodes\new.pwn(65488) : неправильная табуляция
+..\gamemodes\new.pwn(65630) : неправильная табуляция
+..\gamemodes\new.pwn(65635) : неправильная табуляция
+..\gamemodes\new.pwn(65641) : неправильная табуляция
+..\gamemodes\new.pwn(65723) : идентификатору присвоено значение, но он не используется: "fmt_text"
+..\gamemodes\new.pwn(65764) : неправильная табуляция
+..\gamemodes\new.pwn(65830) : неправильная табуляция
+..\gamemodes\new.pwn(65845) : неправильная табуляция
+..\gamemodes\new.pwn(66611) : предупреждение 200: символ "GordeevRadialResolveOwnableVehi" обрезан до 31 символов
+..\gamemodes\new.pwn(66633) : предупреждение 200: символ "GordeevRadialResolveOwnableVehi" обрезан до 31 символов
+..\gamemodes\new.pwn(66650) : предупреждение 200: символ "GordeevRadialResolveOwnableVehi" обрезан до 31 символов
+..\gamemodes\new.pwn(66652) : предупреждение 200: символ "GordeevRadialSaveSuspensionUnlo" обрезан до 31 символов
+..\gamemodes\new.pwn(67837) : предупреждение 213: несовпадение типов
+..\gamemodes\new.pwn(222) : идентификатор не используется: "DuelCash"
+..\gamemodes\new.pwn(221) : идентификатор не используется: "DuelTimer"
+..\gamemodes\new.pwn(67796) : идентификатор не используется: "LoadPlayerGraphicSettings"
+..\gamemodes\new.pwn(11299) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+..\gamemodes\new.pwn(67768) : идентификатор не используется: "SavePlayerGraphicSettings"
+..\gamemodes\new.pwn(8900) : идентификатору присвоено значение, но он не используется: "kyrpick"
+..\gamemodes\new.pwn(7270) : идентификатор не используется: "player_select_accessory"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   26224 байт
+Размер кода:		 2246236 байт
+Размер данных:		53293920 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование=6875 ячеек (27500 байт)
+Всего требуется:	55591380 байт
+
+Предупреждений:79.
