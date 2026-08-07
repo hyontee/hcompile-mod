@@ -1,0 +1,60 @@
+moscow.pwn(1) : warning 218: old style prototypes used with optional semicolumns
+../pawno/include/mxINI.inc(331) : warning 214: possibly a "const" array argument was intended: "szFilePath"
+../pawno/include/mxINI.inc(705) : warning 214: possibly a "const" array argument was intended: "szKeyName"
+../include/mxdate.inc(114) : warning 214: possibly a "const" array argument was intended: "formatStr"
+../include/fdialog.inc(18) : warning 214: possibly a "const" array argument was intended: "button2"
+../include/fdialog.inc(18) : warning 214: possibly a "const" array argument was intended: "button1"
+../include/fdialog.inc(18) : warning 214: possibly a "const" array argument was intended: "info"
+../include/fdialog.inc(18) : warning 214: possibly a "const" array argument was intended: "caption"
+../include/system/vehicle.pwn(483) : warning 214: possibly a "const" array argument was intended: "text"
+../include/system/vehicle.pwn(492) : warning 214: possibly a "const" array argument was intended: "text"
+../pawno/include/customtune.inc(322) : warning 214: possibly a "const" array argument was intended: "texName"
+moscow.pwn(113) : warning 218: old style prototypes used with optional semicolumns
+moscow.pwn(114) : warning 218: old style prototypes used with optional semicolumns
+../gamemodes/modules/core/vehicle/auto-race/callbacks.pwn(5) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(171) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(172) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(173) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(175) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(176) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(177) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(178) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(179) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(180) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(181) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(182) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(183) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(184) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(185) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(186) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(187) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(188) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(189) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(191) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(192) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(193) : warning 218: old style prototypes used with optional semicolumns
+gordeev/systems/new_promo.pwn(2156) : warning 229: index tag mismatch (symbol "promoData"): expected tag none ("_"), but found "E_PROMO_DATA"
+gordeev/auction/auction.pwn(2279) : warning 214: possibly a "const" array argument was intended: "number_vehicle"
+gordeev/auction/auction.pwn(2279) : warning 214: possibly a "const" array argument was intended: "opisanie"
+gordeev/auction/auction.pwn(2925) : warning 214: possibly a "const" array argument was intended: "string"
+moscow.pwn(7658) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(45239) : warning 214: possibly a "const" array argument was intended: "name"
+moscow.pwn(48985) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(50280) : warning 214: possibly a "const" array argument was intended: "dest"
+moscow.pwn(50673) : warning 214: possibly a "const" array argument was intended: "input"
+moscow.pwn(52027) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(52092) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(52109) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(52142) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(52338) : warning 214: possibly a "const" array argument was intended: "dest"
+moscow.pwn(52564) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(52594) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(63437) : warning 214: possibly a "const" array argument was intended: "text"
+moscow.pwn(64813) : warning 214: possibly a "const" array argument was intended: "message"
+moscow.pwn(65590) : warning 214: possibly a "const" array argument was intended: "text"
+moscow.pwn(67995) : warning 214: possibly a "const" array argument was intended: "string_qm"
+moscow.pwn(70498) : warning 218: old style prototypes used with optional semicolumns
+Pawn compiler 3.10.10	 	 	Copyright (c) 1997-2006, ITB CompuPhase
+
+
+56 Warnings.
