@@ -1,0 +1,13 @@
+gordeev/systems/new_promo.pwn(2156) : предупреждение 229: несовпадение типов индекса (идентификатор "promoData")
+gordeev/auction/auction.pwn(122) : предупреждение: рекурсия в ch_OnDialogResponse
+D:\mod usupov\gamemodes\moscow.pwn(39917) : предупреждение: рекурсия в ShowPlayerHouseDialog
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   31292 байт
+Размер кода:		 3281000 байт
+Размер данных:		122677636 байт
+Размер стэка\кучи:	 2097152 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	128087080 байт
+
+Предупреждений:3.
