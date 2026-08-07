@@ -1,0 +1,33 @@
+../gamemodes/dovard-252/ipacket.inc(634) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(27032) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(27095) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(27129) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(27621) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(27656) : ошибка 017: необъявленный символ "pc_cmd_createpromo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34406) : ошибка 017: необъявленный символ "pc_cmd_createytpromo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34415) : ошибка 017: необъявленный символ "pc_cmd_createytpromo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34423) : ошибка 017: необъявленный символ "pc_cmd_createytpromo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34443) : ошибка 017: необъявленный символ "pc_cmd_createytpromo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34613) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34645) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34673) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34702) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34730) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34760) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34788) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34823) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34851) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34888) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34916) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34953) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(34981) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(35019) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(35047) : ошибка 017: необъявленный символ "pc_cmd_promo"
+D:\Dovard Studio V2 BETA PWN\gamemodes\dovard.pwn(35086) : ошибка 017: необъявленный символ "pc_cmd_promo"
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
