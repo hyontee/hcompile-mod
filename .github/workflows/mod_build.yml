@@ -1,0 +1,35 @@
+name: Mod Build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Debug repo contents
+        shell: bash
+        run: |
+          echo "Repository tree:"
+          find . -type f -print
+      - name: Compile PAWN scripts
+        shell: bash
+        run: |
+          pawn=$(find . -type f -name "pawncc" -o -name "pawncc.exe" | head -n 1)
+          if [ -z "$pawn" ]; then
+            echo "pawncc not found"
+            exit 1
+          fi
+          echo "Using pawncc: $pawn"
+          find . -type f -name "*.pwn" | while read -r pwn; do
+            dir=$(dirname "$pwn")
+            base=$(basename "$pwn" .pwn)
+            out="$dir/$base.amx"
+            "$pawn" "$pwn" -o"$out" "-iinclude" "-ipawno/include" "-iinclude/lib" "-iinclude/system" "-;+" "-(+"
+          done
+      - name: Upload AMX artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: amx-artifacts
+          path: '**/*.amx'
