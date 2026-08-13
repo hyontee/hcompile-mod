@@ -1,0 +1,5 @@
+../include/system/autumn_event.inc(220) : îøèáêà 025: çàãîëîâîê ôóíêöèè îòëè÷àåòñÿ îò ïðîòîòèïà
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:1.
