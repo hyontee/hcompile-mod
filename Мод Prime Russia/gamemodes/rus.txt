@@ -1,0 +1,774 @@
+../include/mxdate.inc(120) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(668) : предупреждение 219: переменная "group" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(681) : предупреждение 219: переменная "group" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(690) : предупреждение 219: переменная "group" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(1039) : предупреждение 201: повторное объявление константы/макроса (идентификатор "c_red")
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(3139) : предупреждение 201: повторное объявление константы/макроса (идентификатор "DIALOG_DONATE_OPEN")
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(4193) : предупреждение 228: длина инициализатора превышает размер поля enum
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(4478) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(4479) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(4483) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5420) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5421) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5421) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5423) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5424) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5427) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5432) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5433) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5436) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5444) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5445) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5454) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5456) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(5457) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7702) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7716) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7720) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7723) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7733) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7733) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7733) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7737) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7738) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7758) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7767) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7769) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7773) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7774) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7791) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7794) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7797) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7797) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7798) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7799) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7800) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7801) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7803) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7804) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7806) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7815) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8091) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8092) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8099) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8119) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8161) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8163) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8164) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8168) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(8384) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9627) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9631) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9636) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9640) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9649) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(9503) : идентификатору присвоено значение, но он не используется: "carid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10128) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10377) : идентификатору присвоено значение, но он не используется: "color2"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10376) : идентификатору присвоено значение, но он не используется: "color1"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10510) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10521) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10554) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10570) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10699) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10706) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10720) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10727) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10748) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10758) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10771) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10784) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10813) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10830) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10828) : идентификатору присвоено значение, но он не используется: "job_car"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(12606) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13485) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13504) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13517) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13575) : идентификатору присвоено значение, но он не используется: "skin"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13590) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13595) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13611) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13633) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13650) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13667) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13673) : идентификатору присвоено значение, но он не используется: "carid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13690) : идентификатору присвоено значение, но он не используется: "s"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13772) : предупреждение 219: переменная "str" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13854) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13885) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13887) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(13904) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14016) : предупреждение 219: переменная "warn" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14017) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14016) : идентификатору присвоено значение, но он не используется: "warn"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14030) : предупреждение 219: переменная "warn" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14031) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14030) : идентификатору присвоено значение, но он не используется: "warn"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14109) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14125) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14128) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14128) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14203) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14212) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14221) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14255) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14255) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14285) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14287) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14288) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14294) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14295) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14296) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14298) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14313) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14315) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14321) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14323) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14338) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14341) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14347) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14350) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14362) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14464) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14467) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14473) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14476) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14568) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14571) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14577) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14580) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14766) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14768) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14791) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14794) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14800) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14803) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14895) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14898) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14904) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(14907) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15003) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15006) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15012) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15015) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15103) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15106) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15112) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15115) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15199) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15202) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15208) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15211) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15296) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15299) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15305) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15308) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15425) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15426) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15427) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15436) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15437) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15438) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15447) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15448) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15449) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15458) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15459) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15460) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15469) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15470) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15471) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15480) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15481) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15482) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15491) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15492) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15493) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15502) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15503) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15504) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15513) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15514) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15515) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15526) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15527) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15528) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15538) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15539) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15540) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15551) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15552) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15553) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15564) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15565) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15566) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15576) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15577) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15578) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15589) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15590) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15591) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15602) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15603) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15604) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15615) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15616) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15617) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15627) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15628) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15629) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15640) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15641) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15642) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15652) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15653) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15654) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15664) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15665) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15666) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15676) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15677) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15678) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15687) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15688) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15689) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15699) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15700) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15701) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15715) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15775) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15835) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(15969) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16049) -- (16058) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16062) -- (16068) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16119) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16119) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16119) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16126) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16126) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16126) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16133) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16133) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16133) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16141) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16141) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16141) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16149) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16149) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16149) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16156) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16156) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16156) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16163) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16163) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16163) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16170) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16170) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16170) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16178) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16178) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16178) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16185) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16185) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16185) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16192) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16192) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16192) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16199) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16199) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16199) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16206) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16206) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(16206) : предупреждение 215: выражение не имеет эффекта
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(17117) : идентификатору присвоено значение, но он не используется: "randomize"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(17171) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(17180) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(17501) : идентификатору присвоено значение, но он не используется: "textAdmins"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22799) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22800) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22803) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22803) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22804) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(22804) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23259) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23260) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23838) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23869) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23872) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23902) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23905) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23935) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23966) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(23997) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(24029) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29395) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29391) : идентификатору присвоено значение, но он не используется: "action_id"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29390) : идентификатору присвоено значение, но он не используется: "action_type"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29578) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29576) : идентификатору присвоено значение, но он не используется: "action_id"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(29575) : идентификатору присвоено значение, но он не используется: "action_type"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34716) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34736) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34749) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34805) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34803) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34831) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(34829) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(36776) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(36798) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(36952) -- (36960) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(36952) -- (36962) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(37250) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(37237) : идентификатору присвоено значение, но он не используется: "fmt_msg"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38043) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38043) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38073) : предупреждение 209: функция "ac_OnPlayerClickMap" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38462) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38466) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(38853) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39510) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39520) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39530) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39545) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39557) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39571) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39574) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39586) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39587) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39593) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39595) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39595) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39614) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39645) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39648) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39660) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39661) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39667) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39669) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39669) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39688) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39705) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39719) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39722) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39734) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39735) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39741) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39743) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39743) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39762) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39793) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39796) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39808) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39809) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39815) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39817) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39817) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39836) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39853) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39867) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39870) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39882) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39883) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39889) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39891) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39891) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39910) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39927) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39935) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40451) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40457) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40463) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40469) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40475) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42756) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42832) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42937) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42943) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42950) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42956) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42962) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42968) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42974) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42980) : идентификатору присвоено значение, но он не используется: "rand"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(42934) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43018) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43020) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43021) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43022) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43020) : идентификатору присвоено значение, но он не используется: "admin"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43160) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43164) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43171) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43179) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43196) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43364) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(43022) : идентификатору присвоено значение, но он не используется: "label"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(44334) : предупреждение 219: переменная "jobid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(44343) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(44348) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(44344) : идентификатору присвоено значение, но он не используется: "car_type"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46027) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46047) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46066) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46085) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46105) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46126) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46147) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46185) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(46994) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(50888) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(50909) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(50910) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(51232) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(51592) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(51806) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(52254) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(52500) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(52875) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(52954) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(53572) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55266) : ошибка 017: необъявленный символ "posX"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55336) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55361) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55512) : идентификатор не используется: "markertype"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55668) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55716) : идентификатору присвоено значение, но он не используется: "price"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(55753) : идентификатору присвоено значение, но он не используется: "price"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58842) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58843) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58876) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58913) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58842) : идентификатору присвоено значение, но он не используется: "fmt_text4"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(58963) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59123) : предупреждение 225: недостижимый код
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59124) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59653) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59749) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59788) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59790) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59793) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59795) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(59872) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60357) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60444) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60463) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60467) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60531) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(60541) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(61650) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(61694) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(62116) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(62391) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(70696) -- (70703) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(70696) -- (70704) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(70696) -- (70705) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(71390) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(71391) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73105) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73217) : идентификатору присвоено значение, но он не используется: "errCode"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73217) -- (73224) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73217) -- (73224) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73217) -- (73224) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73217) -- (73224) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73229) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73229) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73229) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73244) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73566) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73581) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73596) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73606) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73703) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73953) : идентификатору присвоено значение, но он не используется: "fmt_text"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(73994) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74080) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74095) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74186) : предупреждение 209: функция "pc_cmd_fastcmd" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74945) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74948) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74974) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74975) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(74976) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75016) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75026) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75029) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75030) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75033) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75039) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75048) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75051) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75052) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75055) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75061) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75070) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75073) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75074) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75077) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75083) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75092) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75095) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75096) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75099) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75105) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75111) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75139) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75141) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75143) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75144) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75145) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75151) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75162) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75164) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75166) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75167) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75160) : идентификатору присвоено значение, но он не используется: "textAdmins"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75160) : идентификатору присвоено значение, но он не используется: "textAdmin"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75160) : идентификатору присвоено значение, но он не используется: "textPlayer"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75214) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75358) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75463) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75465) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75480) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75490) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75491) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75491) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75492) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75493) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75505) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75506) : предупреждение 225: недостижимый код
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75506) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75506) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75507) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75491) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75515) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75516) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75517) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75526) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75527) : предупреждение 225: недостижимый код
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75527) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75527) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75528) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75515) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75537) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75538) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75539) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75539) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75549) : предупреждение 225: недостижимый код
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75549) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75549) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75550) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75537) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75575) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75575) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75575) -- (75671) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75671) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75671) -- (75769) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75769) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75769) -- (75865) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75867) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75869) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75865) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75865) -- (75963) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75963) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(75963) -- (76061) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76061) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76061) -- (76157) : предупреждение 219: переменная "playerid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76157) : идентификатор не используется: "playerid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76256) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76331) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76332) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76334) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76336) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76343) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76345) : предупреждение 225: недостижимый код
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76351) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76355) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76366) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76383) : идентификатору присвоено значение, но он не используется: "day_time"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76372) : идентификатор не используется: "day_last"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76371) : идентификатор не используется: "day_prev"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76472) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76556) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76558) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76561) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76564) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76565) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76567) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76568) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76570) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76571) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76573) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76574) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76576) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76577) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76579) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76580) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76582) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76657) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76680) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76722) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76722) -- (76752) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76753) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76759) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76759) -- (76770) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76771) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76786) : предупреждение 209: функция "pc_cmd_nabor" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76793) -- (76801) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76803) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76827) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76828) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76829) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76830) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76831) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76832) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76812) -- (76833) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(76835) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77200) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77203) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77221) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77267) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77271) : предупреждение 209: функция "clickplay" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77338) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77361) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77362) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77364) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77365) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77468) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77447) : идентификатор не используется: "car_price"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77661) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77778) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77788) -- (77862) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77870) -- (77932) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77940) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77944) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77946) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77949) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77968) : предупреждение 213: несовпадение типов
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77978) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(77991) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78114) : предупреждение 209: функция "pc_cmd_rem" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78126) : предупреждение 209: функция "pc_cmd_remoff" должна возвращать значение
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78149) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78151) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78139) : идентификатору присвоено значение, но он не используется: "result"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78211) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "Vodo")
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78234) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78259) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78279) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78319) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78328) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78340) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78352) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78366) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78389) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78607) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78615) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78617) : предупреждение 219: переменная "vehicleid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78618) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78620) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78621) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78622) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78618) : идентификатору присвоено значение, но он не используется: "v_speed"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78617) : идентификатору присвоено значение, но он не используется: "vehicleid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78617) -- (78626) : предупреждение 219: переменная "vehicleid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78627) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78629) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78630) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78631) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78627) : идентификатору присвоено значение, но он не используется: "v_speed"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78626) : идентификатору присвоено значение, но он не используется: "vehicleid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78626) -- (78635) : предупреждение 219: переменная "vehicleid" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78636) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78638) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78639) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78640) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78636) : идентификатору присвоено значение, но он не используется: "v_speed"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78636) -- (78642) : неправильная табуляция
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(78790) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(257) : идентификатор не используется: "DuelCash"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(256) : идентификатор не используется: "DuelTimer"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(360) : идентификатор не используется: "IDPlayerAdminPrefix"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(10818) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(129) : идентификатор не используется: "Povor"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7764) : идентификатору присвоено значение, но он не используется: "RazdewBolka"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7767) : идентификатору присвоено значение, но он не используется: "RazdewFSIN"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7763) : идентификатору присвоено значение, но он не используется: "RazdewFsb"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7761) : идентификатору присвоено значение, но он не используется: "RazdewGibdd"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7762) : идентификатору присвоено значение, но он не используется: "RazdewMvd"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7760) : идентификатору присвоено значение, но он не используется: "RazdewPravo"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7765) : идентификатору присвоено значение, но он не используется: "RazdewTrk"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7766) : идентификатору присвоено значение, но он не используется: "RazdewVoenka"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(112) : идентификатор не используется: "SetAdmin"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(357) : идентификатор не используется: "UserInfo"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(358) : идентификатор не используется: "UserNotif"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(161) : идентификатор не используется: "brak"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(130) : идентификатор не используется: "capitanp"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(219) : идентификатор не используется: "dejyrniyarmiya"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(221) : идентификатор не используется: "dejyrniyarmiyamestolootgo"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(326) : идентификатор не используется: "el1"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(327) : идентификатор не используется: "el2"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(328) : идентификатор не используется: "el3"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(138) : идентификатор не используется: "jobid"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7877) : идентификатору присвоено значение, но он не используется: "kyrpick"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(180) : идентификатор не используется: "minarz"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(200) : идентификатор не используется: "minbus"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(192) : идентификатор не используется: "minkar"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(181) : идентификатор не используется: "minvish"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(172) : идентификатор не используется: "minzavod"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7718) : идентификатору присвоено значение, но он не используется: "mysactor"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7732) : идентификатору присвоено значение, но он не используется: "otdelgibdd"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7799) : идентификатору присвоено значение, но он не используется: "pcclubcs"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(116) : идентификатор не используется: "pickupaks99"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7774) : идентификатору присвоено значение, но он не используется: "pickupopg"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7775) : идентификатору присвоено значение, но он не используется: "pickupopgb"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7733) : идентификатору присвоено значение, но он не используется: "pickupotd1"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7734) : идентификатору присвоено значение, но он не используется: "pickupotd2"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7735) : идентификатору присвоено значение, но он не используется: "pickupotd3"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7736) : идентификатору присвоено значение, но он не используется: "pickupotd4"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7737) : идентификатору присвоено значение, но он не используется: "pickupotd5"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(7738) : идентификатору присвоено значение, но он не используется: "pickupotd6"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(176) : идентификатор не используется: "razdgriz"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(185) : идентификатор не используется: "sicarz"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(201) : идентификатор не используется: "sicbus"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(193) : идентификатор не используется: "sickar"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(184) : идентификатор не используется: "sicvish"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(173) : идентификатор не используется: "siczavod"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(114) : идентификатор не используется: "telefonsystem_PTD"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(202) : идентификатор не используется: "timebusz"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(186) : идентификатор не используется: "timerarz"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39711) : идентификатору присвоено значение, но он не используется: "timerarzl"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39859) : идентификатору присвоено значение, но он не используется: "timerbuszl"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(194) : идентификатор не используется: "timerkar"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39785) : идентификатору присвоено значение, но он не используется: "timerkarr"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39563) : идентификатору присвоено значение, но он не используется: "timerochkov"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(39637) : идентификатору присвоено значение, но он не используется: "timerzavodp"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40374) : идентификатору присвоено значение, но он не используется: "vishka3"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40420) : идентификатору присвоено значение, но он не используется: "vishka4"
+D:\Моды Raymix\Мод Klash Russia\gamemodes\black.pwn(40397) : идентификатору присвоено значение, но он не используется: "vishka5"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
