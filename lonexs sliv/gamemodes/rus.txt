@@ -1,0 +1,5 @@
+../gamemodes/lonexs/calendar.inc(43) : ошибка 010: неверная функция или объявление
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
