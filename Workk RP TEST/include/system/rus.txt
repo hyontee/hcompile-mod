@@ -1,6 +1,0 @@
-D:\rostovskiy rp\include\system\vehicle.pwn(2305) : ошибка 017: необъявленный символ "STREAMER_3D_TEXT_LABEL_SD"
-D:\rostovskiy rp\include\system\vehicle.pwn(2137) : идентификатор не используется: "g_vehicle_info"
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
-
-Ошибок:1.
