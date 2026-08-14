@@ -1,0 +1,29 @@
+../include/system/pickup.pwn(120) : îøèáêà 079: íåñîâìåñòèìûé âîçâðàùàåìûé òèï (ìàññèâ è íåìàññèâ)
+../include/system/pickup.pwn(122) : îøèáêà 079: íåñîâìåñòèìûé âîçâðàùàåìûé òèï (ìàññèâ è íåìàññèâ)
+../include/system/vehicle.pwn(343) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "IsABike"
+D:\Workk RP TEST\gamemodes\MobileRussia.pwn(157) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
+../include/anticheat.inc(2014) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnPlayerUpdate"
+../include/anticheat.inc(2510) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnRconLoginAttempt"
+../include/anticheat.inc(2546) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnVehicleMod"
+../include/anticheat.inc(2580) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnVehiclePaintjob"
+../include/anticheat.inc(2659) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnPlayerSelectedMenuRow"
+../include/anticheat.inc(2679) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnPlayerExitedMenu"
+../include/anticheat.inc(2703) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnPlayerClickPlayer"
+../include/anticheat.inc(2838) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnPlayerClickMap"
+../include/anticheat.inc(2910) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ac_OnVehicleRespray"
+../include/system/tuning_wheels.pwn(246) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GivePlayerMoneyEx"
+../include/system/tuning_wheels.pwn(288) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ShowHud"
+../include/system/tuning_wheels.pwn(419) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "tun_OnPlayerClickPlayerTextD"
+../include/system/tuning_wheels.pwn(473) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "HideHud"
+../include/system/tuning_wheels.pwn(619) -- (620) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "g_VehHandlingInfo"
+../include/system/tuning_wheels.pwn(620) : ïðåäóïðåæäåíèå 215: âûðàæåíèå íå èìååò ýôôåêòà
+../include/system/tuning_wheels.pwn(620) : îøèáêà 001: îæèäàëñÿ òîêåí ";", íî íàéäåí "]"
+../include/system/tuning_wheels.pwn(620) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+../include/system/tuning_wheels.pwn(620) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:21.
