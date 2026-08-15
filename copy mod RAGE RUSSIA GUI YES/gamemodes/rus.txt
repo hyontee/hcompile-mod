@@ -1,0 +1,11 @@
+D:\copy mod RAGE RUSSIA GUI YES\gamemodes\RAGERUSSIA_MOD.pwn(82347) : ошибка 017: необъявленный символ "pInfo"
+D:\copy mod RAGE RUSSIA GUI YES\gamemodes\RAGERUSSIA_MOD.pwn(82347) : ошибка 001: ожидался токен ";", но найден "]"
+D:\copy mod RAGE RUSSIA GUI YES\gamemodes\RAGERUSSIA_MOD.pwn(82347) : ошибка 029: неправильное выражение, принят ноль
+D:\copy mod RAGE RUSSIA GUI YES\gamemodes\RAGERUSSIA_MOD.pwn(82347) : фатальная ошибка 107: слишком много ошибок на одной строке
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:4.
