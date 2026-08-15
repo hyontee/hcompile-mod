@@ -1,2 +1,0 @@
-	jmethodID s_showAZC;
-void ShowAZC();
