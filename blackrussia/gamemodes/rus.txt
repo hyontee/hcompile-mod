@@ -1,0 +1,33 @@
+../include/system/carshare_welsi.pwn(215) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/carshare_welsi.pwn(220) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/carshare_welsi.pwn(254) : ошибка 017: необъявленный символ "EnablePlayerGPS"
+../include/system/carshare_welsi.pwn(276) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/carshare_welsi.pwn(281) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/exchange_welsi.pwn(423) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/exchange_welsi.pwn(424) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/exchange_welsi.pwn(611) : ошибка 017: необъявленный символ "GetElapsedTime"
+../include/system/exchange_welsi.pwn(631) : ошибка 017: необъявленный символ "UpdateHouse"
+../include/system/exchange_welsi.pwn(633) : ошибка 017: необъявленный символ "HouseHealthInit"
+../include/system/exchange_welsi.pwn(634) : ошибка 017: необъявленный символ "HouseStoreInit"
+../include/system/exchange_welsi.pwn(816) : ошибка 021: идентификатор "Dialog" уже объявлен
+../include/system/exchange_welsi.pwn(817) : ошибка 021: идентификатор "ShowNotificationNew" уже объявлен
+D:\blackrussia\pawno\include\brnotification.inc(26) : ошибка 021: идентификатор "pr_rip_251" уже объявлен
+D:\blackrussia\pawno\include\brnotification.inc(27) : ошибка 021: идентификатор "pr_ip_251" уже объявлен
+../include/system/mchs.pwn(156) : ошибка 017: необъявленный символ "CreateActorEx"
+../include/system/mchs.pwn(240) : ошибка 017: необъявленный символ "SetPlayerPosEx"
+../include/system/mchs.pwn(244) : ошибка 017: необъявленный символ "SetPlayerPosEx"
+../include/system/mchs.pwn(292) : ошибка 017: необъявленный символ "EnablePlayerGPS"
+../include/system/mchs.pwn(426) : ошибка 004: функция "GivePlayerMoneyEx" не реализована
+../include/system/mchs.pwn(450) : ошибка 004: функция "mchs_OnPlayerKeyStateChange" не реализована
+../include/system/mchs.pwn(522) : ошибка 004: функция "mchs_OnPlayerKeyStateChange" не реализована
+../include/system/inventory_skin.pwn(464) : ошибка 017: необъявленный символ "GetPlayerSkinEx"
+../include/system/inventory_skin.pwn(543) : ошибка 017: необъявленный символ "UpdatePlayerDatabaseInt"
+../include/system/inventory_skin.pwn(551) : ошибка 017: необъявленный символ "SetPlayerSkinInit"
+../include/system/weekly_prizes.pwn(164) : ошибка 017: необъявленный символ "GetDayOfWeek"
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
