@@ -1,0 +1,51 @@
+../include/sscanf2.inc(149) : warning 219: local variable "name" shadows a variable at a preceding level
+../include/sscanf2.inc(193) : warning 219: local variable "name" shadows a variable at a preceding level
+../include/sscanf2.inc(236) : warning 219: local variable "name" shadows a variable at a preceding level
+../include/sscanf2.inc(240) : error 017: undefined symbol "SSCANF_OnPlayerConnect"
+../include/sscanf2.inc(264) : error 017: undefined symbol "SSCANF_OnPlayerDisconnect"
+..\gamemodes\death.pwn(555) : warning 219: local variable "id" shadows a variable at a preceding level
+..\gamemodes\death.pwn(555) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1026) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1376) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1423) : error 004: function "SavePlayerAccount" is not implemented
+..\gamemodes\death.pwn(1451) : error 004: function "GetPlayerBlackCoin" is not implemented
+..\gamemodes\death.pwn(1465) : error 004: function "GetPlayerBlackCoin" is not implemented
+..\gamemodes\death.pwn(1479) : warning 219: local variable "targetid" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1505) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1586) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1615) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1728) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1794) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1798) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1811) : error 004: function "GivePlayerMoneyEx" is not implemented
+..\gamemodes\death.pwn(1813) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(1840) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1842) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1854) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1856) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1864) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1866) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(1870) : error 004: function "GivePlayerBlackCoin" is not implemented
+..\gamemodes\death.pwn(1875) : error 004: function "SavePlayerAccount" is not implemented
+..\gamemodes\death.pwn(3042) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3119) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3148) : warning 219: local variable "targetid" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3158) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3180) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3283) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3337) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3470) : warning 219: local variable "targetid" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3482) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3487) : error 004: function "GetPlayerSimCard" is not implemented
+..\gamemodes\death.pwn(3496) : error 004: function "GetPlayerMoneyEx" is not implemented
+..\gamemodes\death.pwn(3664) : warning 219: local variable "owner" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3664) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3676) : warning 219: local variable "owner" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3676) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3837) : warning 219: local variable "name" shadows a variable at a preceding level
+..\gamemodes\death.pwn(3852) : error 004: function "GetPlayerSimCard" is not implemented
+..\gamemodes\death.pwn(3855) : error 004: function "GetPlayerMoneyEx" is not implemented
+..\gamemodes\death.pwn(3969) : warning 219: local variable "slot" shadows a variable at a preceding level
+..\gamemodes\death.pwn(4004) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(4009) : error 004: function "ShowNotification" is not implemented
+..\gamemodes\death.pwn(4014) : error 004: function "ShowNotification" is not implemented
