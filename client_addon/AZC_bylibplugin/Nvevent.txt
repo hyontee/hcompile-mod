@@ -1,0 +1,9 @@
+    public native void onFuelStationClick(int fueltype, int fuelliters, int typemoney);
+
+   private azc mAZC = null;
+      mAZC = new azc(this);
+  public void ShowAZC() {
+        runOnUiThread(() -> {
+            mAZC.show();
+        });
+    }
