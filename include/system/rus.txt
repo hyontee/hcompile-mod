@@ -1,0 +1,19 @@
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(27) : ошибка 070: поддержка рациональных чисел не включена
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(41) : ошибка 070: поддержка рациональных чисел не включена
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(65) : ошибка 070: поддержка рациональных чисел не включена
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(120) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(126) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnPlayerEnterDynamicArea")
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(132) : неправильная табуляция
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(140) : ошибка 017: необъявленный символ "ShowNotification"
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(143) : ошибка 017: необъявленный символ "SCM"
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(143) : ошибка 017: необъявленный символ "USC"
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(143) : предупреждение 215: выражение не имеет эффекта
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(143) : ошибка 001: ожидался токен ";", но найден ")"
+C:\Users\Даниил\Desktop\claus v1-1 mode\include\system\diver_welsi.pwn(143) : фатальная ошибка 107: слишком много ошибок на одной строке
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:9.
