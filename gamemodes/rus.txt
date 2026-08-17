@@ -1,6 +1,0 @@
-../include/system/pickup.pwn(132) : ошибка 004: функция "OnPlayerPickUpPickupEx" не реализована
-D:\mode v 0.3 дани by kranin\gamemodes\kranin.pwn(209) : ошибка 001: ожидался токен ";", но найден "-end of file-"
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
-
-Ошибок:2.
