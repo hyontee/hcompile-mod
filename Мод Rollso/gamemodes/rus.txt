@@ -1,0 +1,8 @@
+D:\Telegram\Мод Rollso\gamemodes\Rollso.pwn(31) : фатальная ошибка 100: невозможно прочесть файл: "../include/a_mysql.inc"
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
