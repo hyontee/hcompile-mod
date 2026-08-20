@@ -1,0 +1,7 @@
+лилдраг лох
+
+
+
+gamemode0 conor 1
+
+plugins  streamer.so pawncmd.so mysql.so sql.so PawnPlus-static.so sscanf.so pawnraknet.so TOTP.so gvar.so handshake-linux.so libRakServerLinux.so log-core.so
