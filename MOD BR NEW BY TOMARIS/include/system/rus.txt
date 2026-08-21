@@ -1,0 +1,38 @@
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(30) : ошибка 017: необъ€вленный символ "MAX_PLAYERS"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(32) : ошибка 001: ожидалс€ токен "-identifier-", но найден ":"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(36) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(40) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(43) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(46) : ошибка 001: ожидалс€ токен "-identifier-", но найден ":"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(50) : предупреждение 219: переменна€ "string" уже объ€влена в более глобальной зоне видимости
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(50) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(50) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(51) : ошибка 001: ожидалс€ токен ";", но найден "-identifier-"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(53) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(57) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(59) : предупреждение 219: переменна€ "weekly" уже объ€влена в более глобальной зоне видимости
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(59) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(61) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(63) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(64) : ошибка 054: несоответствующа€ закрывающа€ скобка ("}")
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(66) : предупреждение 219: переменна€ "cache" уже объ€влена в более глобальной зоне видимости
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(68) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(71) : ошибка 001: ожидалс€ токен "-identifier-", но найден ":"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(73) : ошибка 021: идентификатор "string" уже объ€влен
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(75) : предупреждение 219: переменна€ "string" уже объ€влена в более глобальной зоне видимости
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(75) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(75) : предупреждение 215: выражение не имеет эффекта
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(75) : предупреждение 215: выражение не имеет эффекта
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(75) -- (76) : ошибка 017: необъ€вленный символ "playerid"
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(86) : предупреждение 219: переменна€ "query" уже объ€влена в более глобальной зоне видимости
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(86) : ошибка 025: заголовок функции отличаетс€ от прототипа
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(86) : ошибка 010: неверна€ функци€ или объ€вление
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(86) : ошибка 021: идентификатор "mysql_format" уже объ€влен
+C:\Users\Unibest\Desktop\KIRILLPROJECT\новыйдвижок\Ќ≈¬ ƒ¬»∆ќ  –ќяЋ№\include\system\weekly_prizes.pwn(86) : фатальна€ ошибка 107: слишком много ошибок на одной строке
+
+ омпил€ци€ остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+ќшибок:24.
