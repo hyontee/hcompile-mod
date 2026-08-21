@@ -1,0 +1,7 @@
+../gamemodes/MemoryDev/market/market.inc(446) : предупреждение 224: неизвестный размер массива в выражении "sizeof" (идентификатор "len")
+../gamemodes/MemoryDev/garages/garages.pwn(678) : предупреждение 206: лишний код: постоянное выражение истинно
+D:\MemoryDev\gamemodes\new.pwn(21088) : ошибка 017: необъявленный символ "LAIRD_PASS"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
