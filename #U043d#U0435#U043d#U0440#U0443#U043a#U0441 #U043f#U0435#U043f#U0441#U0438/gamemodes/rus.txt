@@ -1,0 +1,7 @@
+../include/system/sto.inc(645) : ошибка 017: необъявленный символ "GetBodyPaintCost"
+../include/system/sto.inc(923) : ошибка 001: ожидался токен "-identifier-", но найден "state"
+../include/system/sto.inc(925) : ошибка 001: ожидался токен "-identifier-", но найден "=="
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:3.
