@@ -1,0 +1,31 @@
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(64) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Bot")
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(65) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+D:\russia rp mod (by crime)\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(126) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(7233) : ошибка 035: несовпадение типов аргументов (аргумент 1)
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(7233) : ошибка 029: неправильное выражение, принят ноль
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(7233) : предупреждение 215: выражение не имеет эффекта
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(7233) : ошибка 017: необъявленный символ "user40803"
+D:\russia rp mod (by crime)\gamemodes\blackrussia.pwn(7233) : фатальная ошибка 107: слишком много ошибок на одной строке
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:4.
