@@ -1,0 +1,9 @@
+donate = 500 
+money = 67000
+vip = 3 
+lvl = 15
+
+nameserver = WHITE STUDIO
+tg = https://t.me/white_studioya
+vk = https://t.me/white_studioya
+site = https://t.me/white_studioya
