@@ -1,0 +1,6 @@
+D:\mod-felix-width-pwn\include\system\vehicle.pwn(533) : ошибка 017: необъявленный символ "STREAMER_3D_TEXT_LABEL_SD"
+D:\mod-felix-width-pwn\include\system\vehicle.pwn(365) : идентификатор не используется: "g_vehicle_info"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
