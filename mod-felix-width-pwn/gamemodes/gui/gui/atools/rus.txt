@@ -1,0 +1,6 @@
+D:\mod-felix-width-pwn\gamemodes\gui\gui\atools\tools.pwn(122) : ошибка 017: необъявленный символ "Kick"
+D:\mod-felix-width-pwn\gamemodes\gui\gui\atools\tools.pwn(106) : идентификатор не используется: "showtools"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
