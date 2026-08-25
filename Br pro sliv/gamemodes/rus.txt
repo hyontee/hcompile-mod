@@ -1,0 +1,9 @@
+../include/system/music.pwn(622) : ошибка 017: необъявленный символ "ShowNotificationKirill"
+../include/system/music.pwn(631) : ошибка 017: необъявленный символ "ShowNotificationKirill"
+D:\Br pro sliv\gamemodes\laird.pwn(50049) : ошибка 025: заголовок функции отличается от прототипа
+D:\Br pro sliv\gamemodes\laird.pwn(50049) : ошибка 025: заголовок функции отличается от прототипа
+D:\Br pro sliv\gamemodes\laird.pwn(50050) : ошибка 021: идентификатор "pc_cmd_music" уже объявлен
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:5.
