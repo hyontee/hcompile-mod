@@ -1,0 +1,8 @@
+D:\исхи 32.64\МОД BLESS RUSSIA\gamemodes\blessrussia.pwn(8821) : фатальная ошибка 100: невозможно прочесть файл: "../gamemodes/DimaMilka-252/ipacket.inc"
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.
