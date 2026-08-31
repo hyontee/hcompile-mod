@@ -1,0 +1,114 @@
+C:\Project\ac_blackrussia\lastMod\pawno\include\java.inc(290) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Bot")
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+C:\Project\ac_blackrussia\lastMod\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(129) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(7605) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(8701) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(9503) : идентификатору присвоено значение, но он не используется: "color2"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(9502) : идентификатору присвоено значение, но он не используется: "color1"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(9650) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(9648) : идентификатору присвоено значение, но он не используется: "job_car"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(10880) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(10883) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(12282) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(12299) : идентификатору присвоено значение, но он не используется: "s"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(12784) : идентификатору присвоено значение, но он не используется: "randomize"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(13551) : предупреждение 216: вложенный комментарий
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24252) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24248) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24247) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24435) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24433) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(24432) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(26306) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(26309) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29576) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29596) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29609) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29665) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29663) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29691) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(29689) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(37618) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(38577) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(38582) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(38578) : идентификатору присвоено значение, но он не используется: "car_type"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(40458) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(48574) : идентификатор не используется: "markertype"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(48730) : идентификатор не используется: "playerid"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(48778) : идентификатору присвоено значение, но он не используется: "price"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(48815) : идентификатору присвоено значение, но он не используется: "price"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66449) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66585) : идентификатору присвоено значение, но он не используется: "errCode"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66585) -- (66592) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66585) -- (66592) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66585) -- (66592) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66585) -- (66592) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66597) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66597) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66597) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66612) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66929) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66944) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66959) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(66969) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67067) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67315) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67356) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67442) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67457) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67640) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67660) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67833) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67839) : предупреждение 209: функция "StatsSpec" должна возвращать значение
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67847) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67849) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67955) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67976) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67997) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68059) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68080) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68127) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68131) : предупреждение 209: функция "clickplay" должна возвращать значение
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68179) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68185) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68182) : идентификатору присвоено значение, но он не используется: "price"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68194) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68270) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(68277) : неправильная табуляция
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(141) : идентификатор не используется: "DuelCash"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(140) : идентификатор не используется: "DuelTimer"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(9638) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(7156) : идентификатору присвоено значение, но он не используется: "kyrpick"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(164) : идентификатор не используется: "speeed"
+C:\Project\ac_blackrussia\lastMod\gamemodes\blackrussia.pwn(67870) : предупреждение: рекурсия в HideSpec
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   24264 байт
+Размер кода:		 2044140 байт
+Размер данных:		44671856 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	46765260 байт
+
+Предупреждений:29.
