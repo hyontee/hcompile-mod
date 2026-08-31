@@ -1,0 +1,33 @@
+../include/system/pickup.pwn(218) : îøèáêà 004: ôóíêöèÿ "fixp_OnPlayerLeaveDynamicArea" íå ðåàëèçîâàíà
+../include/system/vehicle.pwn(2222) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "IsABike"
+../include/system/exchange_welsi.pwn(456) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "UnloadPlayerOwnableCar"
+../include/system/exchange_welsi.pwn(468) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerFuelStation"
+../include/system/exchange_welsi.pwn(519) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerBusiness"
+../include/system/exchange_welsi.pwn(576) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerHouse"
+../include/system/exchange_welsi.pwn(611) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetElapsedTime"
+../include/system/exchange_welsi.pwn(631) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "UpdateHouse"
+../include/system/exchange_welsi.pwn(633) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "HouseHealthInit"
+../include/system/exchange_welsi.pwn(634) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "HouseStoreInit"
+../include/system/roulette.pwn(1133) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetFreeOwnableCarID"
+../include/system/auction.pwn(548) : îøèáêà 079: íåñîâìåñòèìûé âîçâðàùàåìûé òèï (ìàññèâ è íåìàññèâ)
+../include/system/auction.pwn(1034) : îøèáêà 004: ôóíêöèÿ "auc_OnPlayerEnterDynamicArea" íå ðåàëèçîâàíà
+../include/system/auction.pwn(1085) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1113) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1140) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1166) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1291) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerBusiness"
+../include/system/auction.pwn(1293) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerBusiness"
+../include/system/auction.pwn(1313) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerHouse"
+../include/system/auction.pwn(1315) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerHouse"
+../include/system/auction.pwn(1446) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1470) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "ConvertUnixTime"
+../include/system/auction.pwn(1524) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerBusiness"
+../include/system/auction.pwn(1537) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "GetPlayerHouse"
+../include/system/auction.pwn(1666) : îøèáêà 004: ôóíêöèÿ "auc_OnPlayerClickPlayer" íå ðåàëèçîâàíà
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:26.
