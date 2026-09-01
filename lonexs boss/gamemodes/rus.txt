@@ -1,8 +1,0 @@
-D:\lonexs boss\gamemodes\melliss.pwn(14803) : фатальная ошибка 100: невозможно прочесть файл: "../include/system/auction.pwn"
-
-Компиляция остановлена.
-
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
-
-Ошибок:1.
