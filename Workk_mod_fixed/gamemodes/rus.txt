@@ -1,0 +1,21 @@
+D:\Workk_mod_fixed\gamemodes\workk.pwn(316) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(318) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(319) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(322) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(384) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(389) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(392) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(896) -- (898) : ошибка 001: ожидался токен ",", но найден "-string-"
+D:\Workk_mod_fixed\gamemodes\workk.pwn(898) : неправильная табуляция
+D:\Workk_mod_fixed\gamemodes\workk.pwn(898) -- (899) : предупреждение 215: выражение не имеет эффекта
+D:\Workk_mod_fixed\gamemodes\workk.pwn(899) : ошибка 001: ожидался токен ";", но найден "-string-"
+D:\Workk_mod_fixed\gamemodes\workk.pwn(899) -- (900) : предупреждение 215: выражение не имеет эффекта
+D:\Workk_mod_fixed\gamemodes\workk.pwn(900) : ошибка 001: ожидался токен ";", но найден "-string-"
+D:\Workk_mod_fixed\gamemodes\workk.pwn(900) : фатальная ошибка 107: слишком много ошибок на одной строке
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:4.
