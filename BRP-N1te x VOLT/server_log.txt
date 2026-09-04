@@ -1,0 +1,2345 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:54:26] filterscripts = ""  (string)
+[11:54:26] 
+[11:54:26] Server Plugins
+[11:54:26] --------------
+[11:54:26]  Loading plugin: streamer.so
+[11:54:26] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: pawncmd.so
+[11:54:26] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: mysql.so
+[11:54:26]  >> plugin.mysql: R41-4 successfully loaded.
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: sql.so
+[11:54:26]   >> SQL plugin v2.6 successfully loaded.
+[11:54:26]       + MySQL support is enabled.
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: PawnPlus-static.so
+[11:54:26]  PawnPlus v1.1-pre2 loaded
+[11:54:26]  Created by IllidanS4
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: sscanf.so
+[11:54:26] 
+
+[11:54:26]  ===============================
+
+[11:54:26]       sscanf plugin loaded.     
+
+[11:54:26]          Version:  2.8.2        
+
+[11:54:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:54:26]  ===============================
+
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: pawnraknet.so
+[11:54:26] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: TOTP.so
+[11:54:26] TOTP plugin v1.0.1 by Games loaded.
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: gvar.so
+[11:54:26] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: handshake-linux.so
+[11:54:26] [sverhsekretnaya razrabotka] Loaded...
+[11:54:26]   Loaded.
+[11:54:26]  Loading plugin: libRakServerLinux.so
+[11:54:26] [VOICE CHAT] Loaded...
+[11:54:26]   Loaded.
+[11:54:26]  Loaded 11 plugins.
+
+[11:54:26] 
+[11:54:26] Filterscripts
+[11:54:26] ---------------
+[11:54:26]   Loaded 0 filterscripts.
+
+[11:54:26] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[11:54:26] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[11:54:26] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[11:54:26] [VOICE CHAT] Started server on 7777 port with ip 141.95.190.145
+[11:54:26] [VOICE CHAT] Version 1.0, build time: Mar 11 2020 21:15:01
+[11:54:26] Local [SQL]: Handle Connection No: 0
+[11:54:26] [MYSQL] Подключение к базе данных удалось. 
+[11:54:26] [STREAM SOURCES] Initialized...
+[11:54:26] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[11:54:26] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[11:54:26] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[11:54:26] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[11:54:26] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[11:54:26] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[11:54:26] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[11:54:26] Мафии загружены
+[11:54:26] Настройки мафий загружены
+[11:54:26] [Репорт]: Времени затрачено: <0 мс>
+[11:54:26] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[11:54:26] Склады армии загружены
+[11:54:26] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[11:54:26] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[11:54:26] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[11:54:26] [Квартиры]: <764 из 764>. Времени затрачено: <15 мс>
+[11:54:26] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[11:54:26] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[11:54:26] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[11:54:26] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[11:54:26] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[11:54:26] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[11:54:26] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[11:54:26] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[11:54:26] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[11:54:26] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[11:54:26] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[11:54:26] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[11:54:26] [Дата] DAY = 1979
+[11:54:26] weburl = "Maze-Host.RU"  (string)
+[11:54:26] [Игровой Мод]: Игровой мод был загружен за 73 мс
+[11:54:26] Number of vehicle models: 21
+[12:20:13] [connection] 144.124.192.128:43614 requests connection cookie.
+[12:20:13] [connection] 144.124.192.128:43614 requests connection cookie.
+[12:20:14] [connection] incoming connection: 144.124.192.128:43614 id: 0
+[12:20:14] [join] Abu_Abu has joined the server (0:144.124.192.128)
+[12:20:18] [CHECK ANDROID]: 0 - invalid client mobile
+[12:20:19] [part] Abu_Abu has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:21:07] filterscripts = ""  (string)
+[14:21:07] 
+[14:21:07] Server Plugins
+[14:21:07] --------------
+[14:21:07]  Loading plugin: streamer.so
+[14:21:07] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: pawncmd.so
+[14:21:07] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: mysql.so
+[14:21:07]  >> plugin.mysql: R41-4 successfully loaded.
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: sql.so
+[14:21:07]   >> SQL plugin v2.6 successfully loaded.
+[14:21:07]       + MySQL support is enabled.
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: PawnPlus-static.so
+[14:21:07]  PawnPlus v1.1-pre2 loaded
+[14:21:07]  Created by IllidanS4
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: sscanf.so
+[14:21:07] 
+
+[14:21:07]  ===============================
+
+[14:21:07]       sscanf plugin loaded.     
+
+[14:21:07]          Version:  2.8.2        
+
+[14:21:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:21:07]  ===============================
+
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: pawnraknet.so
+[14:21:07] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: TOTP.so
+[14:21:07] TOTP plugin v1.0.1 by Games loaded.
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: gvar.so
+[14:21:07] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: handshake-linux.so
+[14:21:07] [sverhsekretnaya razrabotka] Loaded...
+[14:21:07]   Loaded.
+[14:21:07]  Loading plugin: libRakServerLinux.so
+[14:21:07] [VOICE CHAT] Loaded...
+[14:21:07]   Loaded.
+[14:21:07]  Loaded 11 plugins.
+
+[14:21:07] 
+[14:21:07] Filterscripts
+[14:21:07] ---------------
+[14:21:07]   Loaded 0 filterscripts.
+
+[14:21:07] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[14:21:07] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[14:21:07] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[14:21:07] [VOICE CHAT] Started server on 7777 port with ip 141.95.190.145
+[14:21:07] [VOICE CHAT] Version 1.0, build time: Mar 11 2020 21:15:01
+[14:21:07] Local [SQL]: Handle Connection No: 0
+[14:21:07] [MYSQL] Подключение к базе данных удалось. 
+[14:21:07] [STREAM SOURCES] Initialized...
+[14:21:07] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[14:21:07] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[14:21:07] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[14:21:07] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[14:21:07] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[14:21:07] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[14:21:07] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[14:21:07] Мафии загружены
+[14:21:07] Настройки мафий загружены
+[14:21:07] [Репорт]: Времени затрачено: <0 мс>
+[14:21:07] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[14:21:07] Склады армии загружены
+[14:21:07] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[14:21:07] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[14:21:07] [Дома]: <294 из 294>. Времени затрачено: <7 мс>
+[14:21:07] [Квартиры]: <764 из 764>. Времени затрачено: <13 мс>
+[14:21:07] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[14:21:07] [Отели]: <4 из 4>. Времени затрачено: <1 мс>
+[14:21:07] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[14:21:07] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[14:21:07] [Номера Отелей]: <252 из 252>. Времени затрачено: <3 мс>
+[14:21:07] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[14:21:07] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[14:21:07] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[14:21:07] [Конфиг Авто]: <200 из 611>. Времени затрачено: <1 мс>
+[14:21:07] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[14:21:07] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[14:21:07] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[14:21:07] [Дата] DAY = 1979
+[14:21:07] weburl = "Maze-Host.RU"  (string)
+[14:21:07] [Игровой Мод]: Игровой мод был загружен за 59 мс
+[14:21:07] Number of vehicle models: 21
+[14:22:29] [connection] 82.215.97.48:45934 requests connection cookie.
+[14:22:30] [connection] 82.215.97.48:45934 requests connection cookie.
+[14:22:30] [connection] 82.215.97.48:45934 requests connection cookie.
+[14:22:31] [connection] incoming connection: 82.215.97.48:45934 id: 0
+[14:22:32] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:22:36] [CHECK ANDROID]: 0 - invalid client mobile
+[14:22:37] [part] Abu_Abu has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:01:17] filterscripts = ""  (string)
+[15:01:17] 
+[15:01:17] Server Plugins
+[15:01:17] --------------
+[15:01:17]  Loading plugin: streamer.so
+[15:01:17] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: pawncmd.so
+[15:01:17] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: mysql.so
+[15:01:17]  >> plugin.mysql: R41-4 successfully loaded.
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: sql.so
+[15:01:17]   >> SQL plugin v2.6 successfully loaded.
+[15:01:17]       + MySQL support is enabled.
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: PawnPlus-static.so
+[15:01:17]  PawnPlus v1.1-pre2 loaded
+[15:01:17]  Created by IllidanS4
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: sscanf.so
+[15:01:17] 
+
+[15:01:17]  ===============================
+
+[15:01:17]       sscanf plugin loaded.     
+
+[15:01:17]          Version:  2.8.2        
+
+[15:01:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:01:17]  ===============================
+
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: pawnraknet.so
+[15:01:17] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: TOTP.so
+[15:01:17] TOTP plugin v1.0.1 by Games loaded.
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: gvar.so
+[15:01:17] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[15:01:17]   Loaded.
+[15:01:17]  Loading plugin: libRakServerLinux.so
+[15:01:17] [VOICE CHAT] Loaded...
+[15:01:17]   Loaded.
+[15:01:17]  Loaded 10 plugins.
+
+[15:01:17] 
+[15:01:17] Filterscripts
+[15:01:17] ---------------
+[15:01:17]   Loaded 0 filterscripts.
+
+[15:01:17] Script[gamemodes/new.amx]: Run time error 19: "File or function is not found"
+[15:01:17] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:18:20] filterscripts = ""  (string)
+[15:18:20] 
+[15:18:20] Server Plugins
+[15:18:20] --------------
+[15:18:20]  Loading plugin: streamer.so
+[15:18:20] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: pawncmd.so
+[15:18:20] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: mysql.so
+[15:18:20]  >> plugin.mysql: R41-4 successfully loaded.
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: sql.so
+[15:18:20]   >> SQL plugin v2.6 successfully loaded.
+[15:18:20]       + MySQL support is enabled.
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: PawnPlus-static.so
+[15:18:20]  PawnPlus v1.1-pre2 loaded
+[15:18:20]  Created by IllidanS4
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: sscanf.so
+[15:18:20] 
+
+[15:18:20]  ===============================
+
+[15:18:20]       sscanf plugin loaded.     
+
+[15:18:20]          Version:  2.8.2        
+
+[15:18:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:18:20]  ===============================
+
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: pawnraknet.so
+[15:18:20] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: TOTP.so
+[15:18:20] TOTP plugin v1.0.1 by Games loaded.
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: gvar.so
+[15:18:20] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: handshake-linux.so
+[15:18:20] [sverhsekretnaya razrabotka] Loaded...
+[15:18:20]   Loaded.
+[15:18:20]  Loading plugin: libRakServerLinux.so
+[15:18:20] [VOICE CHAT] Loaded...
+[15:18:20]   Loaded.
+[15:18:20]  Loaded 11 plugins.
+
+[15:18:20] 
+[15:18:20] Filterscripts
+[15:18:20] ---------------
+[15:18:20]   Loaded 0 filterscripts.
+
+[15:18:20] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[15:18:20] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[15:18:20] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[15:18:20] [VOICE CHAT] Started server on 7777 port with ip 141.95.190.145
+[15:18:20] [VOICE CHAT] Version 1.0, build time: Mar 11 2020 21:15:01
+[15:18:20] Local [SQL]: Handle Connection No: 0
+[15:18:20] [MYSQL] Подключение к базе данных удалось. 
+[15:18:20] [STREAM SOURCES] Initialized...
+[15:18:20] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[15:18:20] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[15:18:20] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[15:18:20] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[15:18:20] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[15:18:20] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[15:18:20] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[15:18:20] Мафии загружены
+[15:18:20] Настройки мафий загружены
+[15:18:20] [Репорт]: Времени затрачено: <0 мс>
+[15:18:20] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[15:18:20] Склады армии загружены
+[15:18:20] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[15:18:20] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[15:18:20] [Дома]: <294 из 294>. Времени затрачено: <6 мс>
+[15:18:20] [Квартиры]: <764 из 764>. Времени затрачено: <13 мс>
+[15:18:20] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[15:18:20] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[15:18:20] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[15:18:20] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[15:18:20] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[15:18:20] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[15:18:20] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[15:18:20] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[15:18:20] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[15:18:20] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[15:18:20] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[15:18:20] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[15:18:20] [Дата] DAY = 1979
+[15:18:20] weburl = "Maze-Host.RU"  (string)
+[15:18:20] [Игровой Мод]: Игровой мод был загружен за 51 мс
+[15:18:20] Number of vehicle models: 21
+[15:19:23] [connection] 82.215.97.48:19027 requests connection cookie.
+[15:19:24] [connection] incoming connection: 82.215.97.48:19027 id: 0
+[15:19:25] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[15:19:29] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[15:19:58] sscanf warning: Format specifier does not match parameter count.
+[15:19:58] sscanf warning: Format specifier does not match parameter count.
+[15:19:58] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <5 мс>
+[15:20:31] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[15:20:31] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[15:20:31] [part] Abu_Abu has left the server (0:0)
+[16:18:01] [connection] 144.124.192.128:7005 requests connection cookie.
+[16:18:01] [connection] 144.124.192.128:7005 requests connection cookie.
+[16:18:02] [connection] incoming connection: 144.124.192.128:7005 id: 0
+[16:18:02] [join] Dev_Nitee has joined the server (0:144.124.192.128)
+[16:18:06] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[16:18:31] sscanf warning: Format specifier does not match parameter count.
+[16:18:31] sscanf warning: Format specifier does not match parameter count.
+[16:18:31] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <5 мс>
+[16:20:34] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.128]
+[16:20:34] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:20:34] [part] Dev_Nitee has left the server (0:0)
+[16:58:07] [connection] 144.124.192.128:24649 requests connection cookie.
+[16:58:07] [connection] 144.124.192.128:24649 requests connection cookie.
+[16:58:07] [connection] incoming connection: 144.124.192.128:24649 id: 0
+[16:58:08] [join] Dev_Nitee has joined the server (0:144.124.192.128)
+[16:58:12] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[16:58:21] sscanf warning: Format specifier does not match parameter count.
+[16:58:21] sscanf warning: Format specifier does not match parameter count.
+[16:58:21] sscanf warning: Format specifier does not match parameter count.
+[16:58:21] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[17:00:07] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.128]
+[17:00:07] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[17:00:07] [part] Dev_Nitee has left the server (0:0)
+[19:11:36] [connection] 82.215.97.48:14493 requests connection cookie.
+[19:11:37] [connection] 82.215.97.48:14493 requests connection cookie.
+[19:11:37] [connection] incoming connection: 82.215.97.48:14493 id: 0
+[19:11:38] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[19:11:42] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[19:11:45] sscanf warning: Format specifier does not match parameter count.
+[19:11:45] sscanf warning: Format specifier does not match parameter count.
+[19:11:45] sscanf warning: Format specifier does not match parameter count.
+[19:11:45] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[19:12:33] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[19:12:33] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[19:12:33] [part] Abu_Abu has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[04:26:31] [connection] 82.215.97.48:18969 requests connection cookie.
+[04:26:31] [connection] 82.215.97.48:18969 requests connection cookie.
+[04:26:32] [connection] incoming connection: 82.215.97.48:18969 id: 0
+[04:26:33] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[04:26:37] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:30:39] [part] Abu_Abu has left the server (0:0)
+[05:05:30] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:30] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:30] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:30] Local [SQL]: Handle Connection No: 0
+[05:05:30] [MYSQL] Подключение к базе данных удалось. 
+[05:05:30] [STREAM SOURCES] Initialized...
+[05:05:30] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:30] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:30] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:30] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:30] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:30] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:30] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:30] Мафии загружены
+[05:05:30] Настройки мафий загружены
+[05:05:30] [Репорт]: Времени затрачено: <0 мс>
+[05:05:30] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:30] Склады армии загружены
+[05:05:30] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:30] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:30] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:05:30] [Квартиры]: <764 из 764>. Времени затрачено: <16 мс>
+[05:05:30] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:05:30] [Отели]: <4 из 4>. Времени затрачено: <1 мс>
+[05:05:30] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:05:30] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:30] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:05:30] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:05:30] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:30] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:30] [Конфиг Авто]: <200 из 611>. Времени затрачено: <1 мс>
+[05:05:30] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:30] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:30] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:30] [Дата] DAY = 1980
+[05:05:30] weburl = "Maze-Host.RU"  (string)
+[05:05:30] [Игровой Мод]: Игровой мод был загружен за 64 мс
+[05:05:30] Number of vehicle models: 21
+[05:06:45] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:45] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:45] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:45] Local [SQL]: Handle Connection No: 0
+[05:06:45] [MYSQL] Подключение к базе данных удалось. 
+[05:06:45] [STREAM SOURCES] Initialized...
+[05:06:45] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:45] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:45] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:45] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:45] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:45] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:45] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:45] Мафии загружены
+[05:06:45] Настройки мафий загружены
+[05:06:45] [Репорт]: Времени затрачено: <0 мс>
+[05:06:45] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:45] Склады армии загружены
+[05:06:45] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:45] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:45] [Дома]: <294 из 294>. Времени затрачено: <7 мс>
+[05:06:45] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:06:45] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:06:45] [Отели]: <4 из 4>. Времени затрачено: <1 мс>
+[05:06:45] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:06:45] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:45] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:06:45] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:06:45] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:45] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:45] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:06:45] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:45] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:45] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:45] [Дата] DAY = 1980
+[05:06:45] weburl = "Maze-Host.RU"  (string)
+[05:06:45] [Игровой Мод]: Игровой мод был загружен за 50 мс
+[05:06:45] Number of vehicle models: 21
+[05:07:59] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:59] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:59] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:59] Local [SQL]: Handle Connection No: 0
+[05:07:59] [MYSQL] Подключение к базе данных удалось. 
+[05:07:59] [STREAM SOURCES] Initialized...
+[05:07:59] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:59] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:59] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:59] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:59] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:59] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:59] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:59] Мафии загружены
+[05:07:59] Настройки мафий загружены
+[05:07:59] [Репорт]: Времени затрачено: <0 мс>
+[05:07:59] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:59] Склады армии загружены
+[05:07:59] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:59] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:59] [Дома]: <294 из 294>. Времени затрачено: <8 мс>
+[05:07:59] [Квартиры]: <764 из 764>. Времени затрачено: <11 мс>
+[05:07:59] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:07:59] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:59] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:07:59] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:59] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:07:59] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:07:59] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:59] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:59] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:07:59] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:59] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:59] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:07:59] [Дата] DAY = 1980
+[05:07:59] weburl = "Maze-Host.RU"  (string)
+[05:07:59] [Игровой Мод]: Игровой мод был загружен за 45 мс
+[05:07:59] Number of vehicle models: 21
+[19:31:54] [connection] 82.215.97.48:54787 requests connection cookie.
+[19:31:54] [connection] 82.215.97.48:54787 requests connection cookie.
+[19:31:54] [connection] incoming connection: 82.215.97.48:54787 id: 0
+[19:31:56] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[19:32:00] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[19:33:24] [part] Abu_Abu has left the server (0:0)
+[23:28:40] [connection] 82.215.97.48:32424 requests connection cookie.
+[23:28:41] [connection] 82.215.97.48:32424 requests connection cookie.
+[23:28:41] [connection] incoming connection: 82.215.97.48:32424 id: 0
+[23:28:45] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[23:28:49] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[23:28:59] [part] Abu_Abu has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:14:24] [connection] 82.215.97.48:45855 requests connection cookie.
+[00:14:24] [connection] 82.215.97.48:45855 requests connection cookie.
+[00:14:24] [connection] incoming connection: 82.215.97.48:45855 id: 0
+[00:14:25] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[00:14:30] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[00:14:40] [part] Abu_Abu has left the server (0:0)
+[00:14:52] [connection] 82.215.97.48:63814 requests connection cookie.
+[00:14:53] [connection] incoming connection: 82.215.97.48:63814 id: 0
+[00:14:54] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[00:14:58] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[00:15:32] [part] Abu_Abu has left the server (0:0)
+[00:28:35] [connection] 82.215.97.48:1063 requests connection cookie.
+[00:28:35] [connection] incoming connection: 82.215.97.48:1063 id: 0
+[00:28:36] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[00:28:40] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[00:29:07] [part] Abu_Abu has left the server (0:0)
+[05:05:39] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:39] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:39] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:39] Local [SQL]: Handle Connection No: 0
+[05:05:39] [MYSQL] Подключение к базе данных удалось. 
+[05:05:39] [STREAM SOURCES] Initialized...
+[05:05:39] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:39] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:39] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:39] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:39] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:39] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:39] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:39] Мафии загружены
+[05:05:39] Настройки мафий загружены
+[05:05:39] [Репорт]: Времени затрачено: <0 мс>
+[05:05:39] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:39] Склады армии загружены
+[05:05:39] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:39] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:39] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[05:05:39] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:05:39] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:05:39] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:39] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:05:39] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:39] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:05:39] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:39] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:39] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:39] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:05:39] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:39] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:39] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:39] [Дата] DAY = 1981
+[05:05:39] weburl = "Maze-Host.RU"  (string)
+[05:05:39] [Игровой Мод]: Игровой мод был загружен за 63 мс
+[05:05:39] Number of vehicle models: 21
+[05:06:53] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:53] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:53] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:53] Local [SQL]: Handle Connection No: 0
+[05:06:53] [MYSQL] Подключение к базе данных удалось. 
+[05:06:53] [STREAM SOURCES] Initialized...
+[05:06:53] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:53] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:53] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:53] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:53] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:53] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:53] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:53] Мафии загружены
+[05:06:53] Настройки мафий загружены
+[05:06:53] [Репорт]: Времени затрачено: <0 мс>
+[05:06:53] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:53] Склады армии загружены
+[05:06:53] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:53] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:53] [Дома]: <294 из 294>. Времени затрачено: <5 мс>
+[05:06:53] [Квартиры]: <764 из 764>. Времени затрачено: <11 мс>
+[05:06:53] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:06:53] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:53] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:06:53] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:53] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:06:53] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:53] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:53] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:53] [Конфиг Авто]: <200 из 611>. Времени затрачено: <1 мс>
+[05:06:53] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:53] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:53] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:53] [Дата] DAY = 1981
+[05:06:53] weburl = "Maze-Host.RU"  (string)
+[05:06:53] [Игровой Мод]: Игровой мод был загружен за 42 мс
+[05:06:53] Number of vehicle models: 21
+[05:08:07] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:08:07] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:08:07] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:08:07] Local [SQL]: Handle Connection No: 0
+[05:08:07] [MYSQL] Подключение к базе данных удалось. 
+[05:08:07] [STREAM SOURCES] Initialized...
+[05:08:07] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:08:07] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:08:07] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:08:07] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:08:07] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:08:07] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:08:07] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:08:07] Мафии загружены
+[05:08:07] Настройки мафий загружены
+[05:08:07] [Репорт]: Времени затрачено: <0 мс>
+[05:08:07] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:08:07] Склады армии загружены
+[05:08:07] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:08:07] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:08:07] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[05:08:07] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:08:07] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:08:07] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:08:07] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:08:07] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:08:07] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:08:07] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:08:07] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:08:07] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:08:07] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:08:07] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:08:07] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:08:07] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:08:07] [Дата] DAY = 1981
+[05:08:07] weburl = "Maze-Host.RU"  (string)
+[05:08:07] [Игровой Мод]: Игровой мод был загружен за 50 мс
+[05:08:07] Number of vehicle models: 21
+[10:19:07] [connection] 82.215.97.48:10004 requests connection cookie.
+[10:19:07] [connection] 82.215.97.48:10004 requests connection cookie.
+[10:19:07] [connection] incoming connection: 82.215.97.48:10004 id: 0
+[10:19:11] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[10:19:16] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[10:19:28] [part] Abu_Abu has left the server (0:0)
+[11:32:50] [connection] 82.215.97.48:36864 requests connection cookie.
+[11:32:51] [connection] 82.215.97.48:36864 requests connection cookie.
+[11:32:51] [connection] incoming connection: 82.215.97.48:36864 id: 0
+[11:32:52] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[11:32:56] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[11:33:09] [part] Abu_Abu has left the server (0:0)
+[11:36:58] [connection] 82.215.97.48:50417 requests connection cookie.
+[11:36:58] [connection] incoming connection: 82.215.97.48:50417 id: 0
+[11:37:03] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[11:37:07] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[11:41:31] [part] Abu_Abu has left the server (0:0)
+[11:53:19] [connection] 82.215.97.48:14474 requests connection cookie.
+[11:53:20] [connection] incoming connection: 82.215.97.48:14474 id: 0
+[11:53:21] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[11:53:25] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[11:53:36] [part] Abu_Abu has left the server (0:0)
+[12:09:04] [connection] 82.215.97.48:45880 requests connection cookie.
+[12:09:04] [connection] 82.215.97.48:45880 requests connection cookie.
+[12:09:04] [connection] incoming connection: 82.215.97.48:45880 id: 0
+[12:09:05] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[12:09:09] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:09:32] [part] Abu_Abu has left the server (0:0)
+[12:23:31] [connection] 82.215.97.48:5589 requests connection cookie.
+[12:23:31] [connection] incoming connection: 82.215.97.48:5589 id: 0
+[12:23:33] [join] Zico_Costello has joined the server (0:82.215.97.48)
+[12:23:37] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:28:04] [part] Zico_Costello has left the server (0:0)
+[13:40:52] [connection] 82.215.97.48:45906 requests connection cookie.
+[13:40:52] [connection] 82.215.97.48:45906 requests connection cookie.
+[13:40:53] [connection] incoming connection: 82.215.97.48:45906 id: 0
+[13:40:54] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[13:40:58] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:41:19] [part] Abu_Abu has left the server (0:0)
+[13:48:31] [connection] 82.215.97.48:5509 requests connection cookie.
+[13:48:31] [connection] incoming connection: 82.215.97.48:5509 id: 0
+[13:48:32] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[13:48:36] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:50:29] [part] Abu_Abu has left the server (0:0)
+[13:53:38] [connection] 82.215.97.48:50345 requests connection cookie.
+[13:53:38] [connection] incoming connection: 82.215.97.48:50345 id: 0
+[13:53:39] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[13:53:43] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:54:55] [part] Abu_Abu has left the server (0:0)
+[14:02:12] [connection] 82.215.97.48:5536 requests connection cookie.
+[14:02:12] [connection] incoming connection: 82.215.97.48:5536 id: 0
+[14:02:13] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:02:17] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:02:34] [part] Abu_Abu has left the server (0:0)
+[14:07:07] [connection] 82.215.97.48:41411 requests connection cookie.
+[14:07:08] [connection] incoming connection: 82.215.97.48:41411 id: 0
+[14:07:09] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:07:13] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:07:24] [part] Abu_Abu has left the server (0:0)
+[14:16:45] [connection] 82.215.97.48:27956 requests connection cookie.
+[14:16:45] [connection] incoming connection: 82.215.97.48:27956 id: 0
+[14:16:46] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:16:51] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:16:53] sscanf warning: Format specifier does not match parameter count.
+[14:16:53] sscanf warning: Format specifier does not match parameter count.
+[14:16:53] sscanf warning: Format specifier does not match parameter count.
+[14:16:53] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <5 мс>
+[14:17:15] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[14:17:15] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:17:15] [part] Abu_Abu has left the server (0:0)
+[14:17:28] [connection] 82.215.97.48:63781 requests connection cookie.
+[14:17:28] [connection] incoming connection: 82.215.97.48:63781 id: 0
+[14:17:29] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:17:33] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:17:35] sscanf warning: Format specifier does not match parameter count.
+[14:17:35] sscanf warning: Format specifier does not match parameter count.
+[14:17:35] sscanf warning: Format specifier does not match parameter count.
+[14:17:35] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:18:17] [chat] [Abu_Abu]: kwkwmwmw
+[14:18:27] [connection] 82.215.97.48:18993 requests connection cookie.
+[14:18:27] [connection] incoming connection: 82.215.97.48:18993 id: 1
+[14:18:28] [connection] 82.215.97.48:54867 requests connection cookie.
+[14:18:28] [connection] incoming connection: 82.215.97.48:54867 id: 1
+[14:18:30] [connection] 82.215.97.48:32388 requests connection cookie.
+[14:18:30] [connection] incoming connection: 82.215.97.48:32388 id: 1
+[14:18:31] [connection] 82.215.97.48:10034 requests connection cookie.
+[14:18:31] [connection] incoming connection: 82.215.97.48:10034 id: 1
+[14:18:33] [connection] 82.215.97.48:45879 requests connection cookie.
+[14:18:33] [connection] incoming connection: 82.215.97.48:45879 id: 1
+[14:18:34] [connection] 82.215.97.48:41361 requests connection cookie.
+[14:18:34] [connection] incoming connection: 82.215.97.48:41361 id: 1
+[14:18:36] [connection] 82.215.97.48:41347 requests connection cookie.
+[14:18:36] [connection] incoming connection: 82.215.97.48:41347 id: 1
+[14:18:37] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[14:18:37] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:18:37] [part] Abu_Abu has left the server (0:0)
+[14:18:37] [join] Abu_Abu has joined the server (1:82.215.97.48)
+[14:18:41] [CHECK ANDROID]: 1 - bypassed, treating as valid mobile
+[14:18:45] [part] Abu_Abu has left the server (1:1)
+[14:18:45] [connection] 82.215.97.48:63744 requests connection cookie.
+[14:18:45] [connection] incoming connection: 82.215.97.48:63744 id: 0
+[14:18:47] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:18:51] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:18:53] [connection] 82.215.97.48:5568 requests connection cookie.
+[14:18:54] [connection] incoming connection: 82.215.97.48:5568 id: 1
+[14:19:03] [part] Abu_Abu has left the server (0:0)
+[14:19:29] [connection] 82.215.97.48:63780 requests connection cookie.
+[14:19:29] [connection] incoming connection: 82.215.97.48:63780 id: 0
+[14:19:31] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:19:35] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:19:42] sscanf warning: Format specifier does not match parameter count.
+[14:19:42] sscanf warning: Format specifier does not match parameter count.
+[14:19:42] sscanf warning: Format specifier does not match parameter count.
+[14:19:42] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <1 мс>
+[14:20:00] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[14:20:00] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:20:00] [part] Abu_Abu has left the server (0:0)
+[14:27:29] [connection] 82.215.97.48:59317 requests connection cookie.
+[14:27:30] [connection] incoming connection: 82.215.97.48:59317 id: 0
+[14:27:31] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[14:27:35] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:27:37] sscanf warning: Format specifier does not match parameter count.
+[14:27:37] sscanf warning: Format specifier does not match parameter count.
+[14:27:37] sscanf warning: Format specifier does not match parameter count.
+[14:27:37] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:27:43] [chat] [Abu_Abu]: sjjnd
+[14:27:49] [chat] [Abu_Abu]: dineneie
+[14:58:27] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[14:58:27] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[14:58:27] [part] Abu_Abu has left the server (0:0)
+[20:53:28] [connection] 82.215.97.48:63833 requests connection cookie.
+[20:53:28] [connection] 82.215.97.48:63833 requests connection cookie.
+[20:53:28] [connection] incoming connection: 82.215.97.48:63833 id: 0
+[20:53:29] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[20:53:33] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[20:58:00] [part] Abu_Abu has left the server (0:0)
+[21:05:23] [connection] 82.215.97.48:32399 requests connection cookie.
+[21:05:23] [connection] incoming connection: 82.215.97.48:32399 id: 0
+[21:05:24] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:05:28] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:16:30] [part] Abu_Abu has left the server (0:0)
+[21:18:19] [connection] 82.215.97.48:10049 requests connection cookie.
+[21:18:19] [connection] incoming connection: 82.215.97.48:10049 id: 0
+[21:18:21] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:18:25] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:18:26] sscanf warning: Format specifier does not match parameter count.
+[21:18:26] sscanf warning: Format specifier does not match parameter count.
+[21:18:26] sscanf warning: Format specifier does not match parameter count.
+[21:18:26] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <7 мс>
+[21:18:39] [chat] [Abu_Abu]: eiksmdm
+[21:18:45] [chat] [Abu_Abu]: memmdmdinenemmmmmmdodmd
+[21:18:51] [chat] [Abu_Abu]: memmdmdinenemmmmmmdodmdkssmsmzkjemxdmxm
+[21:22:51] [chat] [Abu_Abu]: yjyjyjyjyj.mim888k7k7k////
+[21:24:17] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[21:24:17] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:24:17] [part] Abu_Abu has left the server (0:0)
+[21:24:44] [connection] 82.215.97.48:41393 requests connection cookie.
+[21:24:45] [connection] incoming connection: 82.215.97.48:41393 id: 0
+[21:24:46] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:24:50] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:24:53] sscanf warning: Format specifier does not match parameter count.
+[21:24:53] sscanf warning: Format specifier does not match parameter count.
+[21:24:53] sscanf warning: Format specifier does not match parameter count.
+[21:24:53] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <1 мс>
+[21:25:14] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[21:25:14] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:25:14] [part] Abu_Abu has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:37:03] filterscripts = ""  (string)
+[21:37:03] 
+[21:37:03] Server Plugins
+[21:37:03] --------------
+[21:37:03]  Loading plugin: streamer.so
+[21:37:03] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: pawncmd.so
+[21:37:03] Pawn.CMD plugin v3.2.0 by urShadow has been loaded
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: mysql.so
+[21:37:03]  >> plugin.mysql: R41-4 successfully loaded.
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: sql.so
+[21:37:03]   >> SQL plugin v2.6 successfully loaded.
+[21:37:03]       + MySQL support is enabled.
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: PawnPlus-static.so
+[21:37:03]  PawnPlus v1.1-pre2 loaded
+[21:37:03]  Created by IllidanS4
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: sscanf.so
+[21:37:03] 
+
+[21:37:03]  ===============================
+
+[21:37:03]       sscanf plugin loaded.     
+
+[21:37:03]          Version:  2.8.2        
+
+[21:37:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:37:03]  ===============================
+
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: pawnraknet.so
+[21:37:03] Pawn.RakNet plugin v1.2.0 by urShadow loaded
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: TOTP.so
+[21:37:03] TOTP plugin v1.0.1 by Games loaded.
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: gvar.so
+[21:37:03] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: handshake-linux.so
+[21:37:03] [sverhsekretnaya razrabotka] Loaded...
+[21:37:03]   Loaded.
+[21:37:03]  Loading plugin: libRakServerLinux.so
+[21:37:03] [VOICE CHAT] Loaded...
+[21:37:03]   Loaded.
+[21:37:03]  Loaded 11 plugins.
+
+[21:37:03] 
+[21:37:03] Filterscripts
+[21:37:03] ---------------
+[21:37:03]   Loaded 0 filterscripts.
+
+[21:37:03] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[21:37:03] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[21:37:03] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[21:37:03] [VOICE CHAT] Started server on 7777 port with ip 141.95.190.145
+[21:37:03] [VOICE CHAT] Version 1.0, build time: Mar 11 2020 21:15:01
+[21:37:03] Local [SQL]: Handle Connection No: 0
+[21:37:03] [MYSQL] Подключение к базе данных удалось. 
+[21:37:03] [STREAM SOURCES] Initialized...
+[21:37:03] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[21:37:03] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[21:37:03] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[21:37:03] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[21:37:03] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[21:37:03] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[21:37:03] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[21:37:03] Мафии загружены
+[21:37:03] Настройки мафий загружены
+[21:37:03] [Репорт]: Времени затрачено: <0 мс>
+[21:37:03] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[21:37:03] Склады армии загружены
+[21:37:03] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[21:37:03] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[21:37:03] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[21:37:03] [Квартиры]: <764 из 764>. Времени затрачено: <18 мс>
+[21:37:03] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[21:37:03] [Отели]: <4 из 4>. Времени затрачено: <1 мс>
+[21:37:03] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[21:37:03] [Гаражи]: <8 из 8>. Времени затрачено: <1 мс>
+[21:37:03] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[21:37:03] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[21:37:03] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[21:37:03] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[21:37:03] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[21:37:03] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[21:37:03] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[21:37:03] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[21:37:03] [Дата] DAY = 1981
+[21:37:03] weburl = "Maze-Host.RU"  (string)
+[21:37:03] [Игровой Мод]: Игровой мод был загружен за 73 мс
+[21:37:03] Number of vehicle models: 21
+[21:37:40] [connection] incoming connection: 82.215.97.48:18995 id: 0
+[21:37:41] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:37:45] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:37:46] sscanf warning: Format specifier does not match parameter count.
+[21:37:46] sscanf warning: Format specifier does not match parameter count.
+[21:37:46] sscanf warning: Format specifier does not match parameter count.
+[21:37:46] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:37:53] [chat] [Abu_Abu]: iemdjodkem
+[21:37:56] [chat] [Abu_Abu]: 9si3jenjxdp0
+[21:44:19] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[21:44:19] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <1 мс>
+[21:44:19] [part] Abu_Abu has left the server (0:0)
+[21:48:28] [connection] incoming connection: 82.215.97.48:41388 id: 0
+[21:48:29] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:48:33] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:51:05] [part] Abu_Abu has left the server (0:0)
+[21:52:19] [connection] incoming connection: 82.215.97.48:50355 id: 0
+[21:52:20] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:52:24] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:52:25] sscanf warning: Format specifier does not match parameter count.
+[21:52:25] sscanf warning: Format specifier does not match parameter count.
+[21:52:25] sscanf warning: Format specifier does not match parameter count.
+[21:52:25] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:52:34] [chat] [Abu_Abu]: g'
+[21:52:50] [chat] [Abu_Abu]: eok
+[21:56:16] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[21:56:16] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:56:16] [part] Abu_Abu has left the server (0:0)
+[21:56:45] [connection] incoming connection: 82.215.97.48:14558 id: 0
+[21:56:47] [connection] incoming connection: 82.215.97.48:1089 id: 1
+[21:56:59] [connection] incoming connection: 82.215.97.48:1140 id: 0
+[21:57:04] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[21:57:08] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:58:28] [part] Abu_Abu has left the server (0:0)
+[22:11:40] [connection] incoming connection: 51.195.118.186:42362 id: 0
+[22:11:54] [connection] incoming connection: 51.195.118.186:41368 id: 0
+[22:15:04] [connection] incoming connection: 51.195.118.186:57309 id: 0
+[22:15:05] [join] Abu_Abu has joined the server (0:51.195.118.186)
+[22:15:09] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:15:16] sscanf warning: Format specifier does not match parameter count.
+[22:15:16] sscanf warning: Format specifier does not match parameter count.
+[22:15:16] sscanf warning: Format specifier does not match parameter count.
+[22:15:16] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:15:32] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 51.195.118.186]
+[22:15:32] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:15:32] [part] Abu_Abu has left the server (0:0)
+[22:15:56] [connection] incoming connection: 51.195.118.186:53324 id: 0
+[22:15:58] [join] Abu_Abu has joined the server (0:51.195.118.186)
+[22:16:02] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:16:10] sscanf warning: Format specifier does not match parameter count.
+[22:16:10] sscanf warning: Format specifier does not match parameter count.
+[22:16:10] sscanf warning: Format specifier does not match parameter count.
+[22:16:10] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:16:30] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 51.195.118.186]
+[22:16:30] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:16:30] [part] Abu_Abu has left the server (0:0)
+[22:18:35] [connection] incoming connection: 51.195.118.186:39908 id: 0
+[22:18:36] [join] Abu_Abu has joined the server (0:51.195.118.186)
+[22:18:40] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:18:42] sscanf warning: Format specifier does not match parameter count.
+[22:18:42] sscanf warning: Format specifier does not match parameter count.
+[22:18:42] sscanf warning: Format specifier does not match parameter count.
+[22:18:42] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:19:01] [chat] [Abu_Abu]: 38838
+[22:19:17] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 51.195.118.186]
+[22:19:17] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:19:17] [part] Abu_Abu has left the server (0:0)
+[22:27:52] [connection] incoming connection: 51.195.118.186:33596 id: 0
+[22:27:53] [join] Abu_Abu has joined the server (0:51.195.118.186)
+[22:27:57] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:28:04] sscanf warning: Format specifier does not match parameter count.
+[22:28:04] sscanf warning: Format specifier does not match parameter count.
+[22:28:04] sscanf warning: Format specifier does not match parameter count.
+[22:28:04] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:28:11] [chat] [Abu_Abu]: idnend
+[22:28:21] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 51.195.118.186]
+[22:28:21] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:28:21] [part] Abu_Abu has left the server (0:0)
+[22:56:37] [connection] incoming connection: 82.215.97.48:32439 id: 0
+[22:56:42] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[22:56:46] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:56:49] sscanf warning: Format specifier does not match parameter count.
+[22:56:49] sscanf warning: Format specifier does not match parameter count.
+[22:56:49] sscanf warning: Format specifier does not match parameter count.
+[22:56:49] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:57:09] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[22:57:09] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:57:09] [part] Abu_Abu has left the server (0:0)
+[22:57:14] [connection] incoming connection: 82.215.97.48:18998 id: 0
+[22:57:15] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[22:57:19] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:57:20] sscanf warning: Format specifier does not match parameter count.
+[22:57:20] sscanf warning: Format specifier does not match parameter count.
+[22:57:20] sscanf warning: Format specifier does not match parameter count.
+[22:57:20] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:57:31] [chat] [Abu_Abu]: jdmdm
+[22:57:48] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[22:57:48] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:57:48] [part] Abu_Abu has left the server (0:0)
+[23:04:56] [connection] incoming connection: 82.215.97.48:19008 id: 0
+[23:04:57] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[23:05:02] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[23:05:03] [chat] [Abu_Abu]: вдбвд
+[23:05:08] sscanf warning: Format specifier does not match parameter count.
+[23:05:08] sscanf warning: Format specifier does not match parameter count.
+[23:05:08] sscanf warning: Format specifier does not match parameter count.
+[23:05:08] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[23:05:13] [chat] [Abu_Abu]: jsnsnemok
+[23:05:17] [chat] [Abu_Abu]: Nima Gap
+[23:05:22] [chat] [Abu_Abu]: Привет как вы
+[23:05:41] [chat] [Abu_Abu]: 2992бвбвбвбв
+[23:07:21] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[23:07:21] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[23:07:21] [part] Abu_Abu has left the server (0:0)
+[23:15:37] [connection] incoming connection: 82.215.97.48:50365 id: 0
+[23:15:44] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[23:15:48] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[23:15:54] sscanf warning: Format specifier does not match parameter count.
+[23:15:54] sscanf warning: Format specifier does not match parameter count.
+[23:15:54] sscanf warning: Format specifier does not match parameter count.
+[23:15:54] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[23:18:23] [chat] [Abu_Abu]: уддуддв
+[23:18:28] [chat] [Abu_Abu]: ипл6ег5егешн7о8гщлз9ь
+[23:19:18] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[23:19:18] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[23:19:18] [part] Abu_Abu has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[05:05:16] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:16] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:16] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:16] Local [SQL]: Handle Connection No: 0
+[05:05:16] [MYSQL] Подключение к базе данных удалось. 
+[05:05:16] [STREAM SOURCES] Initialized...
+[05:05:16] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:16] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:16] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:16] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:16] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:16] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:16] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:16] Мафии загружены
+[05:05:16] Настройки мафий загружены
+[05:05:16] [Репорт]: Времени затрачено: <0 мс>
+[05:05:16] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:16] Склады армии загружены
+[05:05:16] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:16] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:16] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:05:16] [Квартиры]: <764 из 764>. Времени затрачено: <14 мс>
+[05:05:16] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:05:16] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:16] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:05:16] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:16] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:05:16] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:16] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:16] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:16] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:05:16] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:16] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:16] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:16] [Дата] DAY = 1982
+[05:05:16] weburl = "Maze-Host.RU"  (string)
+[05:05:16] [Игровой Мод]: Игровой мод был загружен за 64 мс
+[05:05:16] Number of vehicle models: 21
+[05:06:30] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:30] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:30] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:30] Local [SQL]: Handle Connection No: 0
+[05:06:30] [MYSQL] Подключение к базе данных удалось. 
+[05:06:30] [STREAM SOURCES] Initialized...
+[05:06:30] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:30] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:30] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:30] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:30] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:30] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:30] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:30] Мафии загружены
+[05:06:30] Настройки мафий загружены
+[05:06:30] [Репорт]: Времени затрачено: <0 мс>
+[05:06:30] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:30] Склады армии загружены
+[05:06:30] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:30] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:30] [Дома]: <294 из 294>. Времени затрачено: <6 мс>
+[05:06:30] [Квартиры]: <764 из 764>. Времени затрачено: <11 мс>
+[05:06:30] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:06:30] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:30] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:06:30] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:30] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:06:30] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:30] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:30] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:30] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:06:30] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:30] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[05:06:30] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:30] [Дата] DAY = 1982
+[05:06:30] weburl = "Maze-Host.RU"  (string)
+[05:06:30] [Игровой Мод]: Игровой мод был загружен за 46 мс
+[05:06:30] Number of vehicle models: 21
+[05:07:44] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:44] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:44] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:44] Local [SQL]: Handle Connection No: 0
+[05:07:44] [MYSQL] Подключение к базе данных удалось. 
+[05:07:44] [STREAM SOURCES] Initialized...
+[05:07:44] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:44] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:44] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:44] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:44] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:44] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:44] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:44] Мафии загружены
+[05:07:44] Настройки мафий загружены
+[05:07:44] [Репорт]: Времени затрачено: <0 мс>
+[05:07:44] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:44] Склады армии загружены
+[05:07:44] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:44] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:44] [Дома]: <294 из 294>. Времени затрачено: <6 мс>
+[05:07:44] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:07:44] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:07:44] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:44] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:07:44] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:44] [Номера Отелей]: <252 из 252>. Времени затрачено: <3 мс>
+[05:07:44] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:07:44] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:44] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:44] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:07:44] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:44] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:44] [Склады]: <6 из 6>. Времени затрачено: <1 мс>
+[05:07:44] [Дата] DAY = 1982
+[05:07:44] weburl = "Maze-Host.RU"  (string)
+[05:07:44] [Игровой Мод]: Игровой мод был загружен за 45 мс
+[05:07:44] Number of vehicle models: 21
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[05:06:02] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:02] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:02] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:02] Local [SQL]: Handle Connection No: 0
+[05:06:02] [MYSQL] Подключение к базе данных удалось. 
+[05:06:02] [STREAM SOURCES] Initialized...
+[05:06:02] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:02] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:02] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:02] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:02] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:02] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:02] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:02] Мафии загружены
+[05:06:02] Настройки мафий загружены
+[05:06:02] [Репорт]: Времени затрачено: <0 мс>
+[05:06:02] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:02] Склады армии загружены
+[05:06:02] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:02] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:02] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:06:02] [Квартиры]: <764 из 764>. Времени затрачено: <16 мс>
+[05:06:02] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:06:02] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:02] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:06:02] [Гаражи]: <8 из 8>. Времени затрачено: <1 мс>
+[05:06:02] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:06:02] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:02] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:02] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:02] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:06:02] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:02] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[05:06:02] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:02] [Дата] DAY = 1983
+[05:06:02] weburl = "Maze-Host.RU"  (string)
+[05:06:02] [Игровой Мод]: Игровой мод был загружен за 65 мс
+[05:06:02] Number of vehicle models: 21
+[05:07:16] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:16] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:16] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:16] Local [SQL]: Handle Connection No: 0
+[05:07:16] [MYSQL] Подключение к базе данных удалось. 
+[05:07:16] [STREAM SOURCES] Initialized...
+[05:07:16] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:16] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:16] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:16] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:16] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:16] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:16] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:16] Мафии загружены
+[05:07:16] Настройки мафий загружены
+[05:07:16] [Репорт]: Времени затрачено: <0 мс>
+[05:07:16] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:16] Склады армии загружены
+[05:07:16] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:16] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:16] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:07:16] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:07:16] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:07:16] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:16] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:07:16] [Гаражи]: <8 из 8>. Времени затрачено: <1 мс>
+[05:07:16] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:07:16] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:16] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:16] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:16] [Конфиг Авто]: <200 из 611>. Времени затрачено: <1 мс>
+[05:07:16] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:16] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:16] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:07:16] [Дата] DAY = 1983
+[05:07:16] weburl = "Maze-Host.RU"  (string)
+[05:07:16] [Игровой Мод]: Игровой мод был загружен за 47 мс
+[05:07:16] Number of vehicle models: 21
+[11:57:47] [connection] incoming connection: 82.215.97.48:45940 id: 0
+[11:57:54] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[11:57:58] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:00:20] [part] Abu_Abu has left the server (0:0)
+[12:00:31] [connection] incoming connection: 82.215.97.48:27929 id: 0
+[12:00:35] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[12:00:39] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:05:04] [part] Abu_Abu has left the server (0:0)
+[13:21:00] [connection] incoming connection: 82.215.97.48:41376 id: 0
+[13:21:07] [join] Abu_Abu has joined the server (0:82.215.97.48)
+[13:21:11] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:21:14] sscanf warning: Format specifier does not match parameter count.
+[13:21:14] sscanf warning: Format specifier does not match parameter count.
+[13:21:14] sscanf warning: Format specifier does not match parameter count.
+[13:21:14] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <5 мс>
+[13:22:53] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.97.48]
+[13:22:53] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[13:22:53] [part] Abu_Abu has left the server (0:0)
+[22:14:19] [connection] incoming connection: 152.206.59.128:1071 id: 0
+[22:14:26] [join] Loco_Trik has joined the server (0:152.206.59.128)
+[22:14:30] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:15:35] [part] Loco_Trik has left the server (0:2)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[05:05:55] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:55] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:55] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:55] Local [SQL]: Handle Connection No: 0
+[05:05:55] [MYSQL] Подключение к базе данных удалось. 
+[05:05:55] [STREAM SOURCES] Initialized...
+[05:05:55] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:55] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:55] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:55] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:55] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:55] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:55] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:55] Мафии загружены
+[05:05:55] Настройки мафий загружены
+[05:05:55] [Репорт]: Времени затрачено: <0 мс>
+[05:05:55] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:55] Склады армии загружены
+[05:05:55] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:55] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:55] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:05:55] [Квартиры]: <764 из 764>. Времени затрачено: <14 мс>
+[05:05:55] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:05:55] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:55] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:05:55] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:55] [Номера Отелей]: <252 из 252>. Времени затрачено: <5 мс>
+[05:05:55] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:05:55] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:55] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:55] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:05:55] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:55] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[05:05:55] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:55] [Дата] DAY = 1984
+[05:05:55] weburl = "Maze-Host.RU"  (string)
+[05:05:55] [Игровой Мод]: Игровой мод был загружен за 66 мс
+[05:05:55] Number of vehicle models: 21
+[05:07:09] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:09] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:09] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:09] Local [SQL]: Handle Connection No: 0
+[05:07:09] [MYSQL] Подключение к базе данных удалось. 
+[05:07:09] [STREAM SOURCES] Initialized...
+[05:07:09] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:09] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:09] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:09] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:09] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:09] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:09] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:09] Мафии загружены
+[05:07:09] Настройки мафий загружены
+[05:07:09] [Репорт]: Времени затрачено: <0 мс>
+[05:07:09] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:09] Склады армии загружены
+[05:07:09] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:09] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:09] [Дома]: <294 из 294>. Времени затрачено: <7 мс>
+[05:07:09] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:07:09] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:07:09] [Отели]: <4 из 4>. Времени затрачено: <1 мс>
+[05:07:09] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:07:09] [Гаражи]: <8 из 8>. Времени затрачено: <1 мс>
+[05:07:09] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:07:09] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:09] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:09] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:09] [Конфиг Авто]: <200 из 611>. Времени затрачено: <1 мс>
+[05:07:09] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:09] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[05:07:09] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:07:09] [Дата] DAY = 1984
+[05:07:09] weburl = "Maze-Host.RU"  (string)
+[05:07:09] [Игровой Мод]: Игровой мод был загружен за 50 мс
+[05:07:09] Number of vehicle models: 21
+[21:30:07] [connection] incoming connection: 82.215.99.220:5542 id: 0
+[21:30:14] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:30:18] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:30:58] [part] Abu_Abu has left the server (0:0)
+[21:32:28] [connection] incoming connection: 82.215.99.220:27911 id: 0
+[21:32:29] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:32:33] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:32:43] [part] Abu_Abu has left the server (0:1)
+[21:32:43] [connection] incoming connection: 82.215.99.220:41366 id: 0
+[21:32:45] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:32:49] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:33:12] [part] Abu_Abu has left the server (0:0)
+[21:41:04] [connection] incoming connection: 82.215.99.220:41365 id: 0
+[21:41:06] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:41:10] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:41:16] sscanf warning: Format specifier does not match parameter count.
+[21:41:16] sscanf warning: Format specifier does not match parameter count.
+[21:41:16] sscanf warning: Format specifier does not match parameter count.
+[21:41:16] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <6 мс>
+[21:41:50] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.220]
+[21:41:50] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:41:50] [part] Abu_Abu has left the server (0:0)
+[21:48:44] [connection] incoming connection: 82.215.99.220:23435 id: 0
+[21:48:45] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:48:49] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:48:54] sscanf warning: Format specifier does not match parameter count.
+[21:48:54] sscanf warning: Format specifier does not match parameter count.
+[21:48:54] sscanf warning: Format specifier does not match parameter count.
+[21:48:54] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:58:32] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.220]
+[21:58:32] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:58:32] [part] Abu_Abu has left the server (0:0)
+[21:59:11] [connection] incoming connection: 82.215.99.220:5560 id: 0
+[21:59:12] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[21:59:16] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:59:19] sscanf warning: Format specifier does not match parameter count.
+[21:59:19] sscanf warning: Format specifier does not match parameter count.
+[21:59:19] sscanf warning: Format specifier does not match parameter count.
+[21:59:19] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[21:59:25] [chat] [Abu_Abu]: jej
+[22:02:13] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.220]
+[22:02:13] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:02:13] [part] Abu_Abu has left the server (0:0)
+[22:05:09] [connection] incoming connection: 82.215.99.220:9990 id: 0
+[22:05:10] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[22:05:14] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:05:30] sscanf warning: Format specifier does not match parameter count.
+[22:05:30] sscanf warning: Format specifier does not match parameter count.
+[22:05:30] sscanf warning: Format specifier does not match parameter count.
+[22:05:30] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:05:52] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.220]
+[22:05:52] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:05:52] [part] Abu_Abu has left the server (0:0)
+[22:27:53] [connection] incoming connection: 82.215.99.220:45852 id: 0
+[22:27:58] [join] Abu_Abu has joined the server (0:82.215.99.220)
+[22:28:02] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:28:11] sscanf warning: Format specifier does not match parameter count.
+[22:28:11] sscanf warning: Format specifier does not match parameter count.
+[22:28:11] sscanf warning: Format specifier does not match parameter count.
+[22:28:11] [Загрузка списка рыбы] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:28:45] Abu_Abu [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.220]
+[22:28:45] [Сохранение инвентаря] Аккаунт: Abu_Abu[50] | Времени затрачено: <0 мс>
+[22:28:45] [part] Abu_Abu has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[05:05:20] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:20] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:20] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:20] Local [SQL]: Handle Connection No: 0
+[05:05:20] [MYSQL] Подключение к базе данных удалось. 
+[05:05:20] [STREAM SOURCES] Initialized...
+[05:05:20] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:20] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:20] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:20] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:20] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:20] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:20] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:20] Мафии загружены
+[05:05:20] Настройки мафий загружены
+[05:05:20] [Репорт]: Времени затрачено: <0 мс>
+[05:05:20] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:20] Склады армии загружены
+[05:05:20] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:20] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:20] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[05:05:20] [Квартиры]: <764 из 764>. Времени затрачено: <18 мс>
+[05:05:20] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:05:20] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:20] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:05:20] [Гаражи]: <8 из 8>. Времени затрачено: <1 мс>
+[05:05:20] [Номера Отелей]: <252 из 252>. Времени затрачено: <3 мс>
+[05:05:20] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:20] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:20] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:20] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:05:20] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:20] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:20] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:20] [Дата] DAY = 1985
+[05:05:20] weburl = "Maze-Host.RU"  (string)
+[05:05:20] [Игровой Мод]: Игровой мод был загружен за 71 мс
+[05:05:20] Number of vehicle models: 21
+[05:06:34] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:34] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:34] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:34] Local [SQL]: Handle Connection No: 0
+[05:06:34] [MYSQL] Подключение к базе данных удалось. 
+[05:06:34] [STREAM SOURCES] Initialized...
+[05:06:34] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:34] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:34] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:34] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:34] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:34] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:34] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:34] Мафии загружены
+[05:06:34] Настройки мафий загружены
+[05:06:34] [Репорт]: Времени затрачено: <0 мс>
+[05:06:34] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:34] Склады армии загружены
+[05:06:34] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:34] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:34] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[05:06:34] [Квартиры]: <764 из 764>. Времени затрачено: <13 мс>
+[05:06:34] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:06:34] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:34] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:06:34] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:34] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:06:34] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:34] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:34] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:34] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:06:34] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:34] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:34] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:34] [Дата] DAY = 1985
+[05:06:34] weburl = "Maze-Host.RU"  (string)
+[05:06:34] [Игровой Мод]: Игровой мод был загружен за 52 мс
+[05:06:34] Number of vehicle models: 21
+[05:07:48] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:48] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:48] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:48] Local [SQL]: Handle Connection No: 0
+[05:07:48] [MYSQL] Подключение к базе данных удалось. 
+[05:07:48] [STREAM SOURCES] Initialized...
+[05:07:48] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:48] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:48] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:48] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:48] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:48] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:48] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:48] Мафии загружены
+[05:07:48] Настройки мафий загружены
+[05:07:48] [Репорт]: Времени затрачено: <0 мс>
+[05:07:48] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:48] Склады армии загружены
+[05:07:48] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:48] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:48] [Дома]: <294 из 294>. Времени затрачено: <6 мс>
+[05:07:48] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:07:48] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:07:48] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:48] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:07:48] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:48] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:07:48] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:48] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:48] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:48] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:07:48] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:48] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:48] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:07:48] [Дата] DAY = 1985
+[05:07:48] weburl = "Maze-Host.RU"  (string)
+[05:07:48] [Игровой Мод]: Игровой мод был загружен за 48 мс
+[05:07:48] Number of vehicle models: 21
+[16:27:43] [connection] incoming connection: 144.124.192.117:5272 id: 0
+[16:27:50] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[16:27:54] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[16:28:03] sscanf warning: Format specifier does not match parameter count.
+[16:28:03] sscanf warning: Format specifier does not match parameter count.
+[16:28:03] sscanf warning: Format specifier does not match parameter count.
+[16:28:03] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <6 мс>
+[16:28:48] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[16:28:48] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:28:48] [part] Dev_Nitee has left the server (0:0)
+[16:30:44] [connection] incoming connection: 144.124.192.117:36235 id: 0
+[16:30:48] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[16:30:52] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[16:30:55] sscanf warning: Format specifier does not match parameter count.
+[16:30:55] sscanf warning: Format specifier does not match parameter count.
+[16:30:55] sscanf warning: Format specifier does not match parameter count.
+[16:30:55] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:32:22] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[16:32:22] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:32:22] [part] Dev_Nitee has left the server (0:0)
+[16:33:03] [connection] incoming connection: 144.124.192.117:59579 id: 0
+[16:33:03] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[16:33:07] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[16:33:08] sscanf warning: Format specifier does not match parameter count.
+[16:33:08] sscanf warning: Format specifier does not match parameter count.
+[16:33:08] sscanf warning: Format specifier does not match parameter count.
+[16:33:08] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:34:19] [death] Dev_Nitee died 53
+[16:35:46] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[16:35:46] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[16:35:46] [part] Dev_Nitee has left the server (0:0)
+[17:29:47] [connection] incoming connection: 202.79.185.44:59307 id: 0
+[17:29:54] [join] no_bkuzn has joined the server (0:202.79.185.44)
+[17:29:55] [part] no_bkuzn has left the server (0:2)
+[17:30:28] [connection] incoming connection: 202.79.185.44:1041 id: 0
+[17:30:30] [join] Zico_Costello has joined the server (0:202.79.185.44)
+[17:30:34] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[17:30:55] sscanf warning: Format specifier does not match parameter count.
+[17:30:55] sscanf warning: Format specifier does not match parameter count.
+[17:30:55] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <5 мс>
+[17:32:09] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 202.79.185.44]
+[17:32:09] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[17:32:09] [part] Zico_Costello has left the server (0:0)
+[21:05:36] [connection] incoming connection: 82.215.99.12:63807 id: 0
+[21:05:40] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:05:44] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:05:47] sscanf warning: Format specifier does not match parameter count.
+[21:05:47] sscanf warning: Format specifier does not match parameter count.
+[21:05:47] sscanf warning: Format specifier does not match parameter count.
+[21:05:47] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <5 мс>
+[21:06:37] Zico_Costello [0] покинул игру [IP: 82.215.99.12]
+[21:06:37] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:06:37] [part] Zico_Costello has left the server (0:1)
+[21:06:37] [connection] incoming connection: 82.215.99.12:14469 id: 0
+[21:06:38] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:06:42] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:07:17] [part] Zico_Costello has left the server (0:0)
+[21:07:35] [connection] incoming connection: 82.215.99.12:41397 id: 0
+[21:07:37] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:07:41] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:07:42] sscanf warning: Format specifier does not match parameter count.
+[21:07:42] sscanf warning: Format specifier does not match parameter count.
+[21:07:42] sscanf warning: Format specifier does not match parameter count.
+[21:07:42] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:08:00] [chat] [Zico_Costello]: ndjjd
+[21:18:53] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[21:18:53] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:18:53] [part] Zico_Costello has left the server (0:0)
+[21:24:46] [connection] incoming connection: 82.215.99.12:23507 id: 0
+[21:24:47] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:24:51] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:24:54] sscanf warning: Format specifier does not match parameter count.
+[21:24:54] sscanf warning: Format specifier does not match parameter count.
+[21:24:54] sscanf warning: Format specifier does not match parameter count.
+[21:24:54] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:33:28] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[21:33:28] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:33:28] [part] Zico_Costello has left the server (0:0)
+[21:36:24] [connection] incoming connection: 82.215.99.12:59286 id: 0
+[21:36:25] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:36:29] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:36:39] sscanf warning: Format specifier does not match parameter count.
+[21:36:39] sscanf warning: Format specifier does not match parameter count.
+[21:36:39] sscanf warning: Format specifier does not match parameter count.
+[21:36:39] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:40:23] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[21:40:23] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:40:23] [part] Zico_Costello has left the server (0:0)
+[21:41:02] [connection] incoming connection: 82.215.99.12:5592 id: 0
+[21:41:03] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:41:07] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:41:15] sscanf warning: Format specifier does not match parameter count.
+[21:41:15] sscanf warning: Format specifier does not match parameter count.
+[21:41:15] sscanf warning: Format specifier does not match parameter count.
+[21:41:15] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:43:04] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[21:43:04] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:43:04] [part] Zico_Costello has left the server (0:0)
+[21:43:43] [connection] incoming connection: 82.215.99.12:59340 id: 0
+[21:43:44] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[21:43:48] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[21:43:50] sscanf warning: Format specifier does not match parameter count.
+[21:43:50] sscanf warning: Format specifier does not match parameter count.
+[21:43:50] sscanf warning: Format specifier does not match parameter count.
+[21:43:50] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:46:01] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[21:46:01] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[21:46:01] [part] Zico_Costello has left the server (0:0)
+[22:12:19] [connection] incoming connection: 82.215.99.12:1048 id: 0
+[22:12:23] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:12:27] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:12:28] sscanf warning: Format specifier does not match parameter count.
+[22:12:28] sscanf warning: Format specifier does not match parameter count.
+[22:12:28] sscanf warning: Format specifier does not match parameter count.
+[22:12:28] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:13:32] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:13:32] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:13:32] [part] Zico_Costello has left the server (0:0)
+[22:16:04] [connection] incoming connection: 82.215.99.12:19045 id: 0
+[22:16:05] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:16:09] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:16:11] sscanf warning: Format specifier does not match parameter count.
+[22:16:11] sscanf warning: Format specifier does not match parameter count.
+[22:16:11] sscanf warning: Format specifier does not match parameter count.
+[22:16:11] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:16:48] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:16:48] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:16:48] [part] Zico_Costello has left the server (0:0)
+[22:21:46] [connection] incoming connection: 82.215.99.12:10039 id: 0
+[22:21:47] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:21:51] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:21:58] sscanf warning: Format specifier does not match parameter count.
+[22:21:58] sscanf warning: Format specifier does not match parameter count.
+[22:21:58] sscanf warning: Format specifier does not match parameter count.
+[22:21:58] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:27:49] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:27:49] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:27:49] [part] Zico_Costello has left the server (0:0)
+[22:28:24] [connection] incoming connection: 82.215.99.12:1099 id: 0
+[22:28:25] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:28:29] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:28:32] sscanf warning: Format specifier does not match parameter count.
+[22:28:32] sscanf warning: Format specifier does not match parameter count.
+[22:28:32] sscanf warning: Format specifier does not match parameter count.
+[22:28:32] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:32:45] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:32:45] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:32:45] [part] Zico_Costello has left the server (0:0)
+[22:34:08] [connection] incoming connection: 82.215.99.12:14481 id: 0
+[22:34:09] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:34:14] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:34:28] sscanf warning: Format specifier does not match parameter count.
+[22:34:28] sscanf warning: Format specifier does not match parameter count.
+[22:34:28] sscanf warning: Format specifier does not match parameter count.
+[22:34:28] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:38:32] [chat] [Zico_Costello]: ff
+[22:41:43] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:41:43] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:41:43] [part] Zico_Costello has left the server (0:0)
+[22:46:40] [connection] incoming connection: 82.215.99.12:63786 id: 0
+[22:46:41] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:46:45] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:46:47] sscanf warning: Format specifier does not match parameter count.
+[22:46:47] sscanf warning: Format specifier does not match parameter count.
+[22:46:47] sscanf warning: Format specifier does not match parameter count.
+[22:46:47] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:51:56] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:51:56] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:51:56] [part] Zico_Costello has left the server (0:0)
+[22:52:10] [connection] incoming connection: 82.215.99.12:45853 id: 0
+[22:52:11] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:52:15] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:52:17] sscanf warning: Format specifier does not match parameter count.
+[22:52:17] sscanf warning: Format specifier does not match parameter count.
+[22:52:17] sscanf warning: Format specifier does not match parameter count.
+[22:52:17] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:54:32] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:54:32] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[22:54:32] [part] Zico_Costello has left the server (0:0)
+[22:55:06] [connection] incoming connection: 82.215.99.12:36905 id: 0
+[22:55:07] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[22:55:11] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[22:55:15] sscanf warning: Format specifier does not match parameter count.
+[22:55:15] sscanf warning: Format specifier does not match parameter count.
+[22:55:15] sscanf warning: Format specifier does not match parameter count.
+[22:55:15] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <1 мс>
+[22:59:30] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[22:59:30] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <1 мс>
+[22:59:30] [part] Zico_Costello has left the server (0:0)
+[23:07:26] [connection] incoming connection: 82.215.99.12:59327 id: 0
+[23:07:27] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[23:07:31] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[23:07:33] sscanf warning: Format specifier does not match parameter count.
+[23:07:33] sscanf warning: Format specifier does not match parameter count.
+[23:07:33] sscanf warning: Format specifier does not match parameter count.
+[23:07:33] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <1 мс>
+[23:07:53] [chat] [Zico_Costello]: kekd
+[23:08:10] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[23:08:10] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[23:08:10] [part] Zico_Costello has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 2 (0) - оплачено | 9 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[05:05:53] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:53] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:53] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:53] Local [SQL]: Handle Connection No: 0
+[05:05:53] [MYSQL] Подключение к базе данных удалось. 
+[05:05:53] [STREAM SOURCES] Initialized...
+[05:05:53] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:53] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:53] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:53] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:53] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:53] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:53] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:53] Мафии загружены
+[05:05:53] Настройки мафий загружены
+[05:05:53] [Репорт]: Времени затрачено: <0 мс>
+[05:05:53] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:53] Склады армии загружены
+[05:05:53] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:53] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:53] [Дома]: <294 из 294>. Времени затрачено: <11 мс>
+[05:05:53] [Квартиры]: <764 из 764>. Времени затрачено: <16 мс>
+[05:05:53] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:05:53] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:53] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:05:53] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:53] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:05:53] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:53] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:53] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:53] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:05:53] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <1 мс>
+[05:05:53] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:53] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:53] [Дата] DAY = 1986
+[05:05:53] weburl = "Maze-Host.RU"  (string)
+[05:05:53] [Игровой Мод]: Игровой мод был загружен за 70 мс
+[05:05:53] Number of vehicle models: 21
+[05:07:08] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:08] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:08] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:08] Local [SQL]: Handle Connection No: 0
+[05:07:08] [MYSQL] Подключение к базе данных удалось. 
+[05:07:08] [STREAM SOURCES] Initialized...
+[05:07:08] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:08] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:08] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:08] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:08] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:08] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:08] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:08] Мафии загружены
+[05:07:08] Настройки мафий загружены
+[05:07:08] [Репорт]: Времени затрачено: <0 мс>
+[05:07:08] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:08] Склады армии загружены
+[05:07:08] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:08] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:08] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:07:08] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:07:08] [Подъезды]: <64 из 64>. Времени затрачено: <1 мс>
+[05:07:08] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:08] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:07:08] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:08] [Номера Отелей]: <252 из 252>. Времени затрачено: <4 мс>
+[05:07:08] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:08] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:08] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:08] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:07:08] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:08] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:08] [Склады]: <6 из 6>. Времени затрачено: <1 мс>
+[05:07:08] [Дата] DAY = 1986
+[05:07:08] weburl = "Maze-Host.RU"  (string)
+[05:07:08] [Игровой Мод]: Игровой мод был загружен за 53 мс
+[05:07:08] Number of vehicle models: 21
+[10:30:27] [connection] incoming connection: 144.124.192.117:22772 id: 0
+[10:30:34] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[10:30:38] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[10:30:44] sscanf warning: Format specifier does not match parameter count.
+[10:30:44] sscanf warning: Format specifier does not match parameter count.
+[10:30:44] sscanf warning: Format specifier does not match parameter count.
+[10:30:45] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <5 мс>
+[10:32:01] [chat] [Dev_Nitee]: Ыыыыыы
+[10:33:32] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[10:33:32] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[10:33:32] [part] Dev_Nitee has left the server (0:0)
+[10:36:13] [connection] incoming connection: 144.124.192.117:20987 id: 0
+[10:36:13] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[10:36:18] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[10:36:25] [part] Dev_Nitee has left the server (0:0)
+[10:42:13] [connection] incoming connection: 82.215.99.12:41352 id: 0
+[10:42:20] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[10:42:24] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[10:42:35] [part] Zico_Costello has left the server (0:0)
+[11:32:47] [connection] incoming connection: 82.215.99.12:50462 id: 0
+[11:32:55] [join] __android_488780 has joined the server (0:82.215.99.12)
+[11:32:56] [part] __android_488780 has left the server (0:2)
+[12:50:55] [connection] incoming connection: 82.215.99.12:28030 id: 0
+[12:51:05] [connection] incoming connection: 82.215.99.12:23475 id: 0
+[12:51:06] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[12:51:10] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:51:39] sscanf warning: Format specifier does not match parameter count.
+[12:51:39] sscanf warning: Format specifier does not match parameter count.
+[12:51:39] sscanf warning: Format specifier does not match parameter count.
+[12:51:39] [Загрузка списка рыбы] Аккаунт: Zico_Costello[52] | Времени затрачено: <5 мс>
+[12:57:09] Zico_Costello [0] покинул игру (краш/обрыв связи) [IP: 82.215.99.12]
+[12:57:09] [Сохранение инвентаря] Аккаунт: Zico_Costello[52] | Времени затрачено: <0 мс>
+[12:57:09] [part] Zico_Costello has left the server (0:0)
+[12:59:31] [connection] incoming connection: 82.215.99.12:1030 id: 0
+[12:59:36] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[12:59:40] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:01:19] [part] Zico_Costello has left the server (0:0)
+[13:38:38] [connection] incoming connection: 82.215.99.12:14469 id: 0
+[13:38:43] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[13:38:47] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:39:17] [part] Zico_Costello has left the server (0:0)
+[17:42:21] [connection] incoming connection: 144.124.192.117:63619 id: 0
+[17:42:25] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[17:42:29] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[17:42:41] sscanf warning: Format specifier does not match parameter count.
+[17:42:41] sscanf warning: Format specifier does not match parameter count.
+[17:42:41] sscanf warning: Format specifier does not match parameter count.
+[17:42:41] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[51] | Времени затрачено: <5 мс>
+[17:44:10] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[17:44:10] [Сохранение инвентаря] Аккаунт: Dev_Nitee[51] | Времени затрачено: <0 мс>
+[17:44:10] [part] Dev_Nitee has left the server (0:0)
+[19:12:10] [connection] incoming connection: 144.124.192.117:53338 id: 0
+[19:12:11] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[19:12:15] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[19:12:18] sscanf warning: Format specifier does not match parameter count.
+[19:12:18] sscanf warning: Format specifier does not match parameter count.
+[19:12:18] sscanf warning: Format specifier does not match parameter count.
+[19:12:18] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[21] | Времени затрачено: <5 мс>
+[19:13:24] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[19:13:24] [Сохранение инвентаря] Аккаунт: Dev_Nitee[21] | Времени затрачено: <0 мс>
+[19:13:24] [part] Dev_Nitee has left the server (0:0)
+[19:25:13] [connection] incoming connection: 144.124.192.117:44773 id: 0
+[19:25:14] [join] Dev_Nitee has joined the server (0:144.124.192.117)
+[19:25:18] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[19:25:22] sscanf warning: Format specifier does not match parameter count.
+[19:25:22] sscanf warning: Format specifier does not match parameter count.
+[19:25:22] sscanf warning: Format specifier does not match parameter count.
+[19:25:22] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[21] | Времени затрачено: <0 мс>
+[19:26:21] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 144.124.192.117]
+[19:26:21] [Сохранение инвентаря] Аккаунт: Dev_Nitee[21] | Времени затрачено: <0 мс>
+[19:26:21] [part] Dev_Nitee has left the server (0:0)
+[23:21:51] [connection] incoming connection: 82.215.99.12:14483 id: 0
+[23:21:58] [join] Zico_Costello has joined the server (0:82.215.99.12)
+[23:22:02] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[23:22:30] [part] Zico_Costello has left the server (0:0)
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 1 (0) - оплачено | 22 - владелец
+[00:01:03] [МЕХАНИКИ PAYDAY СЛЕТ] 2 (0) - оплачено | 9 - владелец
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [HOTEL PAYDAY] Попытка слета!
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 0 (0) - оплачено | 1 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 1 (0) - оплачено | 4461 - владелец
+[00:01:03] [ДАЛЬНОБОИ PAYDAY СЛЕТ] 2 (0) - оплачено | 600 - владелец
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '1140'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '3'
+[00:01:03] [QE] ID: 1054 / Error: 
+[00:01:03] [QE] Callback:  / Query: UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[00:01:03] SQL ERROR -  | ID: 1054 | P:  | Q - UPDATE accounts SET pHotelRoom = '-1' WHERE id = '5531'
+[01:17:35] [connection] incoming connection: 176.108.238.244:38817 id: 0
+[01:17:39] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[01:17:43] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[01:18:25] sscanf warning: Format specifier does not match parameter count.
+[01:18:25] sscanf warning: Format specifier does not match parameter count.
+[01:18:25] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <5 мс>
+[01:25:00] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[01:25:00] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[01:25:00] [part] Artem_Artem has left the server (0:0)
+[04:26:53] [connection] incoming connection: 107.151.216.49:39152 id: 0
+[04:26:58] [join] Fariteq_Dev has joined the server (0:107.151.216.49)
+[04:27:02] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:27:44] sscanf warning: Format specifier does not match parameter count.
+[04:27:44] sscanf warning: Format specifier does not match parameter count.
+[04:27:44] [Загрузка списка рыбы] Аккаунт: Fariteq_Dev[54] | Времени затрачено: <5 мс>
+[04:31:33] Fariteq_Dev [0] покинул игру (краш/обрыв связи) [IP: 107.151.216.49]
+[04:31:33] [Сохранение инвентаря] Аккаунт: Fariteq_Dev[54] | Времени затрачено: <0 мс>
+[04:31:33] [part] Fariteq_Dev has left the server (0:0)
+[04:38:00] [connection] incoming connection: 109.196.64.110:2310 id: 0
+[04:38:10] [connection] incoming connection: 109.196.64.110:2326 id: 0
+[04:38:11] [join] Fariteq_Dev has joined the server (0:109.196.64.110)
+[04:38:15] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:38:21] [part] Fariteq_Dev has left the server (0:0)
+[04:38:26] [connection] incoming connection: 109.196.64.110:3847 id: 0
+[04:38:27] [join] Fariteq_Dev has joined the server (0:109.196.64.110)
+[04:38:31] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:38:37] [part] Fariteq_Dev has left the server (0:0)
+[04:38:56] [connection] incoming connection: 109.196.64.110:2334 id: 0
+[04:38:56] [join] Fariteq_Dev has joined the server (0:109.196.64.110)
+[04:39:00] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:39:06] [part] Fariteq_Dev has left the server (0:0)
+[04:39:06] [connection] incoming connection: 109.196.64.110:3849 id: 0
+[04:39:07] [join] Fariteq_Dev has joined the server (0:109.196.64.110)
+[04:39:11] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:39:18] [part] Fariteq_Dev has left the server (0:0)
+[04:39:22] [connection] incoming connection: 109.196.64.110:3857 id: 0
+[04:39:23] [join] Fariteq_Dev has joined the server (0:109.196.64.110)
+[04:39:27] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[04:39:34] [part] Fariteq_Dev has left the server (0:0)
+[05:05:26] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:05:26] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:05:26] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:05:26] Local [SQL]: Handle Connection No: 0
+[05:05:26] [MYSQL] Подключение к базе данных удалось. 
+[05:05:26] [STREAM SOURCES] Initialized...
+[05:05:26] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:05:26] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:26] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:05:26] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:05:26] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:05:26] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:05:26] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:05:26] Мафии загружены
+[05:05:26] Настройки мафий загружены
+[05:05:26] [Репорт]: Времени затрачено: <0 мс>
+[05:05:26] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:05:26] Склады армии загружены
+[05:05:26] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:26] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:26] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:05:26] [Квартиры]: <764 из 764>. Времени затрачено: <15 мс>
+[05:05:26] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:05:26] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:05:26] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:05:26] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:26] [Номера Отелей]: <252 из 252>. Времени затрачено: <3 мс>
+[05:05:26] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:05:26] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:05:26] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:26] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:05:26] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:05:26] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:05:26] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:05:26] [Дата] DAY = 1987
+[05:05:26] weburl = "Maze-Host.RU"  (string)
+[05:05:26] [Игровой Мод]: Игровой мод был загружен за 65 мс
+[05:05:26] Number of vehicle models: 21
+[05:06:41] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:06:41] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:06:41] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:06:41] Local [SQL]: Handle Connection No: 0
+[05:06:41] [MYSQL] Подключение к базе данных удалось. 
+[05:06:41] [STREAM SOURCES] Initialized...
+[05:06:41] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:06:41] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:41] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:06:41] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:06:41] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:06:41] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:06:41] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:06:41] Мафии загружены
+[05:06:41] Настройки мафий загружены
+[05:06:41] [Репорт]: Времени затрачено: <0 мс>
+[05:06:41] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:06:41] Склады армии загружены
+[05:06:41] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:41] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:41] [Дома]: <294 из 294>. Времени затрачено: <9 мс>
+[05:06:41] [Квартиры]: <764 из 764>. Времени затрачено: <12 мс>
+[05:06:41] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:06:41] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:06:41] [Бизнесы]: <35 из 35>. Времени затрачено: <1 мс>
+[05:06:41] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:06:41] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:06:41] [АЗС]: <8 из 8>. Времени затрачено: <1 мс>
+[05:06:41] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:06:41] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:06:41] [Конфиг Авто]: <200 из 611>. Времени затрачено: <3 мс>
+[05:06:41] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:06:41] [Такси]: <3 из 3>. Времени затрачено: <1 мс>
+[05:06:41] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:06:41] [Дата] DAY = 1987
+[05:06:41] weburl = "Maze-Host.RU"  (string)
+[05:06:41] [Игровой Мод]: Игровой мод был загружен за 53 мс
+[05:06:41] Number of vehicle models: 21
+[05:07:55] [Pawn.CMD] n_PC_RegAlias: alias 'house' is occupied
+[05:07:55] [Pawn.CMD] n_PC_RegAlias: alias 'rep' is occupied
+[05:07:55] [Pawn.CMD] n_PC_RegAlias: command 'setpos' not found
+[05:07:55] Local [SQL]: Handle Connection No: 0
+[05:07:55] [MYSQL] Подключение к базе данных удалось. 
+[05:07:55] [STREAM SOURCES] Initialized...
+[05:07:55] AUDIO_STREAM_ID: 0 | URL: http://dl.b-rp.ru/sound_game/lesopilka_winter.mp3 | DIST: 55.000000
+[05:07:55] AUDIO_STREAM_ID: 1 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:55] AUDIO_STREAM_ID: 2 | URL: http://dl.b-rp.ru/sound_game/army.mp3 | DIST: 75.000000
+[05:07:55] AUDIO_STREAM_ID: 3 | URL: http://dl.b-rp.ru/sound_game/hotel_sound.mp3 | DIST: 55.000000
+[05:07:55] AUDIO_STREAM_ID: 4 | URL: http://dl.b-rp.ru/sound_game/univermag.mp3 | DIST: 35.000000
+[05:07:55] AUDIO_STREAM_ID: 5 | URL: http://dl.b-rp.ru/sound_game/zavod.mp3 | DIST: 200.000000
+[05:07:55] AUDIO_STREAM_ID: 6 | URL: http://air.radiorecord.ru:805/rmx_128 | DIST: 150.000000
+[05:07:55] Мафии загружены
+[05:07:55] Настройки мафий загружены
+[05:07:55] [Репорт]: Времени затрачено: <0 мс>
+[05:07:55] [Система Выборов]: Выборы были успешно загружены. Времени затрачено: <0 мс>
+[05:07:55] Склады армии загружены
+[05:07:55] [Пожертвования]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:55] [Механики]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:55] [Дома]: <294 из 294>. Времени затрачено: <10 мс>
+[05:07:55] [Квартиры]: <764 из 764>. Времени затрачено: <18 мс>
+[05:07:55] [Подъезды]: <64 из 64>. Времени затрачено: <0 мс>
+[05:07:55] [Отели]: <4 из 4>. Времени затрачено: <0 мс>
+[05:07:55] [Бизнесы]: <35 из 35>. Времени затрачено: <0 мс>
+[05:07:55] [Гаражи]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:55] [Номера Отелей]: <252 из 252>. Времени затрачено: <2 мс>
+[05:07:55] [АЗС]: <8 из 8>. Времени затрачено: <0 мс>
+[05:07:55] [Казино]: <1 из 1>. Времени затрачено: <0 мс>
+[05:07:55] [Транспортные Компании]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:55] [Конфиг Авто]: <200 из 611>. Времени затрачено: <2 мс>
+[05:07:55] [Конфиг Авто Автосалоны]: <4 из 3>. Времени затрачено: <0 мс>
+[05:07:55] [Такси]: <3 из 3>. Времени затрачено: <0 мс>
+[05:07:55] [Склады]: <6 из 6>. Времени затрачено: <0 мс>
+[05:07:55] [Дата] DAY = 1987
+[05:07:55] weburl = "Maze-Host.RU"  (string)
+[05:07:55] [Игровой Мод]: Игровой мод был загружен за 53 мс
+[05:07:55] Number of vehicle models: 21
+[07:03:27] [connection] incoming connection: 176.108.238.244:41704 id: 0
+[07:03:31] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[07:03:35] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[07:03:39] sscanf warning: Format specifier does not match parameter count.
+[07:03:39] sscanf warning: Format specifier does not match parameter count.
+[07:03:39] sscanf warning: Format specifier does not match parameter count.
+[07:03:39] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <5 мс>
+[07:05:23] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[07:05:23] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[07:05:23] [part] Artem_Artem has left the server (0:0)
+[12:27:53] [connection] incoming connection: 176.108.238.244:38516 id: 0
+[12:27:57] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[12:28:01] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[12:28:14] sscanf warning: Format specifier does not match parameter count.
+[12:28:14] sscanf warning: Format specifier does not match parameter count.
+[12:28:14] sscanf warning: Format specifier does not match parameter count.
+[12:28:14] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[12:32:50] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[12:32:50] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[12:32:50] [part] Artem_Artem has left the server (0:0)
+[13:17:09] [connection] incoming connection: 176.108.238.244:48856 id: 0
+[13:17:13] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[13:17:17] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:17:21] sscanf warning: Format specifier does not match parameter count.
+[13:17:21] sscanf warning: Format specifier does not match parameter count.
+[13:17:21] sscanf warning: Format specifier does not match parameter count.
+[13:17:21] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:18:05] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[13:18:05] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:18:05] [part] Artem_Artem has left the server (0:0)
+[13:25:42] [connection] incoming connection: 128.124.5.253:4037 id: 0
+[13:26:05] [connection] incoming connection: 128.124.5.253:4044 id: 0
+[13:28:57] [connection] incoming connection: 176.108.238.244:48545 id: 0
+[13:28:57] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[13:29:01] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:29:11] sscanf warning: Format specifier does not match parameter count.
+[13:29:11] sscanf warning: Format specifier does not match parameter count.
+[13:29:11] sscanf warning: Format specifier does not match parameter count.
+[13:29:11] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:29:48] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[13:29:48] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:29:48] [part] Artem_Artem has left the server (0:0)
+[13:30:56] [connection] incoming connection: 176.108.238.244:38432 id: 0
+[13:30:57] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[13:31:01] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:31:11] [part] Artem_Artem has left the server (0:0)
+[13:31:54] [connection] incoming connection: 176.108.238.244:45387 id: 0
+[13:31:54] [join] Artem_Artem has joined the server (0:176.108.238.244)
+[13:31:58] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:32:02] sscanf warning: Format specifier does not match parameter count.
+[13:32:02] sscanf warning: Format specifier does not match parameter count.
+[13:32:02] sscanf warning: Format specifier does not match parameter count.
+[13:32:02] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:32:22] Artem_Artem [0] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[13:32:22] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:32:22] [part] Artem_Artem has left the server (0:0)
+[13:33:38] [connection] incoming connection: 2.132.15.253:48905 id: 0
+[13:33:45] [join] Zico_Costello has joined the server (0:2.132.15.253)
+[13:33:49] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:34:01] [part] Zico_Costello has left the server (0:2)
+[13:35:14] [connection] incoming connection: 2.132.15.253:42402 id: 0
+[13:35:15] [join] gggf_sss has joined the server (0:2.132.15.253)
+[13:35:16] [part] gggf_sss has left the server (0:2)
+[13:37:01] [connection] incoming connection: 2.132.15.253:44167 id: 0
+[13:37:02] [join] Frinr_Gornadon has joined the server (0:2.132.15.253)
+[13:37:06] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:37:38] sscanf warning: Format specifier does not match parameter count.
+[13:37:38] sscanf warning: Format specifier does not match parameter count.
+[13:37:38] [Загрузка списка рыбы] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <5 мс>
+[13:38:50] [chat] [Frinr_Gornadon]: e
+[13:39:28] Frinr_Gornadon [0] покинул игру (краш/обрыв связи) [IP: 2.132.15.253]
+[13:39:28] [Сохранение инвентаря] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <0 мс>
+[13:39:28] [part] Frinr_Gornadon has left the server (0:0)
+[13:39:44] [connection] incoming connection: 2.132.15.253:43154 id: 0
+[13:39:45] [join] Frinr_Gornadon has joined the server (0:2.132.15.253)
+[13:39:49] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:39:56] [connection] incoming connection: 176.108.238.244:48638 id: 1
+[13:39:57] [join] Artem_Artem has joined the server (1:176.108.238.244)
+[13:40:01] [CHECK ANDROID]: 1 - bypassed, treating as valid mobile
+[13:40:04] sscanf warning: Format specifier does not match parameter count.
+[13:40:04] sscanf warning: Format specifier does not match parameter count.
+[13:40:04] sscanf warning: Format specifier does not match parameter count.
+[13:40:04] [Загрузка списка рыбы] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:40:32] sscanf warning: Format specifier does not match parameter count.
+[13:40:32] sscanf warning: Format specifier does not match parameter count.
+[13:40:32] sscanf warning: Format specifier does not match parameter count.
+[13:40:32] [Загрузка списка рыбы] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <0 мс>
+[13:40:40] [chat] [Frinr_Gornadon]: d
+[13:42:14] Frinr_Gornadon [0] покинул игру (краш/обрыв связи) [IP: 2.132.15.253]
+[13:42:14] [Сохранение инвентаря] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <0 мс>
+[13:42:14] [part] Frinr_Gornadon has left the server (0:0)
+[13:42:46] [connection] incoming connection: 37.110.214.20:9498 id: 0
+[13:42:51] [join] Dev_Nitee has joined the server (0:37.110.214.20)
+[13:42:55] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[13:43:00] sscanf warning: Format specifier does not match parameter count.
+[13:43:00] sscanf warning: Format specifier does not match parameter count.
+[13:43:00] sscanf warning: Format specifier does not match parameter count.
+[13:43:00] [Загрузка списка рыбы] Аккаунт: Dev_Nitee[21] | Времени затрачено: <5 мс>
+[13:43:35] Dev_Nitee [0] покинул игру (краш/обрыв связи) [IP: 37.110.214.20]
+[13:43:35] [Сохранение инвентаря] Аккаунт: Dev_Nitee[21] | Времени затрачено: <0 мс>
+[13:43:35] [part] Dev_Nitee has left the server (0:0)
+[13:52:08] Artem_Artem [1] покинул игру (краш/обрыв связи) [IP: 176.108.238.244]
+[13:52:08] [Сохранение инвентаря] Аккаунт: Artem_Artem[53] | Времени затрачено: <0 мс>
+[13:52:08] [part] Artem_Artem has left the server (1:0)
+[14:13:55] [connection] incoming connection: 2.132.15.253:38550 id: 0
+[14:13:59] [join] Frinr_Gornadon has joined the server (0:2.132.15.253)
+[14:14:03] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:15:55] [part] Frinr_Gornadon has left the server (0:0)
+[14:16:39] [connection] incoming connection: 2.132.15.253:49813 id: 0
+[14:16:40] [join] Frinr_Gornadon has joined the server (0:2.132.15.253)
+[14:16:44] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:16:56] sscanf warning: Format specifier does not match parameter count.
+[14:16:56] sscanf warning: Format specifier does not match parameter count.
+[14:16:56] sscanf warning: Format specifier does not match parameter count.
+[14:16:56] [Загрузка списка рыбы] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <0 мс>
+[14:17:39] Frinr_Gornadon [0] покинул игру (краш/обрыв связи) [IP: 2.132.15.253]
+[14:17:39] [Сохранение инвентаря] Аккаунт: Frinr_Gornadon[55] | Времени затрачено: <0 мс>
+[14:17:39] [part] Frinr_Gornadon has left the server (0:0)
+[14:23:07] [connection] incoming connection: 2.132.15.253:41007 id: 0
+[14:23:08] [join] Frinr_Gornadon has joined the server (0:2.132.15.253)
+[14:23:12] [CHECK ANDROID]: 0 - bypassed, treating as valid mobile
+[14:23:33] [part] Frinr_Gornadon has left the server (0:0)
