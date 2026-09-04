@@ -1,0 +1,7 @@
+MODE 16.94 - CASES + AUTOSALON UPDATE
+
+1) Cases: existing 30-case backend is retained; /case opens the case GUI, 1/10 opening is retained, and the initial GUI packet now advertises all 30 cases and player donate balance. Duplicate JSON cleanup in OpenCase was fixed.
+2) Autosalons: all 5 car markets use a constant stock of 100 per model. Stock is never exhausted. The SQL migration fills every model from car_market_data and adds MySQL triggers that restore slots to 100.
+3) Import gs24439.sql (or autosalon_cases_update.sql if your DB already has the base schema) after backup.
+4) IMPORTANT: modes.pwn was updated. The runtime uses gamemodes/modes.amx; recompile modes.pwn with Pawno/pawncc and replace gamemodes/modes.amx on the server.
+5) Models initialized: 212 across markets 0..4.
