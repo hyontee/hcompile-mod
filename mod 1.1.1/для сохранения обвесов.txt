@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS `vehicle_store_components` (
-    `vehicleid`   INT NOT NULL,
-    `componentid` INT NOT NULL,
-    `state`       TINYINT NOT NULL DEFAULT 0,
-    PRIMARY KEY (`vehicleid`, `componentid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-заидите в бд и sql и туда этот код
