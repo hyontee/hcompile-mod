@@ -1,8 +1,0 @@
-D:\lonexs boss\gamemodes\bleach.pwn(10581) : ôàòàëüíàÿ îøèáêà 100: íåâîçìîæíî ïðî÷åñòü ôàéë: "../include/system/musorovoz.inc"
-
-Êîìïèëÿöèÿ îñòàíîâëåíà.
-
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
-
-Îøèáîê:1.
