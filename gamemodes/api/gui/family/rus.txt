@@ -1,0 +1,39 @@
+D:\mod\gamemodes\api\gui\family\family.pwn(5447) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\mod\gamemodes\api\gui\family\family.pwn(5479) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\mod\gamemodes\api\gui\family\family.pwn(5516) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\mod\gamemodes\api\gui\family\family.pwn(5550) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\mod\gamemodes\api\gui\family\family.pwn(5592) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\mod\gamemodes\api\gui\family\family.pwn(35) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\mod\gamemodes\api\gui\family\family.pwn(163) : ошибка 017: необъявленный символ "MAX_OWNABLE_CARS"
+D:\mod\gamemodes\api\gui\family\family.pwn(194) : ошибка 001: ожидался токен "-identifier-", но найден ":"
+D:\mod\gamemodes\api\gui\family\family.pwn(202) : ошибка 001: ожидался токен ";", но найден "-identifier-"
+D:\mod\gamemodes\api\gui\family\family.pwn(204) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(205) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(207) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(208) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(210) : ошибка 001: ожидался токен ";", но найден ")"
+D:\mod\gamemodes\api\gui\family\family.pwn(212) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(216) : ошибка 054: несоответствующая закрывающая скобка ("}")
+D:\mod\gamemodes\api\gui\family\family.pwn(218) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(228) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(234) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(242) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(243) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(244) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(245) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(246) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(248) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(251) : ошибка 017: необъявленный символ "i"
+D:\mod\gamemodes\api\gui\family\family.pwn(252) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(261) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(263) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(267) : предупреждение 219: переменная "f_string184" уже объявлена в более глобальной зоне видимости
+D:\mod\gamemodes\api\gui\family\family.pwn(267) : ошибка 010: неверная функция или объявление
+D:\mod\gamemodes\api\gui\family\family.pwn(267) : ошибка 010: неверная функция или объявление
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
