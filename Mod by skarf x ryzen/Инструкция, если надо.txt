@@ -1,0 +1,9 @@
+Привет!
+благодарю за покупку моего мода
+
+подключение:
+../scriptfiles/ryzen_server_settings.ini
+../scriptfiles/ryzen_mysql_settings.ini
+
+в skarfryzen.pwn ничего особо нет, но есть ссылки на тг и имя
+
