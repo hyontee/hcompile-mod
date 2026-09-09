@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="file:///C|/Users/moderfour/Desktop/5.4/ÌÎÄ 5.4 BY WOOH/pawno/xml/pawndoc.xsl" type="text/xsl"?>
+<doc source="C:\Users\moderfour\Desktop\5.4\PERFECT RP\pawno\include\performance.inc">
+	<assembly>
+		<name>performance.inc</name>
+	</assembly>
+	<members>
+
+		<!-- enumerations -->
+
+		<!-- constants -->
+
+		<!-- variables -->
+		<member name="F:__date">
+		</member>
+		<member name="F:__file">
+		</member>
+		<member name="F:__time">
+		</member>
+		<member name="F:gMaxSpeed">
+			<referrer name="pt_UpdateTimer200ms"/>
+		</member>
+		<member name="F:pCheckPaused">
+			<referrer name="OnPlayerUpdate"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+		</member>
+		<member name="F:pGetVehicleID">
+			<referrer name="OnPlayerConnect"/>
+			<referrer name="OnPlayerStateChange"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+		</member>
+		<member name="F:pKeySendType">
+			<referrer name="OnPlayerConnect"/>
+			<referrer name="OnPlayerKeyStateChange"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+		</member>
+		<member name="F:pUpdateTimer200ms">
+			<referrer name="OnPlayerDisconnect"/>
+			<referrer name="OnPlayerStateChange"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="F:vEngineDefault">
+			<referrer name="pt_ManualVehicleEngineLights"/>
+			<referrer name="pt_CreateVehicle"/>
+			<referrer name="pt_AddStaticVehicle"/>
+			<referrer name="pt_AddStaticVehicleEx"/>
+		</member>
+		<member name="F:vEngineMode">
+			<referrer name="OnPlayerStateChange"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<referrer name="GetVehicleEngineState"/>
+			<referrer name="SetVehicleEngineState"/>
+			<referrer name="pt_CreateVehicle"/>
+			<referrer name="pt_AddStaticVehicle"/>
+			<referrer name="pt_AddStaticVehicleEx"/>
+		</member>
+		<member name="F:vEngineState">
+			<referrer name="pt_UpdateTimer200ms"/>
+			<referrer name="pt_SetVehicleParamsEx"/>
+			<referrer name="pt_CreateVehicle"/>
+			<referrer name="pt_AddStaticVehicle"/>
+			<referrer name="pt_AddStaticVehicleEx"/>
+		</member>
+
+		<!-- functions -->
+		<member name="M:AddStaticVehicle" syntax="AddStaticVehicle()">
+			<stacksize value="1"/>
+			<referrer name="pt_AddStaticVehicle"/>
+		</member>
+		<member name="M:AddStaticVehicleEx" syntax="AddStaticVehicleEx()">
+			<stacksize value="1"/>
+			<referrer name="pt_AddStaticVehicleEx"/>
+		</member>
+		<member name="M:CreateVehicle" syntax="CreateVehicle()">
+			<stacksize value="1"/>
+			<referrer name="pt_CreateVehicle"/>
+		</member>
+		<member name="M:GetPlayerState" syntax="GetPlayerState()">
+			<stacksize value="1"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:GetPlayerVehicleID" syntax="GetPlayerVehicleID()">
+			<stacksize value="1"/>
+			<referrer name="OnPlayerStateChange"/>
+		</member>
+		<member name="M:GetVehGoesBack" syntax="GetVehGoesBack(vehid)">
+			<stacksize value="16"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<dependency name="GetVehiclePos"/>
+			<dependency name="GetVehicleVelocity"/>
+			<dependency name="GetVehicleZAngle"/>
+			<dependency name="VectorSize"/>
+			<dependency name="floatcos"/>
+			<dependency name="floatsin"/>
+			<param name="vehid">
+			</param>
+		</member>
+		<member name="M:GetVehRot" syntax="GetVehRot(vehid, &amp;rx, &amp;ry, &amp;rz)">
+			<stacksize value="12"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<dependency name="GetVehicleRotationQuat"/>
+			<dependency name="asin"/>
+			<dependency name="atan2"/>
+			<param name="vehid">
+			</param>
+			<param name="rx">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="ry">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="rz">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+		</member>
+		<member name="M:GetVehSpeed" syntax="GetVehSpeed(vehid)">
+			<stacksize value="10"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<dependency name="GetVehicleVelocity"/>
+			<dependency name="VectorSize"/>
+			<dependency name="floatround"/>
+			<param name="vehid">
+			</param>
+		</member>
+		<member name="M:GetVehicleEngineState" syntax="GetVehicleEngineState(vehid)">
+			<stacksize value="1"/>
+			<dependency name="vEngineMode"/>
+			<param name="vehid">
+			</param>
+		</member>
+		<member name="M:GetVehicleModel" syntax="GetVehicleModel()">
+			<stacksize value="1"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:GetVehiclePos" syntax="GetVehiclePos()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+		</member>
+		<member name="M:GetVehicleRotationQuat" syntax="GetVehicleRotationQuat()">
+			<stacksize value="1"/>
+			<referrer name="GetVehRot"/>
+		</member>
+		<member name="M:GetVehicleVelocity" syntax="GetVehicleVelocity()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+			<referrer name="GetVehSpeed"/>
+			<referrer name="SetVehSpeed"/>
+		</member>
+		<member name="M:GetVehicleZAngle" syntax="GetVehicleZAngle()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+			<referrer name="SetVehSpeed"/>
+		</member>
+		<member name="M:IsPlayerInVehicle" syntax="IsPlayerInVehicle()">
+			<stacksize value="1"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:KillTimer" syntax="KillTimer()">
+			<stacksize value="1"/>
+			<referrer name="OnPlayerDisconnect"/>
+			<referrer name="OnPlayerStateChange"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:ManualVehicleEngineAndLights" syntax="ManualVehicleEngineAndLights()">
+			<stacksize value="1"/>
+			<referrer name="pt_ManualVehicleEngineLights"/>
+		</member>
+		<member name="M:OnPlayerConnect" syntax="OnPlayerConnect(playerid)">
+			<attribute name="public"/>
+			<stacksize value="1"/>
+			<dependency name="pGetVehicleID"/>
+			<dependency name="pKeySendType"/>
+			<param name="playerid">
+			</param>
+		</member>
+		<member name="M:OnPlayerDisconnect" syntax="OnPlayerDisconnect(playerid, reason)">
+			<attribute name="public"/>
+			<stacksize value="4"/>
+			<dependency name="KillTimer"/>
+			<dependency name="pUpdateTimer200ms"/>
+			<param name="playerid">
+			</param>
+			<param name="reason">
+			</param>
+		</member>
+		<member name="M:OnPlayerKeyStateChange" syntax="OnPlayerKeyStateChange(playerid, newkeys, oldkeys)">
+			<attribute name="public"/>
+			<stacksize value="1"/>
+			<dependency name="pKeySendType"/>
+			<param name="playerid">
+			</param>
+			<param name="newkeys">
+			</param>
+			<param name="oldkeys">
+			</param>
+		</member>
+		<member name="M:OnPlayerStateChange" syntax="OnPlayerStateChange(playerid, newstate, oldstate)">
+			<attribute name="public"/>
+			<stacksize value="9"/>
+			<dependency name="GetPlayerVehicleID"/>
+			<dependency name="KillTimer"/>
+			<dependency name="SetTimerEx"/>
+			<dependency name="pGetVehicleID"/>
+			<dependency name="pUpdateTimer200ms"/>
+			<dependency name="vEngineMode"/>
+			<param name="playerid">
+			</param>
+			<param name="newstate">
+			</param>
+			<param name="oldstate">
+			</param>
+		</member>
+		<member name="M:OnPlayerUpdate" syntax="OnPlayerUpdate(playerid)">
+			<attribute name="public"/>
+			<stacksize value="1"/>
+			<dependency name="pCheckPaused"/>
+			<param name="playerid">
+			</param>
+		</member>
+		<member name="M:SetTimerEx" syntax="SetTimerEx()">
+			<stacksize value="1"/>
+			<referrer name="OnPlayerStateChange"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:SetVehSpeed" syntax="SetVehSpeed(vehid, speed)">
+			<stacksize value="11"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<dependency name="GetVehicleVelocity"/>
+			<dependency name="GetVehicleZAngle"/>
+			<dependency name="SetVehicleVelocity"/>
+			<dependency name="floatcos"/>
+			<dependency name="floatsin"/>
+			<param name="vehid">
+			</param>
+			<param name="speed">
+				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
+		<member name="M:SetVehicleEngineState" syntax="SetVehicleEngineState(vehid, estate)">
+			<stacksize value="8"/>
+			<dependency name="GetPlayerState"/>
+			<dependency name="GetVehicleModel"/>
+			<dependency name="IsPlayerInVehicle"/>
+			<dependency name="KillTimer"/>
+			<dependency name="SetTimerEx"/>
+			<dependency name="foreach"/>
+			<dependency name="pUpdateTimer200ms"/>
+			<dependency name="vEngineMode"/>
+			<param name="vehid">
+			</param>
+			<param name="estate">
+			</param>
+		</member>
+		<member name="M:SetVehicleParamsEx" syntax="SetVehicleParamsEx()">
+			<stacksize value="1"/>
+			<referrer name="pt_SetVehicleParamsEx"/>
+		</member>
+		<member name="M:SetVehicleVelocity" syntax="SetVehicleVelocity()">
+			<stacksize value="1"/>
+			<referrer name="SetVehSpeed"/>
+		</member>
+		<member name="M:VectorSize" syntax="VectorSize()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+			<referrer name="GetVehSpeed"/>
+		</member>
+		<member name="M:asin" syntax="asin()">
+			<stacksize value="1"/>
+			<referrer name="GetVehRot"/>
+		</member>
+		<member name="M:atan2" syntax="atan2()">
+			<stacksize value="1"/>
+			<referrer name="GetVehRot"/>
+		</member>
+		<member name="M:floatcos" syntax="floatcos()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+			<referrer name="SetVehSpeed"/>
+		</member>
+		<member name="M:floatround" syntax="floatround()">
+			<stacksize value="1"/>
+			<referrer name="pt_UpdateTimer200ms"/>
+			<referrer name="GetVehSpeed"/>
+		</member>
+		<member name="M:floatsin" syntax="floatsin()">
+			<stacksize value="1"/>
+			<referrer name="GetVehGoesBack"/>
+			<referrer name="SetVehSpeed"/>
+		</member>
+		<member name="M:foreach" syntax="foreach()">
+			<stacksize value="1"/>
+			<referrer name="SetVehicleEngineState"/>
+		</member>
+		<member name="M:pt_AddStaticVehicle" syntax="pt_AddStaticVehicle(model, pos_x, pos_y, pos_z, pos_r, col1, col2)">
+			<stacksize value="11"/>
+			<dependency name="AddStaticVehicle"/>
+			<dependency name="vEngineDefault"/>
+			<dependency name="vEngineMode"/>
+			<dependency name="vEngineState"/>
+			<param name="model">
+			</param>
+			<param name="pos_x">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_y">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_z">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_r">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="col1">
+			</param>
+			<param name="col2">
+			</param>
+		</member>
+		<member name="M:pt_AddStaticVehicleEx" syntax="pt_AddStaticVehicleEx(model, pos_x, pos_y, pos_z, pos_r, col1, col2, respawn, siren)">
+			<stacksize value="13"/>
+			<dependency name="AddStaticVehicleEx"/>
+			<dependency name="vEngineDefault"/>
+			<dependency name="vEngineMode"/>
+			<dependency name="vEngineState"/>
+			<param name="model">
+			</param>
+			<param name="pos_x">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_y">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_z">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_r">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="col1">
+			</param>
+			<param name="col2">
+			</param>
+			<param name="respawn">
+			</param>
+			<param name="siren">
+			</param>
+		</member>
+		<member name="M:pt_CreateVehicle" syntax="pt_CreateVehicle(model, pos_x, pos_y, pos_z, pos_r, col1, col2, respawn, siren)">
+			<stacksize value="13"/>
+			<dependency name="CreateVehicle"/>
+			<dependency name="vEngineDefault"/>
+			<dependency name="vEngineMode"/>
+			<dependency name="vEngineState"/>
+			<param name="model">
+			</param>
+			<param name="pos_x">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_y">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_z">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="pos_r">
+				<paraminfo>Float </paraminfo>
+			</param>
+			<param name="col1">
+			</param>
+			<param name="col2">
+			</param>
+			<param name="respawn">
+			</param>
+			<param name="siren">
+			</param>
+		</member>
+		<member name="M:pt_ManualVehicleEngineLights" syntax="pt_ManualVehicleEngineLights()">
+			<stacksize value="3"/>
+			<dependency name="ManualVehicleEngineAndLights"/>
+			<dependency name="vEngineDefault"/>
+		</member>
+		<member name="M:pt_SetVehicleParamsEx" syntax="pt_SetVehicleParamsEx(vehid, engine, lights, alarm, doors, bonnet, boot, objective)">
+			<stacksize value="11"/>
+			<dependency name="SetVehicleParamsEx"/>
+			<dependency name="vEngineState"/>
+			<param name="vehid">
+			</param>
+			<param name="engine">
+			</param>
+			<param name="lights">
+			</param>
+			<param name="alarm">
+			</param>
+			<param name="doors">
+			</param>
+			<param name="bonnet">
+			</param>
+			<param name="boot">
+			</param>
+			<param name="objective">
+			</param>
+		</member>
+		<member name="M:pt_UpdateTimer200ms" syntax="pt_UpdateTimer200ms(playerid)">
+			<attribute name="public"/>
+			<stacksize value="12"/>
+			<dependency name="GetVehGoesBack"/>
+			<dependency name="GetVehRot"/>
+			<dependency name="GetVehSpeed"/>
+			<dependency name="GetVehicleModel"/>
+			<dependency name="SetVehSpeed"/>
+			<dependency name="floatround"/>
+			<dependency name="gMaxSpeed"/>
+			<dependency name="pCheckPaused"/>
+			<dependency name="pGetVehicleID"/>
+			<dependency name="pKeySendType"/>
+			<dependency name="vEngineMode"/>
+			<dependency name="vEngineState"/>
+			<param name="playerid">
+			</param>
+		</member>
+
+	</members>
+</doc>

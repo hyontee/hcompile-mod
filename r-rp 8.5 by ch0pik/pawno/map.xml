@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="file:///C|/Users/moderfour/Desktop/5.6/PerfectRussia/pawno/xml/pawndoc.xsl" type="text/xsl"?>
+<doc source="C:\Users\moderfour\Desktop\5.6\PerfectRussia\pawno\map.inc">
+	<assembly>
+		<name>map.inc</name>
+	</assembly>
+	<members>
+
+		<!-- enumerations -->
+
+		<!-- constants -->
+
+		<!-- variables -->
+		<member name="F:STO">
+		</member>
+		<member name="F:__date">
+		</member>
+		<member name="F:__file">
+		</member>
+		<member name="F:__time">
+		</member>
+		<member name="F:arka">
+		</member>
+		<member name="F:stena">
+		</member>
+		<member name="F:stena1">
+		</member>
+		<member name="F:stena2">
+		</member>
+		<member name="F:stena3">
+		</member>
+		<member name="F:stena4">
+		</member>
+		<member name="F:stena5">
+		</member>
+		<member name="F:stena6">
+		</member>
+		<member name="F:stena7">
+		</member>
+		<member name="F:stolb">
+		</member>
+		<member name="F:stolb1">
+		</member>
+		<member name="F:stolb10">
+		</member>
+		<member name="F:stolb11">
+		</member>
+		<member name="F:stolb12">
+		</member>
+		<member name="F:stolb13">
+		</member>
+		<member name="F:stolb14">
+		</member>
+		<member name="F:stolb15">
+		</member>
+		<member name="F:stolb16">
+		</member>
+		<member name="F:stolb17">
+		</member>
+		<member name="F:stolb18">
+		</member>
+		<member name="F:stolb19">
+		</member>
+		<member name="F:stolb2">
+		</member>
+		<member name="F:stolb20">
+		</member>
+		<member name="F:stolb3">
+		</member>
+		<member name="F:stolb4">
+		</member>
+		<member name="F:stolb5">
+		</member>
+		<member name="F:stolb6">
+		</member>
+		<member name="F:stolb7">
+		</member>
+		<member name="F:stolb8">
+		</member>
+		<member name="F:stolb9">
+		</member>
+		<member name="F:tmpobjid">
+		</member>
+
+		<!-- functions -->
+		<member name="M:CreateDynamicObject" syntax="CreateDynamicObject()">
+			<stacksize value="1"/>
+		</member>
+		<member name="M:CreateObject" syntax="CreateObject()">
+			<stacksize value="1"/>
+		</member>
+		<member name="M:SetDynamicObjectMaterial" syntax="SetDynamicObjectMaterial(tmpobjid)">
+			<stacksize value="1"/>
+			<param name="tmpobjid">
+			</param>
+		</member>
+		<member name="M:SetObjectMaterial" syntax="SetObjectMaterial(STO)">
+			<stacksize value="1"/>
+			<param name="STO">
+			</param>
+		</member>
+
+	</members>
+</doc>

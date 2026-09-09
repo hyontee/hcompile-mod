@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="file:///C|/Users/User/Desktop/ìîä/pawno/xml/pawndoc.xsl" type="text/xsl"?>
+<doc source="C:\Users\User\Desktop\ìîä\pawno\include\3dmap.pwn">
+	<assembly>
+		<name>3dmap.pwn</name>
+	</assembly>
+	<members>
+
+		<!-- enumerations -->
+
+		<!-- constants -->
+
+		<!-- variables -->
+		<member name="F:__date">
+		</member>
+		<member name="F:__file">
+		</member>
+		<member name="F:__time">
+		</member>
+
+		<!-- functions -->
+		<member name="M:CreateDynamicObject" syntax="CreateDynamicObject()">
+			<stacksize value="1"/>
+		</member>
+		<member name="M:RemoveBuildingForPlayer" syntax="RemoveBuildingForPlayer(playerid)">
+			<stacksize value="1"/>
+			<param name="playerid">
+			</param>
+		</member>
+
+	</members>
+</doc>
