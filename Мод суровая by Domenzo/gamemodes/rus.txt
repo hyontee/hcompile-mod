@@ -1,0 +1,18 @@
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(25569) : идентификатор не используется: "pass"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(25569) : идентификатор не используется: "db"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(25569) : идентификатор не используется: "user"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(25569) : идентификатор не используется: "host"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(29851) : идентификатор не используется: "params"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(29879) : идентификатор не используется: "params"
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(51451) : неправильная табуляция
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(51457) : неправильная табуляция
+C:\Users\Vadim\Downloads\MODIKI\Суровая Россия (Мод)\gamemodes\wipestudio.pwn(51467) : неправильная табуляция
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   23396 байт
+Размер кода:		 2872288 байт
+Размер данных:		46249816 байт
+Размер стэка\кучи:	   20636 байт; Примерное макс. использование=5533 ячеек (22132 байт)
+Всего требуется:	49166136 байт
+
+Готово.
