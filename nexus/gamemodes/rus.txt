@@ -1,0 +1,11 @@
+../include/system/collector_job.pwn(409) -- (412) : îøèáêà 001: îæèäàëñÿ òîêåí "-string end-", íî íàéäåí "-identifier-"
+../include/system/collector_job.pwn(412) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "FFFFFF"
+../include/system/collector_job.pwn(412) : îøèáêà 029: íåïðàâèëüíîå âûðàæåíèå, ïðèíÿò íîëü
+../include/system/collector_job.pwn(412) : ôàòàëüíàÿ îøèáêà 107: ñëèøêîì ìíîãî îøèáîê íà îäíîé ñòðîêå
+
+Êîìïèëÿöèÿ îñòàíîâëåíà.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:4.
