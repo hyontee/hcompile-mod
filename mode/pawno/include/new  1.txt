@@ -1,0 +1,74 @@
+M
+79
+2 
+7
+78
+
+G
+77
+93
+151
+198
+
+175 175 255
+
+
+	create_character_pl_textdraws [ playerid ] [ 0 ] = CreatePlayerTextDraw(playerid,187.000000, 285.000000, "skin_1");
+	PlayerTextDrawAlignment(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 2);
+	PlayerTextDrawBackgroundColor(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 9869000);
+	PlayerTextDrawFont(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 5);
+	PlayerTextDrawLetterSize(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 0.500000, 1.000000);
+	PlayerTextDrawColor(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], -1);
+	PlayerTextDrawSetOutline(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 1);
+	PlayerTextDrawSetProportional(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 1);
+	PlayerTextDrawUseBox(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 1);
+	PlayerTextDrawBoxColor(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 255);
+	PlayerTextDrawTextSize(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 59.000000, 70.000000);
+	PlayerTextDrawSetPreviewModel(playerid, create_character_pl_textdraws [ playerid ] [ 0 ], 79);
+	PlayerTextDrawSetPreviewRot(playerid, create_character_pl_textdraws [ playerid ] [ 0 ], -16.000000, 0.000000, -15.000000, 1.000000);
+	PlayerTextDrawSetSelectable(playerid,create_character_pl_textdraws [ playerid ] [ 0 ], 1);
+
+	create_character_pl_textdraws [ playerid ] [ 1 ] = CreatePlayerTextDraw(playerid,256.000000, 285.000000, "skin_1");
+	PlayerTextDrawAlignment(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 2);
+	PlayerTextDrawBackgroundColor(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 0);
+	PlayerTextDrawFont(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 5);
+	PlayerTextDrawLetterSize(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 0.500000, 1.000000);
+	PlayerTextDrawColor(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], -1);
+	PlayerTextDrawSetOutline(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 1);
+	PlayerTextDrawSetProportional(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 1);
+	PlayerTextDrawUseBox(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 1);
+	PlayerTextDrawBoxColor(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 255);
+	PlayerTextDrawTextSize(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 59.000000, 70.000000);
+	PlayerTextDrawSetPreviewModel(playerid, create_character_pl_textdraws [ playerid ] [ 1 ], 79);
+	PlayerTextDrawSetPreviewRot(playerid, create_character_pl_textdraws [ playerid ] [ 1 ], -16.000000, 0.000000, -15.000000, 1.000000);
+	PlayerTextDrawSetSelectable(playerid,create_character_pl_textdraws [ playerid ] [ 1 ], 1);
+
+	create_character_pl_textdraws [ playerid ] [ 2 ] = CreatePlayerTextDraw(playerid,325.000000, 285.000000, "skin_1");
+	PlayerTextDrawAlignment(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 2);
+	PlayerTextDrawBackgroundColor(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 0);
+	PlayerTextDrawFont(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 5);
+	PlayerTextDrawLetterSize(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 0.500000, 1.000000);
+	PlayerTextDrawColor(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], -1);
+	PlayerTextDrawSetOutline(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 1);
+	PlayerTextDrawSetProportional(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 1);
+	PlayerTextDrawUseBox(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 1);
+	PlayerTextDrawBoxColor(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 255);
+	PlayerTextDrawTextSize(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 59.000000, 70.000000);
+	PlayerTextDrawSetPreviewModel(playerid, create_character_pl_textdraws [ playerid ] [ 2 ], 79);
+	PlayerTextDrawSetPreviewRot(playerid, create_character_pl_textdraws [ playerid ] [ 2 ], -16.000000, 0.000000, -15.000000, 1.000000);
+	PlayerTextDrawSetSelectable(playerid,create_character_pl_textdraws [ playerid ] [ 2 ], 1);
+
+	create_character_pl_textdraws [ playerid ] [ 3 ] = CreatePlayerTextDraw(playerid,394.000000, 285.000000, "skin_1");
+	PlayerTextDrawAlignment(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 2);
+	PlayerTextDrawBackgroundColor(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 0);
+	PlayerTextDrawFont(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 5);
+	PlayerTextDrawLetterSize(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 0.500000, 1.000000);
+	PlayerTextDrawColor(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], -1);
+	PlayerTextDrawSetOutline(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 1);
+	PlayerTextDrawSetProportional(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 1);
+	PlayerTextDrawUseBox(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 1);
+	PlayerTextDrawBoxColor(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 255);
+	PlayerTextDrawTextSize(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 59.000000, 70.000000);
+	PlayerTextDrawSetPreviewModel(playerid, create_character_pl_textdraws [ playerid ] [ 3 ], 79);
+	PlayerTextDrawSetPreviewRot(playerid, create_character_pl_textdraws [ playerid ] [ 3 ], -16.000000, 0.000000, -15.000000, 1.000000);
+	PlayerTextDrawSetSelectable(playerid,create_character_pl_textdraws [ playerid ] [ 3 ], 1);
