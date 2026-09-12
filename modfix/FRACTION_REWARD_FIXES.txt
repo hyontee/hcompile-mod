@@ -1,0 +1,9 @@
+FIXES
+
+1. Family capture panel no longer appears outside an active capture. The capture system is preserved; ShowFamilyCaptPanel validates the capture state and player reconnect resets stale panel visibility.
+2. Added fraction GUI from fractiongui.inc as include/system/fractiongui.inc, GUI ID 46, routed through the existing IPacket 252 handler.
+3. /fraction now opens the integrated fraction GUI.
+4. Added /addleader [ID] [RANK]. Admin level 5+ can add a connected player to the admin's current faction with rank 1..10. It uses the existing InvitePlayer() so team/job/org_skin and accounts are persisted using the mode's own structure.
+5. fraction_documents table is created at startup and included in gs330563.sql.
+6. Marketplace skin rewards now use Inventory11_AddSkinToInventory(). The skin model stored in marketplace_reward_items.item_count is preserved as inventory.model_id. Inventory11 skin insertion now finds the first free slot (1..64), preventing invisible slot 65+ rewards.
+7. Existing non-skin Marketplace reward handling is preserved.
