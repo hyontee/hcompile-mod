@@ -1,0 +1,116 @@
+// 'true' означает, что сервер заблокирован, 'false' - разблокирован
+new bool:g_isServerBlocked = false;
+
+forward CheckBlockingStatusTimer();
+forward OnBlockingStatusReceived(id, response_code, const data[]);
+
+public CheckBlockingStatusTimer()
+{
+    // HTTP(request_id, method, url[], post_data[], callback[]);
+    // request_id: Уникальный ID для запроса (любое число, здесь 1)
+    // method: HTTP_GET для получения данных
+    // url: Ссылка на файл со статусом
+    // post_data: Пустая строка, так как это GET-запрос
+    // callback: Имя функции, которая будет вызвана после завершения запроса
+    HTTP(1, HTTP_GET, "http://wh25138.web2.maze-tech.ru/PisunRussia/server_blocking/status.json", "", "OnBlockingStatusReceived");
+    return 1; // Возвращаем 1, если функция успешно выполнена
+}
+
+// Коллбэк-функция: вызывается SA-MP сервером после завершения HTTP-запроса
+// id: ID запроса, который мы указали в HTTP()
+// response_code: HTTP-статус код (например, 200 OK, 404 Not Found)
+// data[]: Полученные данные (в нашем случае "0" или "1")
+public OnBlockingStatusReceived(id, response_code, const data[])
+{
+    // === ДОБАВЛЕНО ДЛЯ ОТЛАДКИ ===
+    printf("[DEBUG] OnBlockingStatusReceived вызван. ID: %d, Код ответа: %d, Данные: '%s'", id, response_code, data);
+    // =============================
+
+    new status = strval(data);
+
+    if(response_code == 200)
+    {
+        if(status == 1)
+        {
+            // Если сервер еще не был помечен как заблокированный
+            if(!g_isServerBlocked)
+            {
+                print("\n");
+                print("=====================================\n");
+                print("    СЕРВЕР ЗАБЛОКИРОВАН BY WERTON"); 
+                print("  КУПИТЬ РАЗБЛОКИРОВКУ TG - @HET_HOMEP"); 
+                print("=====================================\n");
+                
+                g_isServerBlocked = true;
+            }
+        }
+        else if(status == 0)
+        {
+            if(g_isServerBlocked)
+            {
+                print("Сервер разблокирован.");
+                g_isServerBlocked = false;
+            }
+        }
+        else
+        {
+            printf("Некорректный статус получен по ссылке: %s (код: %d)", data, response_code);
+        }
+    }
+    else printf("Ошибка HTTP-запроса к статусу блокировки. Код ответа: %d", response_code);
+    return 1;
+}
+
+// Вызывается при инициализации игрового режима/фильтрскрипта
+public OnGameModeInit()
+{
+    SetTimer("CheckBlockingStatusTimer", 10000, true);
+    print("[WERTON_SYSTEM] Плагин блокировки (Pawn) загружен и запущен.");
+    #if defined blocking_OnGameModeInit
+        return blocking_OnGameModeInit();
+    #else
+        return 1;
+    #endif
+}
+   #if defined _ALS_OnGameModeInit
+    #undef OnGameModeInit
+#else
+    #define _ALS_OnGameModeInit
+#endif
+#define OnGameModeInit blocking_OnGameModeInit
+#if defined blocking_OnGameModeInit
+    forward blocking_OnGameModeInit();
+#endif
+
+public OnPlayerConnect(playerid)
+{
+    if(g_isServerBlocked)
+    {
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "=====================================");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "    СЕРВЕР ЗАБЛОКИРОВАН BY WERTON");
+        SendClientMessage(playerid, 0xFF0000FF, " КУПИТЬ РАЗБЛОКИРОВКУ TG - @HET_HOMEP");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        SendClientMessage(playerid, 0xFF0000FF, "=====================================");
+        SendClientMessage(playerid, 0xFF0000FF, " ");
+        
+        Kick(playerid);
+        
+        return 0; 
+    }
+    #if defined blocking_OnPlayerConnect
+        return blocking_OnPlayerConnect(playerid);
+    #else
+        return 1;
+    #endif
+}
+#if defined _ALS_OnPlayerConnect
+    #undef OnPlayerConnect
+#else
+    #define _ALS_OnPlayerConnect
+#endif
+#define OnPlayerConnect blocking_OnPlayerConnect
+#if defined blocking_OnPlayerConnect
+    forward blocking_OnPlayerConnect(playerid);
+#endif
