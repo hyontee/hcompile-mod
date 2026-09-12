@@ -1,0 +1,37 @@
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\container_system.inc(181) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\global_defines.inc(779) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\android_checker.inc(21) : предупреждение 225: недостижимый код
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\android_checker.inc(40) : предупреждение 209: функция "OnInvalidPlayerConnected" должна возвращать значение
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\other_systems_tools.inc(76) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\other_systems_tools.inc(78) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(1140) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(1142) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(8655) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(8685) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(8762) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(8763) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(8769) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\gamemodes\rover.pwn(20669) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\house_systems\house_systems.inc(606) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(3881) : предупреждение 209: функция "pc_cmd_racket" должна возвращать значение
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(3904) : предупреждение 209: функция "pc_cmd_beat" должна возвращать значение
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(6567) : предупреждение 209: функция "pc_cmd_dress" должна возвращать значение
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(6594) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(6598) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(6601) : предупреждение 209: функция "pc_cmd_contraband" должна возвращать значение
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\cmd.inc(6611) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(79) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(125) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(290) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(308) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\container_system.inc(225) : неправильная табуляция
+C:\Users\Nikit\OneDrive\Рабочий стол\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\container_system.inc(592) : неправильная табуляция
+C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems_quest.inc(219) : предупреждение: рекурсия в show_quest_panel_newyear_page: вызов с show_quest_newyear C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems_quest.inc(47)
+C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\vars.inc(2063) : предупреждение: рекурсия в hide_global_notify_gui: вызов с show_notify_gui C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\vars.inc(2023)
+C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems.inc(620) : предупреждение: рекурсия в hide_global_notify_gui_newyear: вызов с show_notify_gui_newyear C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems.inc(581)
+C:\Users\Nikit\OneDrive\������� ����\Rover Russia mod\pawno\include\..\..\gamemodes\API\player\player_fast_menu.inc(3) : предупреждение: рекурсия в show_fast_menu
+Для отключения вывода рекурсий: #pragma disablerecursion или #pragma warning disable 238
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2017, ITB CompuPhase
+
+
+Предупреждений:14.
