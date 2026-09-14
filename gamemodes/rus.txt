@@ -1,0 +1,45 @@
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(170) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(271) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(6287) : предупреждение 228: длина инициализатора превышает размер поля enum
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(6289) : предупреждение 228: длина инициализатора превышает размер поля enum
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(6290) : предупреждение 228: длина инициализатора превышает размер поля enum
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(6291) : предупреждение 228: длина инициализатора превышает размер поля enum
+../include/system/mchs.pwn(643) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "DamageFromFire")
+../include/system/mchs.pwn(885) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "HandleFirePress")
+../include/system/mchs.pwn(985) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "LoadOrdersMchs")
+../include/system/mchs.pwn(1058) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "PressedFire")
+../include/system/mchs.pwn(1092) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "TimerMchs")
+../include/system/mchs.pwn(1248) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "CountDownFire")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(7650) : предупреждение 215: выражение не имеет эффекта
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(9172) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnPlayerEnterVehicleEx")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12724) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12727) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12748) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12750) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12754) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12756) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12769) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12771) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12775) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12777) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12790) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(12792) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(15536) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(15546) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(16806) : предупреждение 216: вложенный комментарий
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(37773) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(37777) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(37781) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(54369) : предупреждение 225: недостижимый код
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(54951) : предупреждение 226: присваивание переменной самой себе (идентификатор "my_position")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(71745) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "Contadm")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(71804) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "Contadm1")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(71886) : ошибка 025: заголовок функции отличается от прототипа
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(71887) : ошибка 021: идентификатор "ShowNotification" уже объявлен
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(71912) : ошибка 035: несовпадение типов аргументов (аргумент 3)
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(72204) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "lift1tp")
+D:\BLACK RUSSIA 2024 BY WEST\gamemodes\mod2024west.pwn(72219) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "lift2tp")
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:20.
