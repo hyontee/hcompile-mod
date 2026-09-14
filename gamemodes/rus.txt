@@ -1,0 +1,103 @@
+../include/mxdate.inc(120) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(53) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Bot")
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(54) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(195) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(2357) : предупреждение 201: повторное объявление константы/макроса (идентификатор "COLOR_RED")
+../include/anticheat.inc(1353) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(3715) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(3769) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(7181) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "ShowBinderDialog")
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(8046) : предупреждение 225: недостижимый код
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(8316) : предупреждение 225: недостижимый код
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(8318) : предупреждение 215: выражение не имеет эффекта
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(8920) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(9722) : идентификатору присвоено значение, но он не используется: "color2"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(9721) : идентификатору присвоено значение, но он не используется: "color1"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(9868) : идентификатору присвоено значение, но он не используется: "job_car"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(12881) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(12898) : идентификатору присвоено значение, но он не используется: "s"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(13406) : идентификатору присвоено значение, но он не используется: "randomize"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(13780) : идентификатору присвоено значение, но он не используется: "textAdmins"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(13971) : идентификатору присвоено значение, но он не используется: "text2"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(14070) : идентификатору присвоено значение, но он не используется: "text2"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(14113) : идентификатору присвоено значение, но он не используется: "text2"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(14159) : идентификатору присвоено значение, но он не используется: "text2"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(25703) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(25702) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(25888) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(25887) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(26216) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(26250) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(31216) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(31242) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(35202) : предупреждение 209: функция "ac_OnPlayerClickMap" должна возвращать значение
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(40111) : идентификатору присвоено значение, но он не используется: "car_type"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(42445) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(48177) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(49947) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(49972) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(50327) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(50364) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(53488) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(56076) : предупреждение 209: функция "pc_cmd_ahelp" должна возвращать значение
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(63003) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67743) : предупреждение 219: переменная "sumka" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67812) : идентификатору присвоено значение, но он не используется: "errCode"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67812) -- (67819) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67812) -- (67819) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67812) -- (67819) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67812) -- (67819) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67824) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67824) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67824) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(67839) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(68156) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(68171) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(68186) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(68543) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69109) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69116) : предупреждение 219: переменная "skin" уже объявлена в более глобальной зоне видимости
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69127) : предупреждение 225: недостижимый код
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69679) : предупреждение 209: функция "clickplay" должна возвращать значение
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69783) : предупреждение 209: функция "pc_cmd_famcar" должна возвращать значение
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69835) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69887) : идентификатору присвоено значение, но он не используется: "Satiety"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69909) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69944) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69984) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(9858) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(7325) : идентификатору присвоено значение, но он не используется: "kyrpick"
+C:\Users\User\Downloads\Rodster\pivo\gamemodes\byopdev.pwn(69418) : предупреждение: рекурсия в HideSpec
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   25168 байт
+Размер кода:		 2107296 байт
+Размер данных:		44849468 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	47006932 байт
+
+Предупреждений:51.
