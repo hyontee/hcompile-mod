@@ -1,0 +1,1 @@
+CreateActorEx(ÄßÄß ÌÈÕÀËÛ×, , 68, 1791.65, 2535.95, 14.63, 0.0);CreateActorEx(t.me/west_pawno, , 99, 1791.59, 2536.08, 14.63, 0.0);CreateActorEx(west, , 283, 1793.77, 2538.96, 14.69, 0.0);CreateActorEx(wes_b, , 77, 1789.87, 2525.84, 14.52, 0.0);
