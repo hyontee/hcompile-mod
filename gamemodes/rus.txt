@@ -1,0 +1,676 @@
+../include/mxdate.inc(120) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\pawno\include\java.inc(290) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Bot")
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(40) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+C:\Users\ilya\Desktop\mode 2025\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(428) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customhud.inc(435) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(160) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(2892) : предупреждение 201: повторное объявление константы/макроса (идентификатор "DIALOG_OPR")
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5185) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5186) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5186) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5201) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5204) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(5219) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7493) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7494) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7502) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7503) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7505) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7506) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7507) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7509) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7510) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7511) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7521) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7522) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7523) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7776) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7822) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7902) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8012) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8113) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8154) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8184) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8190) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8193) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8206) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8206) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8206) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8206) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8211) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8211) : предупреждение 205: лишний код: ложное постоянное выражение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8274) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8274) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8274) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8275) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8275) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8275) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8551) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8551) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8551) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8565) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8565) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8565) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8653) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8653) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(8653) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(9011) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(9011) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(9011) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(9229) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(10030) : идентификатору присвоено значение, но он не используется: "color2"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(10029) : идентификатору присвоено значение, но он не используется: "color1"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(10554) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(10552) : идентификатору присвоено значение, но он не используется: "job_car"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11472) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11472) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11472) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11474) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11474) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11474) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11945) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11945) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(11945) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(12171) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(12188) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13071) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13129) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13132) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13138) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13141) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13233) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13236) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13242) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13245) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13341) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13344) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13350) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13353) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13441) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13444) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13450) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13453) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13537) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13540) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13546) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13549) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13634) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13637) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13643) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13646) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13730) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13733) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13739) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13742) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13863) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13827) : идентификатор не используется: "to_player"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13915) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13881) : идентификатор не используется: "to_player"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13937) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(13940) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14022) : идентификатору присвоено значение, но он не используется: "s"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14040) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14041) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14171) : идентификатору присвоено значение, но он не используется: "textAdmins"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14281) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14289) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14326) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14331) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14340) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14375) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14380) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14386) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14422) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14426) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14533) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14609) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14706) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14770) : идентификатору присвоено значение, но он не используется: "randomize"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14816) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14839) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14877) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(14894) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15057) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15072) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15078) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15111) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15146) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15179) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15212) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15226) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15315) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15317) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15337) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15399) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15414) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15605) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15606) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15617) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15660) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15699) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15746) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15751) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15752) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15753) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15749) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15759) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15764) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15765) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15766) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15762) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15772) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15777) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15778) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15779) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15775) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15785) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15790) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15791) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15792) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15788) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15798) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15803) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15804) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15805) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15801) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15811) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15816) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15817) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15818) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15814) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15833) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15838) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15839) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15840) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15836) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15846) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15851) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15852) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15853) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15849) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15859) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15864) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15865) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15866) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15862) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15872) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15877) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15878) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15879) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15875) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15885) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15890) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15891) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15892) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15888) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15898) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15903) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15904) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15905) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15901) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15920) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15925) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15926) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15927) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15923) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15933) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15938) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15939) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15940) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15936) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15946) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15951) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15952) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15953) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15949) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15959) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15964) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15965) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15966) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15962) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15972) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15977) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15978) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15979) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15975) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15985) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15990) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15991) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15992) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(15988) : идентификатор не используется: "a"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16003) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16043) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16098) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16146) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16147) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16148) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16149) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16158) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16159) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16160) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16161) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16170) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16171) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16172) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16173) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16182) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16183) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16184) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16185) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16194) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16195) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16196) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16197) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16206) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16207) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16208) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16209) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16218) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16219) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16220) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16221) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(16640) : предупреждение 216: вложенный комментарий
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20260) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20260) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20260) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20282) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20317) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20629) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20629) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(20629) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25182) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25182) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25182) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25207) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25207) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25207) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25232) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25232) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25232) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25257) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25257) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(25257) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27431) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27427) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27426) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27614) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27612) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(27611) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31846) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31846) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31846) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31848) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31848) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31848) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31870) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31870) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(31870) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32210) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32671) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32691) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32699) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32699) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32699) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32701) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32701) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32701) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32704) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32760) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32758) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32786) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(32784) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(33463) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(33463) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(33463) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(34319) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35819) : предупреждение 209: функция "ac_OnPlayerClickMap" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35832) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35832) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35832) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35865) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35865) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35865) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(35891) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "CloseEvent")
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38674) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38674) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38674) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38676) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38676) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(38676) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39399) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39633) : идентификатору присвоено значение, но он не используется: "level"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39779) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39787) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39792) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39832) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39838) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39842) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39845) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(39946) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(40114) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(40519) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(40524) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(41090) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(41095) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(41091) : идентификатору присвоено значение, но он не используется: "car_type"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(43010) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(43467) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(49512) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51244) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51269) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51330) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51336) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51338) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51346) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51362) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51368) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51370) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51378) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51424) : идентификатор не используется: "markertype"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51581) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(51618) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(53197) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(53206) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(53250) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(54524) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(54524) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(54524) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55258) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55258) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55258) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55325) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55325) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55325) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55978) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(55984) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56054) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56055) : предупреждение 209: функция "pc_cmd_goto" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56092) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56093) : предупреждение 209: функция "pc_cmd_gethere" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56267) : предупреждение 216: вложенный комментарий
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(56512) : предупреждение 216: вложенный комментарий
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(57102) : предупреждение 213: несовпадение типов
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(57797) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(57799) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59532) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59532) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59532) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59534) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59534) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59534) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59582) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59582) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59582) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59618) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59618) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59618) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59620) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59620) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59620) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59702) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59702) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59702) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59751) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59751) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59751) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59753) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59753) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59753) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59765) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59765) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59765) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59767) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59767) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59767) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59806) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59806) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59806) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59808) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59808) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59808) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59835) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59835) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59835) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(59868) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(61359) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(61359) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(61359) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62205) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62223) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62270) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62270) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62270) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62292) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62292) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(62292) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64659) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64659) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64659) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64725) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64725) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64725) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64770) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64770) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64770) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64824) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64824) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64824) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64871) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64871) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64871) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64900) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64900) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64900) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64896) : идентификатору присвоено значение, но он не используется: "fam_id"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64931) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64931) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64931) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64962) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64962) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64962) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64988) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64988) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(64988) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(66028) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(66452) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(66452) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(66452) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67800) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67906) : идентификатору присвоено значение, но он не используется: "errCode"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67906) -- (67913) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67906) -- (67913) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67906) -- (67913) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67906) -- (67913) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67918) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67918) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67918) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(67933) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68021) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68057) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68097) : предупреждение 209: функция "LoadTun" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68295) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68310) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68325) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68335) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68432) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68684) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68725) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68811) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(68826) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69137) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69137) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69137) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69218) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69218) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69218) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69299) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69299) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69299) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69390) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69390) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69390) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69429) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69429) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69429) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69459) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69459) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69459) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69600) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69604) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69632) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69645) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69649) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69665) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69693) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69693) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69693) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69700) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69700) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69709) : предупреждение 219: переменная "str" уже объявлена в более глобальной зоне видимости
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69740) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69740) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69740) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69772) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69772) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69772) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69805) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69805) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69805) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69837) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69837) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69837) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69879) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69879) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69879) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69922) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69922) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69922) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69943) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69944) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69958) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(69959) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70009) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70010) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70053) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70054) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70029) : идентификатору присвоено значение, но он не используется: "reason"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70322) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70324) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70325) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70330) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70333) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70335) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70336) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70361) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70364) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70366) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70391) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70394) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70396) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70403) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70405) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70406) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70411) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70561) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70583) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70602) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70603) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70608) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70625) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70634) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70637) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70695) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70771) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70781) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70781) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70811) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70811) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70915) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(70982) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71010) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71031) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71032) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71036) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71043) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71044) : предупреждение 209: функция "pc_cmd_giveprizmp" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71079) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71080) : предупреждение 209: функция "pc_cmd_kickmp" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71252) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71274) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71295) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71344) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71348) : предупреждение 209: функция "clickplay" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71396) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71402) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71399) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71411) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71487) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71494) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71779) -- (71804) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71809) -- (71831) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(71839) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72029) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72035) : предупреждение 209: функция "StatsSpec" должна возвращать значение
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72043) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72045) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72150) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72171) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72192) : неправильная табуляция
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72043) : идентификатору присвоено значение, но он не используется: "BanID"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(172) : идентификатор не используется: "DuelCash"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(171) : идентификатор не используется: "DuelTimer"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72179) : идентификатору присвоено значение, но он не используется: "JailID"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72158) : идентификатору присвоено значение, но он не используется: "MuteID"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(10542) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(193) : идентификатор не используется: "REP_TEXT_TD"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(133) : идентификатор не используется: "SetAdmin"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72137) : идентификатору присвоено значение, но он не используется: "WarnID"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7454) : идентификатору присвоено значение, но он не используется: "cameravhod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7457) : идентификатору присвоено значение, но он не используется: "cameravihod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7439) : идентификатору присвоено значение, но он не используется: "kyrpick"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7448) : идентификатору присвоено значение, но он не используется: "lazaretvhod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7451) : идентификатору присвоено значение, но он не используется: "lazaretvihod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7460) : идентификатору присвоено значение, но он не используется: "lesopilvhod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(7463) : идентификатору присвоено значение, но он не используется: "lesopilvihod"
+C:\Users\ilya\Desktop\mode 2025\gamemodes\kranin.pwn(72065) : предупреждение: рекурсия в HideSpec
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   25304 байт
+Размер кода:		 2191060 байт
+Размер данных:		45129840 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	47371204 байт
+
+Предупреждений:323.
