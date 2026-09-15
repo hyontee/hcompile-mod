@@ -1,0 +1,314 @@
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(74) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Bot")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(75) : предупреждение 201: повторное объявление константы/макроса (идентификатор "FOREACH_I_Character")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\brnotification.inc(24) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customhud.inc(83) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customhud.inc(327) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customhud.inc(342) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customhud.inc(398) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customtune.inc(211) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customtune.inc(272) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\pawno\include\customtune.inc(721) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(162) : предупреждение 201: повторное объявление константы/макроса (идентификатор "M_DIALOG_DialogForPlayer")
+../include/anticheat.inc(3077) : предупреждение 219: переменная "objectid" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5216) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5228) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5229) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5239) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5240) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5243) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5251) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(5252) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6164) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6164) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6164) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6164) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6166) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6166) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6166) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6166) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6167) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6167) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6167) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6167) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6168) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6168) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6168) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6168) : предупреждение 213: несовпадение типов
+../include/system/larek_welsi.pwn(40) : предупреждение 201: повторное объявление константы/макроса (идентификатор "BUSINESS_TYPE_LAREK")
+../include/system/tuning_wheels.pwn(795) : предупреждение 200: символ "_ALS_OnPlayerClickPlayerTextDra" обрезан до 31 символов
+../include/system/tuning_wheels.pwn(800) : предупреждение 201: повторное объявление константы/макроса (идентификатор "OnPlayerClickPlayerTextDraw")
+../include/system/accessory.pwn(862) : идентификатору присвоено значение, но он не используется: "string"
+../include/system/accessory.pwn(978) : неправильная табуляция
+../include/system/accessory.pwn(1150) : идентификатор не используется: "cache"
+../include/system/mchs_welsi.pwn(588) : идентификатору присвоено значение, но он не используется: "result"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7478) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7481) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7481) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7481) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7482) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7482) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7489) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7490) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7492) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7492) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7533) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7534) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7544) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7545) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7546) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7547) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7552) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7552) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7552) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7553) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7758) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7759) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7760) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7761) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7762) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7788) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7789) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7790) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7791) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7792) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8265) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8284) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8312) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8318) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8874) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnPlayerEnterVehicleEx")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(8886) : идентификатору присвоено значение, но он не используется: "modelid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(9317) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(9865) : предупреждение 219: переменная "objectid" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(9870) : предупреждение 219: переменная "objectid" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10127) : идентификатору присвоено значение, но он не используется: "color2"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10126) : идентификатору присвоено значение, но он не используется: "color1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10278) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10291) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10412) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10437) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10450) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10463) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10497) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10495) : идентификатору присвоено значение, но он не используется: "job_car"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12353) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12363) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12373) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12401) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12411) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12421) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12440) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12441) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12445) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12452) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12457) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12464) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12465) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12468) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12475) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12480) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12495) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12505) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12515) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12543) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12553) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12563) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12591) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12601) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12611) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12639) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12649) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12659) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12687) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12697) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12707) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12735) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12745) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12755) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(12773) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(13285) : предупреждение 219: переменная "keys" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(13651) : идентификатору присвоено значение, но он не используется: "carid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(13668) : идентификатору присвоено значение, но он не используется: "s"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(13797) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(13798) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14000) : идентификатору присвоено значение, но он не используется: "textAdmins"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14372) : идентификатору присвоено значение, но он не используется: "randomize"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14681) : идентификатору присвоено значение, но он не используется: "rand"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14691) : идентификатору присвоено значение, но он не используется: "rand"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14913) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14922) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14931) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(14940) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(15950) : предупреждение 216: вложенный комментарий
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(20294) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(20295) : идентификатору присвоено значение, но он не используется: "result"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(20291) : идентификатор не используется: "id"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26722) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26718) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26717) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26905) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26903) : идентификатору присвоено значение, но он не используется: "action_id"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(26902) : идентификатору присвоено значение, но он не используется: "action_type"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(28280) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32039) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32059) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32072) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32128) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32126) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32154) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(32152) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35178) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35193) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35208) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35223) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35239) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35245) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35256) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(35262) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(36869) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(36909) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(36915) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(36965) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(37557) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(37558) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(37559) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(37560) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(39731) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(39899) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(40861) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(40866) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(40862) : идентификатору присвоено значение, но он не используется: "car_type"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(42741) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(42763) : идентификатор не используется: "playerid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(42770) : идентификатор не используется: "playerid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(42822) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(43235) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(47549) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(48356) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(49512) : идентификатору присвоено значение, но он не используется: "spawn_time"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(50013) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(51298) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(51309) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(51803) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(51828) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(51979) : идентификатор не используется: "markertype"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(52135) : идентификатор не используется: "playerid"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(52183) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(52220) : идентификатору присвоено значение, но он не используется: "price"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(53919) : предупреждение 225: недостижимый код
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(53921) : предупреждение 209: функция "pc_cmd_pass" должна возвращать значение
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(54501) : предупреждение 226: присваивание переменной самой себе (идентификатор "my_position")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(55426) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(55548) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(55552) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(55988) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(55992) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(56016) : предупреждение 219: переменная "fmt_text" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(56017) : предупреждение 219: переменная "list" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(56017) : идентификатору присвоено значение, но он не используется: "list"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(56016) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(56016) -- (56023) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(57363) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(57369) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(67233) : идентификатору присвоено значение, но он не используется: "rang_id"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(67232) : идентификатору присвоено значение, но он не используется: "fam_id"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70397) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70543) : идентификатору присвоено значение, но он не используется: "errCode"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70543) -- (70550) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70543) -- (70550) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70543) -- (70550) : предупреждение 219: переменная "alarm" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70543) -- (70550) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70555) : предупреждение 219: переменная "doors" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70555) : предупреждение 219: переменная "lights" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70555) : предупреждение 219: переменная "engine" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70570) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70894) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70909) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(70919) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71016) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71248) : идентификатору присвоено значение, но он не используется: "fmt_text"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71289) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71375) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71390) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71545) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71573) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71716) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71718) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71728) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71732) : предупреждение 209: функция "pc_cmd_aclist" должна возвращать значение
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71738) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71824) : предупреждение 219: переменная "pos" уже объявлена в более глобальной зоне видимости
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71878) : предупреждение 209: функция "pc_cmd_seals374392" должна возвращать значение
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71982) : предупреждение 209: функция "pc_cmd_test15" должна возвращать значение
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71984) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "Contadm")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(71992) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72043) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "Contadm1")
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72122) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72133) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72143) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72143) : предупреждение 234: устаревшая функция (идентификатор "BS_Send") Use PR_SendPacket instead
+
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72146) : неправильная табуляция
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72308) : предупреждение 213: несовпадение типов
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(219) : идентификатор не используется: "AntiMat"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(212) : идентификатор не используется: "ByRinok"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(341) : идентификатор не используется: "ByRinokVihodCar"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(174) : идентификатор не используется: "DuelCash"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(173) : идентификатор не используется: "DuelTimer"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72232) : идентификатор не используется: "GetDateTime"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(10485) : идентификатору присвоено значение, но он не используется: "PickupCreated"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(228) : идентификатор не используется: "REP_TEXT_TD"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(451) : идентификатор не используется: "Sak1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(457) : идентификатор не используется: "Sak2"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(463) : идентификатор не используется: "Sak3"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(469) : идентификатор не используется: "Sak4"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(475) : идентификатор не используется: "Sak5"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(72157) : идентификатор не используется: "ShowAdminStats"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(208) : идентификатор не используется: "af"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(204) : идентификатор не используется: "banaf"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(6254) : идентификатор не используется: "factory_store_label"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7486) : идентификатору присвоено значение, но он не используется: "fsbspec"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7487) : идентификатору присвоено значение, но он не используется: "fsinmeet"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(4532) : идентификатор не используется: "g_fast_pos"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(203) : идентификатор не используется: "kickaf"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7624) : идентификатору присвоено значение, но он не используется: "kyrpick"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(201) : идентификатор не используется: "names"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(117) : идентификатор не используется: "openvorotamo"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(115) : идентификатор не используется: "openvorotamo1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(1807) : идентификатор не используется: "pAccesory"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(1808) : идентификатор не используется: "pSlotUseAccesory"
+../include/system/accessory.pwn(108) : идентификатор не используется: "player_select_accessory"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(255) : идентификатор не используется: "pos"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(263) : идентификатор не используется: "pos1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(202) : идентификатор не используется: "spawnaf"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7503) : идентификатору присвоено значение, но он не используется: "stol1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7506) : идентификатору присвоено значение, но он не используется: "stol2"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7509) : идентификатору присвоено значение, но он не используется: "stol3"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7512) : идентификатору присвоено значение, но он не используется: "stol4"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7515) : идентификатору присвоено значение, но он не используется: "stol5"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7518) : идентификатору присвоено значение, но он не используется: "stol6"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(207) : идентификатор не используется: "unbanaf"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(206) : идентификатор не используется: "unwarnaf"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(113) : идентификатор не используется: "vorotamo"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(111) : идентификатор не используется: "vorotamo1"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(7539) : идентификатору присвоено значение, но он не используется: "vorotastatik"
+C:\Users\user\Desktop\не труготь Raze+West Red bonus\gamemodes\realrussia.pwn(205) : идентификатор не используется: "warnaf"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   25888 байт
+Размер кода:		 2302156 байт
+Размер данных:		45923176 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование=8605 ячеек (34420 байт)
+Всего требуется:	48276220 байт
+
+Предупреждений:133.
