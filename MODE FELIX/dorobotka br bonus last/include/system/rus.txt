@@ -1,0 +1,52 @@
+D:\dorobotka br bonus last\include\system\garages.pwn(1627) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+D:\dorobotka br bonus last\include\system\garages.pwn(1758) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\dorobotka br bonus last\include\system\garages.pwn(1) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\dorobotka br bonus last\include\system\garages.pwn(48) : ошибка 070: поддержка рациональных чисел не включена
+D:\dorobotka br bonus last\include\system\garages.pwn(77) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnGameModeInit")
+D:\dorobotka br bonus last\include\system\garages.pwn(79) : ошибка 017: необъявленный символ "SetTimer"
+D:\dorobotka br bonus last\include\system\garages.pwn(80) : ошибка 004: функция "print" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(81) : ошибка 017: необъявленный символ "SetTimer"
+D:\dorobotka br bonus last\include\system\garages.pwn(82) : ошибка 017: необъявленный символ "SetTimer"
+D:\dorobotka br bonus last\include\system\garages.pwn(102) : предупреждение 219: переменная "query" уже объявлена в более глобальной зоне видимости
+D:\dorobotka br bonus last\include\system\garages.pwn(104) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(104) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(104) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(105) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(107) : ошибка 017: необъявленный символ "cache_num_rows"
+D:\dorobotka br bonus last\include\system\garages.pwn(109) : ошибка 004: функция "print" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(111) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(111) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(111) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(112) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(114) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(114) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(114) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(115) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(117) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(117) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(117) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(118) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(120) : ошибка 004: функция "print" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(122) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(122) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(122) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(123) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(124) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(124) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(124) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(125) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(126) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(126) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(126) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(127) : ошибка 004: функция "mysql_query" не реализована
+D:\dorobotka br bonus last\include\system\garages.pwn(128) : ошибка 017: необъявленный символ "mysql"
+D:\dorobotka br bonus last\include\system\garages.pwn(128) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(128) : предупреждение 202: количество аргументов не совпадает с объявлением
+D:\dorobotka br bonus last\include\system\garages.pwn(129) : ошибка 004: функция "mysql_query" не реализована
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
