@@ -1,0 +1,26 @@
+PAWNO_COMPILE_READY - PRE-FLIGHT LOG
+Generated: 2026-09-05
+
+The supplied archive contains Windows pawncc.exe, but this build environment cannot execute PE/Windows binaries (Wine is unavailable). Therefore this is a pre-flight dependency/structure log, not a claim of successful compilation.
+
+Source: gamemodes/shanyrak.pwn
+Compiler: pawno/pawncc.exe (Windows PE32)
+Include path: pawno/include
+
+Changes made:
+1. Added #include <json> because shanyrak.pwn uses JSON_* symbols.
+2. Added pawno/include/compat/external_plugins.inc with declarations for plugin symbols referenced by the source (MySQL, sscanf, Streamer).
+3. Added pawno/compile_ready.bat for actual Windows compilation and log capture.
+4. Preserved original game mode logic and did not modify server/license protection.
+
+Detected external symbol families:
+- MySQL: mysql_*, cache_*
+- sscanf: sscanf
+- Streamer: CreateDynamic*, DestroyDynamic*, Streamer_Update
+- JSON: JSON_*
+
+IMPORTANT:
+The compatibility include supplies compiler declarations only. Runtime plugin binaries are still required by the server. The original archive contains mysql, sscanf and streamer plugin binaries.
+
+NEXT STEP ON WINDOWS:
+Run pawno\compile_ready.bat from the project root. The complete compiler output will be written to logs\compile.log.
