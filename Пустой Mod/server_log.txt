@@ -1,0 +1,256 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:45:53] filterscripts = ""  (string)
+[19:45:53] 
+[19:45:53] Server Plugins
+[19:45:53] --------------
+[19:45:53]  Loading plugin: mysql
+[19:45:53]  >> plugin.mysql: R41-4 successfully loaded.
+[19:45:53]   Loaded.
+[19:45:53]  Loading plugin: streamer
+[19:45:53] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:45:53]   Loaded.
+[19:45:53]  Loading plugin: sscanf
+[19:45:53] 
+
+[19:45:53]  ===============================
+
+[19:45:53]       sscanf plugin loaded.     
+
+[19:45:53]          Version:  2.8.3        
+
+[19:45:53]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:45:53]  ===============================
+
+[19:45:53]   Loaded.
+[19:45:53]  Loading plugin: pawncmd
+[19:45:53] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:45:53]   Loaded.
+[19:45:53]  Loaded 4 plugins.
+
+[19:45:53] 
+[19:45:53] Filterscripts
+[19:45:53] ---------------
+[19:45:53]   Loaded 0 filterscripts.
+
+[19:45:53] [MySQL] Подключение отсутствует!
+[19:45:53] Number of vehicle models: 0
+[19:45:53] --- Server Shutting Down.
+[19:45:53] plugin.mysql: Unloading plugin...
+[19:45:53] plugin.mysql: Plugin unloaded.
+[19:45:53] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:45:53] 
+
+[19:45:53]  ===============================
+
+[19:45:53]      sscanf plugin unloaded.    
+
+[19:45:53]  ===============================
+
+[19:45:53] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:46:20] filterscripts = ""  (string)
+[19:46:20] 
+[19:46:20] Server Plugins
+[19:46:20] --------------
+[19:46:20]  Loading plugin: mysql
+[19:46:20]  >> plugin.mysql: R41-4 successfully loaded.
+[19:46:20]   Loaded.
+[19:46:20]  Loading plugin: streamer
+[19:46:20] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:46:20]   Loaded.
+[19:46:20]  Loading plugin: sscanf
+[19:46:20] 
+
+[19:46:20]  ===============================
+
+[19:46:20]       sscanf plugin loaded.     
+
+[19:46:20]          Version:  2.8.3        
+
+[19:46:20]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:46:20]  ===============================
+
+[19:46:20]   Loaded.
+[19:46:20]  Loading plugin: pawncmd
+[19:46:20] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:46:20]   Loaded.
+[19:46:20]  Loaded 4 plugins.
+
+[19:46:20] 
+[19:46:20] Filterscripts
+[19:46:20] ---------------
+[19:46:20]   Loaded 0 filterscripts.
+
+[19:46:20] [MySQL] Подключение отсутствует!
+[19:46:20] Number of vehicle models: 0
+[19:46:20] --- Server Shutting Down.
+[19:46:20] plugin.mysql: Unloading plugin...
+[19:46:20] plugin.mysql: Plugin unloaded.
+[19:46:20] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:46:20] 
+
+[19:46:20]  ===============================
+
+[19:46:20]      sscanf plugin unloaded.    
+
+[19:46:20]  ===============================
+
+[19:46:20] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:46:22] filterscripts = ""  (string)
+[19:46:22] 
+[19:46:22] Server Plugins
+[19:46:22] --------------
+[19:46:22]  Loading plugin: mysql
+[19:46:22]  >> plugin.mysql: R41-4 successfully loaded.
+[19:46:22]   Loaded.
+[19:46:22]  Loading plugin: streamer
+[19:46:22] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:46:22]   Loaded.
+[19:46:22]  Loading plugin: sscanf
+[19:46:22] 
+
+[19:46:22]  ===============================
+
+[19:46:22]       sscanf plugin loaded.     
+
+[19:46:22]          Version:  2.8.3        
+
+[19:46:22]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:46:22]  ===============================
+
+[19:46:22]   Loaded.
+[19:46:22]  Loading plugin: pawncmd
+[19:46:22] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:46:22]   Loaded.
+[19:46:22]  Loaded 4 plugins.
+
+[19:46:22] 
+[19:46:22] Filterscripts
+[19:46:22] ---------------
+[19:46:22]   Loaded 0 filterscripts.
+
+[19:46:22] [MySQL] Подключение отсутствует!
+[19:46:22] Number of vehicle models: 0
+[19:46:22] --- Server Shutting Down.
+[19:46:22] plugin.mysql: Unloading plugin...
+[19:46:22] plugin.mysql: Plugin unloaded.
+[19:46:22] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:46:22] 
+
+[19:46:22]  ===============================
+
+[19:46:22]      sscanf plugin unloaded.    
+
+[19:46:22]  ===============================
+
+[19:46:22] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:46:25] filterscripts = ""  (string)
+[19:46:25] 
+[19:46:25] Server Plugins
+[19:46:25] --------------
+[19:46:25]  Loading plugin: mysql
+[19:46:25]  >> plugin.mysql: R41-4 successfully loaded.
+[19:46:25]   Loaded.
+[19:46:25]  Loading plugin: streamer
+[19:46:25] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:46:25]   Loaded.
+[19:46:25]  Loading plugin: sscanf
+[19:46:25] 
+
+[19:46:25]  ===============================
+
+[19:46:25]       sscanf plugin loaded.     
+
+[19:46:25]          Version:  2.8.3        
+
+[19:46:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:46:25]  ===============================
+
+[19:46:25]   Loaded.
+[19:46:25]  Loading plugin: pawncmd
+[19:46:25] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:46:25]   Loaded.
+[19:46:25]  Loaded 4 plugins.
+
+[19:46:25] 
+[19:46:25] Filterscripts
+[19:46:25] ---------------
+[19:46:25]   Loaded 0 filterscripts.
+
+[19:46:25] [MySQL] Подключение отсутствует!
+[19:46:25] Number of vehicle models: 0
+[19:46:25] --- Server Shutting Down.
+[19:46:25] plugin.mysql: Unloading plugin...
+[19:46:25] plugin.mysql: Plugin unloaded.
+[19:46:25] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:46:25] 
+
+[19:46:25]  ===============================
+
+[19:46:25]      sscanf plugin unloaded.    
+
+[19:46:25]  ===============================
+
+[19:46:25] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
