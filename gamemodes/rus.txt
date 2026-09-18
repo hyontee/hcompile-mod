@@ -1,9 +1,0 @@
-../include/system/new_promo.pwn(1668) : предупреждение 229: несовпадение типов индекса (идентификатор "promoData")
-D:\Абв доработка мода by premium\продажа\gamemodes\redex.pwn(87400) : ошибка 017: необъявленный символ "ShowNotificationMisters"
-D:\Абв доработка мода by premium\продажа\gamemodes\redex.pwn(87405) : ошибка 017: необъявленный символ "ShowNotificationMisters"
-D:\Абв доработка мода by premium\продажа\gamemodes\redex.pwn(87416) : ошибка 017: необъявленный символ "MISTERS_NAME"
-D:\Абв доработка мода by premium\продажа\gamemodes\redex.pwn(87418) : ошибка 017: необъявленный символ "DIALOG_SHABLON_CATEGORY"
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
-
-Ошибок:4.
