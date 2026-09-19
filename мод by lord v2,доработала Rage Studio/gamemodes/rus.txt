@@ -1,0 +1,21 @@
+../include/system/horn_full_styling_gui.inc(335) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/horn_full_styling_gui.inc(336) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/horn_full_styling_gui.inc(366) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/horn_full_styling_gui.inc(367) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/horn_full_styling_gui.inc(397) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/horn_full_styling_gui.inc(398) : предупреждение 226: присваивание переменной самой себе (идентификатор "body_colors")
+../include/system/new_promo.pwn(1679) : предупреждение 229: несовпадение типов индекса (идентификатор "promoData")
+D:\мод by lord v2,доработка lord\gamemodes\lordek.pwn(99700) : предупреждение 224: неизвестный размер массива в выражении "sizeof" (идентификатор "len")
+../include/system/auction.pwn(135) : предупреждение: рекурсия в e_OnDialogResponse
+../include/system/diver_welsi.pwn(347) : предупреждение: рекурсия в garage_OnDialogResponse
+../include/system/inv.inc(55) : предупреждение: рекурсия в Accessory_GetModelIdByItemId: вызов с Accessory_GetAccIdByInvItem ../include/system/inv.inc(186)
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   39024 байт
+Размер кода:		 4637936 байт
+Размер данных:		37799332 байт
+Размер стэка\кучи:	   25000 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	42501292 байт
+
+Предупреждений:11.
