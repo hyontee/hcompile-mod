@@ -1,0 +1,44 @@
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\container_system.inc(181) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\global_defines.inc(779) : предупреждение 228: длина инициализатора превышает размер поля enum
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\other_systems_tools.inc(76) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\other_systems_tools.inc(78) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(8829) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(8859) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(8936) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(8937) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(8943) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(20843) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(29553) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(29571) : предупреждение 209: функция "pr_ip_52" должна возвращать значение
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(29589) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\gamemodes\new.pwn(29620) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\house_systems\house_systems.inc(606) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(3881) : предупреждение 209: функция "pc_cmd_racket" должна возвращать значение
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(3904) : предупреждение 209: функция "pc_cmd_beat" должна возвращать значение
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6570) : предупреждение 209: функция "pc_cmd_dress" должна возвращать значение
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6597) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6601) : предупреждение 202: количество аргументов не совпадает с объявлением
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6604) : предупреждение 209: функция "pc_cmd_contraband" должна возвращать значение
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6614) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\player\cmd.inc(6697) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\game_relax_systems\race_systems_classic\race_snow_systems.inc(187) : предупреждение 216: вложенный комментарий
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(79) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(125) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(290) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\new_number_system.inc(308) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\container_system.inc(225) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\продажи\pawno\include\..\..\gamemodes\API\systems\container_system.inc(592) : неправильная табуляция
+C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems_quest.inc(219) : предупреждение: рекурсия в show_quest_panel_newyear_page: вызов с show_quest_newyear C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems_quest.inc(47)
+C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\player\vars.inc(2063) : предупреждение: рекурсия в hide_global_notify_gui: вызов с show_notify_gui C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\player\vars.inc(2023)
+C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems.inc(620) : предупреждение: рекурсия в hide_global_notify_gui_newyear: вызов с show_notify_gui_newyear C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\systems\newyear_systems\newyear_systems.inc(581)
+C:\Users\New\Desktop\ModREbrp\�������\pawno\include\..\..\gamemodes\API\player\player_fast_menu.inc(3) : предупреждение: рекурсия в show_fast_menu
+Для отключения вывода рекурсий: #pragma disablerecursion
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+Размер заголовка:	   28020 байт
+Размер кода:		 6449024 байт
+Размер данных:		15420620 байт
+Размер стэка\кучи:	 4000000 байт; Примерное макс. использование: Неизвестно, из-за рекурсий
+Всего требуется:	25897664 байт
+
+Предупреждений:15.
