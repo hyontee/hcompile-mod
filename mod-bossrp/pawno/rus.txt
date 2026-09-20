@@ -1,0 +1,16 @@
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(26012) : идентификатор не используется: "pass"
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(26012) : идентификатор не используется: "db"
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(26012) : идентификатор не используется: "user"
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(26012) : идентификатор не используется: "host"
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(41376) : идентификатор не используется: "idx"
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(43708) : предупреждение 213: несовпадение типов
+C:\Users\User\Downloads\СТИКС.мод\gamemodes\snake.pwn(43722) : предупреждение 213: несовпадение типов
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2017, ITB CompuPhase
+
+Размер заголовка:	   24248 байт
+Размер кода:		 4930624 байт
+Размер данных:		57310424 байт
+Размер стэка\кучи:	   20636 байт; Примерное макс. использование=8940 ячеек (35760 байт)
+Всего требуется:	62285932 байт
+
+Предупреждений:2.
