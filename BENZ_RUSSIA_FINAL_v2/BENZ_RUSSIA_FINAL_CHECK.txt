@@ -1,0 +1,30 @@
+BENZ RUSSIA FINAL CHECK v2
+
+Applied and rechecked:
+- BENZ RUSSIA branding / Telegram replacement.
+- Starter money: 150 RUB; old 700,000,000 test grant removed.
+- Active scooter rental: 50 RUB.
+- Chat legacy setting1=0 migrated to Standard; schema default 1.
+- MySQL connection uses host/user/database/password/port order.
+- server.cfg hostname/gamemodetext/weburl updated.
+- Admin authentication requires saved 4-digit AdminPass; /alogin added.
+- First-time admin creates a 4-digit password; 3 wrong attempts kick.
+- dev_below receives admin level 12 but must authenticate with /alogin.
+- Direct DIALOG_TEST admin grant disabled.
+- Invalid active chained range checks corrected; commented legacy examples remain comments only.
+- mxini include normalized.
+- Government/Army/Hospital/Media/GIBDD/UMVD/FSB salary tables updated to the agreed values.
+- Temporary job pay: loader 500/load, miner 350/kg, factory delivery 450, factory production 70/product, lumberjack 550/tree.
+- Bus checkpoint payout: 80.
+- Long-haul direct payout: 60,000.
+- Inkasator direct payout: 45,000.
+- Fuel delivery wage: 3/liter.
+- Metal delivery wage: 6/kg.
+- VAZ 2101: 45,000; ZAZ 968: 20,000; VAZ 1111: 30,000.
+- Electric job formula retained at agreed updated values.
+
+Not changed by source code:
+- Android client/HUD branding such as “ROYAL Build 16.21.0” requires client/HUD assets, not gamemode source.
+
+Compile/runtime limitation:
+- The project includes pawncc.exe, but it is a Windows PE executable and Wine is not installed here. Therefore a real AMX compile and live server/MySQL test could not be executed in this environment.
