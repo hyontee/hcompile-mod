@@ -1,0 +1,33 @@
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(28) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(38) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(38) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(39) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(41) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(41) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(42) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(43) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(43) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(44) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(44) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(45) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(45) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(46) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(46) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(48) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(48) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(49) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(49) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(50) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(50) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(51) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(51) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(52) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(52) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+D:\СЛИВ МОДА GOLD RUSSIA BY OSCAR\pawno\include\anticheat.incc(53) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
