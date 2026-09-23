@@ -1,0 +1,16 @@
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2201) : 铠栳赅 017: 礤钺?怆屙睇?耔焘铍 "DIALOG_GARAGE_SETTINGS"
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2203) : 铠栳赅 017: 礤钺?怆屙睇?耔焘铍 "GetPlayerGarage"
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2215) : 铠栳赅 017: 礤钺?怆屙睇?耔焘铍 "GetGarageData"
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2216) : 铠栳赅 076: 耔眚嚓耔麇耜? 铠栳赅 ?恹疣驽龛?桦?礤镳噔桦 恹珙?趔黻鲨?D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2217) : 铠栳赅 029: 礤镳噔桦铄 恹疣驽龛? 镳桧?眍朦
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2217) : 铠栳赅 017: 礤钺?怆屙睇?耔焘铍 "DIALOG_GARAGE_IMPROVEMENT"
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2224) : 铠栳赅 029: 礤镳噔桦铄 恹疣驽龛? 镳桧?眍朦
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2203) : 铠栳赅 014: 礤忮痦铄 溴轳蜮桢; 玎 镳邃咫囔?switch
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2241) : 铠栳赅 001: 铈桎嚯? 蝾赍?";", 眍 磬殇屙 ":"
+D:\МОДИК КЛАССНЫЙ\gamemodes\symbol.pwn(2241) : 羿蜞朦磬 铠栳赅 107: 耠桫觐?祉钽?铠栳铌 磬 钿眍?耱痤赍
+
+暑祜桦鲨 铖蜞眍怆屙?
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+硒栳铌:10.
