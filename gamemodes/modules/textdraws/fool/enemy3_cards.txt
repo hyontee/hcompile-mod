@@ -1,0 +1,69 @@
+// Текстдравы для игроков
+new PlayerText:enemy3_cards_PTD[MAX_PLAYERS][7];
+
+enemy3_cards_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 316.6669, 64.3106, "JORDAN_STEWART"); // player 3 nick
+PlayerTextDrawLetterSize(playerid, enemy3_cards_PTD[playerid][0], 0.2230, 1.0729);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][0], 2);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][0], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][0], 1);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][0], 1);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][0], 0);
+
+enemy3_cards_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 285.7008, 9.4141, "LD_CARD:cdback"); // player 3 cards 1
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][1], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][1], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][1], 0);
+
+enemy3_cards_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 291.3674, 9.6290, "LD_CARD:cdback"); // player 3 cards 2
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][2], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][2], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][2], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][2], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][2], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][2], 0);
+
+enemy3_cards_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 297.2680, 9.6290, "LD_CARD:cdback"); // player 3 cards 3
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][3], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][3], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][3], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][3], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][3], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][3], 0);
+
+enemy3_cards_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 303.2684, 9.5291, "LD_CARD:cdback"); // player 3 cards 4
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][4], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][4], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][4], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][4], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][4], 0);
+
+enemy3_cards_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 309.0686, 9.5291, "LD_CARD:cdback"); // player 3 cards 5
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][5], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][5], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][5], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][5], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][5], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][5], 0);
+
+enemy3_cards_PTD[playerid][6] = CreatePlayerTextDraw(playerid, 314.7691, 9.5291, "LD_CARD:cdback"); // player 3 cards 6
+PlayerTextDrawTextSize(playerid, enemy3_cards_PTD[playerid][6], 32.0000, 53.0000);
+PlayerTextDrawAlignment(playerid, enemy3_cards_PTD[playerid][6], 1);
+PlayerTextDrawColor(playerid, enemy3_cards_PTD[playerid][6], -1);
+PlayerTextDrawBackgroundColor(playerid, enemy3_cards_PTD[playerid][6], 255);
+PlayerTextDrawFont(playerid, enemy3_cards_PTD[playerid][6], 4);
+PlayerTextDrawSetProportional(playerid, enemy3_cards_PTD[playerid][6], 0);
+PlayerTextDrawSetShadow(playerid, enemy3_cards_PTD[playerid][6], 0);
+
+
+
+// Экспортировано 7 текстдравов.

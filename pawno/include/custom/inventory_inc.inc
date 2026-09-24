@@ -1,0 +1,1106 @@
+#define PACKET_CUSTOMRPC    			251
+#define RPC_INVENTORY 					0x110
+
+stock inventory_skin_model ( playerid )
+{
+	new _skin = getReplacableSkinModel ( playerid ) ;
+	if ( _skin <= 0 ) _skin = p_info [ playerid ] [ skin ] ;
+	return _skin ;
+}
+
+stock SetInventoryShow ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryShow] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+
+    BS_WriteValue(bitstream, PR_INT8, 0);
+	
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryItem ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryItem] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 1);
+	BS_WriteValue(bitstream, PR_UINT8, MAX_PRISE_SLOT);
+	
+	new _id, line_string [ 12 ] ;
+	for ( new i = 0 ; i < MAX_PRISE_SLOT ; i ++ )
+	{
+		_id = p_info [ playerid ] [ prise_slot ] [ i ] ;
+		BS_WriteValue(bitstream, PR_INT8, i);
+		if ( _id < 1 )
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "");
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", p_info [ playerid ] [ prise_slot_count ] [ i ] ) ;
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, item_render_type ( _id ),
+				PR_INT32, item_object_id ( playerid, _id ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _id ) ),
+				PR_STRING, item_name ( _id ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string);
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryItemID ( playerid, _i_id )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryItemID] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 1);
+	BS_WriteValue(bitstream, PR_UINT8, 1);
+	
+	new _id = p_info [ playerid ] [ prise_slot ] [ _i_id ], line_string [ 12 ] ;
+	BS_WriteValue(bitstream, PR_INT8, _i_id);
+	if ( _id < 1 )
+	{
+		BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "");
+	}
+	else
+	{
+		format ( line_string, sizeof line_string, "%d", p_info [ playerid ] [ prise_slot_count ] [ _i_id ] ) ;
+		BS_WriteValue(
+				bitstream, 
+				PR_INT8, item_render_type ( _id ),
+				PR_INT32, item_object_id ( playerid, _id ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _id ) ),
+				PR_STRING, item_name ( _id ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string);
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventorySubItem ( playerid, _id, _str [ ] )
+{
+	#if defined debug_packet
+		printf ( "[SetInventorySubItem] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 3);
+	
+	BS_WriteValue(bitstream, PR_INT8, _id);
+	if ( _id == 0 )
+	{
+		new _obj_id = p_info [ playerid ] [ case_id ] ;
+		if ( _obj_id == -1 || ! case_model_id ( acc_player [ playerid ] [ acc_model ] [ _obj_id ] ) )
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( _str ),
+				PR_STRING, _str);
+		}
+		else
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, 0,
+				PR_INT32, acc_player [ playerid ] [ acc_model ] [ _obj_id ],
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "");
+		}
+	}
+	else if ( _id == 1 )
+	{
+		BS_WriteValue(
+				bitstream, 
+				PR_INT8, 2,
+				PR_INT32, inventory_skin_model ( playerid ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( _str ),
+				PR_STRING, _str);
+	}
+	else if ( _id == 2 )
+	{
+		new _obj_id = p_info [ playerid ] [ armour_id ] ;
+		if ( _obj_id == -1 || ! armour_model_id ( acc_player [ playerid ] [ acc_model ] [ _obj_id ] ) )
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -3,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( _str ),
+				PR_STRING, _str);
+		}
+		else
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, 0,
+				PR_INT32, acc_player [ playerid ] [ acc_model ] [ _obj_id ],
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "");
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryAcs ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryAcs] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 2);
+	BS_WriteValue(bitstream, PR_UINT8, MAX_ACCESORIES);
+	
+	new _id ;
+	for ( new i = 0 ; i < MAX_ACCESORIES ; i ++ )
+	{
+		_id = acc_player [ playerid ] [ acc_model ] [ i ] ;
+		BS_WriteValue(bitstream, PR_INT8, i);
+		if ( _id < 1 )
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_BOOL, false);
+		}
+		else
+		{
+			BS_WriteValue(
+				bitstream, 
+				PR_INT8, item_render_type ( _id ),
+				PR_INT32, item_object_id ( playerid, _id ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _id ) ),
+				PR_STRING, item_name ( _id ),
+				
+				PR_BOOL, ( acc_player [ playerid ] [ acc_used ] [ i ] ) ? ( true ) : ( false ) ) ;
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryAcsID ( playerid, _i_id )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryAcsID] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 2);
+	BS_WriteValue(bitstream, PR_UINT8, 1);
+	
+	new _id = acc_player [ playerid ] [ acc_model ] [ _i_id ] ;
+	BS_WriteValue(bitstream, PR_INT8, _i_id);
+	if ( _id == 0 )
+	{
+		BS_WriteValue(
+				bitstream, 
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_BOOL, false);
+	}
+	else
+	{
+		BS_WriteValue(
+				bitstream, 
+				PR_INT8, item_render_type ( _id ),
+				PR_INT32, item_object_id ( playerid, _id ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _id ) ),
+				PR_STRING, item_name ( _id ),
+				
+				PR_BOOL, ( acc_player [ playerid ] [ acc_used ] [ _i_id ] ) ? ( true ) : ( false ) ) ;
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock invOpen ( playerid, _id, _str [ ], _str2 [ ], bool: _safe, _maxSlot )
+{
+	#if defined debug_packet
+		printf ( "[invOpen] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(
+		bitstream, 
+		PR_INT8, 4,
+		PR_INT8, _id,
+	
+		PR_UINT8, strlen ( _str ),
+		PR_STRING, _str,
+	
+		PR_UINT8, strlen ( _str2 ),
+		PR_STRING, _str2,
+	
+		PR_BOOL, _safe,
+		PR_INT32, _maxSlot);
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock invUpdateData ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[invUpdateData] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(
+		bitstream, 
+		PR_INT8, 5,
+			
+		PR_INT8, 2,
+		PR_INT32, inventory_skin_model ( playerid ),
+	
+		PR_UINT8, 1,
+		PR_UINT8, 1,
+		
+		PR_FLOAT, 20.0,
+		PR_FLOAT, 180.0,
+		PR_FLOAT, 45.0,
+		PR_FLOAT, 0.78,
+	
+		PR_INT8, floatround ( p_t_info [ playerid ] [ p_health ] ),
+		PR_INT8, floatround ( p_t_info [ playerid ] [ p_armour ] ),
+		PR_INT8, 1);
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryHide ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryShow] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+
+    BS_WriteValue(bitstream, PR_INT8, 6);
+	
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryUpgrade ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryUpgrade] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 7);
+	BS_WriteValue(bitstream, PR_UINT8, MAX_ACCESORIES);
+	
+	for ( new i = 0 ; i < MAX_ACCESORIES ; i ++ )
+	{
+		BS_WriteValue(bitstream, PR_INT8, i);
+		if ( i >= MAX_PERKS )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+			
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+			
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "" ) ;
+		}
+		else
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, perk_info [ i ] [ perk_icon ],
+			
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+			
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( perk_info [ i ] [ perk_name ] ),
+				PR_STRING, perk_info [ i ] [ perk_name ] ) ;
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetWarehouseItem ( playerid, _type, _id )
+{
+	#if defined debug_packet
+		printf ( "[SetWarehouseItem] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 8);
+	
+	if ( _type == 3 )
+	{
+		BS_WriteValue(bitstream, PR_UINT8, MAX_WAREHOUSE_SLOT);
+	
+		new _model, line_string [ 12 ] ;
+		for ( new i = 0 ; i < MAX_WAREHOUSE_SLOT ; i ++ )
+		{
+			_model = veh_info [ _id - 1 ] [ v_slot ] [ i ] ;
+			BS_WriteValue(bitstream, PR_INT8, i);
+			if ( _model < 1 )
+			{
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, -1,
+					PR_INT32, -1,
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "",
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "" ) ;
+			}
+			else
+			{
+				format ( line_string, sizeof line_string, "%d", veh_info [ _id - 1 ] [ v_slot_count ] [ i ] ) ;
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, item_render_type ( _model ),
+					PR_INT32, item_object_id ( playerid, _model ),
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( item_name ( _model ) ),
+					PR_STRING, item_name ( _model ),
+				
+					PR_UINT8, strlen ( line_string ),
+					PR_STRING, line_string ) ;
+			}
+		}
+	}
+	else if ( _type == 7 )
+	{
+		BS_WriteValue(bitstream, PR_UINT8, MAX_WAREHOUSE_SLOT);
+		
+		new _model, line_string [ 12 ] ;
+		for ( new i = 0 ; i < MAX_WAREHOUSE_SLOT ; i ++ )
+		{
+			_model = h_info [ _id - 1 ] [ h_slot ] [ i ] ;
+			BS_WriteValue(bitstream, PR_INT8, i);
+			if ( _model < 1 )
+			{
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, -1,
+					PR_INT32, -1,
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "",
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "" ) ;
+			}
+			else
+			{
+				format ( line_string, sizeof line_string, "%d", h_info [ _id - 1 ] [ h_slot_count ] [ i ] ) ;
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, item_render_type ( _model ),
+					PR_INT32, item_object_id ( playerid, _model ),
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( item_name ( _model ) ),
+					PR_STRING, item_name ( _model ),
+				
+					PR_UINT8, strlen ( line_string ),
+					PR_STRING, line_string ) ;
+			}
+		}
+	}
+	else if ( _type == 10 )
+	{
+		BS_WriteValue(bitstream, PR_UINT8, MAX_FAMILY_WAREHOUSE);
+		
+		new _model, line_string [ 12 ] ;
+		for ( new i = 0 ; i < MAX_FAMILY_WAREHOUSE ; i ++ )
+		{
+			_model = family_info [ _id - 1 ] [ fam_slot ] [ i ] ;
+			BS_WriteValue(bitstream, PR_INT8, i);
+			if ( _model < 1 )
+			{
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, -1,
+					PR_INT32, -1,
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "",
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "" ) ;
+			}
+			else
+			{
+				format ( line_string, sizeof line_string, "%d", family_info [ _id - 1 ] [ fam_slot_count ] [ i ] ) ;
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, item_render_type ( _model ),
+					PR_INT32, item_object_id ( playerid, _model ),
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( item_name ( _model ) ),
+					PR_STRING, item_name ( _model ),
+				
+					PR_UINT8, strlen ( line_string ),
+					PR_STRING, line_string ) ;
+			}
+		}
+	}
+	else if ( _type == 11 )
+	{
+		BS_WriteValue(bitstream, PR_UINT8, MAX_FRACTION_WAREHOUSE);
+		
+		new _model, line_string [ 12 ] ;
+		for ( new i = 0 ; i < MAX_FRACTION_WAREHOUSE ; i ++ )
+		{
+			_model = f_info [ _id - 1 ] [ f_slot ] [ i ] ;
+			BS_WriteValue(bitstream, PR_INT8, i);
+			if ( _model < 1 )
+			{
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, -1,
+					PR_INT32, -1,
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "",
+				
+					PR_UINT8, strlen ( "" ),
+					PR_STRING, "" ) ;
+			}
+			else
+			{
+				format ( line_string, sizeof line_string, "%d", f_info [ _id - 1 ] [ f_slot_count ] [ i ] ) ;
+				BS_WriteValue(
+					bitstream,
+					PR_INT8, item_render_type ( _model ),
+					PR_INT32, item_object_id ( playerid, _model ),
+				
+					PR_UINT8, 1,
+					PR_UINT8, 1,
+				
+					PR_FLOAT, 20.0,
+					PR_FLOAT, 180.0,
+					PR_FLOAT, 45.0,
+					PR_FLOAT, 0.78,
+				
+					PR_UINT8, strlen ( item_name ( _model ) ),
+					PR_STRING, item_name ( _model ),
+				
+					PR_UINT8, strlen ( line_string ),
+					PR_STRING, line_string ) ;
+			}
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetWarehouseItemID ( playerid, _type, _id, _item_id )
+{
+	#if defined debug_packet
+		printf ( "[SetWarehouseItemID] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 8);
+	BS_WriteValue(bitstream, PR_UINT8, 1);
+	
+	if ( _type == 3 )
+	{
+		new _model = veh_info [ _id - 1 ] [ v_slot ] [ _item_id ], line_string [ 12 ] ;
+		BS_WriteValue(bitstream, PR_INT8, _item_id);
+		if ( _model < 1 )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "" ) ;
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", veh_info [ _id - 1 ] [ v_slot_count ] [ _item_id ] ) ;
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, item_render_type ( _model ),
+				PR_INT32, item_object_id ( playerid, _model ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _model ) ),
+				PR_STRING, item_name ( _model ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string ) ;
+		}
+	}
+	else if ( _type == 7 )
+	{
+		new _model = h_info [ _id - 1 ] [ h_slot ] [ _item_id ], line_string [ 12 ] ;
+		BS_WriteValue(bitstream, PR_INT8, _item_id);
+		if ( _model < 1 )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "" ) ;
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", h_info [ _id - 1 ] [ h_slot_count ] [ _item_id ] ) ;
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, item_render_type ( _model ),
+				PR_INT32, item_object_id ( playerid, _model ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _model ) ),
+				PR_STRING, item_name ( _model ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string ) ;
+		}
+	}
+	else if ( _type == 10 )
+	{
+		new _model = family_info [ _id - 1 ] [ fam_slot ] [ _item_id ], line_string [ 12 ] ;
+		BS_WriteValue(bitstream, PR_INT8, _item_id);
+		if ( _model < 1 )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "" ) ;
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", family_info [ _id - 1 ] [ fam_slot_count ] [ _item_id ] ) ;
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, item_render_type ( _model ),
+				PR_INT32, item_object_id ( playerid, _model ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _model ) ),
+				PR_STRING, item_name ( _model ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string ) ;
+		}
+	}
+	else if ( _type == 11 )
+	{
+		new _model = f_info [ _id - 1 ] [ f_slot ] [ _item_id ], line_string [ 12 ] ;
+		BS_WriteValue(bitstream, PR_INT8, _item_id);
+		if ( _model < 1 )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+				
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "" ) ;
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", f_info [ _id - 1 ] [ f_slot_count ] [ _item_id ] ) ;
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, item_render_type ( _model ),
+				PR_INT32, item_object_id ( playerid, _model ),
+				
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+				
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+				
+				PR_UINT8, strlen ( item_name ( _model ) ),
+				PR_STRING, item_name ( _model ),
+				
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string ) ;
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock SetInventoryButton ( playerid, _str [ ], _type, bool: status )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryButton] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(
+		bitstream,
+		PR_INT8, 9,
+	
+		PR_UINT8, strlen ( _str ),
+		PR_STRING, _str,
+	
+		PR_INT8, _type,
+		PR_BOOL, status);
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock UpdateInventoryButton ( playerid, _position, _str [ ], _type, bool: status )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryButton] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(
+		bitstream,
+		PR_INT8, 11,
+		PR_INT8, _position,
+	
+		PR_UINT8, strlen ( _str ),
+		PR_STRING, _str,
+	
+		PR_INT8, _type,
+		PR_BOOL, status);
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}
+
+stock convert_gun_to_model ( gun_id )
+{
+	new item_id ;
+	switch ( gun_id )
+	{
+		case 1: item_id = 105 ;
+		case 3: item_id = 107 ;
+		case 5: item_id = 109 ;
+		case 24: item_id = 124 ;
+		case 25: item_id = 125 ;
+		case 29: item_id = 129 ;
+		case 30: item_id = 130 ;
+		case 31: item_id = 131 ;
+		case 33: item_id = 133 ;
+		case 41: item_id = 141 ;
+		case 43: item_id = 143 ;
+	}
+	return item_id ;
+}
+
+stock SetInventoryWallet ( playerid )
+{
+	#if defined debug_packet
+		printf ( "[SetInventoryWallet] playerid: %d", playerid ) ;
+	#endif
+    new BitStream:bitstream = BS_New();
+    BS_WriteValue(bitstream, PR_UINT8, PACKET_CUSTOMRPC);
+	BS_WriteValue(bitstream, PR_UINT32, RPC_INVENTORY);
+	
+	BS_WriteValue(bitstream, PR_INT8, 10);
+	BS_WriteValue(bitstream, PR_UINT8, 13);
+	
+	new line_string [ 12 ] ;
+	for ( new i = 0 ; i < 13 ; i ++ )
+	{
+		BS_WriteValue(bitstream, PR_INT8, i);
+		if ( p_t_info [ playerid ] [ p_gun_slot ] [ i ] < 1 )
+		{
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, -1,
+			
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+			
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( "" ),
+				PR_STRING, "",
+			
+				PR_BOOL, false);
+		}
+		else
+		{
+			format ( line_string, sizeof line_string, "%d", p_t_info [ playerid ] [ p_gun_ammo ] [ i ] ) ;
+			BS_WriteValue(
+				bitstream,
+				PR_INT8, -1,
+				PR_INT32, convert_gun_to_model ( p_t_info [ playerid ] [ p_gun_slot ] [ i ] ),
+			
+				PR_UINT8, 1,
+				PR_UINT8, 1,
+			
+				PR_FLOAT, 20.0,
+				PR_FLOAT, 180.0,
+				PR_FLOAT, 45.0,
+				PR_FLOAT, 0.78,
+			
+				PR_UINT8, strlen ( line_string ),
+				PR_STRING, line_string,
+			
+				PR_BOOL, ( GetPlayerWeapon ( playerid ) == p_t_info [ playerid ] [ p_gun_slot ] [ i ] ) ? ( true ) : ( false ) ) ;
+		}
+	}
+
+    PR_SendPacket(bitstream, playerid);
+
+	BS_Delete(bitstream);
+}

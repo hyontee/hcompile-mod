@@ -1,0 +1,5 @@
+C:\Users\user\Downloads\Telegram Desktop\DRIVE\gamemodes\modules\core\m_variables_start_crmp.pwn(59) : ошибка 013: отсутствует точка входа (нет public-функций)
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:1.

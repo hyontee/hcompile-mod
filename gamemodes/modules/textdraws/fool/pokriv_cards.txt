@@ -1,0 +1,60 @@
+// Текстдравы для игроков
+new PlayerText:pokriv_cards_PTD[MAX_PLAYERS][6];
+
+pokriv_cards_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 164.3332, 182.7926, "LD_CARD:cd2d"); // card 1 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][0], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][0], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][0], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][0], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][0], 0);
+
+pokriv_cards_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 219.0339, 182.8074, "LD_CARD:cd2d"); // card 2 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][1], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][1], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][1], 0);
+
+pokriv_cards_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 274.0000, 182.7926, "LD_CARD:cd2d"); // card 3 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][2], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][2], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][2], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][2], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][2], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][2], 0);
+
+pokriv_cards_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 328.7005, 182.8074, "LD_CARD:cd2d"); // card 4 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][3], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][3], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][3], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][3], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][3], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][3], 0);
+
+pokriv_cards_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 385.3330, 182.7926, "LD_CARD:cd2d"); // card 5 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][4], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][4], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][4], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][4], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][4], 0);
+
+pokriv_cards_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 440.0343, 182.8074, "LD_CARD:cd2d"); // card 6 pokrili
+PlayerTextDrawTextSize(playerid, pokriv_cards_PTD[playerid][5], 41.0000, 64.0000);
+PlayerTextDrawAlignment(playerid, pokriv_cards_PTD[playerid][5], 1);
+PlayerTextDrawColor(playerid, pokriv_cards_PTD[playerid][5], -1);
+PlayerTextDrawBackgroundColor(playerid, pokriv_cards_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, pokriv_cards_PTD[playerid][5], 4);
+PlayerTextDrawSetProportional(playerid, pokriv_cards_PTD[playerid][5], 0);
+PlayerTextDrawSetShadow(playerid, pokriv_cards_PTD[playerid][5], 0);
+
+
+
+// Экспортировано 6 текстдравов.

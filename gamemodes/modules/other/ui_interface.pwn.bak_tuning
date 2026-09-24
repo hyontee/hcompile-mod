@@ -1,0 +1,18 @@
+#include <custom/ui_interface>
+
+stock notify_server ( playerid, uiElementId, actionId, data [ ] )
+{
+	if ( uiElementId == 1 )
+	{
+		show_donate_packet ( playerid, actionId, data ) ;
+	}
+	else if ( uiElementId == 2 )
+	{
+		show_packet_speedometr ( playerid, actionId, data ) ;
+	}
+	else if ( uiElementId == 7 )
+	{
+		show_packet_keyboard ( playerid, actionId, data ) ;
+	}
+	return 1 ;
+}

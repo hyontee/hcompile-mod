@@ -1,0 +1,2339 @@
+const ID_RPC = 20 ;
+const ID_CUSTOM_PACKET = 251 ;
+
+const RPC_GiveActorDamage = 177 ;
+const RPC_ModeSettings = 207 ;
+const RPC_ModeBinder = 208 ;
+const RPC_CustomHash = 209 ;
+const RPC_CInfo = 210 ;
+const RPC_BattlePass = 211 ;
+const RPC_VoiceChat = 212 ;
+const RPC_HudManager = 213 ;
+const RPC_PlayAudioStreams = 214 ;
+const RPC_Trade = 216 ;
+const RPC_Inventory = 217 ;
+const RPC_Tuning = 218 ;
+const RPC_Family = 219 ;
+const RPC_Finger = 220 ;
+const RPC_Apple = 221 ;
+const RPC_Binary = 222 ;
+const RPC_Roulette = 223 ;
+const RPC_CustomSpawn = 224 ;
+const RPC_Action = 225 ;
+const RPC_RadialMenu = 226 ;
+const RPC_RentMenu = 227 ;
+const RPC_ShopManager = 228 ;
+const RPC_ValentineManager = 229 ;
+const RPC_BoatsManager = 230 ;
+const RPC_JackpotManager = 231 ;
+const RPC_WheelManager = 232 ;
+const RPC_QuestManager = 233 ;
+const RPC_MobileClient = 235 ;
+const RPC_CarShowroom = 236 ;
+const RPC_Fraction = 237 ;
+const RPC_Parking = 238 ;
+const RPC_Market = 239 ;
+const RPC_Craft = 240 ;
+const RPC_PlayerRoulette = 241 ;
+const RPC_EditManager = 242 ;
+const RPC_ReconManager = 243 ;
+const RPC_AzsManager = 244 ;
+const RPC_AdminManager = 245 ;
+const RPC_ContainerManager = 246 ;
+const RPC_FishingManager = 247 ;
+const RPC_CasinoDice = 248 ;
+const RPC_SelectorDialog = 249 ;
+const RPC_Binders = 251 ;
+const RPC_BindersChar = 252 ;
+const RPC_VehicleDistance = 253 ;
+const RPC_NewBieBattle = 254 ;
+const RPC_AuthReg = 255 ;
+const RPC_TouchZone = 256 ;
+const RPC_Plates = 257 ;
+const RPC_Business = 258 ;
+const RPC_NOTIFY_SERVER = 260 ;
+const RPC_NOTIFY_SERVER_UI_VISIBLE = 261 ;
+
+IPacket:ID_CUSTOM_PACKET(playerid, BitStream:bs)
+{
+    new rpcid ;
+
+    BS_ReadValue(bs,
+		PR_IGNORE_BITS, 8, // packet id
+		PR_UINT32, rpcid
+    );
+    
+	if ( rpcid == RPC_GiveActorDamage )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_GiveActorDamage] playerid: %d", playerid ) ;
+		#endif
+		
+        new _actorId, Float: _amount, _weaponId, _bodypart ;
+
+        BS_ReadValue(bs,
+            PR_UINT16, _actorId,
+			PR_FLOAT, _amount,
+			PR_UINT32, _weaponId,
+			PR_UINT32, _bodypart
+        );
+
+		show_packet_actor ( playerid, _actorId, _amount, _weaponId, _bodypart ) ;
+	}
+    else if ( rpcid == RPC_ModeSettings )
+    {
+		#if defined debug_rpc
+			printf ( "[RPC_ModeSettings] playerid: %d", playerid ) ;
+		#endif
+		
+        new i_bit ;
+
+        BS_ReadValue(bs,
+            PR_UINT8, i_bit
+        );
+
+		if ( i_bit == 1 ) 
+		{
+			if ( p_t_info [ playerid ] [ p_logged ] == false || player_loaded { playerid } == 0 ) return 1 ;
+			show_playersettings ( playerid ) ;
+		}
+    }
+	else if ( rpcid == RPC_ModeBinder )
+    {
+		#if defined debug_rpc
+			printf ( "[RPC_ModeBinder] playerid: %d", playerid ) ;
+		#endif
+		
+        new i_bit ;
+
+        BS_ReadValue(bs,
+            PR_UINT8, i_bit
+        );
+
+		if ( i_bit == 1 )
+		{
+			if ( p_t_info [ playerid ] [ p_logged ] == false || player_loaded { playerid } == 0 ) return 1 ; 
+			show_playerbinder ( playerid ) ;
+		}
+    }
+	else if ( rpcid == RPC_CustomHash )
+    {
+		#if defined debug_rpc
+			printf ( "[RPC_CustomHash] playerid: %d", playerid ) ;
+		#endif
+		
+        new i_bit ;
+
+        BS_ReadValue(bs,
+            PR_UINT32, i_bit
+        );
+
+		player_checking_hash [ playerid ] += i_bit ;
+    }
+	else if ( rpcid == RPC_CInfo )
+    {
+		#if defined debug_rpc
+			printf ( "[RPC_CInfo] playerid: %d", playerid ) ;
+		#endif
+		
+        new i_id, i_bit, bool: i_bool ;
+
+        BS_ReadValue(bs,
+            PR_UINT16, i_id,
+            PR_UINT16, i_bit,
+            PR_BOOL, i_bool
+        );
+		
+		show_packet_noty ( playerid, i_id, i_bit, i_bool ) ;
+    }
+	else if ( rpcid == RPC_BattlePass )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_BattlePass] playerid: %d", playerid ) ;
+		#endif
+		
+		new i_bit, i_info, i_pos_bp, i_type ;
+
+        BS_ReadValue(bs,
+            PR_INT32, i_bit,
+            PR_INT32, i_info,
+            PR_INT32, i_pos_bp,
+            PR_INT32, i_type
+        );
+		
+		show_packet_battlepass ( playerid, i_bit, i_info, i_pos_bp, i_type ) ;
+	}
+	else if ( rpcid == RPC_VoiceChat )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_VoiceChat] playerid: %d", playerid ) ;
+		#endif
+		
+		new i_bit, i_chat ;
+
+        BS_ReadValue(bs,
+            PR_UINT8, i_bit,
+            PR_UINT8, i_chat
+        );
+		
+		p_info [ playerid ] [ voice ] = i_bit ;
+		p_info [ playerid ] [ chat_status ] = i_chat ;
+	}
+	else if ( rpcid == RPC_HudManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_HudManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new i_bit ;
+
+        BS_ReadValue(bs,
+            PR_UINT8, i_bit
+        );
+		
+		p_info [ playerid ] [ hud_id ] = i_bit ;
+		
+		if ( p_t_info [ playerid ] [ p_logged ] == true )
+		{
+			if ( player_device { playerid } == 2 && p_info [ playerid ] [ hud_id ] )
+			{
+				SendCheckHud ( playerid ) ;
+			}
+		}
+	}
+	else if ( rpcid == RPC_PlayAudioStreams )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_PlayAudioStreams] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param_len, _param_url [ 256 ], _param_name [ 256 ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_UINT8, _param1,
+			PR_UINT8, _param2,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_url, _param_len,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_name, _param_len
+		);
+		
+		new eType = g_aStreamSources [ playerid ] [ eStreamType ] ;
+		if ( _param1 == 0 )
+		{
+			if ( _param2 == 0 )
+			{
+				musicHide ( playerid ) ;
+			}
+			else if ( _param2 == 1 )
+			{
+				musicHide ( playerid ) ;
+				musicAudioSelectorShow ( playerid, 0 ) ;
+			}
+			else if ( _param2 == 2 )
+			{
+				musicHide ( playerid ) ;
+				musicAudioSelectorShow ( playerid, 1 ) ;
+			}
+			else if ( _param2 == 3 )
+			{
+				if ( eType == NONE )
+				{
+					if ( IsValidDynamicObject ( boombox_player [ playerid ] [ b_object ] ) ) DestroyDynamicObject ( boombox_player [ playerid ] [ b_object ] ) ;
+					if ( boombox_player [ playerid ] [ b_status ] )
+					{
+						Iter_Remove(box_player, playerid);
+						boombox_player [ playerid ] [ b_status ] = false ;
+						DestroyDynamicArea ( boombox_player [ playerid ] [ b_area ] ) ;
+					}
+
+					if ( IsValidDynamic3DTextLabel ( boombox_player [ playerid ] [ b_text ] ) )
+					{
+						DestroyDynamic3DTextLabel ( boombox_player [ playerid ] [ b_text ] ) ;
+						boombox_player [ playerid ] [ b_text ] = Text3D:INVALID_3DTEXT_ID ;
+					}
+					
+					g_aStreamSources [ playerid ] [ eStreamType ] = TOPLAYER ;
+					g_aStreamSources [ playerid ] [ eStreamAttach ] = playerid ;
+					
+					SetAttachedBoomBox ( playerid ) ;
+				}
+				else if ( eType == TOPLAYER )
+				{
+					if ( IsPlayerAttachedObjectSlotUsed ( playerid, 4 ) ) RemovePlayerAttachedObject ( playerid, 4 ) ;
+					
+					g_aStreamSources [ playerid ] [ eStreamType ] = NONE ;
+					g_aStreamSources [ playerid ] [ eStreamAttach ] = 0 ;
+					
+					SetAddRecorder ( playerid ) ;
+				}
+				musicHide ( playerid ) ;
+			}
+			else if ( _param2 == 4 )
+			{
+				DestroyRecorder ( playerid ) ;
+				musicHide ( playerid ) ;
+			}
+			else if ( _param2 == 5 || _param2 == 6 || _param2 == 7 )
+			{
+				new _item_0 = 0, _item_1 = 0 ;
+				if ( GetPlayerState ( playerid ) == PLAYER_STATE_ONFOOT )
+				{
+					if ( eType == NONE ) _item_0 = 2, _item_1 = 3 ;
+					else if ( eType == TOPLAYER ) _item_0 = 1, _item_1 = 3 ;
+				}
+				else if ( GetPlayerState ( playerid ) == PLAYER_STATE_DRIVER )
+				{
+					if ( veh_info [ GetPlayerVehicleID ( playerid ) - 1 ] [ v_sound ] > 0 )
+					{
+						_item_0 = 4 ;
+						_item_1 = 5 ;
+					}
+				}
+				else _item_0 = 0, _item_1 = 0 ;
+				musicShow ( playerid, _item_0, _item_1, 100, false, g_aStreamSources [ playerid ] [ eStreamName ] ) ;
+			}
+			return 1 ;
+		}
+		
+		musicHide ( playerid ) ;
+		format ( g_aStreamSources [ playerid ] [ eStreamURL ], 256, "%s", _param_url ) ;
+		format ( g_aStreamSources [ playerid ] [ eStreamName ], 256, "%s", _param_name ) ;
+		if ( eType == NONE )
+		{
+			if ( GetPlayerVehicleID ( playerid ) != 0 || GetPlayerState ( playerid ) != PLAYER_STATE_ONFOOT )
+			{
+				DestroyRecorder ( playerid ) ;
+				return 1 ;
+			}
+			
+		   	g_aStreamSources [ playerid ] [ eStreamID ] = playerid ;
+			g_aStreamSources [ playerid ] [ eStreamPos ] [ 0 ] = p_t_info [ playerid ] [ p_pos ] [ 0 ] ;
+			g_aStreamSources [ playerid ] [ eStreamPos ] [ 1 ] = p_t_info [ playerid ] [ p_pos ] [ 1 ] ;
+			g_aStreamSources [ playerid ] [ eStreamPos ] [ 2 ] = p_t_info [ playerid ] [ p_pos ] [ 2 ] ;
+		   	g_aStreamSources [ playerid ] [ eStreamDistance ] = 40.0 ;
+		   	g_aStreamSources [ playerid ] [ eStreamInt ] = GetPlayerInterior ( playerid ) ;
+		   	g_aStreamSources [ playerid ] [ eStreamRepeat ] = 1 ;
+		   	g_aStreamSources [ playerid ] [ eStreamCurrentTime ] = gettime ( ) ;
+		    CreateStreamSource ( playerid, playerid ) ;
+		    
+		   	g_aStreamSources [ playerid ] [ eStreamType ] = NONE ;
+		   	g_aStreamSources [ playerid ] [ eStreamAttach ] = 0 ;
+		   	AttachStreamSource ( playerid, playerid ) ;
+	
+		   	VolumeStreamSource ( playerid ) ;
+			
+			foreach(new i: logged_players)
+	        {
+	            if ( g_aStreamSources [ i ] [ eStreamID ] == playerid )
+	            {
+	                CreateStreamSource ( i, playerid ) ;
+	                AttachStreamSource ( i, playerid ) ;
+	                VolumeStreamSource ( i ) ;
+	            }
+	        }
+		}
+		else if ( eType == TOVEHICLE )
+		{
+			if ( GetPlayerVehicleID ( playerid ) == 0 || GetPlayerState ( playerid ) != PLAYER_STATE_DRIVER )
+			{
+				DestroyRecorder ( playerid ) ;
+				return 1 ;
+			}
+			
+		   	g_aStreamSources [ playerid ] [ eStreamID ] = playerid ;
+		   	g_aStreamSources [ playerid ] [ eStreamDistance ] = 40.0 ;
+		   	g_aStreamSources [ playerid ] [ eStreamInt ] = GetPlayerInterior ( playerid ) ;
+		   	g_aStreamSources [ playerid ] [ eStreamRepeat ] = 1 ;
+		   	g_aStreamSources [ playerid ] [ eStreamCurrentTime ] = gettime ( ) ;
+		    CreateStreamSource ( playerid, playerid ) ;
+		    
+		   	g_aStreamSources [ playerid ] [ eStreamType ] = TOVEHICLE ;
+		   	g_aStreamSources [ playerid ] [ eStreamAttach ] = GetPlayerVehicleID ( playerid ) ;
+		   	AttachStreamSource ( playerid, playerid ) ;
+		   	
+		   	VolumeStreamSource ( playerid ) ;
+			
+			foreach(new i: logged_players)
+	        {
+	            if ( g_aStreamSources [ i ] [ eStreamID ] == playerid )
+	            {
+	                CreateStreamSource ( i, playerid ) ;
+	                AttachStreamSource ( i, playerid ) ;
+	                VolumeStreamSource ( i ) ;
+	            }
+	        }
+		}
+		else if ( eType == TOPLAYER )
+		{
+			if ( GetPlayerVehicleID ( playerid ) != 0 || GetPlayerState ( playerid ) != PLAYER_STATE_ONFOOT )
+			{
+				DestroyRecorder ( playerid ) ;
+				return 1 ;
+			}
+			
+		   	g_aStreamSources [ playerid ] [ eStreamID ] = playerid ;
+		   	g_aStreamSources [ playerid ] [ eStreamDistance ] = 40.0 ;
+		   	g_aStreamSources [ playerid ] [ eStreamInt ] = GetPlayerInterior ( playerid ) ;
+		   	g_aStreamSources [ playerid ] [ eStreamRepeat ] = 1 ;
+		   	g_aStreamSources [ playerid ] [ eStreamCurrentTime ] = gettime ( ) ;
+		    CreateStreamSource ( playerid, playerid ) ;
+		    
+		   	g_aStreamSources [ playerid ] [ eStreamType ] = TOPLAYER ;
+		   	g_aStreamSources [ playerid ] [ eStreamAttach ] = playerid ;
+		   	AttachStreamSource ( playerid, playerid ) ;
+		   	
+		   	VolumeStreamSource ( playerid ) ;
+			
+			foreach(new i: logged_players)
+	        {
+	            if ( g_aStreamSources [ i ] [ eStreamID ] == playerid )
+	            {
+	                CreateStreamSource ( i, playerid ) ;
+	                AttachStreamSource ( i, playerid ) ;
+	                VolumeStreamSource ( i ) ;
+	            }
+	        }
+		}
+	}
+	else if ( rpcid == RPC_Trade )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Trade] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_trade ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Inventory )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Inventory] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_inventory ( playerid, _param1, _param2, _param3);
+	}
+	else if ( rpcid == RPC_Tuning )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Tuning] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_tune ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Family )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Family] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_family ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Fraction )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Fraction] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_fraction ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Finger )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Finger] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param_len, _param_str [ 128 ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_str, _param_len
+		);
+		
+		show_packet_finger ( playerid, _param1, _param2, _param_str ) ;
+	}
+	else if ( rpcid == RPC_Apple )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Apple] playerid: %d", playerid ) ;
+		#endif
+		
+		new _id, _result ;
+	
+		BS_ReadValue(
+			bs,
+			PR_UINT8, _id,
+			PR_UINT32, _result
+		);
+		
+		show_packet_apple ( playerid, _id, _result ) ;
+	}
+	else if ( rpcid == RPC_Binary )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Binary] playerid: %d", playerid ) ;
+		#endif
+		
+		new _id1, bool: _status, _result ;
+	
+		BS_ReadValue(
+			bs,
+			PR_UINT8, _id1,
+			PR_UINT32, _result,
+			PR_BOOL, _status
+		);
+		
+		show_packet_binary ( playerid, _id1, _status, _result ) ;
+	}
+	else if ( rpcid == RPC_Roulette )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Roulette] playerid: %d", playerid ) ;
+		#endif
+		
+		new current_bid, select_type, select_number ;
+	
+		BS_ReadValue(
+			bs,
+			PR_UINT32, current_bid,
+			PR_UINT8, select_type,
+			PR_UINT8, select_number
+		);
+		
+		show_packet_roulette ( playerid, current_bid, select_type, select_number ) ;
+	}
+	else if ( rpcid == RPC_CustomSpawn )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_CustomSpawn] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		upload_spawn_packet ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Action )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Action] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3, _param4 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3,
+			PR_INT32, _param4
+		);
+		
+		show_packet_action ( playerid, _param1, _param2, _param3, _param4 ) ;
+	}
+	else if ( rpcid == RPC_RadialMenu )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_RadialMenu] playerid: %d", playerid ) ;
+		#endif
+		
+		new current_id ;
+	
+		BS_ReadValue(
+			bs,
+			PR_UINT8, current_id
+		);
+		
+		use_radial_menu ( playerid, current_id ) ;
+	}
+	else if ( rpcid == RPC_RentMenu )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_RentMenu] playerid: %d", playerid ) ;
+		#endif
+		
+		new current_id ;
+	
+		BS_ReadValue(
+			bs,
+			PR_UINT8, current_id
+		);
+		
+		use_rent_menu ( playerid, current_id ) ;
+	}
+	else if ( rpcid == RPC_ShopManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_ShopManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3, _param4 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3,
+			PR_INT32, _param4
+		);
+		
+		use_shop_manager ( playerid, _param1, _param2, _param3, _param4 ) ;
+	}
+	else if ( rpcid == RPC_ValentineManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_ValentineManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _i, _i2, _i3 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _i,
+			PR_INT32, _i2,
+			PR_INT32, _i3
+		);
+		
+		use_valentine_manager ( playerid, _i, _i2, _i3 ) ;
+	}
+	else if ( rpcid == RPC_BoatsManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_BoatsManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _i, _i2, _i3 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _i,
+			PR_INT32, _i2,
+			PR_INT32, _i3
+		);
+		
+		use_boats_manager ( playerid, _i, _i2, _i3 ) ;
+	}
+	else if ( rpcid == RPC_JackpotManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_JackpotManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _i, _i2 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _i,
+			PR_INT32, _i2
+		);
+		
+		show_packet_jackpot ( playerid, _i, _i2 ) ;
+	}
+	else if ( rpcid == RPC_WheelManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_WheelManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _i ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _i
+		);
+		
+		show_packet_wheel ( playerid, _i ) ;
+	}
+	else if ( rpcid == RPC_QuestManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_QuestManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+	
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_quest ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_MobileClient )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_MobileClient] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param_len, _param_text [ 128 ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_text, _param_len
+		);
+		
+		player_checking_mobile ( playerid, _param_text ) ;
+	}
+	else if ( rpcid == RPC_CarShowroom )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_CarShowroom] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		//show_packet_carshowroom ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_Parking )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Parking] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param_1, _param_2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param_1,
+			PR_INT32, _param_2
+		);
+		
+		show_packet_parking ( playerid, _param_1, _param_2 ) ;
+	}
+	else if ( rpcid == RPC_Market )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Market] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param_1, _param_2, _param_3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param_1,
+			PR_INT32, _param_2,
+			PR_INT32, _param_3
+		);
+		
+		show_packet_market ( playerid, _param_1, _param_2, _param_3 ) ;
+	}
+	else if ( rpcid == RPC_Craft )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Craft] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param_1, _param_2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param_1,
+			PR_INT32, _param_2
+		);
+		
+		show_packet_craft ( playerid, _param_1, _param_2 ) ;
+	}
+	else if ( rpcid == RPC_PlayerRoulette )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_PlayerRoulette] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param_1, _param_2, _param_3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param_1,
+			PR_INT32, _param_2,
+			PR_INT32, _param_3
+		);
+		
+		show_packet_player_roulette ( playerid, _param_1, _param_2, _param_3 ) ;
+	}
+	else if ( rpcid == RPC_EditManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_EditManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param
+		);
+		
+		show_packet_edit_object ( playerid, _param ) ;
+	}
+	else if ( rpcid == RPC_ReconManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_ReconManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param
+		);
+		
+		show_packet_recon ( playerid, _param ) ;
+	}
+	else if ( rpcid == RPC_AzsManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_AzsManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param, _param2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param,
+			PR_INT32, _param2
+		);
+		
+		show_packet_azs ( playerid, _param, _param2 ) ;
+	}
+	else if ( rpcid == RPC_AdminManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_AdminManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param, _param3, _param_len, _param_text [ 128 ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param,
+			PR_INT32, _param3,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_text, _param_len
+		);
+		
+		show_packet_admin ( playerid, _param, _param_text, _param3 ) ;
+	}
+	else if ( rpcid == RPC_ContainerManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_ContainerManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_container ( playerid, _param, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_FishingManager )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_FishingManager] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param, _param2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param,
+			PR_INT32, _param2
+		);
+		
+		show_packet_fishing ( playerid, _param, _param2 ) ;
+	}
+	else if ( rpcid == RPC_SelectorDialog )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_SelectorDialog] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2
+		);
+		
+		show_packet_dialogs ( playerid, _param1, _param2 ) ;
+	}
+	else if ( rpcid == RPC_Binders )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Binders] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_binders ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_BindersChar )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_BindersChar] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param_len, _param_text [ 144 ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_text, _param_len
+		);
+		
+		show_packet_binders_str ( playerid, _param1, _param2, _param_text ) ;
+	}
+	else if ( rpcid == RPC_VehicleDistance )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_VehicleDistance] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1
+		);
+		
+		show_packet_vehicle ( playerid, _param1 ) ;
+	}
+	else if ( rpcid == RPC_NewBieBattle )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_NewBieBattle] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_newbie ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_AuthReg )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_AuthReg] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param3, _param_len, _param_str [ MAX_PLAYER_NAME ], _param4 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1
+		);
+		
+		if ( _param1 == 2 )
+		{
+			BS_ReadValue(
+				bs,
+				PR_INT32, _param2,
+				PR_INT32, _param3,
+				PR_INT32, _param4
+			);
+			
+			show_packet_PedSettings ( playerid, _param2, _param3, _param4 ) ;
+		}
+		else
+		{
+			BS_ReadValue(
+				bs,
+				PR_INT32, _param2,
+				PR_INT32, _param3,
+				PR_UINT8, _param_len,
+				PR_STRING, _param_str, _param_len
+			);
+			
+			show_packet_AuthReg ( playerid, _param2, _param3, _param_str, _param1 ) ;
+		}
+	}
+	else if ( rpcid == RPC_TouchZone )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_TouchZone] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2
+		);
+		
+		show_packet_touch ( playerid, _param1, _param2 ) ;
+	}
+	else if ( rpcid == RPC_Plates )
+	{
+		
+        new _param1, _param2, _param3, _param_len, _param_str [ MAX_PLAYER_NAME ], _param4 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3,
+			PR_INT32, _param4
+		);
+		
+		if ( _param1 == 0 )
+		{
+			show_packet_plates ( playerid, _param2, _param3, _param4, "" ) ;
+		}
+		else
+		{
+			BS_ReadValue(
+				bs,
+				PR_UINT8, _param_len,
+				PR_STRING, _param_str, _param_len
+			);
+			
+			show_packet_plates ( playerid, _param2, _param3, _param4, _param_str ) ;
+		}
+	}
+	else if ( rpcid == RPC_Business )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_Business] playerid: %d", playerid ) ;
+		#endif
+		
+        new _param1, _param2, _param3 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_INT32, _param3
+		);
+		
+		show_packet_business ( playerid, _param1, _param2, _param3 ) ;
+	}
+	else if ( rpcid == RPC_NOTIFY_SERVER )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_NOTIFY_SERVER] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2, _param_len, _param_str [ MAX_PLAYER_NAME ] ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_INT32, _param2,
+			PR_UINT8, _param_len,
+			PR_STRING, _param_str, _param_len
+		);
+		
+		notify_server ( playerid, _param1, _param2, _param_str ) ;
+	}
+	else if ( rpcid == RPC_NOTIFY_SERVER_UI_VISIBLE )
+	{
+		#if defined debug_rpc
+			printf ( "[RPC_NOTIFY_SERVER_UI_VISIBLE] playerid: %d", playerid ) ;
+		#endif
+		
+		new _param1, _param2 ;
+		
+		BS_ReadValue(
+			bs,
+			PR_INT32, _param1,
+			PR_UINT8, _param2
+		);
+		
+		//notify_server_ui_visible ( playerid, _param1, _param2 ) ;
+	}
+
+	return true ;
+}
+
+const RPC_WorldPlayerAdd  			= 32 ;
+const RPC_ScrCreateObject 			= 44 ;
+const RPC_CREATE_PICKUP 			= 95 ;
+const RPC_PlayerAttachedObject 		= 113 ;
+const RPC_ScrSetPlayerSkin 			= 153 ;
+const RPC_WorldVehicleAdd 			= 164 ;
+
+enum E_PLAYER_STRUCT
+{
+	e_usPlayerID,
+	e_bTeam,
+	e_uiSkin,
+	e_pfPosX,
+	e_pfPosY,
+	e_pfPosZ,
+	e_pfRot,
+	e_uiColor,
+	e_bFighting,
+	e_boolVisible
+} ;
+static playerData [ E_PLAYER_STRUCT ] ;
+
+#define MAX_SKIN_MODELS_REPLACE 299
+new skin_replace_model [ MAX_SKIN_MODELS_REPLACE ] [ 3 ] = 
+{
+	{ 312, 110, 312 },
+	{ 313, 110, 313 },
+	{ 314, 110, 314 },
+	{ 315, 110, 315 },
+	{ 317, 110, 316 },
+	{ 318, 110, 317 },
+	{ 319, 110, 318 },
+	{ 320, 110, 319 },
+	{ 4500, 110, 320 },
+	{ 4501, 110, 321 },
+	{ 4502, 110, 322 },
+	{ 4503, 110, 323 },
+	{ 4504, 110, 324 },
+	{ 4505, 110, 325 },
+	{ 4506, 110, 326 },
+	{ 4507, 110, 327 },
+	
+	{ 4508, 110, 327 },
+	{ 4509, 110, 328 },
+	{ 4510, 110, 329 },
+	{ 4511, 110, 330 },
+	{ 4512, 110, 331 },
+	{ 4513, 110, 332 },
+	{ 4514, 110, 333 },
+	{ 4515, 110, 334 },
+	{ 4516, 110, 335 },
+	{ 4517, 110, 336 },
+	{ 4518, 110, 337 },
+	{ 4519, 110, 338 },
+	{ 4520, 110, 339 },
+	
+	{ 4521, 110, 340 },
+	{ 4522, 110, 341 },
+	{ 4523, 110, 342 },
+	{ 4524, 244, 343 },
+	{ 4525, 110, 344 },
+	{ 4526, 110, 345 },
+	{ 4527, 110, 346 },
+	{ 4528, 110, 347 },
+	{ 4529, 110, 348 },
+	{ 4530, 110, 349 },
+	{ 4531, 110, 350 },
+	{ 4532, 110, 360 },
+	{ 4533, 110, 361 },
+	{ 4534, 110, 362 },
+	{ 4535, 244, 363 },
+	{ 4536, 244, 364 },
+	{ 4537, 244, 365 },
+	{ 4538, 244, 366 },
+	{ 4539, 244, 367 },
+	{ 4540, 244, 368 },
+	{ 4541, 244, 369 },
+	{ 4542, 244, 370 },
+	{ 4543, 244, 371 },
+	{ 4544, 244, 372 },
+	
+	{ 4545, 244, 373 },
+	{ 4546, 244, 374 },
+	{ 4547, 244, 375 },
+	{ 4548, 244, 376 },
+	{ 4549, 244, 377 },
+	{ 4550, 244, 378 },
+	{ 4551, 244, 379 },
+	{ 4552, 244, 380 },
+	{ 4553, 244, 381 },
+	{ 4554, 244, 382 },
+	{ 4555, 244, 383 },
+	{ 4556, 244, 384 },
+	
+	{ 4557, 244, 385 },
+	{ 4558, 244, 386 },
+	{ 4559, 244, 387 },
+	{ 4560, 244, 388 },
+	{ 4561, 244, 389 },
+	{ 4562, 244, 390 },
+	{ 4563, 244, 391 },
+	{ 4564, 244, 392 },
+	{ 4565, 244, 393 },
+	{ 4566, 244, 394 },
+	{ 4567, 244, 395 },
+	{ 4568, 244, 396 },
+	{ 4569, 244, 397 },
+	{ 4570, 244, 398 },
+	{ 4571, 244, 399 },
+	
+	{ 4572, 244, 400 },
+	{ 4573, 244, 401 },
+	{ 4574, 244, 402 },
+	{ 4575, 244, 403 },
+	{ 4576, 244, 404 },
+	{ 4577, 244, 405 },
+	{ 4578, 244, 406 },
+	{ 4579, 244, 407 },
+	{ 4580, 244, 408 },
+	{ 4581, 244, 409 },
+	{ 4582, 244, 410 },
+	{ 4583, 244, 411 },
+	{ 4584, 244, 412 },
+	
+	{ 4585, 244, 413 },
+	{ 4586, 244, 414 },
+	{ 4587, 244, 415 },
+	{ 4588, 244, 416 },
+	{ 4589, 244, 417 },
+	{ 4590, 244, 418 },
+	{ 4591, 244, 419 },
+	{ 4592, 244, 420 },
+	{ 4593, 244, 421 },
+	{ 4594, 244, 422 },
+	{ 4595, 244, 423 },
+	{ 4597, 244, 425 },
+	{ 4598, 244, 426 },
+	{ 4599, 244, 427 },
+	{ 4600, 244, 428 },
+	{ 4601, 244, 429 },
+	
+	{ 4603, 244, 430 },
+	{ 4604, 244, 431 },
+	{ 4605, 244, 432 },
+	{ 4606, 244, 433 },
+	{ 4607, 244, 434 },
+	{ 4608, 244, 435 },
+	{ 4609, 244, 436 },
+	{ 4611, 244, 437 },
+	{ 4612, 244, 438 },
+	{ 4613, 244, 439 },
+	{ 4614, 244, 440 },
+	{ 4615, 244, 441 },
+	{ 4616, 244, 442 },
+	{ 4617, 244, 443 },
+	{ 4618, 244, 444 },
+	{ 4619, 244, 445 },
+	{ 4620, 244, 446 },
+	{ 4621, 244, 447 },
+	
+	{ 4622, 244, 448 },
+	{ 4623, 244, 449 },
+	{ 4624, 244, 450 },
+	{ 4625, 244, 451 },
+	{ 4626, 244, 452 },
+	{ 4627, 244, 453 },
+	{ 4628, 244, 454 },
+	{ 4629, 244, 455 },
+	{ 4630, 244, 456 },
+	{ 4631, 244, 457 },
+	{ 4632, 244, 458 },
+	{ 4633, 244, 459 },
+	{ 4634, 244, 460 },
+	{ 4635, 244, 461 },
+	
+	{ 4636, 244, 462 },
+	{ 4637, 244, 463 },
+	{ 4638, 244, 464 },
+	{ 4639, 244, 465 },
+	{ 4640, 244, 466 },
+	{ 4641, 244, 467 },
+	{ 4642, 244, 468 },
+	{ 4643, 244, 469 },
+	
+	{ 4644, 244, 470 },
+	{ 4645, 244, 471 },
+	{ 4646, 244, 472 },
+	{ 4647, 244, 473 },
+	{ 4648, 244, 474 },
+	{ 4649, 244, 475 },
+	{ 4650, 244, 476 },
+	{ 4651, 244, 477 },
+	{ 4652, 244, 478 },
+	{ 4653, 244, 479 },
+	{ 4654, 244, 480 },
+	{ 4655, 244, 481 },
+	{ 4656, 244, 482 },
+	{ 4657, 244, 483 },
+	{ 4658, 244, 484 },
+	{ 4659, 244, 485 },
+	{ 4660, 244, 486 },
+	{ 4661, 244, 487 },
+	{ 4662, 244, 488 },
+	{ 4663, 244, 489 },
+	
+	{ 4664, 244, 490 },
+	{ 4665, 244, 491 },
+	{ 4666, 244, 492 },
+	{ 4667, 244, 493 },
+	{ 4668, 244, 494 },
+	{ 4669, 244, 495 },
+	{ 4670, 244, 496 },
+	{ 4671, 244, 497 },
+	{ 4672, 244, 498 },
+	{ 4673, 244, 499 },
+	{ 4674, 244, 500 },
+	{ 4675, 244, 501 },
+	{ 4676, 244, 502 },
+	{ 4677, 244, 503 },
+	{ 4678, 244, 504 },
+	{ 4679, 244, 505 },
+	{ 4680, 244, 506 },
+	{ 4681, 244, 507 },
+	{ 4682, 244, 508 },
+	{ 4683, 244, 509 },
+	{ 4684, 244, 510 },
+	{ 4685, 244, 511 },
+	{ 4686, 244, 512 },
+	{ 4687, 244, 513 },
+	{ 4688, 244, 514 },
+	{ 4689, 244, 515 },
+	{ 4690, 244, 516 },
+	{ 4691, 244, 517 },
+	{ 4692, 244, 518 },
+	{ 4693, 244, 519 },
+	
+	{ 4694, 244, 520 },
+	{ 4695, 244, 521 },
+	{ 4696, 244, 522 },
+	{ 4697, 244, 523 },
+	{ 4698, 244, 524 },
+	{ 4699, 244, 525 },
+	{ 4700, 244, 526 },
+	{ 4701, 244, 527 },
+	{ 4702, 244, 528 },
+	{ 4703, 244, 529 },
+	{ 4704, 244, 530 },
+	{ 4705, 244, 531 },
+	{ 4706, 244, 532 },
+	{ 4707, 244, 533 },
+	{ 4708, 244, 534 },
+	{ 4709, 244, 535 },
+	{ 4710, 244, 536 },
+	{ 4711, 244, 537 },
+	{ 4712, 244, 538 },
+	{ 4713, 244, 539 },
+	{ 4714, 244, 540 },
+	{ 4715, 244, 541 },
+	{ 4716, 244, 542 },
+	
+	{ 4717, 244, 543 },
+	{ 4718, 244, 544 },
+	{ 4719, 244, 545 },
+	{ 4720, 244, 546 },
+	{ 4721, 244, 547 },
+	{ 4722, 244, 548 },
+	{ 4723, 244, 549 },
+	{ 4724, 244, 550 },
+	{ 4725, 244, 551 },
+	{ 4726, 244, 552 },
+	{ 4727, 244, 553 },
+	{ 4728, 244, 554 },
+	{ 4729, 244, 555 },
+	{ 4730, 244, 556 },
+	{ 4731, 244, 557 },
+	{ 4732, 244, 558 },
+	
+	{ 4733, 244, 559 },
+	{ 4734, 244, 560 },
+	{ 4735, 244, 561 },
+	{ 4736, 244, 562 },
+	{ 4737, 244, 563 },
+	{ 4738, 244, 564 },
+	{ 4739, 244, 565 },
+	{ 4740, 244, 566 },
+	{ 4741, 244, 567 },
+	{ 4742, 244, 568 },
+	{ 4743, 244, 569 },
+	{ 4744, 244, 570 },
+	{ 4745, 244, 571 },
+	{ 4746, 244, 572 },
+	
+	{ 4747, 244, 573 },
+	{ 4748, 244, 574 },
+	{ 4749, 244, 575 },
+	{ 4750, 244, 576 },
+	{ 4751, 244, 577 },
+	{ 4752, 244, 578 },
+	{ 4753, 244, 579 },
+	{ 4754, 244, 580 },
+	{ 4755, 244, 581 },
+	{ 4756, 244, 582 },
+	{ 4757, 244, 583 },
+	{ 4758, 244, 584 },
+	{ 4759, 244, 585 },
+	{ 4760, 244, 586 },
+	{ 4761, 244, 587 },
+	{ 4762, 244, 588 },
+	{ 4763, 244, 589 },
+	{ 4764, 244, 590 },
+	{ 4765, 244, 591 },
+	{ 4766, 244, 592 },
+	{ 4767, 244, 593 },
+	{ 4768, 244, 594 },
+	{ 4769, 244, 595 },
+	{ 4770, 244, 596 },
+	{ 4771, 244, 597 },
+	{ 4772, 244, 598 },
+	{ 4773, 244, 599 },
+	{ 4774, 244, 600 },
+	
+	{ 4776, 244, 601 },
+	{ 4777, 244, 602 },
+	{ 4778, 244, 603 },
+	{ 4779, 244, 604 },
+	{ 4780, 244, 605 },
+	{ 4781, 244, 606 },
+	{ 4782, 244, 607 },
+	{ 4783, 244, 608 },
+	{ 4784, 244, 609 },
+	{ 4785, 244, 610 },
+	{ 4786, 244, 611 },
+	{ 4787, 244, 612 },
+	{ 4788, 244, 613 },
+	{ 4789, 244, 614 },
+	{ 4790, 244, 615 },
+	{ 4791, 244, 616 },
+	{ 4792, 244, 617 },
+	{ 4793, 244, 618 },
+	{ 4794, 244, 619 }
+} ;
+
+stock getReplacableSkinModel ( playerid )
+{
+	new _skin_model = 0 ;
+	if ( p_info [ playerid ] [ custom_skin ] [ 0 ] != 0 ) _skin_model = p_info [ playerid ] [ custom_skin ] [ 0 ] ;
+	else if ( p_info [ playerid ] [ custom_skin ] [ 1 ] != 0 ) _skin_model = p_info [ playerid ] [ custom_skin ] [ 1 ] ;
+	else 
+	{
+		if ( changed_player_skin [ playerid ] == false ) return _skin_model ;
+		else _skin_model = p_info [ playerid ] [ skin ] ;
+	}
+    return _skin_model ;
+}
+
+stock getNewSkinModel ( playerid )
+{
+	new _skin_model = 0 ;
+	if ( p_info [ playerid ] [ custom_skin ] [ 1 ] != 0 ) _skin_model = p_info [ playerid ] [ custom_skin ] [ 1 ] ;
+	else if ( p_info [ playerid ] [ custom_skin ] [ 0 ] != 0 ) _skin_model = p_info [ playerid ] [ custom_skin ] [ 0 ] ;
+	else _skin_model = p_info [ playerid ] [ skin ] ;
+    return _skin_model ;
+}
+
+stock ProcessReplaceSkin ( playerid, BitStream:bs )
+{
+    new player, skinid ;
+	BS_ReadValue(
+		bs,
+ 		PR_UINT32, player,
+		PR_UINT32, skinid);
+
+	new custom_id = getReplacableSkinModel ( player ) ;
+	if ( custom_id > 311 )
+	{
+		if ( player_checking_hash [ playerid ] < 66 && custom_id >= 4622 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 69 && custom_id >= 4636 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 72 && custom_id >= 4644 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 75 && custom_id >= 4664 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 78 && custom_id >= 4694 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 81 && custom_id >= 4717 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 84 && custom_id >= 4733 ) return 0 ;
+		
+		new BitStream:bitstream = BS_New();
+		
+		BS_WriteValue(
+			bitstream,
+			PR_UINT32, player,
+			PR_UINT32, custom_id);
+		PR_SendRPC(bitstream, playerid, RPC_ScrSetPlayerSkin, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+		BS_Delete(bitstream);
+		return 1 ;
+	}
+	return 0 ;
+}
+
+stock ProcessReplaceSkinAdd ( playerid, BitStream:bs )
+{
+    static clearPlayerData [ E_PLAYER_STRUCT ] ;
+	playerData = clearPlayerData ;
+
+	BS_ReadValue(
+ 		bs,
+   		PR_INT16, playerData [ e_usPlayerID ],
+		PR_UINT8, playerData [ e_bTeam ],
+		PR_UINT32, playerData [ e_uiSkin ],
+		PR_FLOAT, playerData [ e_pfPosX ],
+		PR_FLOAT, playerData [ e_pfPosY ],
+		PR_FLOAT, playerData [ e_pfPosZ ],
+		PR_FLOAT, playerData [ e_pfRot ],
+		PR_UINT32, playerData [ e_uiColor ],
+		PR_UINT8, playerData [ e_bFighting ],
+		PR_BOOL, playerData [ e_boolVisible ]);
+
+	new custom_id = getReplacableSkinModel ( playerData [ e_usPlayerID ] ) ;
+	if ( custom_id > 311 )
+	{
+		if ( player_checking_hash [ playerid ] < 66 && custom_id >= 4622 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 69 && custom_id >= 4636 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 72 && custom_id >= 4644 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 75 && custom_id >= 4664 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 78 && custom_id >= 4694 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 81 && custom_id >= 4717 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 84 && custom_id >= 4733 ) return 0 ;
+		
+		new BitStream:bitstream = BS_New();
+
+		BS_WriteValue(
+			bitstream,
+			PR_INT16, playerData [ e_usPlayerID ],
+			PR_UINT8, playerData [ e_bTeam ],
+			PR_UINT32, custom_id,
+			PR_FLOAT, playerData [ e_pfPosX ],
+			PR_FLOAT, playerData [ e_pfPosY ],
+			PR_FLOAT, playerData [ e_pfPosZ ],
+			PR_FLOAT, playerData [ e_pfRot ],
+			PR_UINT32, playerData [ e_uiColor ],
+			PR_UINT8, playerData [ e_bFighting ],
+			PR_BOOL, playerData [ e_boolVisible ]);
+	
+		PR_SendRPC(bitstream, playerid, RPC_WorldPlayerAdd, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+		BS_Delete(bitstream);
+		return 1 ;
+	}
+	return 0 ;
+}
+
+enum E_VEHICLE_STRUCT
+{
+	e_vVehicleID, 			// INT16
+	e_vModelID,				// UINT32
+	Float:e_posX,
+	Float:e_posY,
+	Float:e_posZ,
+	Float:e_rot,
+	e_vColor1,
+	e_vColor2,
+	Float:e_vHealth,
+	e_vInterior,
+	e_vDoorDamageStatus,
+	e_vPanelDamageStatus,
+	e_vByteLightDamageStatus,
+	e_vByteTimeDamageStatus,
+	e_vByteAddSiren
+} ;
+static vehicleData [ E_VEHICLE_STRUCT ] ;
+
+#define MAX_VEH_MODELS_REPLACE 158
+new veh_replace_model [ MAX_VEH_MODELS_REPLACE ] [ 3 ] = 
+{
+	{ 3217, 451, 612 },
+	{ 3226, 579, 613 },
+	{ 3227, 451, 614 },
+	{ 3228, 451, 615 },
+	{ 3229, 579, 616 },
+	{ 3230, 550, 617 },
+	{ 3231, 451, 618 },
+	{ 3232, 451, 619 },
+	
+	{ 3233, 451, 620 },
+	{ 3234, 451, 621 },
+	{ 3235, 451, 622 },
+	{ 3236, 451, 623 },
+	{ 3237, 451, 624 },
+	{ 3238, 451, 625 },
+	{ 3239, 451, 626 },
+	{ 3240, 451, 627 },
+	{ 3241, 451, 628 },
+	
+	{ 3242, 400, 629 },
+	{ 3243, 451, 630 },
+	{ 3244, 451, 631 },
+	{ 3245, 451, 632 },
+	{ 3246, 579, 633 },
+	
+	{ 3247, 451, 634 },
+	{ 3248, 451, 635 },
+	
+	{ 3249, 451, 636 },
+	{ 3250, 451, 637 },
+	{ 3251, 451, 638 },
+	{ 3252, 451, 639 },
+	{ 3253, 451, 640 },
+	{ 3254, 451, 641 },
+	{ 3255, 451, 642 },
+	{ 3256, 451, 643 },
+	{ 3257, 451, 644 },
+	{ 3258, 451, 645 },
+	{ 3259, 451, 646 },
+	
+	{ 3260, 451, 647 },
+	{ 3261, 451, 648 },
+	{ 3262, 451, 649 },
+	{ 3263, 451, 650 },
+	
+	{ 3264, 451, 651 },
+	{ 3265, 451, 652 },
+	{ 3266, 451, 653 },
+	{ 3267, 451, 654 },
+	{ 3268, 451, 655 },
+	{ 3269, 451, 656 },
+	{ 3270, 451, 657 },
+	{ 3271, 579, 658 },
+	{ 3272, 451, 659 },
+	
+	{ 3273, 451, 660 },
+	{ 3274, 451, 661 },
+	{ 3275, 451, 662 },
+	{ 3276, 451, 663 },
+	
+	{ 3277, 451, 664 },
+	{ 3279, 451, 665 },
+	{ 3280, 451, 666 },
+	{ 3281, 451, 667 },
+	{ 3282, 451, 668 },
+	
+	{ 3283, 451, 669 },
+	{ 3284, 451, 670 },
+	{ 3285, 579, 671 },
+	{ 3286, 579, 672 },
+	{ 3287, 579, 673 },
+	
+	{ 3288, 451, 674 },
+	{ 3289, 451, 675 },
+	{ 3290, 451, 676 },
+	{ 3291, 451, 677 },
+	{ 3292, 579, 678 },
+	{ 3293, 451, 679 },
+	
+	{ 3294, 451, 680 },
+	{ 3295, 451, 681 },
+	{ 3296, 482, 682 },
+	{ 3297, 451, 683 },
+	
+	{ 3298, 451, 684 },
+	{ 3299, 451, 685 },
+	{ 3300, 451, 686 },
+	{ 3301, 579, 687 },
+	{ 3302, 560, 688 },
+	{ 3303, 560, 689 },
+	{ 3304, 451, 690 },
+	{ 3305, 560, 691 },
+	
+	{ 3306, 560, 692 },
+	{ 3307, 560, 693 },
+	{ 3308, 579, 694 },
+	{ 3309, 579, 695 },
+	
+	{ 3310, 579, 696 },
+	{ 3311, 579, 697 },
+	{ 3312, 560, 698 },
+	{ 3313, 411, 699 },
+	{ 3314, 579, 700 },
+	{ 3315, 560, 701 }, // unuseless
+	
+	{ 3316, 560, 701 },
+	{ 3317, 560, 702 },
+	{ 3318, 560, 703 },
+	{ 3319, 560, 704 },
+	{ 3320, 560, 705 },
+	{ 3321, 560, 706 },
+	
+	{ 3322, 579, 707 },
+	{ 3325, 560, 708 },
+	{ 3326, 560, 709 },
+	
+	{ 3323, 560, 710 },
+	{ 3324, 560, 711 },
+	{ 3327, 579, 712 },
+	{ 3328, 579, 713 },
+	{ 3329, 579, 714 },
+	{ 3330, 579, 715 },
+	{ 3331, 411, 716 },
+	{ 3332, 411, 717 },
+	
+	{ 3333, 411, 718 },
+	{ 3334, 411, 719 },
+	{ 3335, 411, 720 },
+	{ 3336, 411, 721 },
+	
+	{ 3337, 482, 722 },
+	//{ 3338, 482, 723 },
+	{ 3339, 411, 723 },
+	{ 3341, 411, 724 },
+	{ 3342, 411, 725 },
+	
+	{ 3343, 411, 726 },
+	{ 3344, 411, 727 },
+	{ 3345, 411, 728 },
+	{ 3346, 411, 729 },
+	{ 3347, 411, 730 },
+	{ 3348, 522, 731 },
+	{ 3349, 522, 732 },
+	{ 3350, 522, 733 },
+	{ 3351, 522, 734 },
+	
+	{ 3352, 411, 735 },
+	{ 3353, 411, 736 },
+	{ 3354, 411, 737 },
+	{ 3355, 411, 738 },
+	{ 3356, 411, 739 },
+	{ 3357, 579, 740 },
+	
+	{ 3358, 411, 741 },
+	{ 3359, 411, 742 },
+	{ 3360, 579, 743 },
+	{ 3361, 579, 744 },
+	{ 3362, 411, 745 },
+	{ 3363, 411, 746 },
+	{ 3364, 579, 747 },
+	{ 3365, 411, 748 },
+	{ 3366, 411, 749 },
+	{ 3367, 579, 750 },
+	{ 3368, 411, 751 },
+	
+	{ 3369, 487, 752 },
+	{ 3370, 487, 753 },
+	{ 3371, 487, 754 },
+	
+	{ 3373, 411, 755 },
+	{ 3374, 411, 756 },
+	{ 3375, 411, 757 },
+	{ 3376, 411, 758 },
+	
+	{ 3377, 444, 759 },
+	{ 3378, 444, 760 },
+	{ 3379, 444, 761 },
+	{ 3380, 444, 762 },
+	
+	{ 3381, 411, 763 },
+	{ 3382, 411, 764 },
+	{ 3383, 522, 765 },
+	{ 3384, 411, 766 },
+	{ 3385, 579, 767 },
+	{ 3386, 579, 768 }
+} ;
+
+stock GetVehicleModelEx ( vehicleid, ex_model = 0 )
+{
+	new _v_model = 0 ;
+	if ( ex_model != 0 && vehicleid == -1 )
+	{
+		if ( ex_model < 400 || ex_model > 611 )
+		{
+			for ( new i = 0 ; i < MAX_VEH_MODELS_REPLACE ; i ++ )
+			{
+				if ( ex_model != veh_replace_model [ i ] [ 0 ] ) continue ;
+				
+				_v_model = veh_replace_model [ i ] [ 2 ] ;
+				break ;
+			}
+		}
+		
+		if ( _v_model == 0 ) _v_model = ex_model ;
+	}
+	else
+	{
+		if ( vehicleid == 0 || vehicleid == INVALID_VEHICLE_ID ) return 0 ;
+		if ( veh_info [ vehicleid - 1 ] [ v_model_custom ] != 0 )
+		{
+			new _v_c_model = veh_info [ vehicleid - 1 ] [ v_model_custom ] ;
+			for ( new i = 0 ; i < MAX_VEH_MODELS_REPLACE ; i ++ )
+			{
+				if ( _v_c_model != veh_replace_model [ i ] [ 0 ] ) continue ;
+				
+				_v_model = veh_replace_model [ i ] [ 2 ] ;
+				break ;
+			}
+		}
+		else _v_model = veh_info [ vehicleid - 1 ] [ v_model ] ;
+	}
+	
+	return _v_model ;
+}
+#define GetVehicleModel GetVehicleModelEx
+
+stock GetVehicleNameEx ( vehicleid, ex_model = 0 )
+{
+	new _vehicle_name [ 32 ], _v_model = 0 ;
+	
+	if ( vehicleid == 0 || vehicleid == INVALID_VEHICLE_ID )
+	{
+		format ( _vehicle_name, sizeof _vehicle_name, "None" ) ;
+		return _vehicle_name ;
+	}
+	
+	if ( ex_model != 0 && vehicleid == -1 )
+	{
+		if ( ex_model < 400 || ex_model > 611 )
+		{
+			for ( new i = 0 ; i < MAX_VEH_MODELS_REPLACE ; i ++ )
+			{
+				if ( ex_model != veh_replace_model [ i ] [ 0 ] ) continue ;
+				
+				_v_model = veh_replace_model [ i ] [ 2 ] ;
+				break ;
+			}
+		}
+		else _v_model = ex_model ;
+	}
+	else
+	{
+		if ( veh_info [ vehicleid - 1 ] [ v_model_custom ] != 0 )
+		{
+			new _v_c_model = veh_info [ vehicleid - 1 ] [ v_model_custom ] ;
+			for ( new i = 0 ; i < MAX_VEH_MODELS_REPLACE ; i ++ )
+			{
+				if ( _v_c_model != veh_replace_model [ i ] [ 0 ] ) continue ;
+				
+				_v_model = veh_replace_model [ i ] [ 2 ] ;
+				break ;
+			}
+		}
+		else _v_model = veh_info [ vehicleid - 1 ] [ v_model ] ;
+	}
+	
+	format ( _vehicle_name, sizeof _vehicle_name, "%s", vehicle_name [ _v_model - 400 ] ) ;
+	return _vehicle_name ;
+}
+
+stock getReplacableVehicleModel ( vehicleid )
+{
+	new _v_model = 0 ;
+	if ( veh_info [ vehicleid - 1 ] [ v_model_custom ] != 0 ) _v_model = veh_info [ vehicleid - 1 ] [ v_model_custom ] ;
+	else _v_model = veh_info [ vehicleid - 1 ] [ v_model ] ;
+    return _v_model ;
+}
+
+stock ProcessReplaceVehicle ( playerid, BitStream:bs )
+{
+    static clearVehicleData [ E_VEHICLE_STRUCT ] ;
+	vehicleData = clearVehicleData ;
+	new modSlots [ 14 ] ;
+	new bytePaintJob ;
+	new color1, color2 ;
+
+	BS_ReadValue(
+ 		bs,
+   		PR_INT16, vehicleData [ e_vVehicleID ],
+		PR_UINT32, vehicleData [ e_vModelID ],
+		PR_FLOAT, vehicleData [ e_posX ],
+		PR_FLOAT, vehicleData [ e_posY ],
+		PR_FLOAT, vehicleData [ e_posZ ],
+		PR_FLOAT, vehicleData [ e_rot ],
+		PR_UINT8, vehicleData [ e_vColor1 ],
+		PR_UINT8, vehicleData [ e_vColor2 ],
+		PR_FLOAT, vehicleData [ e_vHealth ],
+		PR_UINT8, vehicleData [ e_vInterior ],
+		PR_UINT32, vehicleData [ e_vDoorDamageStatus ],
+		PR_UINT32, vehicleData [ e_vPanelDamageStatus ],
+		PR_UINT8, vehicleData [ e_vByteLightDamageStatus ],
+		PR_UINT8, vehicleData [ e_vByteTimeDamageStatus ],
+		PR_UINT8, vehicleData [ e_vByteAddSiren ]);
+		
+	for(new i = 0; i < 14; i++)
+	{
+ 		BS_ReadValue(bs, PR_UINT8, modSlots[i]);
+	}
+	BS_ReadValue(bs, PR_UINT8, bytePaintJob);
+	BS_ReadValue(bs, PR_UINT32, color1, PR_UINT32, color2);
+
+    new custom_id = getReplacableVehicleModel ( vehicleData [ e_vVehicleID ] ) ;
+	if ( custom_id != 0 && ( custom_id < 400 || custom_id > 611 ) )
+	{
+		if ( player_checking_hash [ playerid ] < 66 && custom_id >= 3343 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 69 && custom_id >= 3352 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 72 && custom_id >= 3358 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 75 && custom_id >= 3369 ) return 0 ;
+		if ( player_checking_hash [ playerid ] < 78 && custom_id >= 3381 ) return 0 ;
+		
+		new BitStream:bitstream = BS_New();
+
+		BS_WriteValue(
+			bitstream,
+			PR_INT16, vehicleData [ e_vVehicleID ],
+			PR_UINT32, custom_id,
+			PR_FLOAT, vehicleData [ e_posX ],
+			PR_FLOAT, vehicleData [ e_posY ],
+			PR_FLOAT, vehicleData [ e_posZ ],
+			PR_FLOAT, vehicleData [ e_rot ],
+			PR_UINT8, vehicleData [ e_vColor1 ],
+			PR_UINT8, vehicleData [ e_vColor2 ],
+			PR_FLOAT, vehicleData [ e_vHealth ],
+			PR_UINT8, vehicleData [ e_vInterior ],
+			PR_UINT32, vehicleData [ e_vDoorDamageStatus ],
+			PR_UINT32, vehicleData [ e_vPanelDamageStatus ],
+			PR_UINT8, vehicleData [ e_vByteLightDamageStatus ],
+			PR_UINT8, vehicleData [ e_vByteTimeDamageStatus ],
+			PR_UINT8, vehicleData [ e_vByteAddSiren ]);
+
+		for(new i = 0; i < 14; i++)
+		{
+			BS_WriteValue(bitstream, PR_UINT8, modSlots[i]);
+		}
+		BS_WriteValue(bitstream, PR_UINT8, bytePaintJob);
+		BS_WriteValue(bitstream, PR_UINT32, color1, PR_UINT32, color2);
+
+		PR_SendRPC(bitstream, playerid, RPC_WorldVehicleAdd, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+		BS_Delete(bitstream);
+		return 1 ;
+	}
+	return 0 ;
+}
+
+enum E_OBJECT_STRUCT
+{
+	e_wObjectID, 			// INT16
+	e_ModelID,				// UINT32
+	Float:e_objectX,		// FLOAT
+	Float:e_objectY,		// FLOAT
+	Float:e_objectZ,		// FLOAT
+	Float:e_rotx,			// FLOAT
+	Float:e_roty,			// FLOAT
+	Float:e_rotz,			// FLOAT
+	float:e_DrawDistance,	// FLOAT
+	e_NoCameraCol,			// UINT8
+	e_attachedObject,		// UINT16
+	e_attachedVehicle,		// UINT16
+	float:e_AttachOffsetX,	// FLOAT
+	float:e_AttachOffsetY,	// FLOAT
+	float:e_AttachOffsetZ,	// FLOAT
+	float:e_AttachRotX,		// FLOAT
+	float:e_AttachRotY,		// FLOAT
+	float:e_AttachRotZ,		// FLOAT
+	e_SyncRotation 			// UINT8
+} ;
+static dataObject [ E_OBJECT_STRUCT ] ;
+
+stock IsShouldSendCreateObject ( playerid, BitStream:bs )
+{
+	static clearDataObject [ E_OBJECT_STRUCT ] ;
+	dataObject = clearDataObject ;
+	BS_ReadValue(
+		bs,
+ 		PR_INT16, dataObject[e_wObjectID],
+  		PR_UINT32, dataObject[e_ModelID],
+   		PR_FLOAT, dataObject[e_objectX],
+    	PR_FLOAT, dataObject[e_objectY],
+    	PR_FLOAT, dataObject[e_objectZ],
+    	PR_FLOAT, dataObject[e_rotx],
+    	PR_FLOAT, dataObject[e_roty],
+    	PR_FLOAT, dataObject[e_rotz],
+    	PR_FLOAT, dataObject[e_DrawDistance],
+    	PR_UINT8, dataObject[e_NoCameraCol],
+    	PR_UINT16, dataObject[e_attachedObject],
+    	PR_UINT16, dataObject[e_attachedVehicle],
+    	PR_FLOAT, dataObject[e_AttachOffsetX],
+    	PR_FLOAT, dataObject[e_AttachOffsetY],
+    	PR_FLOAT, dataObject[e_AttachOffsetZ],
+    	PR_FLOAT, dataObject[e_AttachRotX],
+    	PR_FLOAT, dataObject[e_AttachRotY],
+    	PR_FLOAT, dataObject[e_AttachRotZ],
+		PR_UINT8, dataObject[e_SyncRotation]);
+	
+	if ( player_checking_hash [ playerid ] < 60 )
+	{	
+		if ( dataObject[e_ModelID] >= 11902 && dataObject[e_ModelID] <= 11912 ) return 0 ;
+	}
+		
+	if ( player_checking_hash [ playerid ] < 72 )
+	{	
+		if ( dataObject[e_ModelID] >= 8100 && dataObject[e_ModelID] <= 8281 ) return 0 ;
+	}
+		
+	if ( player_checking_hash [ playerid ] < 84 )
+	{	
+		if ( dataObject[e_ModelID] >= 5052 && dataObject[e_ModelID] <= 5119 ) return 0 ;
+	}
+		
+	if ( dataObject[e_ModelID] == 2935 && ( airdrop_object [ 0 ] == dataObject[e_wObjectID] || family_airdrop_object [ 0 ] == dataObject[e_wObjectID] ) )
+	{
+		new BitStream:bitstream = BS_New();
+
+		BS_WriteValue(
+			bitstream,
+			PR_INT16, dataObject[e_wObjectID],
+			PR_UINT32, 12741,
+			PR_FLOAT, dataObject[e_objectX],
+			PR_FLOAT, dataObject[e_objectY],
+			PR_FLOAT, dataObject[e_objectZ],
+			PR_FLOAT, dataObject[e_rotx],
+			PR_FLOAT, dataObject[e_roty],
+			PR_FLOAT, dataObject[e_rotz],
+			PR_FLOAT, dataObject[e_DrawDistance],
+			PR_UINT8, dataObject[e_NoCameraCol],
+			PR_UINT16, dataObject[e_attachedObject],
+			PR_UINT16, dataObject[e_attachedVehicle],
+			PR_FLOAT, dataObject[e_AttachOffsetX],
+			PR_FLOAT, dataObject[e_AttachOffsetY],
+			PR_FLOAT, dataObject[e_AttachOffsetZ],
+			PR_FLOAT, dataObject[e_AttachRotX],
+			PR_FLOAT, dataObject[e_AttachRotY],
+			PR_FLOAT, dataObject[e_AttachRotZ],
+			PR_UINT8, dataObject[e_SyncRotation]);
+
+		PR_SendRPC(bitstream, playerid, RPC_ScrCreateObject, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+		BS_Delete(bitstream);
+		return 0 ;
+	}
+	else if ( dataObject[e_ModelID] == 18849 && ( airdrop_object [ 1 ] == dataObject[e_wObjectID] || family_airdrop_object [ 1 ] == dataObject[e_wObjectID] ) )
+	{
+		new BitStream:bitstream = BS_New();
+
+		BS_WriteValue(
+			bitstream,
+			PR_INT16, dataObject[e_wObjectID],
+			PR_UINT32, 18631,
+			PR_FLOAT, dataObject[e_objectX],
+			PR_FLOAT, dataObject[e_objectY],
+			PR_FLOAT, dataObject[e_objectZ],
+			PR_FLOAT, dataObject[e_rotx],
+			PR_FLOAT, dataObject[e_roty],
+			PR_FLOAT, dataObject[e_rotz],
+			PR_FLOAT, dataObject[e_DrawDistance],
+			PR_UINT8, dataObject[e_NoCameraCol],
+			PR_UINT16, dataObject[e_attachedObject],
+			PR_UINT16, dataObject[e_attachedVehicle],
+			PR_FLOAT, dataObject[e_AttachOffsetX],
+			PR_FLOAT, dataObject[e_AttachOffsetY],
+			PR_FLOAT, dataObject[e_AttachOffsetZ],
+			PR_FLOAT, dataObject[e_AttachRotX],
+			PR_FLOAT, dataObject[e_AttachRotY],
+			PR_FLOAT, dataObject[e_AttachRotZ],
+			PR_UINT8, dataObject[e_SyncRotation]);
+
+		PR_SendRPC(bitstream, playerid, RPC_ScrCreateObject, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+		BS_Delete(bitstream);
+		return 0 ;
+	}
+	
+	return 1 ;
+}
+
+enum E_ATTACH_STRUCT
+{
+	e_PlayerID,
+	e_Slot,
+	e_Created,
+	e_ModelID,
+	e_Bone,
+	Float:e_OffsetX,
+	Float:e_OffsetY,
+	Float:e_OffsetZ,
+	Float:e_RotX,
+	Float:e_RotY,
+	Float:e_RotZ,
+	Float:e_ScaleX,
+	Float:e_ScaleY,
+	Float:e_ScaleZ,
+	e_Color1,
+	e_Color2
+} ;
+static dataAttach [ E_ATTACH_STRUCT ] ;
+
+stock IsShouldSendCreateAttached ( playerid, BitStream:bs )
+{
+	static clearDataAttach [ E_ATTACH_STRUCT ] ;
+	dataAttach = clearDataAttach ;
+   	BS_ReadValue(
+		bs,
+		PR_UINT16, dataAttach [ e_PlayerID ],
+		PR_UINT32, dataAttach [ e_Slot ],
+		PR_BOOL,   dataAttach [ e_Created ]);
+		
+	if ( dataAttach [ e_Created ] )
+	{
+   		BS_ReadValue(
+			bs, 
+			PR_UINT32, dataAttach [ e_ModelID ],
+			PR_FLOAT, dataAttach [ e_OffsetX ],
+			PR_FLOAT, dataAttach [ e_OffsetY ],
+			PR_FLOAT, dataAttach [ e_OffsetZ ],
+			PR_FLOAT, dataAttach [ e_RotX ],
+			PR_FLOAT, dataAttach [ e_RotY ],
+			PR_FLOAT, dataAttach [ e_RotZ ],
+			PR_FLOAT, dataAttach [ e_ScaleX ],
+			PR_FLOAT, dataAttach [ e_ScaleY ],
+			PR_FLOAT, dataAttach [ e_ScaleZ ],
+			PR_UINT32, dataAttach [ e_Color1 ],
+			PR_UINT32, dataAttach [ e_Color2 ]);
+		
+		if ( player_checking_hash [ playerid ] < 60 )
+		{	
+			if ( dataAttach [ e_ModelID ] >= 11902 && dataAttach [ e_ModelID ] <= 11912 ) return 0 ;
+		}
+		
+		if ( player_checking_hash [ playerid ] < 72 )
+		{	
+			if ( dataAttach [ e_ModelID ] >= 8100 && dataAttach [ e_ModelID ] <= 8281 ) return 0 ;
+		}
+		
+		if ( player_checking_hash [ playerid ] < 84 )
+		{	
+			if ( dataAttach [ e_ModelID ] >= 5052 && dataAttach [ e_ModelID ] <= 5119 ) return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+enum E_PICKUP_STRUCT
+{
+	dPickupID,  	 // UINT32 
+	dModelID,  		 // UINT32 
+    dSpawnType,  	 // UINT32 
+    Float: pickupX,   // FLOAT  
+    Float: pickupY,   // FLOAT  
+    Float: pickupZ    // FLOAT  
+} ;
+
+stock isReplacePickup ( _pickup_model )
+{
+	if ( _pickup_model == 1239 ) return 13705 ;
+	else if ( _pickup_model == 1273 ) return 13701 ;
+	else if ( _pickup_model == 1272 ) return 13702 ;
+	return 0 ;
+}
+
+ORPC:RPC_WorldPlayerAdd(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_device { playerid } == 2 ) // если игрок с ведра
+	{
+		if ( ProcessReplaceSkinAdd ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+		{
+		    return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+ORPC:RPC_ScrSetPlayerSkin(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_device { playerid } == 2 ) // если игрок с ведра
+	{
+		if ( ProcessReplaceSkin ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+		{
+		    return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+ORPC:RPC_WorldVehicleAdd(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_device { playerid } == 2 ) // если игрок с ведра
+	{
+		if ( ProcessReplaceVehicle ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+		{
+		    return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+ORPC:RPC_ScrCreateObject(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_device { playerid } == 2 ) // если игрок с ведра
+	{
+		if ( ! IsShouldSendCreateObject ( playerid, bs ) ) // если модель невалидная, то не отсылаем
+		{
+		    return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+ORPC:RPC_PlayerAttachedObject(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_device { playerid } == 2 ) // если игрок с ведра
+	{
+		if ( ! IsShouldSendCreateAttached ( playerid, bs ) ) // если модель невалидная, то не отсылаем
+		{
+		    return 0 ;
+		}
+	}
+	return 1 ;
+}
+
+/*ORPC:RPC_CREATE_PICKUP(playerid, BitStream:bs)
+{
+	if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+	if ( player_checking_hash [ playerid ] < 51 ) { }
+	else
+	{
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			new dataPickup[E_PICKUP_STRUCT];
+			BS_ReadValue(
+				bs,
+				PR_UINT32, dataPickup[dPickupID],
+				PR_UINT32, dataPickup[dModelID],
+				PR_UINT32, dataPickup[dSpawnType],
+				PR_FLOAT, dataPickup[pickupX],
+				PR_FLOAT, dataPickup[pickupY],
+				PR_FLOAT, dataPickup[pickupZ]
+				);
+
+			new custom_id = isReplacePickup ( dataPickup[dModelID] ) ;
+			if ( custom_id )
+			{
+				// переписать модель
+				new BitStream:bitstream = BS_New(); 
+				BS_WriteValue( 
+					bitstream, 
+					PR_UINT32, dataPickup[dPickupID], 	//id 
+					PR_UINT32, custom_id,				//model
+					PR_UINT32, dataPickup[dSpawnType],  //type. 
+					PR_FLOAT, dataPickup[pickupX], 	    //x. 
+					PR_FLOAT, dataPickup[pickupY], 		//y. 
+					PR_FLOAT, dataPickup[pickupZ] 		//z. 
+				); 
+				PR_SendRPC(bitstream, playerid, RPC_CREATE_PICKUP, PR_HIGH_PRIORITY, PR_RELIABLE_SEQUENCED);
+				BS_Delete(bitstream);
+				return 0 ;
+			}
+		}
+	}
+	return 1 ;
+}*/
+
+//public OnOutgoingRPC ( playerid, rpcid, BitStream:bs )
+/*public OnOutcomingRPC ( playerid, rpcid, BitStream:bs )
+{
+	if ( rpcid == RPC_WorldPlayerAdd )
+	{
+		if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			if ( ProcessReplaceSkinAdd ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+			{
+			    return 0 ;
+			}
+		}
+	}
+	else if ( rpcid == RPC_ScrSetPlayerSkin )
+	{
+		if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			if ( ProcessReplaceSkin ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+			{
+			    return 0 ;
+			}
+		}
+	}
+	
+	if ( rpcid == RPC_WorldVehicleAdd )
+	{
+		if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			if ( ProcessReplaceVehicle ( playerid, bs ) ) // если модель была заменена успешно, то оригинальный пакет не отсылаем
+			{
+			    return 0 ;
+			}
+		}
+	}
+	
+	else if ( rpcid == RPC_ScrCreateObject )
+	{
+		if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			if ( ! IsShouldSendCreateObject ( playerid, bs ) ) // если модель невалидная, то не отсылаем
+		    {
+				return 0 ;
+		    }
+		}
+	}
+	
+	else if ( rpcid == RPC_SetPlayerAttachedObject )
+	{
+		if ( playerid == -1 || playerid == INVALID_PLAYER_ID ) return 0 ;
+		if ( player_device { playerid } == 2 ) // если игрок с ведра
+		{
+			if ( ! IsShouldSendCreateAttached ( playerid, bs ) ) // если модель невалидная, то не отсылаем
+		    {
+				return 0 ;
+		    }
+		}
+	}
+	return 1 ;
+}*/

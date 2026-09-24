@@ -1,0 +1,425 @@
+/*
+
+	ALTER TABLE `users` ADD `u_client_settings` VARCHAR(100) NOT NULL DEFAULT '0|0|0|0|0|0|0|0|0|0|0|0'; 
+
+*/
+
+#include <custom/customhud>
+#include <custom/rentmenu_inc>
+#include <custom/quests>
+
+/*
+
+	Voice from Game
+
+*/
+
+stock voice_OnPlayerSpawn ( playerid )
+{
+	if ( p_info [ playerid ] [ voice ] && p_info [ playerid ] [ voice_mute ] )
+		off_voice_server ( playerid ) ;
+	return 1 ;
+}
+
+stock voice_player_timer ( playerid )
+{
+	if ( p_info [ playerid ] [ voice_mute ] > 0 ) p_info [ playerid ] [ voice_mute ] -- ;
+	return 1 ;
+}
+
+CMD:vcmute ( playerid, params [ ] )
+{
+	if ( admin_info [ playerid ] [ admin ] < 2 )
+		return 1 ;
+	if ( sscanf ( params, "uds[42]", params [ 0 ], params [ 1 ], params [ 2 ] ) )
+		return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Используйте: /vmute [ид] [минуты] [причина]" ) ;
+	if ( ! IsPlayerConnected ( params [ 0 ] ) )
+		return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Игрок не найден." ) ;
+	if ( p_info [ params [ 0 ] ] [ voice_mute ] > 1 )
+		return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}У игрока уже есть бан голосового чата." ) ;
+
+	new scm_string [ 144 ] ;
+	format( scm_string,sizeof ( scm_string  ), "Администратор %s выдал бан голосового чата игроку %s на %d минут. Причина: %s", p_info [ playerid ] [ name ], p_info [ params [ 0 ] ] [ name ], params [ 1 ], params [ 2 ] ) ;
+	foreach(new i: logged_players) if ( p_info [ i ] [ settings ] [ 2 ] ) SendClientMessage ( i, col_light_red, scm_string ) ;
+
+	p_info [ params [ 0 ] ] [ voice_mute ] = params [ 1 ] * 60 ;
+	off_voice_server ( params [ 0 ] ) ;
+	return 1 ;
+}
+
+CMD:unvcmute ( playerid, params [ ] )
+{
+	if ( admin_info [ playerid ] [ admin ] < 2 )
+		return 1 ;
+	if ( sscanf ( params, "u", params [ 0 ] ) )
+		return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Используйте: /unvmute [ид]" ) ;
+	if ( ! IsPlayerConnected ( params [ 0 ] ) )
+		return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Игрок не найден." ) ;
+	if ( p_info [ params [ 0 ] ] [ voice_mute ] == 0 )
+	    return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}У игрока нет бана голосового чата!" ) ;
+	
+	p_info [ params [ 0 ] ] [ voice_mute ] = 0 ;
+	ConnectPlayerVoice ( params [ 0 ] ) ;
+	
+	new scm_string [ 128 ] ;
+	format ( scm_string, sizeof ( scm_string  ), "{"#cBAdmin"}[A] {"#cGRAdmin"}Администратор %s снял затычку голосового чата игроку %s.", p_info [ playerid ] [ name ], p_info [ params [ 0 ] ] [ name ] ) ;
+	foreach(new i: admin_players) SendClientMessage ( i, col_admin, scm_string ) ;
+	return 1 ;
+}
+
+stock off_voice_server ( playerid )
+{
+	if ( p_info [ playerid ] [ voice ] ) DisconnectPlayerVoice ( playerid ) ;
+	
+	p_info [ playerid ] [ voice ] = 0 ;
+	return 1 ;
+}
+
+stock use_radial_menu ( playerid, _position )
+{
+	new _playerID = get_player_use_listitem ( playerid ) ;
+	set_player_use_listitem ( playerid, _position ) ;
+	switch ( _position )
+	{
+		case RADIAL_PASSPORT:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::pass ( playerid, _str ) ;
+			}
+			else callcmd::pass ( playerid, "" ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_FRACTION:
+		{
+			callcmd::lmenu ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_FAMILY:
+		{
+			callcmd::fmenu ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_LICENSE:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::lic ( playerid, _str ) ;
+			}
+			else callcmd::licenses ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_SKILL:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::skill ( playerid, _str ) ;
+			}
+			else callcmd::myskill ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_HUD:
+		{
+			ToggleClientSettings ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_MONEY:
+		{
+		}
+		case RADIAL_PROPERTY:
+		{
+			send_check_cinfo ( playerid, "Для поиска дома используйте /home.", 0, 300, CINFO_OTHER_ID, CINFO_TYPE_AREA, PICTURE_INFO_SUCESS, "", "" ) ;
+			
+			callcmd::hmenu ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_PLAYER:
+		{
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_AZS:
+		{
+		}
+		case RADIAL_INVENTORY:
+		{
+			if ( player_device { playerid } != 2 || player_checking_hash [ playerid ] < 36 ) show_prise_inventory ( playerid ) ;
+			else if ( player_device { playerid } == 2 ) show_inventory_ptd ( playerid, true ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_BUSINESS:
+		{
+			callcmd::bpanel ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_TRUCKER:
+		{
+		}
+		case RADIAL_CAR:
+		{
+			callcmd::cpanel ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_ENGINE:
+		{
+			callcmd::en ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_LIGHTS:
+		{
+			callcmd::light ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_LOCK:
+		{
+			callcmd::lock ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_PARKING:
+		{
+			callcmd::vpark ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_UNLOAD:
+		{
+			HideRadialMenu ( playerid ) ;
+			
+			new vehicleid = GetPlayerVehicleID ( playerid ) ;
+			if ( vehicleid == 0 || GetPlayerState ( playerid ) != PLAYER_STATE_DRIVER ) return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Вы должны находиться в транспортном средстве." ) ;
+			if ( veh_info [ vehicleid - 1 ] [ v_owner ] != p_info [ playerid ] [ id ] ) return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Произошла ошибка. Повторите попытку. Ошибка: d_fixcar." ) ;
+
+		    new query_string [ 156 ] ;
+			format ( query_string, sizeof ( query_string ),"UPDATE `users_vehicles` SET `v_fuel` = '%f',`v_millage` = '%f' WHERE `v_id` = '%d' LIMIT 1",
+			veh_info [ vehicleid - 1 ] [ v_fuel ],
+			veh_info [ vehicleid - 1 ] [ v_millage ],
+			veh_info [ vehicleid - 1 ] [ v_id ] ) ;
+			mysql_tquery ( sql_connection, query_string, "", "" ) ;
+
+			format ( query_string, 110, "{"#cGInfo"}* {"#cWH"}Вы успешно выгрузили {"#cGN"}%s{"#cWH"} из игры.", GetVehicleNameEx ( veh_info [ vehicleid - 1 ] [ v_vehicle ] ) ) ;
+			SendClientMessage ( playerid, col_white, query_string ) ;
+
+		    Iter_Remove(player_vehicles[playerid], vehicleid ) ;
+
+			DestroyVehicle ( vehicleid ) ;
+		}
+		case RADIAL_CAR_PLACE:
+		{
+		}
+		case RADIAL_CAR_BAGAGE:
+		{
+		}
+		case RADIAL_CAR_PTS:
+		{
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_KEY:
+		{
+			HideRadialMenu ( playerid ) ;
+			
+			new veh_id = GetPlayerVehicleID ( playerid ) ;
+			if ( veh_id == 0 ) return 1 ;
+			if ( ( veh_info [ veh_id - 1 ] [ v_type ] != vehicle_type_player || veh_info [ veh_id - 1 ] [ v_owner ] != p_info [ playerid ] [ id ] ) && p_t_info [ playerid ] [ v_key ] != veh_id )return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}У вас нет ключей от данного транспорта." ) ;
+			if ( veh_info [ veh_id - 1 ] [ v_key ] )
+			{
+			    veh_info [ veh_id - 1 ] [ v_key ] = 0 ;
+			    me_action ( playerid, "вытащил(-а) ключ" ) ;
+			}
+			else
+			{
+			    veh_info [ veh_id - 1 ] [ v_key ] = 1 ;
+			    me_action ( playerid, "вставил(-а) ключ" ) ;
+			}
+
+			new scm_string [ 73 + 4 + 9 ] ;
+			format ( scm_string, sizeof scm_string, "UPDATE `users_vehicles` SET `v_key` = '%d' WHERE `v_id` = '%d' LIMIT 1",
+			veh_info [ veh_id - 1 ] [ v_key ], veh_info [ veh_id - 1 ] [ v_id ] ) ;
+			mysql_tquery ( sql_connection, scm_string ) ;
+		}
+		case RADIAL_GARAGE:
+		{
+		}
+		case RADIAL_CAR_STROBS:
+		{
+			new veh_id = GetPlayerVehicleID ( playerid ) ;
+			if ( veh_id == 0 ) return 1 ;
+		    if ( ! veh_info [ veh_id - 1 ] [ v_pantera_strobs ] ) return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}На транспорт не установлены стробоскопы." ) ;
+			if ( GetTickCount ( ) - GetPVarInt ( playerid, "strobs_tick" ) < 3000 ) return SendClientMessage ( playerid, col_gray, !"{"#cRInfo"}* {"#cGRInfo"}Подождите немного..." ) ;
+
+            new engine, lights, alarm, doors, bonnet, boot, objective ;
+			GetVehicleParamsEx ( veh_id, engine, lights, alarm, doors, bonnet, boot, objective ) ;
+			SetVehicleParamsEx ( veh_id, engine, true, alarm, doors, bonnet, boot, objective ) ;
+
+			if ( ! veh_info [ veh_id - 1 ] [ v_strobs ] ) veh_info [ veh_id - 1 ] [ v_strobs ] = veh_info [ veh_id - 1 ] [ v_pantera_strobs ] ;
+			else veh_info [ veh_id - 1 ] [ v_strobs ] = 0 ;
+
+			foreach(new forplayerid: streamed_in_vehicles[veh_id])
+			{
+			    if ( player_device { forplayerid } != 2 ) continue ;
+               	sc_OnVehicleStreamIn ( veh_id, forplayerid ) ;
+			}
+
+			SetPVarInt ( playerid, "strobs_tick", GetTickCount ( ) ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_LIGHTS_ELEMENTS:
+		{
+		}
+		case RADIAL_CAR_NEON:
+		{
+		}
+		case RADIAL_MUSIC:
+		{
+			if ( boombox_player [ playerid ] [ b_status ] ) callcmd::setrecorder ( playerid ) ;
+			else callcmd::recorder ( playerid ) ;
+		
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_GPS:
+		{
+			callcmd::gps ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_MENU:
+		{
+			callcmd::mm ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_UNRENT:
+		{
+			callcmd::stoprent ( playerid ) ;
+			HideRadialMenu ( playerid ) ;
+		}
+		case RADIAL_CAR_COMMANDS:
+		{
+		}
+		case RADIAL_CAR_STROBS_POLICE:
+		{
+		}
+		case RADIAL_CAR_LIGHTS_COLOR:
+		{
+		}
+		case RADIAL_TRADE:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::trade ( playerid, _str ) ;
+			}
+		}
+		case RADIAL_JOBLIST:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::joblist ( playerid, _str ) ;
+			}
+			else
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", playerid ) ;
+				callcmd::joblist ( playerid, _str ) ;
+			}
+		}
+		case RADIAL_KISS:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::kiss ( playerid, _str ) ;
+			}
+		}
+		case RADIAL_HI:
+		{
+			if ( _playerID != -1 )
+			{
+				new _str [ 9 ] ;
+				format ( _str, sizeof _str, "%d", _playerID ) ;
+				callcmd::hi ( playerid, _str ) ;
+			}
+		}
+		case 254:
+		{
+			HideRadialMenu ( playerid ) ;
+		}
+	}
+	return 1 ;
+}
+
+stock use_rent_menu ( playerid, _position )
+{
+	switch ( _position )
+	{
+		case 0:
+		{
+			toggle_controlable ( playerid, true ) ;
+			SetRentHide ( playerid ) ;
+		}
+		case 2:
+		{
+			SetRentSetUp ( playerid, 462, max_veh_speed ( 462 ), 50 ) ;
+		}
+		case 3:
+		{
+			SetRentSetUp ( playerid, 462, max_veh_speed ( 462 ), 50 ) ;
+		}
+		default:
+		{
+			toggle_controlable ( playerid, true ) ;
+			SetRentHide ( playerid ) ;
+			
+			accept_rent_faggio ( playerid ) ;
+		}
+	}
+	return 1 ;
+}
+
+CMD:hud_cmd_3 ( playerid )
+{
+	callcmd::valentine ( playerid ) ;
+	return 1 ;
+}
+
+CMD:hud_cmd_10 ( playerid )
+{
+	callcmd::testq ( playerid ) ;
+	return 1 ;
+}
+
+CMD:hud_cmd_4 ( playerid )
+{
+	send_check_cinfo ( playerid, "Вы находитесь в зелёной зоне", 0, 500, CINFO_OTHER_ID, CINFO_TYPE_AREA, PICTURE_INFO_SUCESS, "", "" ) ;
+	return 1 ;
+}
+
+CMD:hud_cmd_7 ( playerid )
+{
+	callcmd::mm ( playerid ) ;
+	return 1 ;
+}
+
+CMD:hud_cmd_8 ( playerid )
+{
+	show_player_extraaction ( playerid ) ;
+	return 1 ;
+}
+
+CMD:hud_cmd_9 ( playerid )
+{
+	if ( GetPlayerState ( playerid ) == PLAYER_STATE_DRIVER )
+	{
+		show_player_extraaction ( playerid ) ;
+	}
+	else if ( GetPlayerState ( playerid ) == PLAYER_STATE_ONFOOT )
+	{
+		callcmd::vzad ( playerid ) ;
+	}
+	return 1 ;
+}

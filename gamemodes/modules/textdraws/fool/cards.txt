@@ -1,0 +1,86 @@
+// Текстдравы для игроков
+new PlayerText:cards_background_PTD[MAX_PLAYERS][8];
+
+cards_background_PTD[playerid][0] = CreatePlayerTextDraw(playerid, 450.0000, 441.6365, "LD_SPAC:white"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][0], 13.9195, 1.7000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][0], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][0], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][0], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][0], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][0], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][0], 0);
+
+cards_background_PTD[playerid][1] = CreatePlayerTextDraw(playerid, 463.6665, 425.0440, "LD_SPAC:white"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][1], 1.5599, 18.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][1], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][1], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][1], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][1], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][1], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][1], 0);
+
+cards_background_PTD[playerid][2] = CreatePlayerTextDraw(playerid, 175.6667, 364.4812, "LD_SPAC:white"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][2], 13.9195, 1.7000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][2], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][2], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][2], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][2], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][2], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][2], 0);
+
+cards_background_PTD[playerid][3] = CreatePlayerTextDraw(playerid, 175.6667, 364.4812, "LD_SPAC:white"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][3], 1.5599, 18.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][3], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][3], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][3], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][3], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][3], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][3], 0);
+
+cards_background_PTD[playerid][4] = CreatePlayerTextDraw(playerid, 129.3332, 386.0516, "LD_Beat:Chit"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][4], 29.0000, 36.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][4], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][4], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][4], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][4], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][4], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][4], 0);
+
+cards_background_PTD[playerid][5] = CreatePlayerTextDraw(playerid, 143.3332, 394.9183, "<"); // пусто
+PlayerTextDrawLetterSize(playerid, cards_background_PTD[playerid][5], 0.1666, 1.8609);
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][5], 10.0000, 17.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][5], 2);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][5], 235802367);
+PlayerTextDrawUseBox(playerid, cards_background_PTD[playerid][5], 1);
+PlayerTextDrawBoxColor(playerid, cards_background_PTD[playerid][5], 0);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][5], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][5], 2);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][5], 1);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][5], 0);
+PlayerTextDrawSetSelectable(playerid, cards_background_PTD[playerid][5], true);
+
+cards_background_PTD[playerid][6] = CreatePlayerTextDraw(playerid, 481.7004, 385.8630, "LD_Beat:Chit"); // пусто
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][6], 29.0000, 36.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][6], 1);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][6], -5963521);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][6], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][6], 4);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][6], 0);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][6], 0);
+
+cards_background_PTD[playerid][7] = CreatePlayerTextDraw(playerid, 497.1004, 394.7297, ">"); // пусто
+PlayerTextDrawLetterSize(playerid, cards_background_PTD[playerid][7], 0.1666, 1.8609);
+PlayerTextDrawTextSize(playerid, cards_background_PTD[playerid][7], 10.0000, 17.0000);
+PlayerTextDrawAlignment(playerid, cards_background_PTD[playerid][7], 2);
+PlayerTextDrawColor(playerid, cards_background_PTD[playerid][7], 235802367);
+PlayerTextDrawUseBox(playerid, cards_background_PTD[playerid][7], 1);
+PlayerTextDrawBoxColor(playerid, cards_background_PTD[playerid][7], 0);
+PlayerTextDrawBackgroundColor(playerid, cards_background_PTD[playerid][7], 255);
+PlayerTextDrawFont(playerid, cards_background_PTD[playerid][7], 2);
+PlayerTextDrawSetProportional(playerid, cards_background_PTD[playerid][7], 1);
+PlayerTextDrawSetShadow(playerid, cards_background_PTD[playerid][7], 0);
+PlayerTextDrawSetSelectable(playerid, cards_background_PTD[playerid][7], true);
+
+
+
+// Экспортировано 8 текстдравов.
