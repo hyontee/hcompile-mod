@@ -1,0 +1,64 @@
+CMD:shinka(playerid, params[])
+{
+    new vehicleid = GetPlayerVehicleID(playerid);
+    if (!vehicleid) return SendClientMessage(playerid, -1, "{FF0000}Вы должны быть в машине!");
+
+    new slot = GetPlayerVehicleSlot(playerid, vehicleid);
+    if (slot == -1) return SendClientMessage(playerid, -1, "{FF0000}Это не ваш личный транспорт!");
+
+    new model = GetVehicleModel(vehicleid);
+    new price = GetVehiclePriceByModel(model);
+    new Node:tuning_json = JSON_Object();
+
+    InStailing[playerid] = true;
+
+    JSON_SetInt(tuning_json, "o", 1);
+    JSON_SetInt(tuning_json, "w", 2);  // тип "шинка"
+    JSON_SetInt(tuning_json, "j", price);
+    JSON_SetInt(tuning_json, "s", 5);
+
+    JSON_SetString(tuning_json, "nm", GetPlayerNameEx(playerid));
+    JSON_SetString(tuning_json, "n", GetVehicleNameByModel(model));
+    JSON_SetInt(tuning_json, "m", GetPlayerMoneyEx(playerid));
+
+    // Текущие параметры колёс и подвески
+    JSON_SetFloat(tuning_json, "wh_rad", VehicleInfo[playerid][slot][vWheelRadius]);
+    JSON_SetFloat(tuning_json, "wh_wf", VehicleInfo[playerid][slot][vWheelWidthFront]);
+    JSON_SetFloat(tuning_json, "wh_wr", VehicleInfo[playerid][slot][vWheelWidthRear]);
+    JSON_SetFloat(tuning_json, "wh_of", VehicleInfo[playerid][slot][vOffsetFront]);
+    JSON_SetFloat(tuning_json, "wh_or", VehicleInfo[playerid][slot][vOffsetRear]);
+    JSON_SetFloat(tuning_json, "wh_cf", VehicleInfo[playerid][slot][vCamberFront]);
+    JSON_SetFloat(tuning_json, "wh_cr", VehicleInfo[playerid][slot][vCamberRear]);
+    JSON_SetFloat(tuning_json, "wh_clr", VehicleInfo[playerid][slot][vClearance]);
+    JSON_SetInt(tuning_json, "hydra", VehicleInfo[playerid][slot][vHydra]);
+    JSON_SetInt(tuning_json, "pnevmo", VehicleInfo[playerid][slot][vPnevmo]);
+
+    // Позиционирование в интерьере
+    SetPlayerInterior(playerid, 1);
+    new Float:x = 998.23653, Float:y = 1499.67341, Float:z = 1499.66617;
+    SetVehiclePos(vehicleid, x, y, z);
+    SetVehicleZAngle(vehicleid, 270.0);
+    SetPlayerCameraPos(playerid, 999.1838, 995.9953, 1501.7263);
+    SetPlayerCameraLookAt(playerid, 998.5103, 996.7333, 1501.5776);
+
+    OnPacketIncoming(playerid, 28, tuning_json);
+    JSON_Cleanup(tuning_json);
+    return 1;
+}
+
+
+stock GetShinaPrice(price, type)
+{
+    // 0-радиус, 1-ширина, 2-вылет, 3-развал, 4-клиренс, 5-гидра, 6-пневма
+    switch(type)
+    {
+        case 0: return (price / 200) + 5000;
+        case 1: return (price / 200) + 8000;
+        case 2: return (price / 200) + 7000;
+        case 3: return (price / 200) + 6000;
+        case 4: return (price / 150) + 10000;
+        case 5: return (price / 100) + 50000;
+        case 6: return (price / 100) + 80000;
+    }
+    return 1000;
+}
