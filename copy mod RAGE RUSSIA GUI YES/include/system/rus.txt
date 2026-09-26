@@ -1,0 +1,41 @@
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3417) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3449) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3486) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3520) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3562) : предупреждение 208: функция с типовым результатом используется перед объявлением, инициирована переобработка
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(3895) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(151) : ошибка 017: необъявленный символ "MAX_OWNABLE_CARS"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(162) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnGameModeInit")
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(164) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(166) : ошибка 017: необъявленный символ "MAX_OWNABLE_CARS"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(168) : ошибка 017: необъявленный символ "SetTimer"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(169) : ошибка 017: необъявленный символ "SetTimer"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(170) : ошибка 017: необъявленный символ "SetTimer"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(187) : ошибка 001: ожидался токен "-identifier-", но найден ":"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(190) : ошибка 001: ожидался токен ";", но найден "-identifier-"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(191) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(195) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(198) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(201) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnPlayerConnect")
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(203) : ошибка 017: необъявленный символ "SetTimerEx"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(220) : предупреждение 235: public-функция нуждается в опережающем объявлении (идентификатор "OnPlayerDisconnect")
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(222) : ошибка 017: необъявленный символ "SetTimerEx"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(239) : ошибка 001: ожидался токен "-identifier-", но найден ":"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(241) : ошибка 021: идентификатор "cache" уже объявлен
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(243) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(244) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(246) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(247) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(249) : ошибка 001: ожидался токен ";", но найден ")"
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(251) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(255) : ошибка 054: несоответствующая закрывающая скобка ("}")
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(257) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(267) : ошибка 010: неверная функция или объявление
+C:\Users\Lenovo\Desktop\мод блезз11\include\system\family.pwn(273) : ошибка 010: неверная функция или объявление
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
