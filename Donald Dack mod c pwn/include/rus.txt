@@ -1,0 +1,33 @@
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(31) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(41) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(41) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(42) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(44) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(44) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(45) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(46) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(47) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(48) : ошибка 017: необъявленный символ "MAX_VEHICLES"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(50) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(50) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(51) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(51) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(52) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(52) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(53) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(53) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(54) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(54) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(55) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(55) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(56) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(56) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(57) : ошибка 017: необъявленный символ "MAX_PLAYERS"
+C:\Users\79021\OneDrive\Рабочий стол\ww\include\anticheat.inc(57) : ошибка 009: неверный размер массива (отрицательный/нулевой размер или выход за пределы массива)
+
+Компиляция остановлена.
+
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Ошибок:26.
